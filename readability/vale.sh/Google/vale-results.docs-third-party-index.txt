@@ -1,0 +1,9 @@
+Vale results for: docs/third-party/index.md
+===========================================
+
+ docs/third-party/index.md
+ 3:3  warning  'Third Party Integrations'      Google.Headings 
+               should use sentence-style                       
+               capitalization.                                 
+
+✖ 0 errors, 1 warning and 0 suggestions in 1 file.

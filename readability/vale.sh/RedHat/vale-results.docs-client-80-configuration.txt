@@ -1,0 +1,17 @@
+Vale results for: docs/client/80-configuration.md
+===========================================
+
+ docs/client/80-configuration.md
+ 23:171  warning  Verify the word 'routable'. It  RedHat.Spelling           
+                  is not in the American English                            
+                  spelling dictionary used by                               
+                  Vale.                                                     
+ 24:109  warning  Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
+ 24:216  warning  Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
+ 25:123  warning  Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
+ 25:142  warning  Verify the word 'href'. It is   RedHat.Spelling           
+                  not in the American English                               
+                  spelling dictionary used by                               
+                  Vale.                                                     
+
+✖ 0 errors, 5 warnings and 0 suggestions in 1 file.

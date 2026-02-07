@@ -1,0 +1,8 @@
+Vale results for: docs/client/index.md
+===========================================
+
+ docs/client/index.md
+ 5:222  error    Did you really mean 'Nacos'?    Vale.Spelling     
+ 9:88   warning  'relatively' is a weasel word!  write-good.Weasel 
+
+✖ 1 error, 1 warning and 0 suggestions in 1 file.

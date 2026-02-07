@@ -1,0 +1,3 @@
+Vale results for: docs/client/80-configuration.md
+===========================================
+✔ 0 errors, 0 warnings and 0 suggestions in 1 file.

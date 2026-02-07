@@ -1,0 +1,26 @@
+Vale results for: docs/installation-and-setup/index.md
+===========================================
+
+ docs/installation-and-setup/index.md
+ 25:91    error    Did you really mean 'Grafana'?  Vale.Spelling      
+ 25:100   error    Did you really mean 'Datadog'?  Vale.Spelling      
+ 25:112   error    Did you really mean 'Instana'?  Vale.Spelling      
+ 37:24    error    Did you really mean 'Servlet'?  Vale.Spelling      
+ 38:46    error    Did you really mean 'Servlet'?  Vale.Spelling      
+ 61:77    error    Did you really mean             Vale.Spelling      
+                   'autodiscovery'?                                   
+ 91:98    error    Don't start a sentence with     write-good.ThereIs 
+                   'There is'.                                        
+ 124:67   error    Did you really mean 'http'?     Vale.Spelling      
+ 144:106  error    Don't start a sentence with     write-good.ThereIs 
+                   'There are'.                                       
+ 176:102  error    Did you really mean             Vale.Spelling      
+                   'Eureka's'?                                        
+ 207:1    error    Don't start a sentence with     write-good.ThereIs 
+                   'There is'.                                        
+ 207:169  error    Did you really mean 'Admin's'?  Vale.Spelling      
+ 218:41   warning  'vast' is a weasel word!        write-good.Weasel  
+ 219:66   error    Did you really mean             Vale.Spelling      
+                   'Dockerfile'?                                      
+
+✖ 13 errors, 1 warning and 0 suggestions in 1 file.

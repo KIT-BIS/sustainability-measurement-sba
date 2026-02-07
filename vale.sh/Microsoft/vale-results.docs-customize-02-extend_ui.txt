@@ -1,0 +1,16 @@
+Vale results for: docs/customize/02-extend_ui.md
+===========================================
+
+ docs/customize/02-extend_ui.md
+ 6:14    warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                  title or heading.                                         
+ 10:43   error    Use 'that is' instead of 'i.e.  Microsoft.Foreign         
+                  '.                                                        
+ 116:83  error    Don't use 'backend'. See the    Microsoft.Avoid           
+                  A-Z word list for details.                                
+ 135:25  error    Use 'for example' instead of    Microsoft.Foreign         
+                  'e.g. '.                                                  
+ 187:1   error    Don't start a sentence with     write-good.ThereIs        
+                  'There are'.                                              
+
+✖ 4 errors, 1 warning and 0 suggestions in 1 file.

@@ -1,0 +1,10 @@
+Vale results for: docs/customize/03-customize_http-headers.md
+===========================================
+
+ docs/customize/03-customize_http-headers.md
+ 6:3   warning  'HTTP Headers' should use       Google.Headings 
+                sentence-style capitalization.                  
+ 8:88  warning  Use 'app' instead of            Google.WordList 
+                'application'.                                  
+
+✖ 0 errors, 2 warnings and 0 suggestions in 1 file.

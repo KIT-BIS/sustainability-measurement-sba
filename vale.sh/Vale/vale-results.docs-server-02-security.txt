@@ -1,0 +1,9 @@
+Vale results for: docs/server/02-security.md
+===========================================
+
+ docs/server/02-security.md
+ 3:17     warning  'several' is a weasel word!     write-good.Weasel  
+ 113:106  error    Don't start a sentence with     write-good.ThereIs 
+                   'There are'.                                       
+
+✖ 1 error, 1 warning and 0 suggestions in 1 file.

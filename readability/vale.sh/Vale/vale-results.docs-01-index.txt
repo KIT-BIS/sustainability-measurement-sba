@@ -1,0 +1,11 @@
+Vale results for: docs/01-index.md
+===========================================
+
+ docs/01-index.md
+ 11:56   error  Did you really mean 'Env'?      Vale.Spelling 
+ 16:56   error  Did you really mean             Vale.Spelling 
+                'Threaddump'?                                 
+ 16:123  error  Did you really mean             Vale.Spelling 
+                'threaddump'?                                 
+
+✖ 3 errors, 0 warnings and 0 suggestions in 1 file.

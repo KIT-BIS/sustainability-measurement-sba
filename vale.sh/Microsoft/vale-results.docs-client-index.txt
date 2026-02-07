@@ -1,0 +1,7 @@
+Vale results for: docs/client/index.md
+===========================================
+
+ docs/client/index.md
+ 9:88  warning  'relatively' is a weasel word!  write-good.Weasel 
+
+✖ 0 errors, 1 warning and 0 suggestions in 1 file.

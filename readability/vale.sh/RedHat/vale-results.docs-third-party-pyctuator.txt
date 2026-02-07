@@ -1,0 +1,39 @@
+Vale results for: docs/third-party/pyctuator.md
+===========================================
+
+ docs/third-party/pyctuator.md
+ 6:3     warning  Verify the word 'Pyctuator'.    RedHat.Spelling    
+                  It is not in the American                          
+                  English spelling dictionary                        
+                  used by Vale.                                      
+ 8:143   warning  Use 'by using' instead of       RedHat.Using       
+                  'using' when it follows a noun                     
+                  for clarity and grammatical                        
+                  correctness.                                       
+ 8:167   warning  Verify the word 'Pyctuator'.    RedHat.Spelling    
+                  It is not in the American                          
+                  English spelling dictionary                        
+                  used by Vale.                                      
+ 8:178   warning  Do not include a link to        RedHat.GitLinks    
+                  https://github.com unless it                       
+                  is explicitly approved.                            
+ 10:94   warning  Do not use smart quotation      RedHat.SmartQuotes 
+                  marks. Use ''' rather than ’.                      
+ 12:16   warning  Verify the word 'pyctuator'.    RedHat.Spelling    
+                  It is not in the American                          
+                  English spelling dictionary                        
+                  used by Vale.                                      
+ 16:11   warning  Verify the word 'pyctuator'.    RedHat.Spelling    
+                  It is not in the American                          
+                  English spelling dictionary                        
+                  used by Vale.                                      
+ 36:48   warning  Do not use smart quotation      RedHat.SmartQuotes 
+                  marks. Use ''' rather than ’.                      
+ 36:67   warning  Do not include a link to        RedHat.GitLinks    
+                  https://github.com unless it                       
+                  is explicitly approved.                            
+ 36:148  warning  Do not include a link to        RedHat.GitLinks    
+                  https://github.com unless it                       
+                  is explicitly approved.                            
+
+✖ 0 errors, 10 warnings and 0 suggestions in 1 file.

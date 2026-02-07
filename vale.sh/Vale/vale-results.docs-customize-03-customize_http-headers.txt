@@ -1,0 +1,3 @@
+Vale results for: docs/customize/03-customize_http-headers.md
+===========================================
+✔ 0 errors, 0 warnings and 0 suggestions in 1 file.

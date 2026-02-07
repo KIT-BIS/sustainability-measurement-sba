@@ -1,0 +1,74 @@
+Vale results for: docs/client/10-client-features.md
+===========================================
+
+ docs/client/10-client-features.md
+ 40:8     warning  Use 'bean' rather than 'Bean'.  RedHat.CaseSensitiveTerms 
+ 62:63    warning  Use 'by using' instead of       RedHat.Using              
+                   'using' when it follows a noun                            
+                   for clarity and grammatical                               
+                   correctness.                                              
+ 63:58    warning  Verify the word 'jolokia'. It   RedHat.Spelling           
+                   is not in the American English                            
+                   spelling dictionary used by                               
+                   Vale.                                                     
+ 72:4     warning  Verify the word 'Logfile'. It   RedHat.Spelling           
+                   is not in the American English                            
+                   spelling dictionary used by                               
+                   Vale.                                                     
+ 72:4     error    Use 'log file' rather than      RedHat.TermsErrors        
+                   'Logfile'.                                                
+ 74:17    warning  Verify the word 'logfile'. It   RedHat.Spelling           
+                   is not in the American English                            
+                   spelling dictionary used by                               
+                   Vale.                                                     
+ 74:17    error    Use 'log file' rather than      RedHat.TermsErrors        
+                   'logfile'.                                                
+ 74:114   warning  Consider using 'to' rather      RedHat.TermsWarnings      
+                   than 'In order to' unless                                 
+                   updating existing content that                            
+                   uses the term.                                            
+ 74:137   error    Use 'log file' rather than      RedHat.TermsErrors        
+                   'logfile'.                                                
+ 74:137   warning  Verify the word 'logfile'. It   RedHat.Spelling           
+                   is not in the American English                            
+                   spelling dictionary used by                               
+                   Vale.                                                     
+ 74:208   error    Use 'log file' rather than      RedHat.TermsErrors        
+                   'logfile'.                                                
+ 74:208   warning  Verify the word 'logfile'. It   RedHat.Spelling           
+                   is not in the American English                            
+                   spelling dictionary used by                               
+                   Vale.                                                     
+ 78:96    warning  Do not use smart quotation      RedHat.SmartQuotes        
+                   marks. Use ''' rather than ’.                             
+ 78:116   warning  Do not use smart quotation      RedHat.SmartQuotes        
+                   marks. Use ''' rather than ’.                             
+ 87:20    warning  Verify the word 'logfile'. It   RedHat.Spelling           
+                   is not in the American English                            
+                   spelling dictionary used by                               
+                   Vale.                                                     
+ 87:20    error    Use 'log file' rather than      RedHat.TermsErrors        
+                   'logfile'.                                                
+ 87:55    error    Use 'log file' rather than      RedHat.TermsErrors        
+                   'logfile'.                                                
+ 87:55    warning  Verify the word 'logfile'. It   RedHat.Spelling           
+                   is not in the American English                            
+                   spelling dictionary used by                               
+                   Vale.                                                     
+ 92:95    warning  Consider using 'and' rather     RedHat.TermsWarnings      
+                   than 'as well as' unless                                  
+                   updating existing content that                            
+                   uses the term.                                            
+ 92:178   warning  Do not use smart quotation      RedHat.SmartQuotes        
+                   marks. Use ''' rather than ’.                             
+ 92:213   warning  Consider using 'needed'         RedHat.TermsWarnings      
+                   or 'required' rather than                                 
+                   'desired' unless updating                                 
+                   existing content that uses the                            
+                   term.                                                     
+ 107:1    error    Don't start a sentence with     write-good.ThereIs        
+                   'There are'.                                              
+ 107:118  warning  Do not use smart quotation      RedHat.SmartQuotes        
+                   marks. Use ''' rather than ’.                             
+
+✖ 7 errors, 16 warnings and 0 suggestions in 1 file.

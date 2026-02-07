@@ -1,0 +1,14 @@
+Vale results for: docs/third-party/pyctuator.md
+===========================================
+
+ docs/third-party/pyctuator.md
+ 6:3    error  Did you really mean             Vale.Spelling 
+               'Pyctuator'?                                  
+ 8:167  error  Did you really mean             Vale.Spelling 
+               'Pyctuator'?                                  
+ 12:16  error  Did you really mean             Vale.Spelling 
+               'pyctuator'?                                  
+ 16:11  error  Did you really mean             Vale.Spelling 
+               'pyctuator'?                                  
+
+✖ 4 errors, 0 warnings and 0 suggestions in 1 file.

@@ -1,0 +1,3 @@
+Vale results for: docs/third-party/pyctuator.md
+===========================================
+✔ 0 errors, 0 warnings and 0 suggestions in 1 file.
