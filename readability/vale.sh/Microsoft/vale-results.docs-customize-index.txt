@@ -1,9 +1,0 @@
-Vale results for: docs/customize/index.md
-===========================================
-
- docs/customize/index.md
- 7:9  warning  Remove 'easily' if it's not     Microsoft.Adverbs 
-               important to the meaning of                       
-               the statement.                                    
-
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.

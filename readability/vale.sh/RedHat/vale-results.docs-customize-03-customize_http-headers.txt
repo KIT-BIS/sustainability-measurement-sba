@@ -1,8 +1,0 @@
-Vale results for: docs/customize/03-customize_http-headers.md
-===========================================
-
- docs/customize/03-customize_http-headers.md
- 8:99  warning  Do not use smart quotation      RedHat.SmartQuotes 
-                marks. Use ''' rather than ’.                      
-
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.

@@ -1,3 +1,0 @@
-Vale results for: docs/server/index.md
-===========================================
-✔ 0 errors, 0 warnings and 0 suggestions in 1 file.

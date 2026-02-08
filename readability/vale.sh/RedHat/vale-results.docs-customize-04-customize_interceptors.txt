@@ -1,8 +1,0 @@
-Vale results for: docs/customize/04-customize_interceptors.md
-===========================================
-
- docs/customize/04-customize_interceptors.md
- 8:86  warning  Do not use smart quotation      RedHat.SmartQuotes 
-                marks. Use ''' rather than ’.                      
-
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.

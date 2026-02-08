@@ -1,9 +1,0 @@
-Vale results for: docs/snapshots.md
-===========================================
-
- docs/snapshots.md
- 1:3  warning  'Use SNAPSHOT-Versions'         Google.Headings 
-               should use sentence-style                       
-               capitalization.                                 
-
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.

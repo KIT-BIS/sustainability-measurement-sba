@@ -1,8 +1,0 @@
-Vale results for: docs/third-party/index.md
-===========================================
-
- docs/third-party/index.md
- 1:27  warning  Use either 'or' or 'and' in     RedHat.Slash 
-                'theme/DocCardList'                          
-
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.

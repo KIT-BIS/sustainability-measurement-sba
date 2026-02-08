@@ -1,8 +1,0 @@
-Vale results for: docs/snapshots.md
-===========================================
-
- docs/snapshots.md
- 3:114  error  Did you really mean             Vale.Spelling 
-               'sonatype'?                                   
-
-✖ 1 error, 0 warnings and 0 suggestions in 1 file.
