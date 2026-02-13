@@ -1,107 +1,151 @@
 Vale results for: docs/installation-and-setup/index.md
 ===========================================
 
- docs/installation-and-setup/index.md
- 5:3      warning  'Installation and Setup'        Google.Headings    
-                   should use sentence-style                          
-                   capitalization.                                    
- 9:102    warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 13:1     warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 17:1     warning  Use the Oxford comma in         Google.OxfordComma 
-                   'In modern microservices                           
-                   architecture, monitoring and'.                     
- 20:101   warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 29:54    warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 33:4     warning  'Quick Start' should use        Google.Headings    
-                   sentence-style capitalization.                     
- 35:93    warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 35:112   warning  Try to avoid using              Google.We          
-                   first-person plural like 'We'.                     
- 37:43    warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 38:32    warning  Try to avoid using              Google.We          
-                   first-person plural like 'we'.                     
- 40:5     warning  'Setting up the Spring Boot     Google.Headings    
-                   Admin Server' should use                           
-                   sentence-style capitalization.                     
- 61:6     warning  Avoid using 'will'.             Google.Will        
- 74:21    warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 88:5     warning  'Registering Applications'      Google.Headings    
-                   should use sentence-style                          
-                   capitalization.                                    
- 90:18    warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 91:13    warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 91:72    error    Use 'for example' instead of    Google.Latin       
-                   'e.g.'.                                            
- 91:98    error    Don't start a sentence with     write-good.ThereIs 
-                   'There is'.                                        
- 94:6     warning  'Using Spring Boot              Google.Headings    
-                   Admin Client' should use                           
-                   sentence-style capitalization.                     
- 96:6     warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 96:43    warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 118:13   warning  Use 'administrator' instead of  Google.WordList    
-                   'admin'.                                           
- 124:88   warning  Try to avoid using              Google.We          
-                   first-person plural like 'we'.                     
- 127:57   warning  Use 'turn off' or 'off'         Google.WordList    
-                   instead of 'disabled'.                             
- 127:81   warning  Try to avoid using              Google.We          
-                   first-person plural like                           
-                   'our'.                                             
- 127:91   warning  Try to avoid using              Google.We          
-                   first-person plural like 'we'.                     
- 130:31   warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 130:51   warning  Avoid using 'will'.             Google.Will        
- 134:100  warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 139:6    warning  'Using Spring Cloud Discovery'  Google.Headings    
-                   should use sentence-style                          
-                   capitalization.                                    
- 139:19   warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 141:27   warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 141:51   warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 142:50   warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 144:51   warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 144:106  error    Don't start a sentence with     write-good.ThereIs 
-                   'There are'.                                       
- 149:64   warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 150:22   warning  Use 'Google Cloud Platform' or  Google.WordList    
-                   'GCP' instead of 'Cloud'.                          
- 207:1    error    Don't start a sentence with     write-good.ThereIs 
-                   'There is'.                                        
- 211:107  warning  Use 'preceding' instead of      Google.WordList    
-                   'above'.                                           
- 218:41   warning  'vast' is a weasel word!        write-good.Weasel  
- 218:71   warning  Try to avoid using              Google.We          
-                   first-person plural like 'we'.                     
- 220:13   warning  Try to avoid using              Google.We          
-                   first-person plural like 'we'.                     
- 220:71   warning  Try to avoid using              Google.We          
-                   first-person plural like                           
-                   'our'.                                             
- 223:1    warning  Try to avoid using              Google.We          
-                   first-person plural like 'We'.                     
- 225:12   warning  Try to avoid using              Google.We          
-                   first-person plural like 'we'.                     
- 226:29   warning  Try to avoid using              Google.We          
-                   first-person plural like 'we'.                     
 
-✖ 4 errors, 44 warnings and 0 suggestions in 1 file.
+ docs/installation-and-setup/index.md
+ 5:3      warning     'Installation and Setup'        Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 9:102    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 10:25    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      polled').                                           
+ 11:68    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      discovered').                                       
+ 13:1     warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 17:1     warning     Use the Oxford comma in         Google.OxfordComma  
+                      'In modern microservices                            
+                      architecture, monitoring and'.                      
+ 20:101   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 24:115   suggestion  Use 'it's' instead of 'it is'.  Google.Contractions 
+ 25:91    error       Did you really mean 'Grafana'?  Vale.Spelling       
+ 25:100   error       Did you really mean 'Datadog'?  Vale.Spelling       
+ 25:112   error       Did you really mean 'Instana'?  Vale.Spelling       
+ 29:54    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 33:4     warning     'Quick Start' should use        Google.Headings     
+                      sentence-style capitalization.                      
+ 35:25    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      built').                                            
+ 35:93    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 35:112   warning     Try to avoid using              Google.We           
+                      first-person plural like 'We'.                      
+ 37:24    error       Did you really mean 'Servlet'?  Vale.Spelling       
+ 37:43    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 38:32    warning     Try to avoid using              Google.We           
+                      first-person plural like 'we'.                      
+ 38:46    error       Did you really mean 'Servlet'?  Vale.Spelling       
+ 40:5     warning     'Setting up the Spring Boot     Google.Headings     
+                      Admin Server' should use                            
+                      sentence-style capitalization.                      
+ 61:6     warning     Avoid using 'will'.             Google.Will         
+ 61:77    error       Did you really mean             Vale.Spelling       
+                      'autodiscovery'?                                    
+ 74:21    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 88:5     warning     'Registering Applications'      Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 90:18    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 91:13    warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 91:71    suggestion  Use parentheses judiciously.    Google.Parens       
+ 91:72    error       Use 'for example' instead of    Google.Latin        
+                      'e.g.'.                                             
+ 94:6     warning     'Using Spring Boot              Google.Headings     
+                      Admin Client' should use                            
+                      sentence-style capitalization.                      
+ 96:6     warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 96:18    suggestion  Use 'that's' instead of 'that   Google.Contractions 
+                      is'.                                                
+ 96:43    warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 118:13   warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 124:67   error       Did you really mean 'http'?     Vale.Spelling       
+ 124:88   warning     Try to avoid using              Google.We           
+                      first-person plural like 'we'.                      
+ 125:101  suggestion  Use 'it's' instead of 'It is'.  Google.Contractions 
+ 127:54   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      disabled').                                         
+ 127:57   warning     Use 'turn off' or 'off'         Google.WordList     
+                      instead of 'disabled'.                              
+ 127:81   warning     Try to avoid using              Google.We           
+                      first-person plural like                            
+                      'our'.                                              
+ 127:91   warning     Try to avoid using              Google.We           
+                      first-person plural like 'we'.                      
+ 130:31   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 130:51   warning     Avoid using 'will'.             Google.Will         
+ 134:1    suggestion  Use 'it's' instead of 'It is'.  Google.Contractions 
+ 134:100  warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 139:6    warning     'Using Spring Cloud Discovery'  Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 139:19   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 141:27   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 141:51   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 142:50   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 144:51   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 144:83   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('are                      
+                      supported').                                        
+ 149:64   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 150:22   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                      'GCP' instead of 'Cloud'.                           
+ 176:102  error       Did you really mean             Vale.Spelling       
+                      'Eureka's'?                                         
+ 207:169  error       Did you really mean 'Admin's'?  Vale.Spelling       
+ 211:107  warning     Use 'preceding' instead of      Google.WordList     
+                      'above'.                                            
+ 218:29   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      run').                                              
+ 218:71   warning     Try to avoid using              Google.We           
+                      first-person plural like 'we'.                      
+ 219:66   error       Did you really mean             Vale.Spelling       
+                      'Dockerfile'?                                       
+ 220:13   warning     Try to avoid using              Google.We           
+                      first-person plural like 'we'.                      
+ 220:45   suggestion  Use 'we've' instead of 'we      Google.Contractions 
+                      have'.                                              
+ 220:71   warning     Try to avoid using              Google.We           
+                      first-person plural like                            
+                      'our'.                                              
+ 223:1    warning     Try to avoid using              Google.We           
+                      first-person plural like 'We'.                      
+ 223:4    suggestion  Use 'don't' instead of 'do      Google.Contractions 
+                      not'.                                               
+ 224:1    suggestion  Use 'they're' instead of 'They  Google.Contractions 
+                      are'.                                               
+ 224:6    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('are                      
+                      provided').                                         
+ 224:29   suggestion  Use 'aren't' instead of 'are    Google.Contractions 
+                      not'.                                               
+ 225:12   warning     Try to avoid using              Google.We           
+                      first-person plural like 'we'.                      
+ 225:30   suggestion  Use 'they're' instead of 'they  Google.Contractions 
+                      are'.                                               
+ 226:29   warning     Try to avoid using              Google.We           
+                      first-person plural like 'we'.                      
+
+✖ 11 errors, 43 warnings and 17 suggestions in 1 file.

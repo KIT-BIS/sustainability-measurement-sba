@@ -1,9 +1,15 @@
 Vale results for: docs/customize/index.md
 ===========================================
 
- docs/customize/index.md
- 7:9  warning  Remove 'easily' if it's not     Microsoft.Adverbs 
-               important to the meaning of                       
-               the statement.                                    
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/customize/index.md
+ 1:45   suggestion  Try to simplify this sentence.  Microsoft.Semicolon      
+ 5:127  suggestion  Verify your use of 'allows'     Microsoft.Vocab          
+                    with the A-Z word list.                                  
+ 7:9    warning     Remove 'easily' if it's not     Microsoft.Adverbs        
+                    important to the meaning of                              
+                    the statement.                                           
+ 14:1   suggestion  Try to keep sentences short (<  Microsoft.SentenceLength 
+                    30 words).                                               
+
+✖ 0 errors, 1 warning and 3 suggestions in 1 file.

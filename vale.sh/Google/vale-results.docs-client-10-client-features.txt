@@ -1,47 +1,90 @@
 Vale results for: docs/client/10-client-features.md
 ===========================================
 
- docs/client/10-client-features.md
- 8:4      warning  'Show Version in                Google.Headings    
-                   Application List' should use                       
-                   sentence-style capitalization.                     
- 12:133   warning  Avoid using 'will'.             Google.Will        
- 12:153   warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 40:4     warning  'JMX-Bean Management'           Google.Headings    
-                   should use sentence-style                          
-                   capitalization.                                    
- 42:35    warning  Use 'administrator' instead of  Google.WordList    
-                   'admin'.                                           
- 42:104   warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 47:5     warning  'Spring Boot 3 App' should use  Google.Headings    
-                   sentence-style capitalization.                     
- 60:5     warning  'Spring Boot 2 App' should use  Google.Headings    
-                   sentence-style capitalization.                     
- 72:4     warning  'Logfile Viewer' should use     Google.Headings    
-                   sentence-style capitalization.                     
- 76:19    warning  Avoid using 'will'.             Google.Will        
- 80:164   warning  Use 'turn off' or 'off'         Google.WordList    
-                   instead of 'disable'.                              
- 90:4     warning  'Show Tags per Instance'        Google.Headings    
-                   should use sentence-style                          
-                   capitalization.                                    
- 92:59    warning  Avoid using 'will'.             Google.Will        
- 92:78    warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 102:4    warning  'Spring Boot Admin Client'      Google.Headings    
-                   should use sentence-style                          
-                   capitalization.                                    
- 104:44   warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 104:63   warning  Use 'administrator' instead of  Google.WordList    
-                   'admin'.                                           
- 104:183  warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
- 107:1    error    Don't start a sentence with     write-good.ThereIs 
-                   'There are'.                                       
- 107:87   warning  Use 'app' instead of            Google.WordList    
-                   'application'.                                     
 
-✖ 1 error, 19 warnings and 0 suggestions in 1 file.
+ docs/client/10-client-features.md
+ 8:4      warning     'Show Version in                Google.Headings     
+                      Application List' should use                        
+                      sentence-style capitalization.                      
+ 12:133   warning     Avoid using 'will'.             Google.Will         
+ 12:153   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 32:33    error       Did you really mean 'gradle'?   Vale.Spelling       
+ 40:4     suggestion  Spell out 'JMX', if it's        Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 40:4     warning     'JMX-Bean Management'           Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 42:18    suggestion  Spell out 'JMX', if it's        Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 42:35    warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 42:65    error       Did you really mean 'Jolokia'?  Vale.Spelling       
+ 42:104   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 43:41    error       Did you really mean 'Jolokia'?  Vale.Spelling       
+ 43:52    error       Did you really mean 'servlet'?  Vale.Spelling       
+ 45:86    suggestion  Spell out 'JMX', if it's        Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 47:5     warning     'Spring Boot 3 App' should use  Google.Headings     
+                      sentence-style capitalization.                      
+ 49:15    suggestion  Use 'doesn't' instead of 'does  Google.Contractions 
+                      not'.                                               
+ 49:32    error       Did you really mean 'Jolokia'?  Vale.Spelling       
+ 60:5     warning     'Spring Boot 2 App' should use  Google.Headings     
+                      sentence-style capitalization.                      
+ 62:55    error       Did you really mean 'Jolokia'?  Vale.Spelling       
+ 63:58    error       Did you really mean 'jolokia'?  Vale.Spelling       
+ 72:4     error       Did you really mean 'Logfile'?  Vale.Spelling       
+ 72:4     warning     'Logfile Viewer' should use     Google.Headings     
+                      sentence-style capitalization.                      
+ 74:17    error       Did you really mean 'logfile'?  Vale.Spelling       
+ 74:25    suggestion  Use 'isn't' instead of 'is      Google.Contractions 
+                      not'.                                               
+ 74:137   error       Did you really mean 'logfile'?  Vale.Spelling       
+ 74:208   error       Did you really mean 'logfile'?  Vale.Spelling       
+ 76:19    warning     Avoid using 'will'.             Google.Will         
+ 78:1     suggestion  Spell out 'ANSI', if it's       Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 80:23    suggestion  Spell out 'ANSI', if it's       Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 80:121   suggestion  Spell out 'ANSI', if it's       Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 80:164   warning     Use 'turn off' or 'off'         Google.WordList     
+                      instead of 'disable'.                               
+ 87:20    error       Did you really mean 'logfile'?  Vale.Spelling       
+ 87:28    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      written').                                          
+ 87:55    error       Did you really mean 'logfile'?  Vale.Spelling       
+ 88:27    suggestion  Spell out 'ANSI', if it's       Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 90:4     warning     'Show Tags per Instance'        Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 92:59    warning     Avoid using 'will'.             Google.Will         
+ 92:78    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 92:148   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('are                      
+                      added').                                            
+ 102:4    warning     'Spring Boot Admin Client'      Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 104:44   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 104:63   warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 104:82   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      done').                                             
+ 104:140  suggestion  Spell out 'SBA', if it's        Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 104:183  warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 107:61   suggestion  Spell out 'SBA', if it's        Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 107:87   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+
+✖ 13 errors, 19 warnings and 14 suggestions in 1 file.

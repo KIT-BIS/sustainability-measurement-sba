@@ -1,50 +1,176 @@
 Vale results for: docs/server/02-security.md
 ===========================================
 
- docs/server/02-security.md
- 3:17     warning  'several' is a weasel word!     write-good.Weasel         
- 3:135    warning  Do not use smart quotation      RedHat.SmartQuotes        
-                   marks. Use ''' rather than ’.                             
- 36:29    warning  Do not include a link to        RedHat.GitLinks           
-                   https://github.com unless it                              
-                   is explicitly approved.                                   
- 90:23    warning  Consider using 'examine'        RedHat.TermsWarnings      
-                   rather than 'look at' unless                              
-                   updating existing content that                            
-                   uses the term.                                            
- 90:66    warning  Do not include a link to        RedHat.GitLinks           
-                   https://github.com unless it                              
-                   is explicitly approved.                                   
- 93:43    warning  Do not use smart quotation      RedHat.SmartQuotes        
-                   marks. Use ''' rather than ’.                             
- 98:321   warning  Do not use smart quotation      RedHat.SmartQuotes        
-                   marks. Use ''' rather than ’.                             
- 101:46   warning  Use 'management console'        RedHat.CaseSensitiveTerms 
-                   rather than 'HTTP interface'.                             
- 113:106  error    Don't start a sentence with     write-good.ThereIs        
-                   'There are'.                                              
- 113:236  warning  Do not use "please" in          RedHat.DoNotUseTerms      
-                   technical documentation.                                  
- 113:250  warning  Consider using 'examine'        RedHat.TermsWarnings      
-                   rather than 'look at' unless                              
-                   updating existing content that                            
-                   uses the term.                                            
- 113:274  warning  Use either 'or' or 'and' in     RedHat.Slash              
-                   'joshiste/spring'                                         
- 113:310  warning  Do not include a link to        RedHat.GitLinks           
-                   https://github.com unless it                              
-                   is explicitly approved.                                   
- 132:52   warning  Use 'Kubernetes' rather than    RedHat.CaseSensitiveTerms 
-                   'kubernetes'.                                             
- 138:51   warning  Consider using 'you' rather     RedHat.TermsWarnings      
-                   than 'i' unless updating                                  
-                   existing content that uses the                            
-                   term.                                                     
- 191:10   warning  Use 'mutual TLS' rather than    RedHat.CaseSensitiveTerms 
-                   'Mutual TLS'.                                             
- 193:1    warning  Use 'by using' instead of       RedHat.Using              
-                   'using' when it follows a noun                            
-                   for clarity and grammatical                               
-                   correctness.                                              
 
-✖ 1 error, 16 warnings and 0 suggestions in 1 file.
+ docs/server/02-security.md
+ 1:1      suggestion  Simplify your language. The     RedHat.ReadabilityGrade   
+                      calculated Flesch–Kincaid                                 
+                      grade level of 9.34 is above                              
+                      the recommended reading grade                             
+                      level of 9.                                               
+ 1:3      suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Foster                                 
+                      Security'.                                                
+ 3:135    warning     Do not use smart quotation      RedHat.SmartQuotes        
+                      marks. Use ''' rather than ’.                             
+ 36:29    warning     Do not include a link to        RedHat.GitLinks           
+                      https://github.com unless it                              
+                      is explicitly approved.                                   
+ 75:29    suggestion  'be authenticated' is passive   RedHat.PassiveVoice       
+                      voice. In general, use active                             
+                      voice. Consult the style guide                            
+                      for acceptable use of passive                             
+                      voice.                                                    
+ 77:37    suggestion  'is needed' is passive voice.   RedHat.PassiveVoice       
+                      In general, use active voice.                             
+                      Consult the style guide for                               
+                      acceptable use of passive                                 
+                      voice.                                                    
+ 78:12    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'CSRF')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 79:13    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'CSRF')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 80:13    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'CSRF')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 90:23    warning     Consider using 'examine'        RedHat.TermsWarnings      
+                      rather than 'look at' unless                              
+                      updating existing content that                            
+                      uses the term.                                            
+ 90:66    warning     Do not include a link to        RedHat.GitLinks           
+                      https://github.com unless it                              
+                      is explicitly approved.                                   
+ 93:43    warning     Do not use smart quotation      RedHat.SmartQuotes        
+                      marks. Use ''' rather than ’.                             
+ 93:100   suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 96:4     suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Securing                               
+                      Client Actuator Endpoints'.                               
+ 98:29    suggestion  'are secured' is passive        RedHat.PassiveVoice       
+                      voice. In general, use active                             
+                      voice. Consult the style guide                            
+                      for acceptable use of passive                             
+                      voice.                                                    
+ 98:77    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 98:321   warning     Do not use smart quotation      RedHat.SmartQuotes        
+                      marks. Use ''' rather than ’.                             
+ 98:352   suggestion  Use simple language. Consider   RedHat.SimpleWords        
+                      using 'give' or 'offer' rather                            
+                      than 'provide'.                                           
+ 101:5    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 101:46   warning     Use 'management console'        RedHat.CaseSensitiveTerms 
+                      rather than 'HTTP interface'.                             
+ 105:37   suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 105:100  suggestion  Depending on the context,       RedHat.TermsSuggestions   
+                      consider using 'through',                                 
+                      'by', 'from', 'on', or 'by                                
+                      using' rather than 'via'.                                 
+ 113:30   suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 113:236  warning     Do not use "please" in          RedHat.DoNotUseTerms      
+                      technical documentation.                                  
+ 113:250  warning     Consider using 'examine'        RedHat.TermsWarnings      
+                      rather than 'look at' unless                              
+                      updating existing content that                            
+                      uses the term.                                            
+ 113:274  warning     Use either 'or' or 'and' in     RedHat.Slash              
+                      'joshiste/spring'                                         
+ 113:310  warning     Do not include a link to        RedHat.GitLinks           
+                      https://github.com unless it                              
+                      is explicitly approved.                                   
+ 116:5    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 116:5    suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'SBA                                    
+                      Client'.                                                  
+ 127:5    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 127:5    suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'SBA                                    
+                      Server'.                                                  
+ 129:29   suggestion  Depending on the context,       RedHat.TermsSuggestions   
+                      consider using 'through',                                 
+                      'by', 'from', 'on', or 'by                                
+                      using' rather than 'via'.                                 
+ 132:52   warning     Use 'Kubernetes' rather than    RedHat.CaseSensitiveTerms 
+                      'kubernetes'.                                             
+ 138:17   suggestion  Use simple language. Consider   RedHat.SimpleWords        
+                      using 'give' or 'offer' rather                            
+                      than 'provide'.                                           
+ 138:37   suggestion  Depending on the context,       RedHat.TermsSuggestions   
+                      consider using 'through',                                 
+                      'by', 'from', 'on', or 'by                                
+                      using' rather than 'via'.                                 
+ 138:51   warning     Consider using 'you' rather     RedHat.TermsWarnings      
+                      than 'i' unless updating                                  
+                      existing content that uses the                            
+                      term.                                                     
+ 138:57   suggestion  Depending on the context,       RedHat.TermsSuggestions   
+                      consider using 'through',                                 
+                      'by', 'from', 'on', or 'by                                
+                      using' rather than 'via'.                                 
+ 138:102  suggestion  'be used' is passive voice.     RedHat.PassiveVoice       
+                      In general, use active voice.                             
+                      Consult the style guide for                               
+                      acceptable use of passive                                 
+                      voice.                                                    
+ 141:9    suggestion  Use simple language. Consider   RedHat.SimpleWords        
+                      using 'give' or 'offer' rather                            
+                      than 'provide'.                                           
+ 141:192  suggestion  Use simple language. Consider   RedHat.SimpleWords        
+                      using 'give' or 'offer' rather                            
+                      than 'provide'.                                           
+ 180:4    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'CSRF')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 180:4    suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'CSRF on                                
+                      Actuator Endpoints'.                                      
+ 182:146  suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'CSRF')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 191:4    suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Using                                  
+                      Mutual TLS'.                                              
+ 191:10   warning     Use 'mutual TLS' rather than    RedHat.CaseSensitiveTerms 
+                      'Mutual TLS'.                                             
+ 193:1    warning     Use 'by using' instead of       RedHat.Using              
+                      'using' when it follows a noun                            
+                      for clarity and grammatical                               
+                      correctness.                                              
+ 193:1    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 193:246  suggestion  'be used' is passive voice.     RedHat.PassiveVoice       
+                      In general, use active voice.                             
+                      Consult the style guide for                               
+                      acceptable use of passive                                 
+                      voice.                                                    
+
+✖ 0 errors, 15 warnings and 33 suggestions in 1 file.

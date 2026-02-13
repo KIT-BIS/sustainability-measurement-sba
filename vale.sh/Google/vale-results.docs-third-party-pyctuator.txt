@@ -1,3 +1,18 @@
 Vale results for: docs/third-party/pyctuator.md
 ===========================================
-✔ 0 errors, 0 warnings and 0 suggestions in 1 file.
+
+
+ docs/third-party/pyctuator.md
+ 6:3    error       Did you really mean             Vale.Spelling  
+                    'Pyctuator'?                                   
+ 8:167  error       Did you really mean             Vale.Spelling  
+                    'Pyctuator'?                                   
+ 10:58  suggestion  In general, use active voice    Google.Passive 
+                    instead of passive voice ('are                 
+                    supported').                                   
+ 12:16  error       Did you really mean             Vale.Spelling  
+                    'pyctuator'?                                   
+ 16:11  error       Did you really mean             Vale.Spelling  
+                    'pyctuator'?                                   
+
+✖ 4 errors, 0 warnings and 1 suggestion in 1 file.

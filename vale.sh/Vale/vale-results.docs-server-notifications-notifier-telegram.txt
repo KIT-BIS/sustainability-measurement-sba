@@ -1,0 +1,4 @@
+Vale results for: docs/server/notifications/notifier-telegram.mdx
+===========================================
+
+✔ 0 errors, 0 warnings and 0 suggestions in 1 file.

@@ -1,13 +1,18 @@
 Vale results for: docs/server/index.md
 ===========================================
 
- docs/server/index.md
- 3:3    warning  'Spring Boot Admin Server'      Google.Headings 
-                 should use sentence-style                       
-                 capitalization.                                 
- 9:77   warning  Use 'app' instead of            Google.WordList 
-                 'application'.                                  
- 10:86  warning  Use 'app' instead of            Google.WordList 
-                 'application'.                                  
 
-✖ 0 errors, 3 warnings and 0 suggestions in 1 file.
+ docs/server/index.md
+ 1:45   suggestion  Use semicolons judiciously.     Google.Semicolons 
+ 3:3    warning     'Spring Boot Admin Server'      Google.Headings   
+                    should use sentence-style                         
+                    capitalization.                                   
+ 9:77   warning     Use 'app' instead of            Google.WordList   
+                    'application'.                                    
+ 10:56  error       Did you really mean 'Servlet'?  Vale.Spelling     
+ 10:76  suggestion  Use parentheses judiciously.    Google.Parens     
+ 10:86  warning     Use 'app' instead of            Google.WordList   
+                    'application'.                                    
+ 15:41  suggestion  Use parentheses judiciously.    Google.Parens     
+
+✖ 1 error, 3 warnings and 3 suggestions in 1 file.

@@ -1,0 +1,83 @@
+Vale results for: docs/customize/01-customize_ui.mdx
+===========================================
+
+
+ docs/customize/01-customize_ui.mdx
+ 10:3    suggestion  Use sentence-style              RedHat.Headings      
+                     capitalization in 'Look and                          
+                     Feel'.                                               
+ 12:47   warning     Consider using 'you' rather     RedHat.TermsWarnings 
+                     than 'i' unless updating                             
+                     existing content that uses the                       
+                     term.                                                
+ 15:53   suggestion  'is rendered' is passive        RedHat.PassiveVoice  
+                     voice. In general, use active                        
+                     voice. Consult the style guide                       
+                     for acceptable use of passive                        
+                     voice.                                               
+ 16:109  suggestion  Define acronyms and             RedHat.Definitions   
+                     abbreviations (such as 'SBA')                        
+                     on first occurrence if they're                       
+                     likely to be unfamiliar.                             
+ 19:43   suggestion  Define acronyms and             RedHat.Definitions   
+                     abbreviations (such as 'SBA')                        
+                     on first occurrence if they're                       
+                     likely to be unfamiliar.                             
+ 23:4    suggestion  Use sentence-style              RedHat.Headings      
+                     capitalization in 'Customizing                       
+                     Colors'.                                             
+ 25:9    suggestion  Use simple language. Consider   RedHat.SimpleWords   
+                     using 'give' or 'offer' rather                       
+                     than 'provide'.                                      
+ 64:4    suggestion  Use sentence-style              RedHat.Headings      
+                     capitalization in 'Customizing                       
+                     Login Logo'.                                         
+ 68:47   suggestion  'is served' is passive voice.   RedHat.PassiveVoice  
+                     In general, use active voice.                        
+                     Consult the style guide for                          
+                     acceptable use of passive                            
+                     voice.                                               
+ 68:61   error       Did you really mean 'http'?     Vale.Spelling        
+ 73:4    suggestion  Use sentence-style              RedHat.Headings      
+                     capitalization in 'Customizing                       
+                     Favicon'.                                            
+ 73:16   warning     Verify the word 'Favicon'. It   RedHat.Spelling      
+                     is not in the American English                       
+                     spelling dictionary used by                          
+                     Vale.                                                
+ 73:16   error       Did you really mean 'Favicon'?  Vale.Spelling        
+ 75:32   error       Did you really mean 'favicon'?  Vale.Spelling        
+ 75:32   warning     Verify the word 'favicon'. It   RedHat.Spelling      
+                     is not in the American English                       
+                     spelling dictionary used by                          
+                     Vale.                                                
+ 78:12   warning     Verify the word 'favicon'. It   RedHat.Spelling      
+                     is not in the American English                       
+                     spelling dictionary used by                          
+                     Vale.                                                
+ 78:12   error       Did you really mean 'favicon'?  Vale.Spelling        
+ 78:87   suggestion  'is served' is passive voice.   RedHat.PassiveVoice  
+                     In general, use active voice.                        
+                     Consult the style guide for                          
+                     acceptable use of passive                            
+                     voice.                                               
+ 78:101  error       Did you really mean 'http'?     Vale.Spelling        
+ 85:4    suggestion  Use sentence-style              RedHat.Headings      
+                     capitalization in 'Customizing                       
+                     Available Languages'.                                
+ 94:39   error       Did you really mean 'navbar'?   Vale.Spelling        
+ 94:39   warning     Verify the word 'navbar'. It    RedHat.Spelling      
+                     is not in the American English                       
+                     spelling dictionary used by                          
+                     Vale.                                                
+ 106:4   suggestion  Use sentence-style              RedHat.Headings      
+                     capitalization in 'Hide                              
+                     Service URL'.                                        
+ 123:15  error       Did you really mean 'config'?   Vale.Spelling        
+ 123:96  suggestion  'are disabled' is passive       RedHat.PassiveVoice  
+                     voice. In general, use active                        
+                     voice. Consult the style guide                       
+                     for acceptable use of passive                        
+                     voice.                                               
+
+✖ 7 errors, 5 warnings and 13 suggestions in 1 file.

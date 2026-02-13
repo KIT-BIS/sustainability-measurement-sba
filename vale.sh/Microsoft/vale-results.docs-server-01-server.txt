@@ -1,0 +1,59 @@
+Vale results for: docs/server/01-server.mdx
+===========================================
+
+
+ docs/server/01-server.mdx
+ 9:3     suggestion  'Set up the Server' should use  Microsoft.Headings  
+                     sentence-style capitalization.                      
+ 11:4    suggestion  'Running Behind a Front-end     Microsoft.Headings  
+                     Proxy Server' should use                            
+                     sentence-style capitalization.                      
+ 13:80   suggestion  'be requried' looks like        Microsoft.Passive   
+                     passive voice.                                      
+ 13:83   error       Did you really mean             Vale.Spelling       
+                     'requried'?                                         
+ 13:116  error       Did you really mean 'url'?      Vale.Spelling       
+ 13:191  suggestion  Consider using 'also' instead   Microsoft.Wordiness 
+                     of 'In addition'.                                   
+ 13:242  error       Did you really mean 'https'?    Vale.Spelling       
+ 15:4    suggestion  'Spring Cloud Discovery'        Microsoft.Headings  
+                     should use sentence-style                           
+                     capitalization.                                     
+ 17:287  suggestion  'is done' looks like passive    Microsoft.Passive   
+                     voice.                                              
+ 19:5    suggestion  'Static Configuration using     Microsoft.Headings  
+                     SimpleDiscoveryClient'                              
+                     should use sentence-style                           
+                     capitalization.                                     
+ 21:53   suggestion  Verify your use of 'allows'     Microsoft.Vocab     
+                     with the A-Z word list.                             
+ 46:5    suggestion  'Other DiscoveryClients'        Microsoft.Headings  
+                     should use sentence-style                           
+                     capitalization.                                     
+ 48:639  warning     Remove 'properly' if it's not   Microsoft.Adverbs   
+                     important to the meaning of                         
+                     the statement.                                      
+ 48:746  suggestion  'is shown' looks like passive   Microsoft.Passive   
+                     voice.                                              
+ 48:755  suggestion  Verify your use of 'above'      Microsoft.Vocab     
+                     with the A-Z word list.                             
+ 52:43   suggestion  'are converted' looks like      Microsoft.Passive   
+                     passive voice.                                      
+ 52:184  suggestion  'is selected' looks like        Microsoft.Passive   
+                     passive voice.                                      
+ 55:54   suggestion  'is used' looks like passive    Microsoft.Passive   
+                     voice.                                              
+ 55:99   suggestion  'SBA' has no definition.        Microsoft.Acronyms  
+ 55:217  error       Did you really mean 'config'?   Vale.Spelling       
+ 59:55   suggestion  'is used' looks like passive    Microsoft.Passive   
+                     voice.                                              
+ 59:94   suggestion  'be set' looks like passive     Microsoft.Passive   
+                     voice.                                              
+ 67:5    suggestion  'CloudFoundry' should use       Microsoft.Headings  
+                     sentence-style capitalization.                      
+ 69:144  suggestion  'be added' looks like passive   Microsoft.Passive   
+                     voice.                                              
+ 69:250  suggestion  Verify your use of 'sample'     Microsoft.Vocab     
+                     with the A-Z word list.                             
+
+✖ 4 errors, 1 warning and 20 suggestions in 1 file.

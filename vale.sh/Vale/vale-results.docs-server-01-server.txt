@@ -1,0 +1,12 @@
+Vale results for: docs/server/01-server.mdx
+===========================================
+
+
+ docs/server/01-server.mdx
+ 13:83   error  Did you really mean             Vale.Spelling 
+                'requried'?                                   
+ 13:116  error  Did you really mean 'url'?      Vale.Spelling 
+ 13:242  error  Did you really mean 'https'?    Vale.Spelling 
+ 55:217  error  Did you really mean 'config'?   Vale.Spelling 
+
+✖ 4 errors, 0 warnings and 0 suggestions in 1 file.

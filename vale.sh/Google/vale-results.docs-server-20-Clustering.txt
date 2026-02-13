@@ -1,0 +1,52 @@
+Vale results for: docs/server/20-Clustering.mdx
+===========================================
+
+
+ docs/server/20-Clustering.mdx
+ 11:59   error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+ 11:70   suggestion  Use 'it's' instead of 'It is'.  Google.Contractions 
+ 12:28   error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+ 14:67   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('are                      
+                     replicated').                                       
+ 15:18   suggestion  Use 'aren't' instead of 'are    Google.Contractions 
+                     not'.                                               
+ 15:73   warning     Avoid using 'will'.             Google.Will         
+ 17:47   warning     Use 'app' instead of            Google.WordList     
+                     'application'.                                      
+ 22:35   warning     Use 'preceding' instead of      Google.WordList     
+                     'above'.                                            
+ 23:67   suggestion  Spell out 'SBA', if it's        Google.Acronyms     
+                     unfamiliar to the audience.                         
+ 26:4    warning     'Example Configuration'         Google.Headings     
+                     should use sentence-style                           
+                     capitalization.                                     
+ 28:38   error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+ 29:9    error       Did you really mean             Vale.Spelling       
+                     'multicast'?                                        
+ 29:81   suggestion  Use 'doesn't' instead of 'does  Google.Contractions 
+                     not'.                                               
+ 29:110  error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+ 30:15   suggestion  Use parentheses judiciously.    Google.Parens       
+ 30:16   warning     Use 'or' or 'also known as'     Google.WordList     
+                     instead of 'aka'.                                   
+ 30:77   error       Did you really mean 'config'?   Vale.Spelling       
+ 30:85   warning     Avoid using 'will'.             Google.Will         
+ 32:19   error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+ 33:22   error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+ 34:4    warning     Try to avoid using              Google.We           
+                     first-person plural like 'we'.                      
+ 34:7    suggestion  Use 'don't' instead of 'do      Google.Contractions 
+                     not'.                                               
+ 34:44   error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+ 38:8    error       Did you really mean             Vale.Spelling       
+                     'Hazelcast'?                                        
+
+✖ 10 errors, 7 warnings and 7 suggestions in 1 file.

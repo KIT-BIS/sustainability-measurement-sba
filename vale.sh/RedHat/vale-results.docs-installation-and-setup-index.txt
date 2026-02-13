@@ -1,88 +1,213 @@
 Vale results for: docs/installation-and-setup/index.md
 ===========================================
 
- docs/installation-and-setup/index.md
- 11:112   warning  Consider using 'such as'        RedHat.TermsWarnings 
-                   rather than 'like' unless                            
-                   updating existing content that                       
-                   uses the term.                                       
- 13:77    warning  Consider using 'such as'        RedHat.TermsWarnings 
-                   rather than 'like' unless                            
-                   updating existing content that                       
-                   uses the term.                                       
- 25:86    warning  Consider using 'such as'        RedHat.TermsWarnings 
-                   rather than 'like' unless                            
-                   updating existing content that                       
-                   uses the term.                                       
- 25:112   warning  Verify the word 'Instana'. It   RedHat.Spelling      
-                   is not in the American English                       
-                   spelling dictionary used by                          
-                   Vale.                                                
- 42:103   warning  Consider using 'and' rather     RedHat.TermsWarnings 
-                   than 'as well as' unless                             
-                   updating existing content that                       
-                   uses the term.                                       
- 61:77    warning  Verify the word                 RedHat.Spelling      
-                   'autodiscovery'. It is not in                        
-                   the American English spelling                        
-                   dictionary used by Vale.                             
- 78:91    warning  Do not use "please" in          RedHat.DoNotUseTerms 
-                   technical documentation.                             
- 78:105   warning  Consider using 'examine'        RedHat.TermsWarnings 
-                   rather than 'look at' unless                         
-                   updating existing content that                       
-                   uses the term.                                       
- 79:36    warning  Do not include a link to        RedHat.GitLinks      
-                   https://github.com unless it                         
-                   is explicitly approved.                              
- 84:40    warning  Do not include a link to        RedHat.GitLinks      
-                   https://github.com unless it                         
-                   is explicitly approved.                              
- 91:98    error    Don't start a sentence with     write-good.ThereIs   
-                   'There is'.                                          
- 124:52   warning  Do not use smart quotation      RedHat.SmartQuotes   
-                   marks. Use ''' rather than ’.                        
- 134:50   warning  Consider using 'and' rather     RedHat.TermsWarnings 
-                   than 'as well as' unless                             
-                   updating existing content that                       
-                   uses the term.                                       
- 141:83   warning  Do not use smart quotation      RedHat.SmartQuotes   
-                   marks. Use ''' rather than ’.                        
- 142:30   warning  Consider using 'use' rather     RedHat.TermsWarnings 
-                   than 'leverage' unless                               
-                   updating existing content that                       
-                   uses the term.                                       
- 144:106  error    Don't start a sentence with     write-good.ThereIs   
-                   'There are'.                                         
- 146:14   warning  Do not include a link to        RedHat.GitLinks      
-                   https://github.com unless it                         
-                   is explicitly approved.                              
- 147:17   warning  Do not include a link to        RedHat.GitLinks      
-                   https://github.com unless it                         
-                   is explicitly approved.                              
- 149:113  warning  Do not use "please" in          RedHat.DoNotUseTerms 
-                   technical documentation.                             
- 176:102  warning  Verify the word 'Eureka's'. It  RedHat.Spelling      
-                   is not in the American English                       
-                   spelling dictionary used by                          
-                   Vale.                                                
- 207:1    error    Don't start a sentence with     write-good.ThereIs   
-                   'There is'.                                          
- 207:33   warning  Do not include a link to        RedHat.GitLinks      
-                   https://github.com unless it                         
-                   is explicitly approved.                              
- 207:169  warning  Verify the word 'Admin's'. It   RedHat.Spelling      
-                   is not in the American English                       
-                   spelling dictionary used by                          
-                   Vale.                                                
- 207:184  warning  Use 'by using' instead of       RedHat.Using         
-                   'using' when it follows a noun                       
-                   for clarity and grammatical                          
-                   correctness.                                         
- 212:109  warning  Do not use smart quotation      RedHat.SmartQuotes   
-                   marks. Use ''' rather than ’.                        
- 214:7    warning  Do not use smart quotation      RedHat.SmartQuotes   
-                   marks. Use ''' rather than ’.                        
- 218:41   warning  'vast' is a weasel word!        write-good.Weasel    
 
-✖ 3 errors, 24 warnings and 0 suggestions in 1 file.
+ docs/installation-and-setup/index.md
+ 1:1      suggestion  Simplify your language. The     RedHat.ReadabilityGrade      
+                      calculated Flesch–Kincaid                                    
+                      grade level of 10.60 is above                                
+                      the recommended reading grade                                
+                      level of 9.                                                  
+ 5:3      suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in                                            
+                      'Installation and Setup'.                                    
+ 10:25    suggestion  'is polled' is passive voice.   RedHat.PassiveVoice          
+                      In general, use active voice.                                
+                      Consult the style guide for                                  
+                      acceptable use of passive                                    
+                      voice.                                                       
+ 11:68    suggestion  'be discovered' is passive      RedHat.PassiveVoice          
+                      voice. In general, use active                                
+                      voice. Consult the style guide                               
+                      for acceptable use of passive                                
+                      voice.                                                       
+ 11:112   warning     Consider using 'such as'        RedHat.TermsWarnings         
+                      rather than 'like' unless                                    
+                      updating existing content that                               
+                      uses the term.                                               
+ 13:42    suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'through',                                    
+                      'by', 'from', 'on', or 'by                                   
+                      using' rather than 'via'.                                    
+ 13:77    warning     Consider using 'such as'        RedHat.TermsWarnings         
+                      rather than 'like' unless                                    
+                      updating existing content that                               
+                      uses the term.                                               
+ 20:70    suggestion  Try to keep sentences to an     RedHat.SentenceLength        
+                      average of 32 words or fewer.                                
+ 22:37    suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                      using 'keep' or 'support'                                    
+                      rather than 'maintain'.                                      
+ 24:1     suggestion  Try to keep sentences to an     RedHat.SentenceLength        
+                      average of 32 words or fewer.                                
+ 25:86    warning     Consider using 'such as'        RedHat.TermsWarnings         
+                      rather than 'like' unless                                    
+                      updating existing content that                               
+                      uses the term.                                               
+ 25:91    error       Did you really mean 'Grafana'?  Vale.Spelling                
+ 25:100   error       Did you really mean 'Datadog'?  Vale.Spelling                
+ 25:112   error       Did you really mean 'Instana'?  Vale.Spelling                
+ 25:112   warning     Verify the word 'Instana'. It   RedHat.Spelling              
+                      is not in the American English                               
+                      spelling dictionary used by                                  
+                      Vale.                                                        
+ 26:13    suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                      using 'give' or 'offer' rather                               
+                      than 'provide'.                                              
+ 33:4     suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Quick                                     
+                      Start'.                                                      
+ 35:25    suggestion  'is built' is passive voice.    RedHat.PassiveVoice          
+                      In general, use active voice.                                
+                      Consult the style guide for                                  
+                      acceptable use of passive                                    
+                      voice.                                                       
+ 37:24    error       Did you really mean 'Servlet'?  Vale.Spelling                
+ 37:35    suggestion  Consider wrapping this Pascal   RedHat.PascalCamelCase       
+                      or Camel case term ('WebFlux')                               
+                      in backticks.                                                
+ 37:74    suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'select' rather                               
+                      than 'choose'.                                               
+ 38:32    suggestion  Avoid contractions. Use ''we    RedHat.Contractions          
+                      will'' rather than 'we'll.'                                  
+ 38:46    error       Did you really mean 'Servlet'?  Vale.Spelling                
+ 40:5     suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Setting up                                
+                      the Spring Boot Admin Server'.                               
+ 42:103   warning     Consider using 'and' rather     RedHat.TermsWarnings         
+                      than 'as well as' unless                                     
+                      updating existing content that                               
+                      uses the term.                                               
+ 61:77    warning     Verify the word                 RedHat.Spelling              
+                      'autodiscovery'. It is not in                                
+                      the American English spelling                                
+                      dictionary used by Vale.                                     
+ 61:77    error       Did you really mean             Vale.Spelling                
+                      'autodiscovery'?                                             
+ 78:48    suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'through',                                    
+                      'by', 'from', 'on', or 'by                                   
+                      using' rather than 'via'.                                    
+ 78:91    warning     Do not use "please" in          RedHat.DoNotUseTerms         
+                      technical documentation.                                     
+ 78:105   warning     Consider using 'examine'        RedHat.TermsWarnings         
+                      rather than 'look at' unless                                 
+                      updating existing content that                               
+                      uses the term.                                               
+ 79:36    warning     Do not include a link to        RedHat.GitLinks              
+                      https://github.com unless it                                 
+                      is explicitly approved.                                      
+ 84:40    warning     Do not include a link to        RedHat.GitLinks              
+                      https://github.com unless it                                 
+                      is explicitly approved.                                      
+ 88:5     suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Registering                               
+                      Applications'.                                               
+ 91:93    suggestion  Avoid the ellipsis (...)        RedHat.Ellipses              
+                      except to indicate omitted                                   
+                      words.                                                       
+ 94:6     suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Using                                     
+                      Spring Boot Admin Client'.                                   
+ 124:52   warning     Do not use smart quotation      RedHat.SmartQuotes           
+                      marks. Use ''' rather than ’.                                
+ 124:67   error       Did you really mean 'http'?     Vale.Spelling                
+ 127:54   suggestion  'is disabled' is passive        RedHat.PassiveVoice          
+                      voice. In general, use active                                
+                      voice. Consult the style guide                               
+                      for acceptable use of passive                                
+                      voice.                                                       
+ 128:4    suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                      using 'give' or 'offer' rather                               
+                      than 'provide'.                                              
+ 134:50   warning     Consider using 'and' rather     RedHat.TermsWarnings         
+                      than 'as well as' unless                                     
+                      updating existing content that                               
+                      uses the term.                                               
+ 135:1    suggestion  Do not use transitive verb      RedHat.ProductCentricWriting 
+                      constructions like 'allows                                   
+                      you' to grant abilities to                                   
+                      inanimate objects. Whenever                                  
+                      possible, use direct,                                        
+                      user-focused sentences where                                 
+                      the subject of the sentence                                  
+                      performs the action.                                         
+ 139:6    suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Using                                     
+                      Spring Cloud Discovery'.                                     
+ 141:83   warning     Do not use smart quotation      RedHat.SmartQuotes           
+                      marks. Use ''' rather than ’.                                
+ 142:30   warning     Consider using 'use' rather     RedHat.TermsWarnings         
+                      than 'leverage' unless                                       
+                      updating existing content that                               
+                      uses the term.                                               
+ 142:77   suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                      Pascal or Camel case term                                    
+                      ('DiscoveryClient') in                                       
+                      backticks.                                                   
+ 146:14   warning     Do not include a link to        RedHat.GitLinks              
+                      https://github.com unless it                                 
+                      is explicitly approved.                                      
+ 147:17   warning     Do not include a link to        RedHat.GitLinks              
+                      https://github.com unless it                                 
+                      is explicitly approved.                                      
+ 149:113  warning     Do not use "please" in          RedHat.DoNotUseTerms         
+                      technical documentation.                                     
+ 150:1    suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'see' rather                                  
+                      than 'refer to'.                                             
+ 176:102  error       Did you really mean             Vale.Spelling                
+                      'Eureka's'?                                                  
+ 176:102  warning     Verify the word 'Eureka's'. It  RedHat.Spelling              
+                      is not in the American English                               
+                      spelling dictionary used by                                  
+                      Vale.                                                        
+ 207:33   warning     Do not include a link to        RedHat.GitLinks              
+                      https://github.com unless it                                 
+                      is explicitly approved.                                      
+ 207:169  warning     Verify the word 'Admin's'. It   RedHat.Spelling              
+                      is not in the American English                               
+                      spelling dictionary used by                                  
+                      Vale.                                                        
+ 207:169  error       Did you really mean 'Admin's'?  Vale.Spelling                
+ 207:184  warning     Use 'by using' instead of       RedHat.Using                 
+                      'using' when it follows a noun                               
+                      for clarity and grammatical                                  
+                      correctness.                                                 
+ 211:107  suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'earlier',                                    
+                      'previous', 'preceding', or                                  
+                      'before' rather than 'above'.                                
+ 212:109  warning     Do not use smart quotation      RedHat.SmartQuotes           
+                      marks. Use ''' rather than ’.                                
+ 214:7    warning     Do not use smart quotation      RedHat.SmartQuotes           
+                      marks. Use ''' rather than ’.                                
+ 217:5    suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Docker                                    
+                      Images'.                                                     
+ 218:29   suggestion  'be run' is passive voice.      RedHat.PassiveVoice          
+                      In general, use active voice.                                
+                      Consult the style guide for                                  
+                      acceptable use of passive                                    
+                      voice.                                                       
+ 218:82   suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                      using 'give' or 'offer' rather                               
+                      than 'provide'.                                              
+ 218:94   suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                      using 'keep' or 'support'                                    
+                      rather than 'maintain'.                                      
+ 219:66   error       Did you really mean             Vale.Spelling                
+                      'Dockerfile'?                                                
+ 220:16   suggestion  Avoid contractions. Use ''do    RedHat.Contractions          
+                      not'' rather than 'don't.'                                   
+ 220:22   suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                      using 'give' or 'offer' rather                               
+                      than 'provide'.                                              
+ 224:6    suggestion  'are provided' is passive       RedHat.PassiveVoice          
+                      voice. In general, use active                                
+                      voice. Consult the style guide                               
+                      for acceptable use of passive                                
+                      voice.                                                       
+
+✖ 10 errors, 23 warnings and 33 suggestions in 1 file.

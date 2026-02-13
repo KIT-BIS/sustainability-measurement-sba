@@ -1,0 +1,36 @@
+Vale results for: docs/server/notifications/notifier-dingtalk.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-dingtalk.mdx
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                     calculated Flesch–Kincaid                               
+                     grade level of 16.47 is above                           
+                     the recommended reading grade                           
+                     level of 9.                                             
+ 8:3     suggestion  Use sentence-style              RedHat.Headings         
+                     capitalization in 'DingTalk                             
+                     Notifications'.                                         
+ 10:12   suggestion  Consider wrapping this          RedHat.PascalCamelCase  
+                     Pascal or Camel case term                               
+                     ('DingTalk') in backticks.                              
+ 10:86   suggestion  Use simple language. Consider   RedHat.SimpleWords      
+                     using 'allow' rather than                               
+                     'authorize'.                                            
+ 10:98   error       Did you really mean             Vale.Spelling           
+                     'dingtalk'?                                             
+ 10:98   warning     Verify the word 'dingtalk'. It  RedHat.Spelling         
+                     is not in the American English                          
+                     spelling dictionary used by                             
+                     Vale.                                                   
+ 10:164  error       Did you really mean             Vale.Spelling           
+                     'webhookUrl'?                                           
+ 10:164  warning     Verify the word 'webhookUrl'.   RedHat.Spelling         
+                     It is not in the American                               
+                     English spelling dictionary                             
+                     used by Vale.                                           
+ 10:164  suggestion  Consider wrapping this          RedHat.PascalCamelCase  
+                     Pascal or Camel case term                               
+                     ('webhookUrl') in backticks.                            
+
+✖ 2 errors, 2 warnings and 5 suggestions in 1 file.

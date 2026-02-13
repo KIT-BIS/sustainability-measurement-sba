@@ -1,8 +1,17 @@
 Vale results for: docs/customize/03-customize_http-headers.md
 ===========================================
 
- docs/customize/03-customize_http-headers.md
- 8:99  warning  Do not use smart quotation      RedHat.SmartQuotes 
-                marks. Use ''' rather than ’.                      
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/customize/03-customize_http-headers.md
+ 1:1   suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                   calculated Flesch–Kincaid                               
+                   grade level of 13.51 is above                           
+                   the recommended reading grade                           
+                   level of 9.                                             
+ 6:3   suggestion  Use sentence-style              RedHat.Headings         
+                   capitalization in 'HTTP                                 
+                   Headers'.                                               
+ 8:99  warning     Do not use smart quotation      RedHat.SmartQuotes      
+                   marks. Use ''' rather than ’.                           
+
+✖ 0 errors, 1 warning and 2 suggestions in 1 file.

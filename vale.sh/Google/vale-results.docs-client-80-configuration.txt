@@ -1,15 +1,45 @@
 Vale results for: docs/client/80-configuration.md
 ===========================================
 
- docs/client/80-configuration.md
- 10:54   warning  Use 'administrator' instead of  Google.WordList 
-                  'admin'.                                        
- 13:71   warning  Use 'Google Cloud Platform' or  Google.WordList 
-                  'GCP' instead of 'Cloud'.                       
- 22:150  warning  Use 'app' instead of            Google.WordList 
-                  'application'.                                  
- 24:109  warning  Use 'URL' instead of 'url'.     Google.WordList 
- 24:216  warning  Use 'URL' instead of 'url'.     Google.WordList 
- 25:123  warning  Use 'URL' instead of 'url'.     Google.WordList 
 
-✖ 0 errors, 6 warnings and 0 suggestions in 1 file.
+ docs/client/80-configuration.md
+ 9:9     suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('are                      
+                     handled').                                          
+ 10:54   warning     Use 'administrator' instead of  Google.WordList     
+                     'admin'.                                            
+ 11:10   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('are                      
+                     displayed').                                        
+ 12:43   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     recognized').                                       
+ 13:71   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                     'GCP' instead of 'Cloud'.                           
+ 14:6    suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('be                       
+                     applied').                                          
+ 21:148  suggestion  Use 'doesn't' instead of 'does  Google.Contractions 
+                     not'.                                               
+ 22:150  warning     Use 'app' instead of            Google.WordList     
+                     'application'.                                      
+ 23:171  error       Did you really mean             Vale.Spelling       
+                     'routable'?                                         
+ 24:109  error       Did you really mean 'url'?      Vale.Spelling       
+ 24:109  warning     Use 'URL' instead of 'url'.     Google.WordList     
+ 24:189  suggestion  Use 'doesn't' instead of 'does  Google.Contractions 
+                     not'.                                               
+ 24:216  error       Did you really mean 'url'?      Vale.Spelling       
+ 24:216  warning     Use 'URL' instead of 'url'.     Google.WordList     
+ 25:123  error       Did you really mean 'url'?      Vale.Spelling       
+ 25:123  warning     Use 'URL' instead of 'url'.     Google.WordList     
+ 25:142  error       Did you really mean 'href'?     Vale.Spelling       
+ 25:184  error       Did you really mean 'boolean'?  Vale.Spelling       
+ 26:115  suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('be                       
+                     associated').                                       
+ 27:100  suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice                            
+                     ('being used').                                     
+
+✖ 6 errors, 6 warnings and 8 suggestions in 1 file.

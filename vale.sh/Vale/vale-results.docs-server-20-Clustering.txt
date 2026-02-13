@@ -1,0 +1,26 @@
+Vale results for: docs/server/20-Clustering.mdx
+===========================================
+
+
+ docs/server/20-Clustering.mdx
+ 11:59   error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+ 12:28   error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+ 28:38   error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+ 29:9    error  Did you really mean             Vale.Spelling 
+                'multicast'?                                  
+ 29:110  error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+ 30:77   error  Did you really mean 'config'?   Vale.Spelling 
+ 32:19   error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+ 33:22   error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+ 34:44   error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+ 38:8    error  Did you really mean             Vale.Spelling 
+                'Hazelcast'?                                  
+
+✖ 10 errors, 0 warnings and 0 suggestions in 1 file.

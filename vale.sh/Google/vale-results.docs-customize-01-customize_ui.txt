@@ -1,0 +1,82 @@
+Vale results for: docs/customize/01-customize_ui.mdx
+===========================================
+
+
+ docs/customize/01-customize_ui.mdx
+ 10:3     warning     'Look and Feel' should use      Google.Headings     
+                      sentence-style capitalization.                      
+ 12:46    suggestion  Use parentheses judiciously.    Google.Parens       
+ 12:47    error       Use 'that is' instead of        Google.Latin        
+                      'i.e.'.                                             
+ 15:17    warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 15:53    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      rendered').                                         
+ 16:109   suggestion  Spell out 'SBA', if it's        Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 19:43    suggestion  Spell out 'SBA', if it's        Google.Acronyms     
+                      unfamiliar to the audience.                         
+ 20:55    error       Use 'for example' instead of    Google.Latin        
+                      'e.g.'.                                             
+ 21:17    warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 23:4     warning     'Customizing Colors'            Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 25:45    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 64:4     warning     'Customizing Login Logo'        Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 66:31    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      displayed').                                        
+ 68:1     suggestion  Use parentheses judiciously.    Google.Parens       
+ 68:47    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      served').                                           
+ 68:61    error       Did you really mean 'http'?     Vale.Spelling       
+ 68:67    error       Use 'for example' instead of    Google.Latin        
+                      'e.g.'.                                             
+ 71:1     suggestion  Use parentheses judiciously.    Google.Parens       
+ 71:18    warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 73:4     warning     'Customizing Favicon'           Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 73:16    error       Did you really mean 'Favicon'?  Vale.Spelling       
+ 75:1     suggestion  Use 'it's' instead of 'It is'.  Google.Contractions 
+ 75:32    error       Did you really mean 'favicon'?  Vale.Spelling       
+ 76:23    warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 78:1     suggestion  Use parentheses judiciously.    Google.Parens       
+ 78:12    error       Did you really mean 'favicon'?  Vale.Spelling       
+ 78:87    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      served').                                           
+ 78:101   error       Did you really mean 'http'?     Vale.Spelling       
+ 78:107   error       Use 'for example' instead of    Google.Latin        
+                      'e.g.'.                                             
+ 82:1     suggestion  Use parentheses judiciously.    Google.Parens       
+ 85:4     warning     'Customizing Available          Google.Headings     
+                      Languages' should use                               
+                      sentence-style capitalization.                      
+ 89:1     suggestion  Use parentheses judiciously.    Google.Parens       
+ 89:17    warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 89:90    error       Use 'for example' instead of    Google.Latin        
+                      'e.g.'.                                             
+ 94:39    error       Did you really mean 'navbar'?   Vale.Spelling       
+ 106:4    warning     'Hide Service URL' should use   Google.Headings     
+                      sentence-style capitalization.                      
+ 123:15   error       Did you really mean 'config'?   Vale.Spelling       
+ 123:56   suggestion  Use 'doesn't' instead of 'does  Google.Contractions 
+                      not'.                                               
+ 123:96   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('are                      
+                      disabled').                                         
+ 123:100  warning     Use 'turn off' or 'off'         Google.WordList     
+                      instead of 'disabled'.                              
+
+✖ 12 errors, 13 warnings and 15 suggestions in 1 file.

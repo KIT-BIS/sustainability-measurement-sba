@@ -1,0 +1,25 @@
+Vale results for: docs/server/notifications/notifier-webex.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-webex.mdx
+ 1:1    suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                    calculated Flesch–Kincaid                               
+                    grade level of 15.16 is above                           
+                    the recommended reading grade                           
+                    level of 9.                                             
+ 8:3    error       Did you really mean 'Webex'?    Vale.Spelling           
+ 8:3    warning     Verify the word 'Webex'. It     RedHat.Spelling         
+                    is not in the American English                          
+                    spelling dictionary used by                             
+                    Vale.                                                   
+ 8:3    suggestion  Use sentence-style              RedHat.Headings         
+                    capitalization in 'Webex                                
+                    Notifications'.                                         
+ 10:12  error       Did you really mean 'Webex'?    Vale.Spelling           
+ 10:12  warning     Verify the word 'Webex'. It     RedHat.Spelling         
+                    is not in the American English                          
+                    spelling dictionary used by                             
+                    Vale.                                                   
+
+✖ 2 errors, 2 warnings and 2 suggestions in 1 file.

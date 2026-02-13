@@ -1,0 +1,16 @@
+Vale results for: docs/server/notifications/notifier-mattermost.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-mattermost.mdx
+ 8:3     suggestion  'Mattermost Notifications'      Microsoft.Headings 
+                     should use sentence-style                          
+                     capitalization.                                    
+ 8:3     error       Did you really mean             Vale.Spelling      
+                     'Mattermost'?                                      
+ 10:12   error       Did you really mean             Vale.Spelling      
+                     'Mattermost'?                                      
+ 10:120  error       Did you really mean             Vale.Spelling      
+                     'Mattermost'?                                      
+
+✖ 3 errors, 0 warnings and 1 suggestion in 1 file.

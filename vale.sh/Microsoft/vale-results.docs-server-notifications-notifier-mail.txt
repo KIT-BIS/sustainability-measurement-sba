@@ -1,0 +1,14 @@
+Vale results for: docs/server/notifications/notifier-mail.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-mail.mdx
+ 8:3    suggestion  'Mail Notifications'            Microsoft.Headings  
+                    should use sentence-style                           
+                    capitalization.                                     
+ 10:25  suggestion  'be delivered' looks like       Microsoft.Passive   
+                    passive voice.                                      
+ 20:22  suggestion  Consider using 'some' instead   Microsoft.Wordiness 
+                    of 'some of the'.                                   
+
+✔ 0 errors, 0 warnings and 3 suggestions in 1 file.

@@ -1,0 +1,15 @@
+Vale results for: docs/client/99-properties.mdx
+===========================================
+
+
+ docs/client/99-properties.mdx
+ 6:3    suggestion  'Spring Boot Admin Client'      Microsoft.Headings       
+                    should use sentence-style                                
+                    capitalization.                                          
+ 9:35   suggestion  Try to keep sentences short (<  Microsoft.SentenceLength 
+                    30 words).                                               
+ 11:24  suggestion  Verify your use of              Microsoft.Vocab          
+                    'accessible' with the A-Z word                           
+                    list.                                                    
+
+✔ 0 errors, 0 warnings and 3 suggestions in 1 file.

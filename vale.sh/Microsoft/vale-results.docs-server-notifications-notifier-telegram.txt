@@ -1,0 +1,10 @@
+Vale results for: docs/server/notifications/notifier-telegram.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-telegram.mdx
+ 8:3  suggestion  'Telegram Notifications'        Microsoft.Headings 
+                  should use sentence-style                          
+                  capitalization.                                    
+
+✔ 0 errors, 0 warnings and 1 suggestion in 1 file.

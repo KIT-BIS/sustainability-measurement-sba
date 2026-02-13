@@ -1,0 +1,10 @@
+Vale results for: docs/server/notifications/notifier-slack.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-slack.mdx
+ 8:3  warning  'Slack Notifications'           Google.Headings 
+               should use sentence-style                       
+               capitalization.                                 
+
+✖ 0 errors, 1 warning and 0 suggestions in 1 file.

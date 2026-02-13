@@ -1,38 +1,108 @@
 Vale results for: docs/customize/02-extend_ui.md
 ===========================================
 
- docs/customize/02-extend_ui.md
- 8:4     warning  'Linking / Embedding External   Google.Headings    
-                  Pages in Navbar' should use                        
-                  sentence-style capitalization.                     
- 10:7    warning  Avoid using 'will'.             Google.Will        
- 10:43   error    Use 'that is' instead of        Google.Latin       
-                  'i.e.'.                                            
- 27:14   warning  Avoid using 'will'.             Google.Will        
- 73:4    warning  'Custom Views' should use       Google.Headings    
-                  sentence-style capitalization.                     
- 77:100  warning  Use 'administrator' instead of  Google.WordList    
-                  'admin'.                                           
- 108:41  warning  Avoid using 'will'.             Google.Will        
- 120:6   warning  'Override/Set custom            Google.Headings    
-                  group icons' should use                            
-                  sentence-style capitalization.                     
- 135:25  error    Use 'for example' instead of    Google.Latin       
-                  'e.g.'.                                            
- 137:6   warning  'Adding a Top-Level View'       Google.Headings    
-                  should use sentence-style                          
-                  capitalization.                                    
- 187:1   error    Don't start a sentence with     write-good.ThereIs 
-                  'There are'.                                       
- 187:39  warning  Use 'app' instead of            Google.WordList    
-                  'application'.                                     
- 187:99  warning  Use 'app' instead of            Google.WordList    
-                  'application'.                                     
- 216:5   warning  'Visualizing a Custom           Google.Headings    
-                  Endpoint' should use                               
-                  sentence-style capitalization.                     
- 256:50  warning  Avoid using 'will'.             Google.Will        
- 276:35  warning  Use 'to' instead of 'in order   Google.WordList    
-                  to'.                                               
 
-✖ 3 errors, 13 warnings and 0 suggestions in 1 file.
+ docs/customize/02-extend_ui.md
+ 8:4      warning     'Linking / Embedding External   Google.Headings     
+                      Pages in Navbar' should use                         
+                      sentence-style capitalization.                      
+ 8:42     error       Did you really mean 'Navbar'?   Vale.Spelling       
+ 10:1     suggestion  Use parentheses judiciously.    Google.Parens       
+ 10:7     warning     Avoid using 'will'.             Google.Will         
+ 10:12    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      opened').                                           
+ 10:43    error       Use 'that is' instead of        Google.Latin        
+                      'i.e.'.                                             
+ 27:14    warning     Avoid using 'will'.             Google.Will         
+ 27:19    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      shown').                                            
+ 27:35    error       Did you really mean 'navbar'?   Vale.Spelling       
+ 29:53    error       Did you really mean 'navbar'?   Vale.Spelling       
+ 33:58    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      configured').                                       
+ 73:4     warning     'Custom Views' should use       Google.Headings     
+                      sentence-style capitalization.                      
+ 75:1     suggestion  Use 'it's' instead of 'It is'.  Google.Contractions 
+ 75:43    error       Did you really mean 'ui'?       Vale.Spelling       
+ 75:62    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      implemented').                                      
+ 77:47    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      placed').                                           
+ 77:64    error       Did you really mean             Vale.Spelling       
+                      'classpath'?                                        
+ 77:100   warning     Use 'administrator' instead of  Google.WordList     
+                      'admin'.                                            
+ 107:12   error       Did you really mean 'Vue'?      Vale.Spelling       
+ 108:41   warning     Avoid using 'will'.             Google.Will         
+ 108:46   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      rendered').                                         
+ 109:72   suggestion  Use parentheses judiciously.    Google.Parens       
+ 110:38   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      shown').                                            
+ 114:33   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('are                      
+                      sorted').                                           
+ 116:25   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('are                      
+                      added').                                            
+ 116:67   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      known').                                            
+ 116:185  error       Did you really mean             Vale.Spelling       
+                      'toplevel'?                                         
+ 116:201  suggestion  Use parentheses judiciously.    Google.Parens       
+ 118:8    suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('are                      
+                      used').                                             
+ 118:188  suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      shown').                                            
+ 120:6    warning     'Override/Set custom            Google.Headings     
+                      group icons' should use                             
+                      sentence-style capitalization.                      
+ 122:39   suggestion  Use parentheses judiciously.    Google.Parens       
+ 135:24   suggestion  Use parentheses judiciously.    Google.Parens       
+ 135:25   error       Use 'for example' instead of    Google.Latin        
+                      'e.g.'.                                             
+ 135:41   suggestion  Use 'that's' instead of 'that   Google.Contractions 
+                      is'.                                                
+ 135:46   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('is                       
+                      inserted').                                         
+ 137:6    warning     'Adding a Top-Level View'       Google.Headings     
+                      should use sentence-style                           
+                      capitalization.                                     
+ 184:7    error       Did you really mean             Vale.Spelling       
+                      'destructuring'?                                    
+ 187:39   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 187:99   warning     Use 'app' instead of            Google.WordList     
+                      'application'.                                      
+ 207:35   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      registered').                                       
+ 209:18   error       Did you really mean 'config'?   Vale.Spelling       
+ 216:5    warning     'Visualizing a Custom           Google.Headings     
+                      Endpoint' should use                                
+                      sentence-style capitalization.                      
+ 256:50   warning     Avoid using 'will'.             Google.Will         
+ 256:92   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      rendered').                                         
+ 257:24   error       Did you really mean             Vale.Spelling       
+                      'preconfigured'?                                    
+ 257:39   error       Did you really mean 'axios'?    Vale.Spelling       
+ 276:35   warning     Use 'to' instead of 'in order   Google.WordList     
+                      to'.                                                
+ 278:88   suggestion  In general, use active voice    Google.Passive      
+                      instead of passive voice ('be                       
+                      shown').                                            
+
+✖ 13 errors, 13 warnings and 23 suggestions in 1 file.

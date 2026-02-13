@@ -1,0 +1,15 @@
+Vale results for: docs/server/notifications/notifier-discord.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-discord.mdx
+ 1:1  suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                  calculated Flesch–Kincaid                               
+                  grade level of 14.99 is above                           
+                  the recommended reading grade                           
+                  level of 9.                                             
+ 8:3  suggestion  Use sentence-style              RedHat.Headings         
+                  capitalization in 'Discord                              
+                  Notifications'.                                         
+
+✔ 0 errors, 0 warnings and 2 suggestions in 1 file.

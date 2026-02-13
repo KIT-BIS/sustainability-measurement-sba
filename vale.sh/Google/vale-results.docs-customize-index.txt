@@ -1,8 +1,10 @@
 Vale results for: docs/customize/index.md
 ===========================================
 
- docs/customize/index.md
- 5:227  warning  Use 'capability' or 'feature'   Google.WordList 
-                 instead of 'functionality'.                     
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/customize/index.md
+ 1:45   suggestion  Use semicolons judiciously.     Google.Semicolons 
+ 5:227  warning     Use 'capability' or 'feature'   Google.WordList   
+                    instead of 'functionality'.                       
+
+✖ 0 errors, 1 warning and 1 suggestion in 1 file.

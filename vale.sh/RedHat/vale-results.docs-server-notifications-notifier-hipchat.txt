@@ -1,0 +1,30 @@
+Vale results for: docs/server/notifications/notifier-hipchat.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-hipchat.mdx
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                     calculated Flesch–Kincaid                               
+                     grade level of 15.64 is above                           
+                     the recommended reading grade                           
+                     level of 9.                                             
+ 8:3     warning     Verify the word 'Hipchat'. It   RedHat.Spelling         
+                     is not in the American English                          
+                     spelling dictionary used by                             
+                     Vale.                                                   
+ 8:3     suggestion  Use sentence-style              RedHat.Headings         
+                     capitalization in 'Hipchat                              
+                     Notifications'.                                         
+ 8:3     error       Did you really mean 'Hipchat'?  Vale.Spelling           
+ 10:12   error       Did you really mean 'Hipchat'?  Vale.Spelling           
+ 10:12   warning     Verify the word 'Hipchat'. It   RedHat.Spelling         
+                     is not in the American English                          
+                     spelling dictionary used by                             
+                     Vale.                                                   
+ 10:101  error       Did you really mean 'Hipchat'?  Vale.Spelling           
+ 10:101  warning     Verify the word 'Hipchat'. It   RedHat.Spelling         
+                     is not in the American English                          
+                     spelling dictionary used by                             
+                     Vale.                                                   
+
+✖ 3 errors, 3 warnings and 2 suggestions in 1 file.

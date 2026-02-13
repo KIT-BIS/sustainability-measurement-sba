@@ -1,3 +1,17 @@
 Vale results for: docs/01-index.md
 ===========================================
-✔ 0 errors, 0 warnings and 0 suggestions in 1 file.
+
+
+ docs/01-index.md
+ 1:56    suggestion  Try to simplify this sentence.  Microsoft.Semicolon      
+ 5:2     suggestion  Try to keep sentences short (<  Microsoft.SentenceLength 
+                     30 words).                                               
+ 11:56   error       Did you really mean 'Env'?      Vale.Spelling            
+ 12:49   suggestion  'JMX' has no definition.        Microsoft.Acronyms       
+ 12:73   suggestion  'JMX' has no definition.        Microsoft.Acronyms       
+ 16:56   error       Did you really mean             Vale.Spelling            
+                     'Threaddump'?                                            
+ 16:123  error       Did you really mean             Vale.Spelling            
+                     'threaddump'?                                            
+
+✖ 3 errors, 0 warnings and 4 suggestions in 1 file.

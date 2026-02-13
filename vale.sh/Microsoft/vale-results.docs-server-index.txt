@@ -1,3 +1,16 @@
 Vale results for: docs/server/index.md
 ===========================================
-✔ 0 errors, 0 warnings and 0 suggestions in 1 file.
+
+
+ docs/server/index.md
+ 1:45   suggestion  Try to simplify this sentence.  Microsoft.Semicolon 
+ 3:3    suggestion  'Spring Boot Admin Server'      Microsoft.Headings  
+                    should use sentence-style                           
+                    capitalization.                                     
+ 10:56  error       Did you really mean 'Servlet'?  Vale.Spelling       
+ 20:27  suggestion  Verify your use of 'Allows'     Microsoft.Vocab     
+                    with the A-Z word list.                             
+ 24:90  suggestion  Consider using 'all' instead    Microsoft.Wordiness 
+                    of 'all of'.                                        
+
+✖ 1 error, 0 warnings and 4 suggestions in 1 file.

@@ -1,8 +1,18 @@
 Vale results for: docs/third-party/index.md
 ===========================================
 
- docs/third-party/index.md
- 1:27  warning  Use either 'or' or 'and' in     RedHat.Slash 
-                'theme/DocCardList'                          
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/third-party/index.md
+ 1:8   suggestion  Consider wrapping this          RedHat.PascalCamelCase 
+                   Pascal or Camel case term                              
+                   ('DocCardList') in backticks.                          
+ 1:27  warning     Use either 'or' or 'and' in     RedHat.Slash           
+                   'theme/DocCardList'                                    
+ 1:33  suggestion  Consider wrapping this          RedHat.PascalCamelCase 
+                   Pascal or Camel case term                              
+                   ('DocCardList') in backticks.                          
+ 3:3   suggestion  Use sentence-style              RedHat.Headings        
+                   capitalization in 'Third Party                         
+                   Integrations'.                                         
+
+✖ 0 errors, 1 warning and 3 suggestions in 1 file.

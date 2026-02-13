@@ -1,6 +1,7 @@
 Vale results for: docs/client/80-configuration.md
 ===========================================
 
+
  docs/client/80-configuration.md
  23:171  error  Did you really mean             Vale.Spelling 
                 'routable'?                                   

@@ -1,0 +1,11 @@
+Vale results for: docs/server/notifications/notifier-msteams.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-msteams.mdx
+ 8:3    suggestion  'Microsoft Teams                Microsoft.Headings 
+                    Notifications' should use                          
+                    sentence-style capitalization.                     
+ 10:80  error       Did you really mean 'url'?      Vale.Spelling      
+
+✖ 1 error, 0 warnings and 1 suggestion in 1 file.

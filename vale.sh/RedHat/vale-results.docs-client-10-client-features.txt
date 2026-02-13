@@ -1,74 +1,182 @@
 Vale results for: docs/client/10-client-features.md
 ===========================================
 
- docs/client/10-client-features.md
- 40:8     warning  Use 'bean' rather than 'Bean'.  RedHat.CaseSensitiveTerms 
- 62:63    warning  Use 'by using' instead of       RedHat.Using              
-                   'using' when it follows a noun                            
-                   for clarity and grammatical                               
-                   correctness.                                              
- 63:58    warning  Verify the word 'jolokia'. It   RedHat.Spelling           
-                   is not in the American English                            
-                   spelling dictionary used by                               
-                   Vale.                                                     
- 72:4     warning  Verify the word 'Logfile'. It   RedHat.Spelling           
-                   is not in the American English                            
-                   spelling dictionary used by                               
-                   Vale.                                                     
- 72:4     error    Use 'log file' rather than      RedHat.TermsErrors        
-                   'Logfile'.                                                
- 74:17    warning  Verify the word 'logfile'. It   RedHat.Spelling           
-                   is not in the American English                            
-                   spelling dictionary used by                               
-                   Vale.                                                     
- 74:17    error    Use 'log file' rather than      RedHat.TermsErrors        
-                   'logfile'.                                                
- 74:114   warning  Consider using 'to' rather      RedHat.TermsWarnings      
-                   than 'In order to' unless                                 
-                   updating existing content that                            
-                   uses the term.                                            
- 74:137   error    Use 'log file' rather than      RedHat.TermsErrors        
-                   'logfile'.                                                
- 74:137   warning  Verify the word 'logfile'. It   RedHat.Spelling           
-                   is not in the American English                            
-                   spelling dictionary used by                               
-                   Vale.                                                     
- 74:208   error    Use 'log file' rather than      RedHat.TermsErrors        
-                   'logfile'.                                                
- 74:208   warning  Verify the word 'logfile'. It   RedHat.Spelling           
-                   is not in the American English                            
-                   spelling dictionary used by                               
-                   Vale.                                                     
- 78:96    warning  Do not use smart quotation      RedHat.SmartQuotes        
-                   marks. Use ''' rather than ’.                             
- 78:116   warning  Do not use smart quotation      RedHat.SmartQuotes        
-                   marks. Use ''' rather than ’.                             
- 87:20    warning  Verify the word 'logfile'. It   RedHat.Spelling           
-                   is not in the American English                            
-                   spelling dictionary used by                               
-                   Vale.                                                     
- 87:20    error    Use 'log file' rather than      RedHat.TermsErrors        
-                   'logfile'.                                                
- 87:55    error    Use 'log file' rather than      RedHat.TermsErrors        
-                   'logfile'.                                                
- 87:55    warning  Verify the word 'logfile'. It   RedHat.Spelling           
-                   is not in the American English                            
-                   spelling dictionary used by                               
-                   Vale.                                                     
- 92:95    warning  Consider using 'and' rather     RedHat.TermsWarnings      
-                   than 'as well as' unless                                  
-                   updating existing content that                            
-                   uses the term.                                            
- 92:178   warning  Do not use smart quotation      RedHat.SmartQuotes        
-                   marks. Use ''' rather than ’.                             
- 92:213   warning  Consider using 'needed'         RedHat.TermsWarnings      
-                   or 'required' rather than                                 
-                   'desired' unless updating                                 
-                   existing content that uses the                            
-                   term.                                                     
- 107:1    error    Don't start a sentence with     write-good.ThereIs        
-                   'There are'.                                              
- 107:118  warning  Do not use smart quotation      RedHat.SmartQuotes        
-                   marks. Use ''' rather than ’.                             
 
-✖ 7 errors, 16 warnings and 0 suggestions in 1 file.
+ docs/client/10-client-features.md
+ 1:1      suggestion  Simplify your language. The     RedHat.ReadabilityGrade   
+                      calculated Flesch–Kincaid                                 
+                      grade level of 9.27 is above                              
+                      the recommended reading grade                             
+                      level of 9.                                               
+ 8:4      suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Show                                   
+                      Version in Application List'.                             
+ 32:33    error       Did you really mean 'gradle'?   Vale.Spelling             
+ 40:4     suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'JMX-Bean                               
+                      Management'.                                              
+ 40:4     suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'JMX')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 40:8     warning     Use 'bean' rather than 'Bean'.  RedHat.CaseSensitiveTerms 
+ 42:18    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'JMX')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 42:65    error       Did you really mean 'Jolokia'?  Vale.Spelling             
+ 43:11    suggestion  Depending on the context,       RedHat.TermsSuggestions   
+                      consider using 'through',                                 
+                      'by', 'from', 'on', or 'by                                
+                      using' rather than 'via'.                                 
+ 43:41    error       Did you really mean 'Jolokia'?  Vale.Spelling             
+ 43:52    error       Did you really mean 'servlet'?  Vale.Spelling             
+ 45:82    suggestion  Depending on the context,       RedHat.TermsSuggestions   
+                      consider using 'through',                                 
+                      'by', 'from', 'on', or 'by                                
+                      using' rather than 'via'.                                 
+ 45:86    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'JMX')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 47:5     suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Spring Boot                            
+                      3 App'.                                                   
+ 49:32    error       Did you really mean 'Jolokia'?  Vale.Spelling             
+ 60:5     suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Spring Boot                            
+                      2 App'.                                                   
+ 62:55    error       Did you really mean 'Jolokia'?  Vale.Spelling             
+ 62:63    warning     Use 'by using' instead of       RedHat.Using              
+                      'using' when it follows a noun                            
+                      for clarity and grammatical                               
+                      correctness.                                              
+ 63:58    warning     Verify the word 'jolokia'. It   RedHat.Spelling           
+                      is not in the American English                            
+                      spelling dictionary used by                               
+                      Vale.                                                     
+ 63:58    error       Did you really mean 'jolokia'?  Vale.Spelling             
+ 72:4     error       Did you really mean 'Logfile'?  Vale.Spelling             
+ 72:4     warning     Verify the word 'Logfile'. It   RedHat.Spelling           
+                      is not in the American English                            
+                      spelling dictionary used by                               
+                      Vale.                                                     
+ 72:4     error       Use 'log file' rather than      RedHat.TermsErrors        
+                      'Logfile'.                                                
+ 72:4     suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Logfile                                
+                      Viewer'.                                                  
+ 74:17    warning     Verify the word 'logfile'. It   RedHat.Spelling           
+                      is not in the American English                            
+                      spelling dictionary used by                               
+                      Vale.                                                     
+ 74:17    error       Use 'log file' rather than      RedHat.TermsErrors        
+                      'logfile'.                                                
+ 74:17    error       Did you really mean 'logfile'?  Vale.Spelling             
+ 74:43    suggestion  Depending on the context,       RedHat.TermsSuggestions   
+                      consider using 'through',                                 
+                      'by', 'from', 'on', or 'by                                
+                      using' rather than 'via'.                                 
+ 74:114   warning     Consider using 'to' rather      RedHat.TermsWarnings      
+                      than 'In order to' unless                                 
+                      updating existing content that                            
+                      uses the term.                                            
+ 74:137   error       Did you really mean 'logfile'?  Vale.Spelling             
+ 74:137   error       Use 'log file' rather than      RedHat.TermsErrors        
+                      'logfile'.                                                
+ 74:137   warning     Verify the word 'logfile'. It   RedHat.Spelling           
+                      is not in the American English                            
+                      spelling dictionary used by                               
+                      Vale.                                                     
+ 74:208   error       Did you really mean 'logfile'?  Vale.Spelling             
+ 74:208   warning     Verify the word 'logfile'. It   RedHat.Spelling           
+                      is not in the American English                            
+                      spelling dictionary used by                               
+                      Vale.                                                     
+ 74:208   error       Use 'log file' rather than      RedHat.TermsErrors        
+                      'logfile'.                                                
+ 78:1     suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'ANSI')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 78:96    warning     Do not use smart quotation      RedHat.SmartQuotes        
+                      marks. Use ''' rather than ’.                             
+ 78:116   warning     Do not use smart quotation      RedHat.SmartQuotes        
+                      marks. Use ''' rather than ’.                             
+ 80:23    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'ANSI')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 80:121   suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'ANSI')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 87:20    error       Use 'log file' rather than      RedHat.TermsErrors        
+                      'logfile'.                                                
+ 87:20    error       Did you really mean 'logfile'?  Vale.Spelling             
+ 87:20    warning     Verify the word 'logfile'. It   RedHat.Spelling           
+                      is not in the American English                            
+                      spelling dictionary used by                               
+                      Vale.                                                     
+ 87:28    suggestion  'is written' is passive voice.  RedHat.PassiveVoice       
+                      In general, use active voice.                             
+                      Consult the style guide for                               
+                      acceptable use of passive                                 
+                      voice.                                                    
+ 87:55    warning     Verify the word 'logfile'. It   RedHat.Spelling           
+                      is not in the American English                            
+                      spelling dictionary used by                               
+                      Vale.                                                     
+ 87:55    error       Did you really mean 'logfile'?  Vale.Spelling             
+ 87:55    error       Use 'log file' rather than      RedHat.TermsErrors        
+                      'logfile'.                                                
+ 88:27    suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'ANSI')                            
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 90:4     suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Show Tags                              
+                      per Instance'.                                            
+ 92:95    warning     Consider using 'and' rather     RedHat.TermsWarnings      
+                      than 'as well as' unless                                  
+                      updating existing content that                            
+                      uses the term.                                            
+ 92:148   suggestion  'are added' is passive voice.   RedHat.PassiveVoice       
+                      In general, use active voice.                             
+                      Consult the style guide for                               
+                      acceptable use of passive                                 
+                      voice.                                                    
+ 92:178   warning     Do not use smart quotation      RedHat.SmartQuotes        
+                      marks. Use ''' rather than ’.                             
+ 92:213   warning     Consider using 'needed'         RedHat.TermsWarnings      
+                      or 'required' rather than                                 
+                      'desired' unless updating                                 
+                      existing content that uses the                            
+                      term.                                                     
+ 102:4    suggestion  Use sentence-style              RedHat.Headings           
+                      capitalization in 'Spring Boot                            
+                      Admin Client'.                                            
+ 104:82   suggestion  'is done' is passive voice.     RedHat.PassiveVoice       
+                      In general, use active voice.                             
+                      Consult the style guide for                               
+                      acceptable use of passive                                 
+                      voice.                                                    
+ 104:140  suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 107:61   suggestion  Define acronyms and             RedHat.Definitions        
+                      abbreviations (such as 'SBA')                             
+                      on first occurrence if they're                            
+                      likely to be unfamiliar.                                  
+ 107:118  warning     Do not use smart quotation      RedHat.SmartQuotes        
+                      marks. Use ''' rather than ’.                             
+ 107:145  suggestion  Use simple language. Consider   RedHat.SimpleWords        
+                      using 'give' or 'offer' rather                            
+                      than 'provide'.                                           
+ 107:162  suggestion  Consider wrapping this          RedHat.PascalCamelCase    
+                      Pascal or Camel case term                                 
+                      ('ApplicationFactory') in                                 
+                      backticks.                                                
+
+✖ 19 errors, 16 warnings and 25 suggestions in 1 file.

@@ -1,0 +1,18 @@
+Vale results for: docs/server/notifications/notifier-telegram.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-telegram.mdx
+ 1:1    suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                    calculated Flesch–Kincaid                               
+                    grade level of 16.34 is above                           
+                    the recommended reading grade                           
+                    level of 9.                                             
+ 8:3    suggestion  Use sentence-style              RedHat.Headings         
+                    capitalization in 'Telegram                             
+                    Notifications'.                                         
+ 10:82  suggestion  Use simple language. Consider   RedHat.SimpleWords      
+                    using 'allow' rather than                               
+                    'authorize'.                                            
+
+✔ 0 errors, 0 warnings and 3 suggestions in 1 file.

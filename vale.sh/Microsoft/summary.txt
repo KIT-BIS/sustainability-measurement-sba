@@ -1,10 +1,11 @@
 Vale Check Summary
 ====================
-Generated: Fri Feb  6 10:20:07 CET 2026
+Generated: Fri Feb 13 18:05:38 CET 2026
 
-Total files checked: 14
-Total errors: 13
-Total warnings: 28
-Total suggestions: 0
+Total files checked: 34
+Total errors: 128
+Total warnings: 43
+Total suggestions: 237
 
-✖ 13 errors, 28 warnings and 0 suggestions in 14 files.
+✖ 128 errors, 43 warnings and 237 suggestions in 34 files.
+

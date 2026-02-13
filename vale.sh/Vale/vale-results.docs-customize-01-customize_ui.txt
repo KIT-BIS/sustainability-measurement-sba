@@ -1,0 +1,14 @@
+Vale results for: docs/customize/01-customize_ui.mdx
+===========================================
+
+
+ docs/customize/01-customize_ui.mdx
+ 68:61   error  Did you really mean 'http'?     Vale.Spelling 
+ 73:16   error  Did you really mean 'Favicon'?  Vale.Spelling 
+ 75:32   error  Did you really mean 'favicon'?  Vale.Spelling 
+ 78:12   error  Did you really mean 'favicon'?  Vale.Spelling 
+ 78:101  error  Did you really mean 'http'?     Vale.Spelling 
+ 94:39   error  Did you really mean 'navbar'?   Vale.Spelling 
+ 123:15  error  Did you really mean 'config'?   Vale.Spelling 
+
+✖ 7 errors, 0 warnings and 0 suggestions in 1 file.

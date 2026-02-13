@@ -1,0 +1,23 @@
+Vale results for: docs/server/notifications/notifier-lets-chat.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-lets-chat.mdx
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade   
+                     calculated Flesch–Kincaid                                 
+                     grade level of 10.49 is above                             
+                     the recommended reading grade                             
+                     level of 9.                                               
+ 8:3     suggestion  Use sentence-style              RedHat.Headings           
+                     capitalization in 'Let’s Chat                             
+                     Notifications'.                                           
+ 10:15   warning     Do not use smart quotation      RedHat.SmartQuotes        
+                     marks. Use ''' rather than ’.                             
+ 10:104  error       Did you really mean 'url'?      Vale.Spelling             
+ 10:104  warning     Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
+ 10:151  warning     Do not use smart quotation      RedHat.SmartQuotes        
+                     marks. Use ''' rather than ’.                             
+ 13:13   warning     Do not use smart quotation      RedHat.SmartQuotes        
+                     marks. Use ''' rather than ’.                             
+
+✖ 1 error, 4 warnings and 2 suggestions in 1 file.

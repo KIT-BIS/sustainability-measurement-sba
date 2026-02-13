@@ -1,0 +1,9 @@
+Vale results for: docs/server/notifications/index.mdx
+===========================================
+
+
+ docs/server/notifications/index.mdx
+ 54:267  error  Did you really mean             Vale.Spelling 
+                'deregistered'?                               
+
+✖ 1 error, 0 warnings and 0 suggestions in 1 file.

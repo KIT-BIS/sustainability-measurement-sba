@@ -1,9 +1,20 @@
 Vale results for: docs/third-party/pyctuator.md
 ===========================================
 
- docs/third-party/pyctuator.md
- 8:9  warning  Remove 'easily' if it's not     Microsoft.Adverbs 
-               important to the meaning of                       
-               the statement.                                    
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/third-party/pyctuator.md
+ 6:3    error       Did you really mean             Vale.Spelling     
+                    'Pyctuator'?                                      
+ 8:9    warning     Remove 'easily' if it's not     Microsoft.Adverbs 
+                    important to the meaning of                       
+                    the statement.                                    
+ 8:167  error       Did you really mean             Vale.Spelling     
+                    'Pyctuator'?                                      
+ 10:58  suggestion  'are supported' looks like      Microsoft.Passive 
+                    passive voice.                                    
+ 12:16  error       Did you really mean             Vale.Spelling     
+                    'pyctuator'?                                      
+ 16:11  error       Did you really mean             Vale.Spelling     
+                    'pyctuator'?                                      
+
+✖ 4 errors, 1 warning and 1 suggestion in 1 file.

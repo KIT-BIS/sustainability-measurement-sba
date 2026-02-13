@@ -1,28 +1,81 @@
 Vale results for: docs/client/index.md
 ===========================================
 
- docs/client/index.md
- 1:27    warning  Use either 'or' or 'and' in     RedHat.Slash         
-                  'theme/DocCardList'                                  
- 5:222   warning  Verify the word 'Nacos'. It     RedHat.Spelling      
-                  is not in the American English                       
-                  spelling dictionary used by                          
-                  Vale.                                                
- 9:88    warning  'relatively' is a weasel word!  write-good.Weasel    
- 11:24   warning  Consider using 'use' rather     RedHat.TermsWarnings 
-                  than 'leverage' unless                               
-                  updating existing content that                       
-                  uses the term.                                       
- 11:45   warning  Do not use smart quotation      RedHat.SmartQuotes   
-                  marks. Use ''' rather than ’.                        
- 11:248  warning  Do not use "overhead". Use      RedHat.DoNotUseTerms 
-                  terminology that is more                             
-                  specific. For example, write                         
-                  "running large queries can                           
-                  increase processor usage".                           
- 11:343  warning  Consider using 'might' or       RedHat.TermsWarnings 
-                  'can' rather than 'may' unless                       
-                  updating existing content that                       
-                  uses the term.                                       
 
-✖ 0 errors, 7 warnings and 0 suggestions in 1 file.
+ docs/client/index.md
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade      
+                     calculated Flesch–Kincaid                                    
+                     grade level of 14.10 is above                                
+                     the recommended reading grade                                
+                     level of 9.                                                  
+ 1:8     suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('DocCardList') in backticks.                                
+ 1:27    warning     Use either 'or' or 'and' in     RedHat.Slash                 
+                     'theme/DocCardList'                                          
+ 1:33    suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('DocCardList') in backticks.                                
+ 3:3     suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in 'Registering                               
+                     Clients'.                                                    
+ 5:19    suggestion  'is built' is passive voice.    RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 5:222   error       Did you really mean 'Nacos'?    Vale.Spelling                
+ 5:222   warning     Verify the word 'Nacos'. It     RedHat.Spelling              
+                     is not in the American English                               
+                     spelling dictionary used by                                  
+                     Vale.                                                        
+ 7:104   suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                     consider using 'select' rather                               
+                     than 'choose'.                                               
+ 11:1    suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                     using 'or' rather than                                       
+                     'Alternatively'.                                             
+ 11:24   warning     Consider using 'use' rather     RedHat.TermsWarnings         
+                     than 'leverage' unless                                       
+                     updating existing content that                               
+                     uses the term.                                               
+ 11:45   warning     Do not use smart quotation      RedHat.SmartQuotes           
+                     marks. Use ''' rather than ’.                                
+ 11:248  warning     Do not use "overhead". Use      RedHat.DoNotUseTerms         
+                     terminology that is more                                     
+                     specific. For example, write                                 
+                     "running large queries can                                   
+                     increase processor usage".                                   
+ 11:343  warning     Consider using 'might' or       RedHat.TermsWarnings         
+                     'can' rather than 'may' unless                               
+                     updating existing content that                               
+                     uses the term.                                               
+ 11:365  suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                     using 'often' rather than                                    
+                     'frequently'.                                                
+ 13:54   suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                     consider using 'select' rather                               
+                     than 'choose'.                                               
+ 13:72   suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                     using 'only' rather than                                     
+                     'exclusively'.                                               
+ 13:138  suggestion  'are registered' is passive     RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 13:175  suggestion  'are discovered' is passive     RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 13:231  suggestion  Do not use transitive verb      RedHat.ProductCentricWriting 
+                     constructions like 'allows                                   
+                     you' to grant abilities to                                   
+                     inanimate objects. Whenever                                  
+                     possible, use direct,                                        
+                     user-focused sentences where                                 
+                     the subject of the sentence                                  
+                     performs the action.                                         
+
+✖ 1 error, 6 warnings and 13 suggestions in 1 file.

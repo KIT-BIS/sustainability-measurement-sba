@@ -1,26 +1,39 @@
 Vale results for: docs/client/index.md
 ===========================================
 
- docs/client/index.md
- 3:3     warning  'Registering Clients'           Google.Headings   
-                  should use sentence-style                         
-                  capitalization.                                   
- 5:72    warning  Use 'Google Cloud Platform' or  Google.WordList   
-                  'GCP' instead of 'Cloud'.                         
- 5:139   warning  Use 'Google Cloud Platform' or  Google.WordList   
-                  'GCP' instead of 'Cloud'.                         
- 5:271   warning  Use 'Google Cloud Platform' or  Google.WordList   
-                  'GCP' instead of 'Cloud'.                         
- 8:48    warning  Use 'administrator' instead of  Google.WordList   
-                  'admin'.                                          
- 9:88    warning  'relatively' is a weasel word!  write-good.Weasel 
- 11:40   warning  Use 'Google Cloud Platform' or  Google.WordList   
-                  'GCP' instead of 'Cloud'.                         
- 13:219  warning  Use 'Google Cloud Platform' or  Google.WordList   
-                  'GCP' instead of 'Cloud'.                         
- 19:27   warning  Use 'app' instead of            Google.WordList   
-                  'application'.                                    
- 20:108  warning  Use 'app' instead of            Google.WordList   
-                  'application'.                                    
 
-✖ 0 errors, 10 warnings and 0 suggestions in 1 file.
+ docs/client/index.md
+ 1:45    suggestion  Use semicolons judiciously.     Google.Semicolons   
+ 3:3     warning     'Registering Clients'           Google.Headings     
+                     should use sentence-style                           
+                     capitalization.                                     
+ 5:19    suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     built').                                            
+ 5:72    warning     Use 'Google Cloud Platform' or  Google.WordList     
+                     'GCP' instead of 'Cloud'.                           
+ 5:139   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                     'GCP' instead of 'Cloud'.                           
+ 5:222   error       Did you really mean 'Nacos'?    Vale.Spelling       
+ 5:271   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                     'GCP' instead of 'Cloud'.                           
+ 8:48    warning     Use 'administrator' instead of  Google.WordList     
+                     'admin'.                                            
+ 11:40   warning     Use 'Google Cloud Platform' or  Google.WordList     
+                     'GCP' instead of 'Cloud'.                           
+ 13:32   suggestion  Use 'doesn't' instead of 'does  Google.Contractions 
+                     not'.                                               
+ 13:138  suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('are                      
+                     registered').                                       
+ 13:175  suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('are                      
+                     discovered').                                       
+ 13:219  warning     Use 'Google Cloud Platform' or  Google.WordList     
+                     'GCP' instead of 'Cloud'.                           
+ 19:27   warning     Use 'app' instead of            Google.WordList     
+                     'application'.                                      
+ 20:108  warning     Use 'app' instead of            Google.WordList     
+                     'application'.                                      
+
+✖ 1 error, 9 warnings and 5 suggestions in 1 file.

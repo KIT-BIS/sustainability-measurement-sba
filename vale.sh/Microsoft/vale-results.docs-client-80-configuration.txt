@@ -1,3 +1,50 @@
 Vale results for: docs/client/80-configuration.md
 ===========================================
-✔ 0 errors, 0 warnings and 0 suggestions in 1 file.
+
+
+ docs/client/80-configuration.md
+ 8:1     suggestion  Consider using 'also' instead   Microsoft.Wordiness      
+                     of 'In addition'.                                        
+ 9:9     suggestion  'are handled' looks like        Microsoft.Passive        
+                     passive voice.                                           
+ 10:10   suggestion  Verify your use of 'allows'     Microsoft.Vocab          
+                     with the A-Z word list.                                  
+ 11:10   suggestion  'are displayed' looks like      Microsoft.Passive        
+                     passive voice.                                           
+ 12:43   suggestion  'is recognized' looks like      Microsoft.Passive        
+                     passive voice.                                           
+ 13:1    suggestion  Try to keep sentences short (<  Microsoft.SentenceLength 
+                     30 words).                                               
+ 14:6    suggestion  'be applied' looks like         Microsoft.Passive        
+                     passive voice.                                           
+ 21:144  warning     For a general audience, use     Microsoft.GeneralURL     
+                     'address' rather than 'URL'.                             
+ 21:148  error       Use 'doesn't' instead of 'does  Microsoft.Contractions   
+                     not'.                                                    
+ 23:171  error       Did you really mean             Vale.Spelling            
+                     'routable'?                                              
+ 23:180  warning     For a general audience, use     Microsoft.GeneralURL     
+                     'address' rather than 'URL'.                             
+ 24:109  error       Did you really mean 'url'?      Vale.Spelling            
+ 24:140  suggestion  Verify your use of 'Allows'     Microsoft.Vocab          
+                     with the A-Z word list.                                  
+ 24:169  warning     For a general audience, use     Microsoft.GeneralURL     
+                     'address' rather than 'URL'.                             
+ 24:189  error       Use 'doesn't' instead of 'does  Microsoft.Contractions   
+                     not'.                                                    
+ 24:216  error       Did you really mean 'url'?      Vale.Spelling            
+ 25:123  error       Did you really mean 'url'?      Vale.Spelling            
+ 25:130  warning     For a general audience, use     Microsoft.GeneralURL     
+                     'address' rather than 'URL'.                             
+ 25:142  error       Did you really mean 'href'?     Vale.Spelling            
+ 25:184  error       Did you really mean 'boolean'?  Vale.Spelling            
+ 25:203  suggestion  Verify your use of 'allows'     Microsoft.Vocab          
+                     with the A-Z word list.                                  
+ 25:221  warning     For a general audience, use     Microsoft.GeneralURL     
+                     'address' rather than 'URL'.                             
+ 26:115  suggestion  'be associated' looks like      Microsoft.Passive        
+                     passive voice.                                           
+ 27:100  suggestion  'being used' looks like         Microsoft.Passive        
+                     passive voice.                                           
+
+✖ 8 errors, 5 warnings and 11 suggestions in 1 file.

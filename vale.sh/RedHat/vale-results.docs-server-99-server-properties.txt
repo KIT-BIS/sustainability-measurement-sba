@@ -1,0 +1,4 @@
+Vale results for: docs/server/99-server-properties.mdx
+===========================================
+
+✔ 0 errors, 0 warnings and 0 suggestions in 1 file.

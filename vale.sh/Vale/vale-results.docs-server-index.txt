@@ -1,6 +1,7 @@
 Vale results for: docs/server/index.md
 ===========================================
 
+
  docs/server/index.md
  10:56  error  Did you really mean 'Servlet'?  Vale.Spelling 
 

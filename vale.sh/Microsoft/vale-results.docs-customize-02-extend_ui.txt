@@ -1,16 +1,93 @@
 Vale results for: docs/customize/02-extend_ui.md
 ===========================================
 
- docs/customize/02-extend_ui.md
- 6:14    warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
-                  title or heading.                                         
- 10:43   error    Use 'that is' instead of 'i.e.  Microsoft.Foreign         
-                  '.                                                        
- 116:83  error    Don't use 'backend'. See the    Microsoft.Avoid           
-                  A-Z word list for details.                                
- 135:25  error    Use 'for example' instead of    Microsoft.Foreign         
-                  'e.g. '.                                                  
- 187:1   error    Don't start a sentence with     write-good.ThereIs        
-                  'There are'.                                              
 
-✖ 4 errors, 1 warning and 0 suggestions in 1 file.
+ docs/customize/02-extend_ui.md
+ 6:14     warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                      title or heading.                                         
+ 8:4      suggestion  'Linking / Embedding External   Microsoft.Headings        
+                      Pages in Navbar' should use                               
+                      sentence-style capitalization.                            
+ 8:42     error       Did you really mean 'Navbar'?   Vale.Spelling             
+ 10:12    suggestion  'be opened' looks like passive  Microsoft.Passive         
+                      voice.                                                    
+ 10:43    error       Use 'that is' instead of 'i.e.  Microsoft.Foreign         
+                      '.                                                        
+ 27:19    suggestion  'be shown' looks like passive   Microsoft.Passive         
+                      voice.                                                    
+ 27:35    error       Did you really mean 'navbar'?   Vale.Spelling             
+ 28:4     warning     For a general audience, use     Microsoft.GeneralURL      
+                      'address' rather than 'URL'.                              
+ 29:15    suggestion  Verify your use of 'allows'     Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 29:53    error       Did you really mean 'navbar'?   Vale.Spelling             
+ 33:58    suggestion  'be configured' looks like      Microsoft.Passive         
+                      passive voice.                                            
+ 73:4     suggestion  'Custom Views' should use       Microsoft.Headings        
+                      sentence-style capitalization.                            
+ 75:1     error       Use 'it's' instead of 'It is'.  Microsoft.Contractions    
+ 75:43    error       Did you really mean 'ui'?       Vale.Spelling             
+ 75:62    suggestion  'be implemented' looks like     Microsoft.Passive         
+                      passive voice.                                            
+ 77:47    suggestion  'be placed' looks like passive  Microsoft.Passive         
+                      voice.                                                    
+ 77:64    error       Did you really mean             Vale.Spelling             
+                      'classpath'?                                              
+ 77:351   suggestion  Verify your use of 'sample'     Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 107:12   error       Did you really mean 'Vue'?      Vale.Spelling             
+ 108:46   suggestion  'be rendered' looks like        Microsoft.Passive         
+                      passive voice.                                            
+ 109:32   suggestion  Verify your use of 'allows'     Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 110:38   suggestion  'be shown' looks like passive   Microsoft.Passive         
+                      voice.                                                    
+ 112:36   suggestion  Verify your use of 'allows'     Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 114:33   suggestion  'are sorted' looks like         Microsoft.Passive         
+                      passive voice.                                            
+ 116:25   suggestion  'are added' looks like passive  Microsoft.Passive         
+                      voice.                                                    
+ 116:67   suggestion  'be known' looks like passive   Microsoft.Passive         
+                      voice.                                                    
+ 116:83   error       Don't use 'backend'. See the    Microsoft.Avoid           
+                      A-Z word list for details.                                
+ 116:185  error       Did you really mean             Vale.Spelling             
+                      'toplevel'?                                               
+ 118:8    suggestion  'are used' looks like passive   Microsoft.Passive         
+                      voice.                                                    
+ 118:188  suggestion  'is shown' looks like passive   Microsoft.Passive         
+                      voice.                                                    
+ 120:6    suggestion  'Override/Set custom            Microsoft.Headings        
+                      group icons' should use                                   
+                      sentence-style capitalization.                            
+ 122:1    suggestion  Consider using 'to' instead of  Microsoft.Wordiness       
+                      'In order to'.                                            
+ 135:25   error       Use 'for example' instead of    Microsoft.Foreign         
+                      'e.g. '.                                                  
+ 135:41   error       Use 'that's' instead of 'that   Microsoft.Contractions    
+                      is'.                                                      
+ 135:46   suggestion  'is inserted' looks like        Microsoft.Passive         
+                      passive voice.                                            
+ 137:6    suggestion  'Adding a Top-Level View'       Microsoft.Headings        
+                      should use sentence-style                                 
+                      capitalization.                                           
+ 184:7    error       Did you really mean             Vale.Spelling             
+                      'destructuring'?                                          
+ 207:35   suggestion  'be registered' looks like      Microsoft.Passive         
+                      passive voice.                                            
+ 209:18   error       Did you really mean 'config'?   Vale.Spelling             
+ 216:5    suggestion  'Visualizing a Custom           Microsoft.Headings        
+                      Endpoint' should use                                      
+                      sentence-style capitalization.                            
+ 256:92   suggestion  'be rendered' looks like        Microsoft.Passive         
+                      passive voice.                                            
+ 257:24   error       Did you really mean             Vale.Spelling             
+                      'preconfigured'?                                          
+ 257:39   error       Did you really mean 'axios'?    Vale.Spelling             
+ 276:35   suggestion  Consider using 'to' instead of  Microsoft.Wordiness       
+                      'in order to'.                                            
+ 278:88   suggestion  'be shown' looks like passive   Microsoft.Passive         
+                      voice.                                                    
+
+✖ 16 errors, 2 warnings and 27 suggestions in 1 file.

@@ -1,0 +1,17 @@
+Vale results for: docs/server/notifications/notifier-msteams.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-msteams.mdx
+ 1:1    suggestion  Simplify your language. The     RedHat.ReadabilityGrade   
+                    calculated Flesch–Kincaid                                 
+                    grade level of 15.81 is above                             
+                    the recommended reading grade                             
+                    level of 9.                                               
+ 8:3    suggestion  Use sentence-style              RedHat.Headings           
+                    capitalization in 'Microsoft                              
+                    Teams Notifications'.                                     
+ 10:80  warning     Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
+ 10:80  error       Did you really mean 'url'?      Vale.Spelling             
+
+✖ 1 error, 1 warning and 2 suggestions in 1 file.

@@ -1,9 +1,12 @@
 Vale results for: docs/snapshots.md
 ===========================================
 
- docs/snapshots.md
- 1:3  warning  'Use SNAPSHOT-Versions'         Google.Headings 
-               should use sentence-style                       
-               capitalization.                                 
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/snapshots.md
+ 1:3    warning  'Use SNAPSHOT-Versions'         Google.Headings 
+                 should use sentence-style                       
+                 capitalization.                                 
+ 3:114  error    Did you really mean             Vale.Spelling   
+                 'sonatype'?                                     
+
+✖ 1 error, 1 warning and 0 suggestions in 1 file.

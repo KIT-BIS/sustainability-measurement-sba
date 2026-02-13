@@ -1,45 +1,127 @@
 Vale results for: docs/installation-and-setup/index.md
 ===========================================
 
- docs/installation-and-setup/index.md
- 35:112   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'We'.                     
- 38:32    warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'we'.                     
- 91:72    error    Use 'for example' instead of    Microsoft.Foreign  
-                   'e.g. '.                                           
- 91:98    error    Don't start a sentence with     write-good.ThereIs 
-                   'There is'.                                        
- 124:88   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'we'.                     
- 125:31   warning  Remove 'carefully' if it's not  Microsoft.Adverbs  
-                   important to the meaning of                        
-                   the statement.                                     
- 127:81   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like                           
-                   'our'.                                             
- 127:91   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'we'.                     
- 144:106  error    Don't start a sentence with     write-good.ThereIs 
-                   'There are'.                                       
- 207:1    error    Don't start a sentence with     write-good.ThereIs 
-                   'There is'.                                        
- 218:41   warning  'vast' is a weasel word!        write-good.Weasel  
- 218:71   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'we'.                     
- 219:18   warning  Remove 'easily' if it's not     Microsoft.Adverbs  
-                   important to the meaning of                        
-                   the statement.                                     
- 220:13   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'we'.                     
- 220:71   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like                           
-                   'our'.                                             
- 223:1    warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'We'.                     
- 225:12   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'we'.                     
- 226:29   warning  Try to avoid using              Microsoft.We       
-                   first-person plural like 'we'.                     
 
-✖ 4 errors, 14 warnings and 0 suggestions in 1 file.
+ docs/installation-and-setup/index.md
+ 5:3      suggestion  'Installation and Setup'        Microsoft.Headings       
+                      should use sentence-style                                
+                      capitalization.                                          
+ 10:25    suggestion  'is polled' looks like passive  Microsoft.Passive        
+                      voice.                                                   
+ 11:68    suggestion  'be discovered' looks like      Microsoft.Passive        
+                      passive voice.                                           
+ 12:19    suggestion  Try to keep sentences short (<  Microsoft.SentenceLength 
+                      30 words).                                               
+ 20:70    suggestion  Try to keep sentences short (<  Microsoft.SentenceLength 
+                      30 words).                                               
+ 24:1     suggestion  Try to keep sentences short (<  Microsoft.SentenceLength 
+                      30 words).                                               
+ 24:115   error       Use 'it's' instead of 'it is'.  Microsoft.Contractions   
+ 25:91    error       Did you really mean 'Grafana'?  Vale.Spelling            
+ 25:100   error       Did you really mean 'Datadog'?  Vale.Spelling            
+ 25:112   error       Did you really mean 'Instana'?  Vale.Spelling            
+ 33:4     suggestion  'Quick Start' should use        Microsoft.Headings       
+                      sentence-style capitalization.                           
+ 35:25    suggestion  'is built' looks like passive   Microsoft.Passive        
+                      voice.                                                   
+ 35:112   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'We'.                           
+ 37:24    error       Did you really mean 'Servlet'?  Vale.Spelling            
+ 38:32    warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'we'.                           
+ 38:46    error       Did you really mean 'Servlet'?  Vale.Spelling            
+ 40:5     suggestion  'Setting up the Spring Boot     Microsoft.Headings       
+                      Admin Server' should use                                 
+                      sentence-style capitalization.                           
+ 42:103   suggestion  Verify your use of 'as well     Microsoft.Vocab          
+                      as' with the A-Z word list.                              
+ 61:77    error       Did you really mean             Vale.Spelling            
+                      'autodiscovery'?                                         
+ 79:24    suggestion  Verify your use of 'sample'     Microsoft.Vocab          
+                      with the A-Z word list.                                  
+ 84:24    suggestion  Verify your use of 'sample'     Microsoft.Vocab          
+                      with the A-Z word list.                                  
+ 88:5     suggestion  'Registering Applications'      Microsoft.Headings       
+                      should use sentence-style                                
+                      capitalization.                                          
+ 91:72    error       Use 'for example' instead of    Microsoft.Foreign        
+                      'e.g. '.                                                 
+ 94:6     suggestion  'Using Spring Boot              Microsoft.Headings       
+                      Admin Client' should use                                 
+                      sentence-style capitalization.                           
+ 96:18    error       Use 'that's' instead of 'that   Microsoft.Contractions   
+                      is'.                                                     
+ 114:56   warning     For a general audience, use     Microsoft.GeneralURL     
+                      'address' rather than 'URL'.                             
+ 123:30   warning     For a general audience, use     Microsoft.GeneralURL     
+                      'address' rather than 'URL'.                             
+ 124:67   error       Did you really mean 'http'?     Vale.Spelling            
+ 124:88   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'we'.                           
+ 124:106  suggestion  Consider using 'all' instead    Microsoft.Wordiness      
+                      of 'all of'.                                             
+ 125:31   warning     Remove 'carefully' if it's not  Microsoft.Adverbs        
+                      important to the meaning of                              
+                      the statement.                                           
+ 125:101  error       Use 'it's' instead of 'It is'.  Microsoft.Contractions   
+ 127:54   suggestion  'is disabled' looks like        Microsoft.Passive        
+                      passive voice.                                           
+ 127:57   suggestion  Don't use language (such        Microsoft.Accessibility  
+                      as 'disabled') that defines                              
+                      people by their disability.                              
+ 127:81   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like                                 
+                      'our'.                                                   
+ 127:91   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'we'.                           
+ 134:1    error       Use 'it's' instead of 'It is'.  Microsoft.Contractions   
+ 134:50   suggestion  Verify your use of 'as well     Microsoft.Vocab          
+                      as' with the A-Z word list.                              
+ 135:1    suggestion  Verify your use of 'allows'     Microsoft.Vocab          
+                      with the A-Z word list.                                  
+ 139:6    suggestion  'Using Spring Cloud Discovery'  Microsoft.Headings       
+                      should use sentence-style                                
+                      capitalization.                                          
+ 144:83   suggestion  'are supported' looks like      Microsoft.Passive        
+                      passive voice.                                           
+ 176:95   warning     For a general audience, use     Microsoft.GeneralURL     
+                      'address' rather than 'URL'.                             
+ 176:102  error       Did you really mean             Vale.Spelling            
+                      'Eureka's'?                                              
+ 207:169  error       Did you really mean 'Admin's'?  Vale.Spelling            
+ 211:107  suggestion  Verify your use of 'above'      Microsoft.Vocab          
+                      with the A-Z word list.                                  
+ 218:29   suggestion  'be run' looks like passive     Microsoft.Passive        
+                      voice.                                                   
+ 218:71   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'we'.                           
+ 219:18   warning     Remove 'easily' if it's not     Microsoft.Adverbs        
+                      important to the meaning of                              
+                      the statement.                                           
+ 219:66   error       Did you really mean             Vale.Spelling            
+                      'Dockerfile'?                                            
+ 220:13   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'we'.                           
+ 220:45   error       Use 'we've' instead of 'we      Microsoft.Contractions   
+                      have'.                                                   
+ 220:71   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like                                 
+                      'our'.                                                   
+ 223:1    warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'We'.                           
+ 223:4    error       Use 'don't' instead of 'do      Microsoft.Contractions   
+                      not'.                                                    
+ 224:1    error       Use 'they're' instead of 'They  Microsoft.Contractions   
+                      are'.                                                    
+ 224:6    suggestion  'are provided' looks like       Microsoft.Passive        
+                      passive voice.                                           
+ 224:29   error       Use 'aren't' instead of 'are    Microsoft.Contractions   
+                      not'.                                                    
+ 225:12   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'we'.                           
+ 225:30   error       Use 'they're' instead of 'they  Microsoft.Contractions   
+                      are'.                                                    
+ 226:29   warning     Try to avoid using              Microsoft.We             
+                      first-person plural like 'we'.                           
+
+✖ 20 errors, 16 warnings and 24 suggestions in 1 file.

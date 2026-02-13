@@ -1,0 +1,170 @@
+Vale results for: docs/server/01-server.mdx
+===========================================
+
+
+ docs/server/01-server.mdx
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade      
+                     calculated Flesch–Kincaid                                    
+                     grade level of 10.68 is above                                
+                     the recommended reading grade                                
+                     level of 9.                                                  
+ 9:3     suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in 'Set up the                                
+                     Server'.                                                     
+ 11:4    suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in 'Running                                   
+                     Behind a Front-end Proxy                                     
+                     Server'.                                                     
+ 13:76   warning     Consider using 'might' or       RedHat.TermsWarnings         
+                     'can' rather than 'may' unless                               
+                     updating existing content that                               
+                     uses the term.                                               
+ 13:80   suggestion  'be requried' is passive        RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 13:83   warning     Verify the word 'requried'. It  RedHat.Spelling              
+                     is not in the American English                               
+                     spelling dictionary used by                                  
+                     Vale.                                                        
+ 13:83   error       Did you really mean             Vale.Spelling                
+                     'requried'?                                                  
+ 13:116  warning     Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms    
+ 13:116  error       Did you really mean 'url'?      Vale.Spelling                
+ 13:150  suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                     consider using 'through',                                    
+                     'by', 'from', 'on', or 'by                                   
+                     using' rather than 'via'.                                    
+ 13:242  error       Did you really mean 'https'?    Vale.Spelling                
+ 13:263  warning     Consider using 'might' or       RedHat.TermsWarnings         
+                     'can' rather than 'may' unless                               
+                     updating existing content that                               
+                     uses the term.                                               
+ 15:4    suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in 'Spring                                    
+                     Cloud Discovery'.                                            
+ 17:133  warning     Do not use smart quotation      RedHat.SmartQuotes           
+                     marks. Use ''' rather than ’.                                
+ 17:287  suggestion  'is done' is passive voice.     RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 17:298  suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('AutoConfiguration') in                                     
+                     backticks.                                                   
+ 19:5    suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in 'Static                                    
+                     Configuration using                                          
+                     SimpleDiscoveryClient'.                                      
+ 21:53   suggestion  Do not use transitive verb      RedHat.ProductCentricWriting 
+                     constructions like 'allows                                   
+                     you' to grant abilities to                                   
+                     inanimate objects. Whenever                                  
+                     possible, use direct,                                        
+                     user-focused sentences where                                 
+                     the subject of the sentence                                  
+                     performs the action.                                         
+ 21:95   suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                     consider using 'through',                                    
+                     'by', 'from', 'on', or 'by                                   
+                     using' rather than 'via'.                                    
+ 46:5    suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in 'Other                                     
+                     DiscoveryClients'.                                           
+ 48:69   warning     Do not use smart quotation      RedHat.SmartQuotes           
+                     marks. Use ''' rather than ’.                                
+ 48:566  suggestion  Avoid the ellipsis (...)        RedHat.Ellipses              
+                     except to indicate omitted                                   
+                     words.                                                       
+ 48:661  warning     Use 'by using' instead of       RedHat.Using                 
+                     'using' when it follows a noun                               
+                     for clarity and grammatical                                  
+                     correctness.                                                 
+ 48:746  suggestion  'is shown' is passive voice.    RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 48:755  suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                     consider using 'earlier',                                    
+                     'previous', 'preceding', or                                  
+                     'before' rather than 'above'.                                
+ 50:5    suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in 'Converting                                
+                     ServiceInstances'.                                           
+ 52:43   suggestion  'are converted' is passive      RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 52:110  error       Use 'includes' rather than      RedHat.TermsErrors           
+                     'ships with'.                                                
+ 52:184  suggestion  'is selected' is passive        RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 52:199  suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('AutoConfiguration') in                                     
+                     backticks.                                                   
+ 55:9    suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                     using 'change' rather than                                   
+                     'modify'.                                                    
+ 55:54   suggestion  'is used' is passive voice.     RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 55:99   suggestion  Define acronyms and             RedHat.Definitions           
+                     abbreviations (such as 'SBA')                                
+                     on first occurrence if they're                               
+                     likely to be unfamiliar.                                     
+ 55:217  error       Did you really mean 'config'?   Vale.Spelling                
+ 55:253  warning     Do not use smart quotation      RedHat.SmartQuotes           
+                     marks. Use ''' rather than ’.                                
+ 55:279  suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                     using 'give' or 'offer' rather                               
+                     than 'provide'.                                              
+ 55:296  suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('ServiceInstanceConverter')                                 
+                     in backticks.                                                
+ 59:24   suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('healthCheckUrl') in                                        
+                     backticks.                                                   
+ 59:55   suggestion  'is used' is passive voice.     RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 59:94   suggestion  'be set' is passive voice.      RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 59:109  warning     Use 'by using' instead of       RedHat.Using                 
+                     'using' when it follows a noun                               
+                     for clarity and grammatical                                  
+                     correctness.                                                 
+ 59:138  suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('healthCheckUrl') in                                        
+                     backticks.                                                   
+ 67:5    suggestion  Use sentence-style              RedHat.Headings              
+                     capitalization in                                            
+                     'CloudFoundry'.                                              
+ 69:43   suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                     Pascal or Camel case term                                    
+                     ('CloudFoundry') in backticks.                               
+ 69:144  suggestion  'be added' is passive voice.    RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+
+✖ 5 errors, 9 warnings and 31 suggestions in 1 file.

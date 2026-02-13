@@ -1,0 +1,10 @@
+Vale results for: docs/server/notifications/notifier-hipchat.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-hipchat.mdx
+ 8:3     error  Did you really mean 'Hipchat'?  Vale.Spelling 
+ 10:12   error  Did you really mean 'Hipchat'?  Vale.Spelling 
+ 10:101  error  Did you really mean 'Hipchat'?  Vale.Spelling 
+
+✖ 3 errors, 0 warnings and 0 suggestions in 1 file.

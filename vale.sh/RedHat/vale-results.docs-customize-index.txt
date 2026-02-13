@@ -1,14 +1,42 @@
 Vale results for: docs/customize/index.md
 ===========================================
 
- docs/customize/index.md
- 1:27   warning  Use either 'or' or 'and' in     RedHat.Slash         
-                 'theme/DocCardList'                                  
- 5:103  warning  Do not use smart quotation      RedHat.SmartQuotes   
-                 marks. Use ''' rather than ’.                        
- 7:36   warning  Consider using 'such as'        RedHat.TermsWarnings 
-                 rather than 'like' unless                            
-                 updating existing content that                       
-                 uses the term.                                       
 
-✖ 0 errors, 3 warnings and 0 suggestions in 1 file.
+ docs/customize/index.md
+ 1:1    suggestion  Simplify your language. The     RedHat.ReadabilityGrade      
+                    calculated Flesch–Kincaid                                    
+                    grade level of 12.58 is above                                
+                    the recommended reading grade                                
+                    level of 9.                                                  
+ 1:8    suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                    Pascal or Camel case term                                    
+                    ('DocCardList') in backticks.                                
+ 1:27   warning     Use either 'or' or 'and' in     RedHat.Slash                 
+                    'theme/DocCardList'                                          
+ 1:33   suggestion  Consider wrapping this          RedHat.PascalCamelCase       
+                    Pascal or Camel case term                                    
+                    ('DocCardList') in backticks.                                
+ 5:103  warning     Do not use smart quotation      RedHat.SmartQuotes           
+                    marks. Use ''' rather than ’.                                
+ 5:127  suggestion  Do not use transitive verb      RedHat.ProductCentricWriting 
+                    constructions like 'allows                                   
+                    you' to grant abilities to                                   
+                    inanimate objects. Whenever                                  
+                    possible, use direct,                                        
+                    user-focused sentences where                                 
+                    the subject of the sentence                                  
+                    performs the action.                                         
+ 7:16   suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                    using 'change' rather than                                   
+                    'modify'.                                                    
+ 7:36   warning     Consider using 'such as'        RedHat.TermsWarnings         
+                    rather than 'like' unless                                    
+                    updating existing content that                               
+                    uses the term.                                               
+ 12:30  suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                    using 'many' rather than                                     
+                    'multiple'.                                                  
+ 14:1   suggestion  Try to keep sentences to an     RedHat.SentenceLength        
+                    average of 32 words or fewer.                                
+
+✖ 0 errors, 3 warnings and 7 suggestions in 1 file.

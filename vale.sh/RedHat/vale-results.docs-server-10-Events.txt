@@ -1,0 +1,150 @@
+Vale results for: docs/server/10-Events.mdx
+===========================================
+
+
+ docs/server/10-Events.mdx
+ 1:1     suggestion  Simplify your language. The          RedHat.ReadabilityGrade 
+                     calculated Flesch–Kincaid                                    
+                     grade level of 9.57 is above                                 
+                     the recommended reading grade                                
+                     level of 9.                                                  
+ 5:3     suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in                                            
+                     'Server(-Sent) Events'.                                      
+ 8:35    suggestion  Depending on the context,            RedHat.TermsSuggestions 
+                     consider using 'after',                                      
+                     'later', or 'following' rather                               
+                     than 'below'.                                                
+ 8:60    suggestion  'is stored' is passive voice.        RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 12:70   suggestion  Consider wrapping this               RedHat.PascalCamelCase  
+                     Pascal or Camel case term                                    
+                     ('AuditEvent') in backticks.                                 
+ 13:105  suggestion  Consider wrapping this               RedHat.PascalCamelCase  
+                     Pascal or Camel case term                                    
+                     ('AuditEvents') in backticks.                                
+ 13:117  suggestion  'are used' is passive voice.         RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 17:4    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in 'Event                                     
+                     Endpoints'.                                                  
+ 19:76   suggestion  Depending on the context,            RedHat.TermsSuggestions 
+                     consider using 'through',                                    
+                     'by', 'from', 'on', or 'by                                   
+                     using' rather than 'via'.                                    
+ 21:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in 'List All                                  
+                     Events'.                                                     
+ 26:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in 'Stream All                                
+                     Events'.                                                     
+ 31:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in 'Stream                                    
+                     Events for a Specific                                        
+                     Instance'.                                                   
+ 35:4    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in 'Available                                 
+                     Events'.                                                     
+ 37:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in                                            
+                     'InstanceRegisteredEvent'.                                   
+ 38:35   suggestion  'been registered' is passive         RedHat.PassiveVoice     
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 39:12   suggestion  'is used' is passive voice.          RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 39:43   suggestion  Define acronyms and                  RedHat.Definitions      
+                     abbreviations (such as 'SBA')                                
+                     on first occurrence if they're                               
+                     likely to be unfamiliar.                                     
+ 41:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in                                            
+                     'InstanceRegistrationUpdatedEvent'.                          
+ 43:12   suggestion  'is used' is passive voice.          RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 43:47   suggestion  'is accessed' is passive             RedHat.PassiveVoice     
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 45:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in                                            
+                     'InstanceEndpointsDetectedEvent'.                            
+ 46:77   suggestion  'been detected' is passive           RedHat.PassiveVoice     
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 47:12   suggestion  'is used' is passive voice.          RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 49:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in                                            
+                     'InstanceInfoChangedEvent'.                                  
+ 51:12   suggestion  'is used' is passive voice.          RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 53:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in                                            
+                     'InstanceStatusChangedEvent'.                                
+ 54:65   suggestion  Define acronyms and                  RedHat.Definitions      
+                     abbreviations (such as 'DOWN')                               
+                     on first occurrence if they're                               
+                     likely to be unfamiliar.                                     
+ 55:12   suggestion  'is used' is passive voice.          RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 55:83   warning     Consider using 'might' or            RedHat.TermsWarnings    
+                     'can' rather than 'may' unless                               
+                     updating existing content that                               
+                     uses the term.                                               
+ 57:5    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in                                            
+                     'InstanceDeregisteredEvent'.                                 
+ 58:32   suggestion  'been unregistered' is passive       RedHat.PassiveVoice     
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 59:12   suggestion  'is used' is passive voice.          RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 61:4    suggestion  Use sentence-style                   RedHat.Headings         
+                     capitalization in 'Viewing                                   
+                     Events in the UI Journal'.                                   
+ 63:31   suggestion  Depending on the context,            RedHat.TermsSuggestions 
+                     consider using 'earlier',                                    
+                     'previous', 'preceding', or                                  
+                     'before' rather than 'above'.                                
+ 63:41   suggestion  'be viewed' is passive voice.        RedHat.PassiveVoice     
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 67:39   suggestion  Depending on the context,            RedHat.TermsSuggestions 
+                     consider using 'Operators'                                   
+                     rather than 'operators'.                                     
+
+✖ 0 errors, 1 warning and 35 suggestions in 1 file.

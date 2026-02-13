@@ -1,0 +1,12 @@
+Vale results for: docs/80-actuator-endpoints-overview.mdx
+===========================================
+
+
+ docs/80-actuator-endpoints-overview.mdx
+ 10:40  error  Did you really mean 'Config'?   Vale.Spelling 
+ 17:40  error  Did you really mean 'Jolokia'?  Vale.Spelling 
+ 18:40  error  Did you really mean             Vale.Spelling 
+               'Liquibase'?                                  
+ 19:40  error  Did you really mean 'Logfile'?  Vale.Spelling 
+
+✖ 4 errors, 0 warnings and 0 suggestions in 1 file.

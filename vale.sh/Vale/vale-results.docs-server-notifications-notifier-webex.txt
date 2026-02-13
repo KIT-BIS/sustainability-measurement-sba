@@ -1,0 +1,9 @@
+Vale results for: docs/server/notifications/notifier-webex.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-webex.mdx
+ 8:3    error  Did you really mean 'Webex'?  Vale.Spelling 
+ 10:12  error  Did you really mean 'Webex'?  Vale.Spelling 
+
+✖ 2 errors, 0 warnings and 0 suggestions in 1 file.

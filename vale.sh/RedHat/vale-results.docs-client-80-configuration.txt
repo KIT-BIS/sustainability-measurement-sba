@@ -1,17 +1,68 @@
 Vale results for: docs/client/80-configuration.md
 ===========================================
 
- docs/client/80-configuration.md
- 23:171  warning  Verify the word 'routable'. It  RedHat.Spelling           
-                  is not in the American English                            
-                  spelling dictionary used by                               
-                  Vale.                                                     
- 24:109  warning  Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
- 24:216  warning  Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
- 25:123  warning  Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms 
- 25:142  warning  Verify the word 'href'. It is   RedHat.Spelling           
-                  not in the American English                               
-                  spelling dictionary used by                               
-                  Vale.                                                     
 
-✖ 0 errors, 5 warnings and 0 suggestions in 1 file.
+ docs/client/80-configuration.md
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade      
+                     calculated Flesch–Kincaid                                    
+                     grade level of 15.21 is above                                
+                     the recommended reading grade                                
+                     level of 9.                                                  
+ 9:9     suggestion  'are handled' is passive        RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 10:10   suggestion  Do not use transitive verb      RedHat.ProductCentricWriting 
+                     constructions like 'allows                                   
+                     you' to grant abilities to                                   
+                     inanimate objects. Whenever                                  
+                     possible, use direct,                                        
+                     user-focused sentences where                                 
+                     the subject of the sentence                                  
+                     performs the action.                                         
+ 12:43   suggestion  'is recognized' is passive      RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 13:1    suggestion  Try to keep sentences to an     RedHat.SentenceLength        
+                     average of 32 words or fewer.                                
+ 14:6    suggestion  'be applied' is passive voice.  RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+ 22:123  suggestion  Use simple language. Consider   RedHat.SimpleWords           
+                     using 'total' rather than                                    
+                     'aggregate'.                                                 
+ 23:171  error       Did you really mean             Vale.Spelling                
+                     'routable'?                                                  
+ 23:171  warning     Verify the word 'routable'. It  RedHat.Spelling              
+                     is not in the American English                               
+                     spelling dictionary used by                                  
+                     Vale.                                                        
+ 24:109  warning     Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms    
+ 24:109  error       Did you really mean 'url'?      Vale.Spelling                
+ 24:216  error       Did you really mean 'url'?      Vale.Spelling                
+ 24:216  warning     Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms    
+ 25:123  error       Did you really mean 'url'?      Vale.Spelling                
+ 25:123  warning     Use 'URL' rather than 'url'.    RedHat.CaseSensitiveTerms    
+ 25:142  error       Did you really mean 'href'?     Vale.Spelling                
+ 25:142  warning     Verify the word 'href'. It is   RedHat.Spelling              
+                     not in the American English                                  
+                     spelling dictionary used by                                  
+                     Vale.                                                        
+ 25:184  error       Did you really mean 'boolean'?  Vale.Spelling                
+ 26:115  suggestion  'be associated' is passive      RedHat.PassiveVoice          
+                     voice. In general, use active                                
+                     voice. Consult the style guide                               
+                     for acceptable use of passive                                
+                     voice.                                                       
+ 27:100  suggestion  'being used' is passive voice.  RedHat.PassiveVoice          
+                     In general, use active voice.                                
+                     Consult the style guide for                                  
+                     acceptable use of passive                                    
+                     voice.                                                       
+
+✖ 6 errors, 5 warnings and 9 suggestions in 1 file.

@@ -1,0 +1,11 @@
+Vale results for: docs/server/notifications/notifier-rocketchat.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-rocketchat.mdx
+ 8:3    warning  'RocketChat Notifications'      Google.Headings 
+                 should use sentence-style                       
+                 capitalization.                                 
+ 10:17  error    't.C' should have one space.    Google.Spacing  
+
+✖ 1 error, 1 warning and 0 suggestions in 1 file.

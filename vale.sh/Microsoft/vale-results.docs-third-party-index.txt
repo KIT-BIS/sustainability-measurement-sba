@@ -1,3 +1,11 @@
 Vale results for: docs/third-party/index.md
 ===========================================
-✔ 0 errors, 0 warnings and 0 suggestions in 1 file.
+
+
+ docs/third-party/index.md
+ 1:45  suggestion  Try to simplify this sentence.  Microsoft.Semicolon 
+ 3:3   suggestion  'Third Party Integrations'      Microsoft.Headings  
+                   should use sentence-style                           
+                   capitalization.                                     
+
+✔ 0 errors, 0 warnings and 2 suggestions in 1 file.

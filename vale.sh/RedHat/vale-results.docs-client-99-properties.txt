@@ -1,0 +1,15 @@
+Vale results for: docs/client/99-properties.mdx
+===========================================
+
+
+ docs/client/99-properties.mdx
+ 1:1  suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                  calculated Flesch–Kincaid                               
+                  grade level of 16.19 is above                           
+                  the recommended reading grade                           
+                  level of 9.                                             
+ 6:3  suggestion  Use sentence-style              RedHat.Headings         
+                  capitalization in 'Spring Boot                          
+                  Admin Client'.                                          
+
+✔ 0 errors, 0 warnings and 2 suggestions in 1 file.

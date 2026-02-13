@@ -1,15 +1,26 @@
 Vale results for: docs/01-index.md
 ===========================================
 
- docs/01-index.md
- 8:60   warning  ': O' should be in lowercase.  Google.Colons 
- 9:73   warning  ': S' should be in lowercase.  Google.Colons 
- 10:76  warning  ': S' should be in lowercase.  Google.Colons 
- 11:67  warning  ': V' should be in lowercase.  Google.Colons 
- 12:52  warning  ': A' should be in lowercase.  Google.Colons 
- 13:54  warning  ': V' should be in lowercase.  Google.Colons 
- 14:58  warning  ': C' should be in lowercase.  Google.Colons 
- 15:60  warning  ': V' should be in lowercase.  Google.Colons 
- 16:66  warning  ': I' should be in lowercase.  Google.Colons 
 
-✖ 0 errors, 9 warnings and 0 suggestions in 1 file.
+ docs/01-index.md
+ 1:56    suggestion  Use semicolons judiciously.     Google.Semicolons 
+ 8:60    warning     ': O' should be in lowercase.   Google.Colons     
+ 9:73    warning     ': S' should be in lowercase.   Google.Colons     
+ 10:76   warning     ': S' should be in lowercase.   Google.Colons     
+ 11:56   error       Did you really mean 'Env'?      Vale.Spelling     
+ 11:67   warning     ': V' should be in lowercase.   Google.Colons     
+ 12:49   suggestion  Spell out 'JMX', if it's        Google.Acronyms   
+                     unfamiliar to the audience.                       
+ 12:52   warning     ': A' should be in lowercase.   Google.Colons     
+ 12:73   suggestion  Spell out 'JMX', if it's        Google.Acronyms   
+                     unfamiliar to the audience.                       
+ 13:54   warning     ': V' should be in lowercase.   Google.Colons     
+ 14:58   warning     ': C' should be in lowercase.   Google.Colons     
+ 15:60   warning     ': V' should be in lowercase.   Google.Colons     
+ 16:56   error       Did you really mean             Vale.Spelling     
+                     'Threaddump'?                                     
+ 16:66   warning     ': I' should be in lowercase.   Google.Colons     
+ 16:123  error       Did you really mean             Vale.Spelling     
+                     'threaddump'?                                     
+
+✖ 3 errors, 9 warnings and 3 suggestions in 1 file.

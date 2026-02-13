@@ -1,0 +1,11 @@
+Vale results for: docs/server/notifications/notifier-lets-chat.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-lets-chat.mdx
+ 8:3     suggestion  'Let’s Chat Notifications'      Microsoft.Headings 
+                     should use sentence-style                          
+                     capitalization.                                    
+ 10:104  error       Did you really mean 'url'?      Vale.Spelling      
+
+✖ 1 error, 0 warnings and 1 suggestion in 1 file.

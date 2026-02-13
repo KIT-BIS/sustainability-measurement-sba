@@ -1,23 +1,22 @@
 Vale results for: docs/customize/02-extend_ui.md
 ===========================================
 
- docs/customize/02-extend_ui.md
- 8:42     error  Did you really mean 'Navbar'?   Vale.Spelling      
- 27:35    error  Did you really mean 'navbar'?   Vale.Spelling      
- 29:53    error  Did you really mean 'navbar'?   Vale.Spelling      
- 75:43    error  Did you really mean 'ui'?       Vale.Spelling      
- 77:64    error  Did you really mean             Vale.Spelling      
-                 'classpath'?                                       
- 107:12   error  Did you really mean 'Vue'?      Vale.Spelling      
- 116:185  error  Did you really mean             Vale.Spelling      
-                 'toplevel'?                                        
- 184:7    error  Did you really mean             Vale.Spelling      
-                 'destructuring'?                                   
- 187:1    error  Don't start a sentence with     write-good.ThereIs 
-                 'There are'.                                       
- 209:18   error  Did you really mean 'config'?   Vale.Spelling      
- 257:24   error  Did you really mean             Vale.Spelling      
-                 'preconfigured'?                                   
- 257:39   error  Did you really mean 'axios'?    Vale.Spelling      
 
-✖ 12 errors, 0 warnings and 0 suggestions in 1 file.
+ docs/customize/02-extend_ui.md
+ 8:42     error  Did you really mean 'Navbar'?   Vale.Spelling 
+ 27:35    error  Did you really mean 'navbar'?   Vale.Spelling 
+ 29:53    error  Did you really mean 'navbar'?   Vale.Spelling 
+ 75:43    error  Did you really mean 'ui'?       Vale.Spelling 
+ 77:64    error  Did you really mean             Vale.Spelling 
+                 'classpath'?                                  
+ 107:12   error  Did you really mean 'Vue'?      Vale.Spelling 
+ 116:185  error  Did you really mean             Vale.Spelling 
+                 'toplevel'?                                   
+ 184:7    error  Did you really mean             Vale.Spelling 
+                 'destructuring'?                              
+ 209:18   error  Did you really mean 'config'?   Vale.Spelling 
+ 257:24   error  Did you really mean             Vale.Spelling 
+                 'preconfigured'?                              
+ 257:39   error  Did you really mean 'axios'?    Vale.Spelling 
+
+✖ 11 errors, 0 warnings and 0 suggestions in 1 file.

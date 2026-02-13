@@ -1,0 +1,21 @@
+Vale results for: docs/server/notifications/notifier-mattermost.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-mattermost.mdx
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                     calculated Flesch–Kincaid                               
+                     grade level of 16.76 is above                           
+                     the recommended reading grade                           
+                     level of 9.                                             
+ 8:3     suggestion  Use sentence-style              RedHat.Headings         
+                     capitalization in 'Mattermost                           
+                     Notifications'.                                         
+ 8:3     error       Did you really mean             Vale.Spelling           
+                     'Mattermost'?                                           
+ 10:12   error       Did you really mean             Vale.Spelling           
+                     'Mattermost'?                                           
+ 10:120  error       Did you really mean             Vale.Spelling           
+                     'Mattermost'?                                           
+
+✖ 3 errors, 0 warnings and 2 suggestions in 1 file.

@@ -1,0 +1,8 @@
+Vale results for: docs/server/notifications/notifier-lets-chat.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-lets-chat.mdx
+ 10:104  error  Did you really mean 'url'?  Vale.Spelling 
+
+✖ 1 error, 0 warnings and 0 suggestions in 1 file.

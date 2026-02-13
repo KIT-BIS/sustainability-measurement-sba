@@ -1,0 +1,14 @@
+Vale results for: docs/server/notifications/notifier-mail.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-mail.mdx
+ 8:3    warning     'Mail Notifications'            Google.Headings 
+                    should use sentence-style                       
+                    capitalization.                                 
+ 10:20  warning     Avoid using 'will'.             Google.Will     
+ 10:25  suggestion  In general, use active voice    Google.Passive  
+                    instead of passive voice ('be                   
+                    delivered').                                    
+
+✖ 0 errors, 2 warnings and 1 suggestion in 1 file.

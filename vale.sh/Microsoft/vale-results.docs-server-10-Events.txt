@@ -1,0 +1,70 @@
+Vale results for: docs/server/10-Events.mdx
+===========================================
+
+
+ docs/server/10-Events.mdx
+ 5:3     suggestion  'Server(-Sent) Events'          Microsoft.Headings        
+                     should use sentence-style                                 
+                     capitalization.                                           
+ 8:60    suggestion  'is stored' looks like passive  Microsoft.Passive         
+                     voice.                                                    
+ 9:6     suggestion  Verify your use of 'allows'     Microsoft.Vocab           
+                     with the A-Z word list.                                   
+ 9:99    error       Use 'isn't' instead of 'is      Microsoft.Contractions    
+                     not'.                                                     
+ 12:36   error       Use 'aren't' instead of 'are    Microsoft.Contractions    
+                     not'.                                                     
+ 13:117  suggestion  'are used' looks like passive   Microsoft.Passive         
+                     voice.                                                    
+ 17:4    suggestion  'Event Endpoints' should use    Microsoft.Headings        
+                     sentence-style capitalization.                            
+ 21:5    suggestion  'List All Events' should use    Microsoft.Headings        
+                     sentence-style capitalization.                            
+ 26:5    suggestion  'Stream All Events' should use  Microsoft.Headings        
+                     sentence-style capitalization.                            
+ 31:5    suggestion  'Stream Events for a            Microsoft.Headings        
+                     Specific Instance' should use                             
+                     sentence-style capitalization.                            
+ 35:4    suggestion  'Available Events' should use   Microsoft.Headings        
+                     sentence-style capitalization.                            
+ 38:35   suggestion  'been registered' looks like    Microsoft.Passive         
+                     passive voice.                                            
+ 39:12   suggestion  'is used' looks like passive    Microsoft.Passive         
+                     voice.                                                    
+ 39:43   suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 42:68   error       Use 'for example' instead of    Microsoft.Foreign         
+                     'e.g.,'.                                                  
+ 42:89   warning     For a general audience, use     Microsoft.GeneralURL      
+                     'address' rather than 'URL'.                              
+ 43:12   suggestion  'is used' looks like passive    Microsoft.Passive         
+                     voice.                                                    
+ 43:47   suggestion  'is accessed' looks like        Microsoft.Passive         
+                     passive voice.                                            
+ 46:77   suggestion  'been detected' looks like      Microsoft.Passive         
+                     passive voice.                                            
+ 47:12   suggestion  'is used' looks like passive    Microsoft.Passive         
+                     voice.                                                    
+ 50:42   error       Use 'for example' instead of    Microsoft.Foreign         
+                     'e.g.,'.                                                  
+ 51:12   suggestion  'is used' looks like passive    Microsoft.Passive         
+                     voice.                                                    
+ 54:48   error       Use 'for example' instead of    Microsoft.Foreign         
+                     'e.g.,'.                                                  
+ 54:65   suggestion  'DOWN' has no definition.       Microsoft.Acronyms        
+ 55:12   suggestion  'is used' looks like passive    Microsoft.Passive         
+                     voice.                                                    
+ 58:32   suggestion  'been unregistered' looks like  Microsoft.Passive         
+                     passive voice.                                            
+ 59:12   suggestion  'is used' looks like passive    Microsoft.Passive         
+                     voice.                                                    
+ 61:4    suggestion  'Viewing Events in the          Microsoft.Headings        
+                     UI Journal' should use                                    
+                     sentence-style capitalization.                            
+ 61:26   warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                     title or heading.                                         
+ 63:31   suggestion  Verify your use of 'above'      Microsoft.Vocab           
+                     with the A-Z word list.                                   
+ 63:41   suggestion  'be viewed' looks like passive  Microsoft.Passive         
+                     voice.                                                    
+
+✖ 5 errors, 2 warnings and 24 suggestions in 1 file.

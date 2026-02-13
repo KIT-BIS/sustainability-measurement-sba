@@ -1,18 +1,39 @@
 Vale results for: docs/01-index.md
 ===========================================
 
- docs/01-index.md
- 11:56   warning  Verify the word 'Env'. It is    RedHat.Spelling 
-                  not in the American English                     
-                  spelling dictionary used by                     
-                  Vale.                                           
- 16:56   warning  Verify the word 'Threaddump'.   RedHat.Spelling 
-                  It is not in the American                       
-                  English spelling dictionary                     
-                  used by Vale.                                   
- 16:123  warning  Verify the word 'threaddump'.   RedHat.Spelling 
-                  It is not in the American                       
-                  English spelling dictionary                     
-                  used by Vale.                                   
 
-✖ 0 errors, 3 warnings and 0 suggestions in 1 file.
+ docs/01-index.md
+ 1:1     suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                     calculated Flesch–Kincaid                               
+                     grade level of 32.95 is above                           
+                     the recommended reading grade                           
+                     level of 9.                                             
+ 5:2     suggestion  Try to keep sentences to an     RedHat.SentenceLength   
+                     average of 32 words or fewer.                           
+ 11:56   error       Did you really mean 'Env'?      Vale.Spelling           
+ 11:56   warning     Verify the word 'Env'. It is    RedHat.Spelling         
+                     not in the American English                             
+                     spelling dictionary used by                             
+                     Vale.                                                   
+ 12:49   suggestion  Define acronyms and             RedHat.Definitions      
+                     abbreviations (such as 'JMX')                           
+                     on first occurrence if they're                          
+                     likely to be unfamiliar.                                
+ 12:73   suggestion  Define acronyms and             RedHat.Definitions      
+                     abbreviations (such as 'JMX')                           
+                     on first occurrence if they're                          
+                     likely to be unfamiliar.                                
+ 16:56   error       Did you really mean             Vale.Spelling           
+                     'Threaddump'?                                           
+ 16:56   warning     Verify the word 'Threaddump'.   RedHat.Spelling         
+                     It is not in the American                               
+                     English spelling dictionary                             
+                     used by Vale.                                           
+ 16:123  error       Did you really mean             Vale.Spelling           
+                     'threaddump'?                                           
+ 16:123  warning     Verify the word 'threaddump'.   RedHat.Spelling         
+                     It is not in the American                               
+                     English spelling dictionary                             
+                     used by Vale.                                           
+
+✖ 3 errors, 3 warnings and 4 suggestions in 1 file.

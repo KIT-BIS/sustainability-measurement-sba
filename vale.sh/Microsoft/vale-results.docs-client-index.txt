@@ -1,7 +1,24 @@
 Vale results for: docs/client/index.md
 ===========================================
 
- docs/client/index.md
- 9:88  warning  'relatively' is a weasel word!  write-good.Weasel 
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/client/index.md
+ 1:45    suggestion  Try to simplify this sentence.  Microsoft.Semicolon    
+ 3:3     suggestion  'Registering Clients'           Microsoft.Headings     
+                     should use sentence-style                              
+                     capitalization.                                        
+ 5:19    suggestion  'is built' looks like passive   Microsoft.Passive      
+                     voice.                                                 
+ 5:222   error       Did you really mean 'Nacos'?    Vale.Spelling          
+ 13:32   error       Use 'doesn't' instead of 'does  Microsoft.Contractions 
+                     not'.                                                  
+ 13:138  suggestion  'are registered' looks like     Microsoft.Passive      
+                     passive voice.                                         
+ 13:175  suggestion  'are discovered' looks like     Microsoft.Passive      
+                     passive voice.                                         
+ 13:231  suggestion  Verify your use of 'allows'     Microsoft.Vocab        
+                     with the A-Z word list.                                
+ 22:94   suggestion  Verify your use of 'ensure'     Microsoft.Vocab        
+                     with the A-Z word list.                                
+
+✖ 2 errors, 0 warnings and 7 suggestions in 1 file.

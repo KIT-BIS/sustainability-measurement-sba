@@ -1,8 +1,11 @@
 Vale results for: docs/customize/04-customize_interceptors.md
 ===========================================
 
- docs/customize/04-customize_interceptors.md
- 6:3  warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
-               title or heading.                                         
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/customize/04-customize_interceptors.md
+ 6:3  suggestion  'HTTP Interceptors' should use  Microsoft.Headings        
+                  sentence-style capitalization.                            
+ 6:3  warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                  title or heading.                                         
+
+✖ 0 errors, 1 warning and 1 suggestion in 1 file.

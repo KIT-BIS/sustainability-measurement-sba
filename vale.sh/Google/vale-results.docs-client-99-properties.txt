@@ -1,0 +1,12 @@
+Vale results for: docs/client/99-properties.mdx
+===========================================
+
+
+ docs/client/99-properties.mdx
+ 6:3    warning  'Spring Boot Admin Client'      Google.Headings 
+                 should use sentence-style                       
+                 capitalization.                                 
+ 9:104  warning  Use 'app' instead of            Google.WordList 
+                 'application'.                                  
+
+✖ 0 errors, 2 warnings and 0 suggestions in 1 file.

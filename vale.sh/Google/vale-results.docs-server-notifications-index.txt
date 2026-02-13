@@ -1,0 +1,55 @@
+Vale results for: docs/server/notifications/index.mdx
+===========================================
+
+
+ docs/server/notifications/index.mdx
+ 39:4     warning     'Notification Proxy Settings'   Google.Headings   
+                      should use sentence-style                         
+                      capitalization.                                   
+ 41:52    suggestion  In general, use active voice    Google.Passive    
+                      instead of passive voice ('be                     
+                      configured').                                     
+ 50:4     warning     'Notification Reminder'         Google.Headings   
+                      should use sentence-style                         
+                      capitalization.                                   
+ 54:24    suggestion  In general, use active voice    Google.Passive    
+                      instead of passive voice ('is                     
+                      triggered').                                      
+ 54:55    warning     Use 'app' instead of            Google.WordList   
+                      'application'.                                    
+ 54:250   warning     Use 'app' instead of            Google.WordList   
+                      'application'.                                    
+ 54:267   error       Did you really mean             Vale.Spelling     
+                      'deregistered'?                                   
+ 56:27    suggestion  In general, use active voice    Google.Passive    
+                      instead of passive voice ('are                    
+                      sent').                                           
+ 56:251   suggestion  Use semicolons judiciously.     Google.Semicolons 
+ 77:18    warning     Avoid using 'will'.             Google.Will       
+ 77:23    suggestion  In general, use active voice    Google.Passive    
+                      instead of passive voice ('be                     
+                      sent').                                           
+ 80:4     warning     'Filtering Notifications'       Google.Headings   
+                      should use sentence-style                         
+                      capitalization.                                   
+ 89:1     suggestion  Use parentheses judiciously.    Google.Parens     
+ 89:44    warning     Use 'app' instead of            Google.WordList   
+                      'application'.                                    
+ 89:159   suggestion  In general, use active voice    Google.Passive    
+                      instead of passive voice ('be                     
+                      set').                                            
+ 93:101   suggestion  Spell out 'SBA', if it's        Google.Acronyms   
+                      unfamiliar to the audience.                       
+ 97:151   warning     Use 'app' instead of            Google.WordList   
+                      'application'.                                    
+ 97:179   suggestion  Use parentheses judiciously.    Google.Parens     
+ 132:1    suggestion  Use parentheses judiciously.    Google.Parens     
+ 132:55   error       Use 'for example' instead of    Google.Latin      
+                      'e.g.'.                                           
+ 136:118  warning     Use 'app' instead of            Google.WordList   
+                      'application'.                                    
+ 136:175  suggestion  Use parentheses judiciously.    Google.Parens     
+ 140:4    warning     'Shipped Notifiers' should use  Google.Headings   
+                      sentence-style capitalization.                    
+
+✖ 2 errors, 10 warnings and 11 suggestions in 1 file.

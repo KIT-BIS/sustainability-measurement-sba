@@ -1,8 +1,20 @@
 Vale results for: docs/customize/04-customize_interceptors.md
 ===========================================
 
- docs/customize/04-customize_interceptors.md
- 8:86  warning  Do not use smart quotation      RedHat.SmartQuotes 
-                marks. Use ''' rather than ’.                      
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/customize/04-customize_interceptors.md
+ 1:1   suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                   calculated Flesch–Kincaid                               
+                   grade level of 13.14 is above                           
+                   the recommended reading grade                           
+                   level of 9.                                             
+ 6:3   suggestion  Use sentence-style              RedHat.Headings         
+                   capitalization in 'HTTP                                 
+                   Interceptors'.                                          
+ 8:23  suggestion  Use simple language. Consider   RedHat.SimpleWords      
+                   using 'change' rather than                              
+                   'modify'.                                               
+ 8:86  warning     Do not use smart quotation      RedHat.SmartQuotes      
+                   marks. Use ''' rather than ’.                           
+
+✖ 0 errors, 1 warning and 3 suggestions in 1 file.

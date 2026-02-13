@@ -1,0 +1,12 @@
+Vale results for: docs/server/notifications/notifier-lets-chat.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-lets-chat.mdx
+ 8:3     warning  'Let’s Chat Notifications'      Google.Headings 
+                  should use sentence-style                       
+                  capitalization.                                 
+ 10:104  warning  Use 'URL' instead of 'url'.     Google.WordList 
+ 10:104  error    Did you really mean 'url'?      Vale.Spelling   
+
+✖ 1 error, 2 warnings and 0 suggestions in 1 file.

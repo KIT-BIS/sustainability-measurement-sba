@@ -1,11 +1,14 @@
 Vale results for: docs/customize/03-customize_http-headers.md
 ===========================================
 
- docs/customize/03-customize_http-headers.md
- 6:3    warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
-                 title or heading.                                         
- 8:129  warning  Remove 'easily' if it's not     Microsoft.Adverbs         
-                 important to the meaning of                               
-                 the statement.                                            
 
-✖ 0 errors, 2 warnings and 0 suggestions in 1 file.
+ docs/customize/03-customize_http-headers.md
+ 6:3    suggestion  'HTTP Headers' should use       Microsoft.Headings        
+                    sentence-style capitalization.                            
+ 6:3    warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                    title or heading.                                         
+ 8:129  warning     Remove 'easily' if it's not     Microsoft.Adverbs         
+                    important to the meaning of                               
+                    the statement.                                            
+
+✖ 0 errors, 2 warnings and 1 suggestion in 1 file.

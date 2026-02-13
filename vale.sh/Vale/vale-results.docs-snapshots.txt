@@ -1,6 +1,7 @@
 Vale results for: docs/snapshots.md
 ===========================================
 
+
  docs/snapshots.md
  3:114  error  Did you really mean             Vale.Spelling 
                'sonatype'?                                   

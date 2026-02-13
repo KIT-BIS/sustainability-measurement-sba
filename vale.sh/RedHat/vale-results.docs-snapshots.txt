@@ -1,10 +1,21 @@
 Vale results for: docs/snapshots.md
 ===========================================
 
- docs/snapshots.md
- 3:114  warning  Verify the word 'sonatype'. It  RedHat.Spelling 
-                 is not in the American English                  
-                 spelling dictionary used by                     
-                 Vale.                                           
 
-✖ 0 errors, 1 warning and 0 suggestions in 1 file.
+ docs/snapshots.md
+ 1:1    suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                    calculated Flesch–Kincaid                               
+                    grade level of 12.57 is above                           
+                    the recommended reading grade                           
+                    level of 9.                                             
+ 1:3    suggestion  Use sentence-style              RedHat.Headings         
+                    capitalization in 'Use                                  
+                    SNAPSHOT-Versions'.                                     
+ 3:114  error       Did you really mean             Vale.Spelling           
+                    'sonatype'?                                             
+ 3:114  warning     Verify the word 'sonatype'. It  RedHat.Spelling         
+                    is not in the American English                          
+                    spelling dictionary used by                             
+                    Vale.                                                   
+
+✖ 1 error, 1 warning and 2 suggestions in 1 file.

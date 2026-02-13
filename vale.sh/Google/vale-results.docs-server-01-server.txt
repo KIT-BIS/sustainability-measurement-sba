@@ -1,0 +1,72 @@
+Vale results for: docs/server/01-server.mdx
+===========================================
+
+
+ docs/server/01-server.mdx
+ 9:3     warning     'Set up the Server' should use  Google.Headings 
+                     sentence-style capitalization.                  
+ 11:4    warning     'Running Behind a Front-end     Google.Headings 
+                     Proxy Server' should use                        
+                     sentence-style capitalization.                  
+ 13:1    suggestion  Use parentheses judiciously.    Google.Parens   
+ 13:80   suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('be                   
+                     requried').                                     
+ 13:83   error       Did you really mean             Vale.Spelling   
+                     'requried'?                                     
+ 13:116  error       Did you really mean 'url'?      Vale.Spelling   
+ 13:116  warning     Use 'URL' instead of 'url'.     Google.WordList 
+ 13:242  error       Did you really mean 'https'?    Vale.Spelling   
+ 15:4    warning     'Spring Cloud Discovery'        Google.Headings 
+                     should use sentence-style                       
+                     capitalization.                                 
+ 15:11   warning     Use 'Google Cloud Platform' or  Google.WordList 
+                     'GCP' instead of 'Cloud'.                       
+ 17:256  warning     Use 'administrator' instead of  Google.WordList 
+                     'admin'.                                        
+ 17:287  suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('is                   
+                     done').                                         
+ 19:5    warning     'Static Configuration using     Google.Headings 
+                     SimpleDiscoveryClient'                          
+                     should use sentence-style                       
+                     capitalization.                                 
+ 21:8    warning     Use 'Google Cloud Platform' or  Google.WordList 
+                     'GCP' instead of 'Cloud'.                       
+ 46:5    warning     'Other DiscoveryClients'        Google.Headings 
+                     should use sentence-style                       
+                     capitalization.                                 
+ 48:64   warning     Use 'Google Cloud Platform' or  Google.WordList 
+                     'GCP' instead of 'Cloud'.                       
+ 48:746  suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('is                   
+                     shown').                                        
+ 48:755  warning     Use 'preceding' instead of      Google.WordList 
+                     'above'.                                        
+ 52:43   suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('are                  
+                     converted').                                    
+ 52:184  suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('is                   
+                     selected').                                     
+ 55:54   suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('is                   
+                     used').                                         
+ 55:78   warning     Use 'app' instead of            Google.WordList 
+                     'application'.                                  
+ 55:99   suggestion  Spell out 'SBA', if it's        Google.Acronyms 
+                     unfamiliar to the audience.                     
+ 55:217  error       Did you really mean 'config'?   Vale.Spelling   
+ 59:55   suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('is                   
+                     used').                                         
+ 59:94   suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('be                   
+                     set').                                          
+ 67:5    warning     'CloudFoundry' should use       Google.Headings 
+                     sentence-style capitalization.                  
+ 69:144  suggestion  In general, use active voice    Google.Passive  
+                     instead of passive voice ('be                   
+                     added').                                        
+
+✖ 4 errors, 13 warnings and 11 suggestions in 1 file.

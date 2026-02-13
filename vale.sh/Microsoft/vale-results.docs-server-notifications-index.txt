@@ -1,0 +1,40 @@
+Vale results for: docs/server/notifications/index.mdx
+===========================================
+
+
+ docs/server/notifications/index.mdx
+ 39:4    suggestion  'Notification Proxy Settings'   Microsoft.Headings  
+                     should use sentence-style                           
+                     capitalization.                                     
+ 41:52   suggestion  'be configured' looks like      Microsoft.Passive   
+                     passive voice.                                      
+ 50:4    suggestion  'Notification Reminder'         Microsoft.Headings  
+                     should use sentence-style                           
+                     capitalization.                                     
+ 54:24   suggestion  'is triggered' looks like       Microsoft.Passive   
+                     passive voice.                                      
+ 54:267  error       Did you really mean             Vale.Spelling       
+                     'deregistered'?                                     
+ 56:27   suggestion  'are sent' looks like passive   Microsoft.Passive   
+                     voice.                                              
+ 56:251  suggestion  Try to simplify this sentence.  Microsoft.Semicolon 
+ 77:23   suggestion  'be sent' looks like passive    Microsoft.Passive   
+                     voice.                                              
+ 80:4    suggestion  'Filtering Notifications'       Microsoft.Headings  
+                     should use sentence-style                           
+                     capitalization.                                     
+ 82:25   suggestion  Verify your use of 'allows'     Microsoft.Vocab     
+                     with the A-Z word list.                             
+ 89:159  suggestion  'be set' looks like passive     Microsoft.Passive   
+                     voice.                                              
+ 93:101  suggestion  'SBA' has no definition.        Microsoft.Acronyms  
+ 95:3    suggestion  Verify your use of 'Sample'     Microsoft.Vocab     
+                     with the A-Z word list.                             
+ 132:55  error       Use 'for example' instead of    Microsoft.Foreign   
+                     'e.g. '.                                            
+ 136:67  suggestion  Verify your use of 'allows'     Microsoft.Vocab     
+                     with the A-Z word list.                             
+ 140:4   suggestion  'Shipped Notifiers' should use  Microsoft.Headings  
+                     sentence-style capitalization.                      
+
+✖ 2 errors, 0 warnings and 14 suggestions in 1 file.

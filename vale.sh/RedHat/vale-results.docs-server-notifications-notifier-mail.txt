@@ -1,0 +1,26 @@
+Vale results for: docs/server/notifications/notifier-mail.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-mail.mdx
+ 1:1    suggestion  Simplify your language. The     RedHat.ReadabilityGrade 
+                    calculated Flesch–Kincaid                               
+                    grade level of 9.80 is above                            
+                    the recommended reading grade                           
+                    level of 9.                                             
+ 8:3    suggestion  Use sentence-style              RedHat.Headings         
+                    capitalization in 'Mail                                 
+                    Notifications'.                                         
+ 10:25  suggestion  'be delivered' is passive       RedHat.PassiveVoice     
+                    voice. In general, use active                           
+                    voice. Consult the style guide                          
+                    for acceptable use of passive                           
+                    voice.                                                  
+ 11:1   warning     Use 'by using' instead of       RedHat.Using            
+                    'using' when it follows a noun                          
+                    for clarity and grammatical                             
+                    correctness.                                            
+ 19:80  warning     Do not use smart quotation      RedHat.SmartQuotes      
+                    marks. Use ''' rather than ’.                           
+
+✖ 0 errors, 2 warnings and 3 suggestions in 1 file.

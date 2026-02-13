@@ -1,0 +1,68 @@
+Vale results for: docs/customize/01-customize_ui.mdx
+===========================================
+
+
+ docs/customize/01-customize_ui.mdx
+ 10:3     suggestion  'Look and Feel' should use      Microsoft.Headings        
+                      sentence-style capitalization.                            
+ 12:47    error       Use 'that is' instead of 'i.e.  Microsoft.Foreign         
+                      '.                                                        
+ 15:53    suggestion  'is rendered' looks like        Microsoft.Passive         
+                      passive voice.                                            
+ 16:109   suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 19:43    suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 20:1     suggestion  Verify your use of 'ensure'     Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 20:55    error       Use 'for example' instead of    Microsoft.Foreign         
+                      'e.g. '.                                                  
+ 23:4     suggestion  'Customizing Colors'            Microsoft.Headings        
+                      should use sentence-style                                 
+                      capitalization.                                           
+ 64:4     suggestion  'Customizing Login Logo'        Microsoft.Headings        
+                      should use sentence-style                                 
+                      capitalization.                                           
+ 66:31    suggestion  'be displayed' looks like       Microsoft.Passive         
+                      passive voice.                                            
+ 68:47    suggestion  'is served' looks like passive  Microsoft.Passive         
+                      voice.                                                    
+ 68:61    error       Did you really mean 'http'?     Vale.Spelling             
+ 73:4     suggestion  'Customizing Favicon'           Microsoft.Headings        
+                      should use sentence-style                                 
+                      capitalization.                                           
+ 73:16    error       Did you really mean 'Favicon'?  Vale.Spelling             
+ 75:1     error       Use 'it's' instead of 'It is'.  Microsoft.Contractions    
+ 75:32    error       Did you really mean 'favicon'?  Vale.Spelling             
+ 78:12    error       Did you really mean 'favicon'?  Vale.Spelling             
+ 78:87    suggestion  'is served' looks like passive  Microsoft.Passive         
+                      voice.                                                    
+ 78:101   error       Did you really mean 'http'?     Vale.Spelling             
+ 85:4     suggestion  'Customizing Available          Microsoft.Headings        
+                      Languages' should use                                     
+                      sentence-style capitalization.                            
+ 89:90    error       Use 'for example' instead of    Microsoft.Foreign         
+                      'e.g. '.                                                  
+ 94:9     warning     Remove 'very' if it's not       Microsoft.Adverbs         
+                      important to the meaning of                               
+                      the statement.                                            
+ 94:39    error       Did you really mean 'navbar'?   Vale.Spelling             
+ 106:4    suggestion  'Hide Service URL' should use   Microsoft.Headings        
+                      sentence-style capitalization.                            
+ 106:17   warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                      title or heading.                                         
+ 106:17   warning     For a general audience, use     Microsoft.GeneralURL      
+                      'address' rather than 'URL'.                              
+ 120:25   suggestion  Use 'of' (not 'for') to         Microsoft.URLFormat       
+                      describe the relationship of                              
+                      the word URL to a resource.                               
+ 120:25   warning     For a general audience, use     Microsoft.GeneralURL      
+                      'address' rather than 'URL'.                              
+ 123:15   error       Did you really mean 'config'?   Vale.Spelling             
+ 123:56   error       Use 'doesn't' instead of 'does  Microsoft.Contractions    
+                      not'.                                                     
+ 123:96   suggestion  'are disabled' looks like       Microsoft.Passive         
+                      passive voice.                                            
+ 123:100  suggestion  Don't use language (such        Microsoft.Accessibility   
+                      as 'disabled') that defines                               
+                      people by their disability.                               
+
+✖ 12 errors, 4 warnings and 16 suggestions in 1 file.

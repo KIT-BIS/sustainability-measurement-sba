@@ -1,0 +1,12 @@
+Vale results for: docs/server/notifications/notifier-msteams.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-msteams.mdx
+ 8:3    warning  'Microsoft Teams                Google.Headings 
+                 Notifications' should use                       
+                 sentence-style capitalization.                  
+ 10:80  error    Did you really mean 'url'?      Vale.Spelling   
+ 10:80  warning  Use 'URL' instead of 'url'.     Google.WordList 
+
+✖ 1 error, 2 warnings and 0 suggestions in 1 file.

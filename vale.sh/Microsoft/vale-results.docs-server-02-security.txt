@@ -1,23 +1,71 @@
 Vale results for: docs/server/02-security.md
 ===========================================
 
- docs/server/02-security.md
- 3:17     warning  'several' is a weasel word!     write-good.Weasel         
- 98:415   error    Use 'for example' instead of    Microsoft.Foreign         
-                   'e.g. '.                                                  
- 113:106  error    Don't start a sentence with     write-good.ThereIs        
-                   'There are'.                                              
- 116:5    warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
-                   title or heading.                                         
- 127:5    warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
-                   title or heading.                                         
- 138:51   error    Use 'that is' instead of        Microsoft.Foreign         
-                   'i.e.,'.                                                  
- 180:4    warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
-                   title or heading.                                         
- 182:33   error    Use 'for example' instead of    Microsoft.Foreign         
-                   'e.g. '.                                                  
- 191:17   warning  Avoid using acronyms in a       Microsoft.HeadingAcronyms 
-                   title or heading.                                         
 
-✖ 4 errors, 5 warnings and 0 suggestions in 1 file.
+ docs/server/02-security.md
+ 1:3      suggestion  'Foster Security' should use    Microsoft.Headings        
+                      sentence-style capitalization.                            
+ 75:29    suggestion  'be authenticated' looks like   Microsoft.Passive         
+                      passive voice.                                            
+ 77:37    suggestion  'is needed' looks like passive  Microsoft.Passive         
+                      voice.                                                    
+ 78:12    suggestion  'CSRF' has no definition.       Microsoft.Acronyms        
+ 79:13    suggestion  'CSRF' has no definition.       Microsoft.Acronyms        
+ 80:13    suggestion  'CSRF' has no definition.       Microsoft.Acronyms        
+ 90:16    suggestion  Verify your use of 'sample'     Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 90:50    suggestion  Verify your use of 'sample'     Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 92:4     suggestion  Try to keep sentences short (<  Microsoft.SentenceLength  
+                      30 words).                                                
+ 93:100   suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 96:4     suggestion  'Securing Client Actuator       Microsoft.Headings        
+                      Endpoints' should use                                     
+                      sentence-style capitalization.                            
+ 98:29    suggestion  'are secured' looks like        Microsoft.Passive         
+                      passive voice.                                            
+ 98:77    suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 98:415   error       Use 'for example' instead of    Microsoft.Foreign         
+                      'e.g. '.                                                  
+ 101:5    suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 105:37   suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 113:30   suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 116:5    suggestion  'SBA Client' should use         Microsoft.Headings        
+                      sentence-style capitalization.                            
+ 116:5    suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 116:5    warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                      title or heading.                                         
+ 127:5    suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 127:5    suggestion  'SBA Server' should use         Microsoft.Headings        
+                      sentence-style capitalization.                            
+ 127:5    warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                      title or heading.                                         
+ 138:51   error       Use 'that is' instead of        Microsoft.Foreign         
+                      'i.e.,'.                                                  
+ 138:102  suggestion  'be used' looks like passive    Microsoft.Passive         
+                      voice.                                                    
+ 177:8    error       Use 'doesn't' instead of 'does  Microsoft.Contractions    
+                      not'.                                                     
+ 177:17   suggestion  Verify your use of 'allow'      Microsoft.Vocab           
+                      with the A-Z word list.                                   
+ 180:4    suggestion  'CSRF on Actuator Endpoints'    Microsoft.Headings        
+                      should use sentence-style                                 
+                      capitalization.                                           
+ 180:4    suggestion  'CSRF' has no definition.       Microsoft.Acronyms        
+ 180:4    warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                      title or heading.                                         
+ 182:1    suggestion  Consider using 'some' instead   Microsoft.Wordiness       
+                      of 'Some of the'.                                         
+ 182:33   error       Use 'for example' instead of    Microsoft.Foreign         
+                      'e.g. '.                                                  
+ 182:146  suggestion  'CSRF' has no definition.       Microsoft.Acronyms        
+ 191:4    suggestion  'Using Mutual TLS' should use   Microsoft.Headings        
+                      sentence-style capitalization.                            
+ 191:17   suggestion  'TLS' has no definition.        Microsoft.Acronyms        
+ 191:17   warning     Avoid using acronyms in a       Microsoft.HeadingAcronyms 
+                      title or heading.                                         
+ 193:1    suggestion  'SBA' has no definition.        Microsoft.Acronyms        
+ 193:246  suggestion  'be used' looks like passive    Microsoft.Passive         
+                      voice.                                                    
+
+✖ 4 errors, 4 warnings and 30 suggestions in 1 file.

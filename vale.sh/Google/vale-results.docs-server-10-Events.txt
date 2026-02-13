@@ -1,0 +1,94 @@
+Vale results for: docs/server/10-Events.mdx
+===========================================
+
+
+ docs/server/10-Events.mdx
+ 5:3     warning     'Server(-Sent) Events'          Google.Headings     
+                     should use sentence-style                           
+                     capitalization.                                     
+ 5:9     suggestion  Use parentheses judiciously.    Google.Parens       
+ 8:14    suggestion  Use parentheses judiciously.    Google.Parens       
+ 8:48    warning     Use 'app' instead of            Google.WordList     
+                     'application'.                                      
+ 8:60    suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     stored').                                           
+ 9:44    warning     Use 'app' instead of            Google.WordList     
+                     'application'.                                      
+ 9:99    suggestion  Use 'isn't' instead of 'is      Google.Contractions 
+                     not'.                                               
+ 12:36   suggestion  Use 'aren't' instead of 'are    Google.Contractions 
+                     not'.                                               
+ 13:117  suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('are                      
+                     used').                                             
+ 14:14   warning     Use 'app' instead of            Google.WordList     
+                     'application'.                                      
+ 17:4    warning     'Event Endpoints' should use    Google.Headings     
+                     sentence-style capitalization.                      
+ 21:5    warning     'List All Events' should use    Google.Headings     
+                     sentence-style capitalization.                      
+ 26:5    warning     'Stream All Events' should use  Google.Headings     
+                     sentence-style capitalization.                      
+ 27:1    suggestion  Use parentheses judiciously.    Google.Parens       
+ 28:76   suggestion  Use parentheses judiciously.    Google.Parens       
+ 31:5    warning     'Stream Events for a            Google.Headings     
+                     Specific Instance' should use                       
+                     sentence-style capitalization.                      
+ 32:1    suggestion  Use parentheses judiciously.    Google.Parens       
+ 35:4    warning     'Available Events' should use   Google.Headings     
+                     sentence-style capitalization.                      
+ 38:35   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice                            
+                     ('been registered').                                
+ 39:12   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     used').                                             
+ 39:43   suggestion  Spell out 'SBA', if it's        Google.Acronyms     
+                     unfamiliar to the audience.                         
+ 42:67   suggestion  Use parentheses judiciously.    Google.Parens       
+ 42:68   error       Use 'for example' instead of    Google.Latin        
+                     'e.g.'.                                             
+ 43:12   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     used').                                             
+ 43:47   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     accessed').                                         
+ 46:28   suggestion  Use parentheses judiciously.    Google.Parens       
+ 46:77   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice                            
+                     ('been detected').                                  
+ 47:12   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     used').                                             
+ 50:41   suggestion  Use parentheses judiciously.    Google.Parens       
+ 50:42   error       Use 'for example' instead of    Google.Latin        
+                     'e.g.'.                                             
+ 51:12   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     used').                                             
+ 54:47   suggestion  Use parentheses judiciously.    Google.Parens       
+ 54:48   error       Use 'for example' instead of    Google.Latin        
+                     'e.g.'.                                             
+ 54:65   suggestion  Spell out 'DOWN', if it's       Google.Acronyms     
+                     unfamiliar to the audience.                         
+ 55:12   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     used').                                             
+ 58:32   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice                            
+                     ('been unregistered').                              
+ 59:12   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('is                       
+                     used').                                             
+ 61:4    warning     'Viewing Events in the          Google.Headings     
+                     UI Journal' should use                              
+                     sentence-style capitalization.                      
+ 63:31   warning     Use 'preceding' instead of      Google.WordList     
+                     'above'.                                            
+ 63:41   suggestion  In general, use active voice    Google.Passive      
+                     instead of passive voice ('be                       
+                     viewed').                                           
+
+✖ 3 errors, 11 warnings and 26 suggestions in 1 file.

@@ -1,0 +1,11 @@
+Vale results for: docs/server/notifications/notifier-dingtalk.mdx
+===========================================
+
+
+ docs/server/notifications/notifier-dingtalk.mdx
+ 10:98   error  Did you really mean             Vale.Spelling 
+                'dingtalk'?                                   
+ 10:164  error  Did you really mean             Vale.Spelling 
+                'webhookUrl'?                                 
+
+✖ 2 errors, 0 warnings and 0 suggestions in 1 file.

@@ -1,6 +1,7 @@
 Vale results for: docs/customize/04-customize_interceptors.md
 ===========================================
 
+
  docs/customize/04-customize_interceptors.md
  6:3   warning  'HTTP Interceptors' should use  Google.Headings 
                 sentence-style capitalization.                  

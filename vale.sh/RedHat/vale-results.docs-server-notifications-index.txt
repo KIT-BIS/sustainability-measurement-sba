@@ -1,0 +1,120 @@
+Vale results for: docs/server/notifications/index.mdx
+===========================================
+
+
+ docs/server/notifications/index.mdx
+ 1:1      suggestion  Simplify your language. The     RedHat.ReadabilityGrade      
+                      calculated Flesch–Kincaid                                    
+                      grade level of 9.17 is above                                 
+                      the recommended reading grade                                
+                      level of 9.                                                  
+ 12:55    suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'that' or ',                                  
+                      which' rather than 'which'.                                  
+ 39:4     suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in                                            
+                      'Notification Proxy Settings'.                               
+ 41:15    suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'that' or ',                                  
+                      which' rather than 'which'.                                  
+ 41:52    suggestion  'be configured' is passive      RedHat.PassiveVoice          
+                      voice. In general, use active                                
+                      voice. Consult the style guide                               
+                      for acceptable use of passive                                
+                      voice.                                                       
+ 50:4     suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in                                            
+                      'Notification Reminder'.                                     
+ 52:45    warning     Use either 'or' or 'and' in     RedHat.Slash                 
+                      'down/offline'                                               
+ 54:24    suggestion  'is triggered' is passive       RedHat.PassiveVoice          
+                      voice. In general, use active                                
+                      voice. Consult the style guide                               
+                      for acceptable use of passive                                
+                      voice.                                                       
+ 54:128   suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'through',                                    
+                      'by', 'from', 'on', or 'by                                   
+                      using' rather than 'via'.                                    
+ 54:267   warning     Verify the word                 RedHat.Spelling              
+                      'deregistered'. It is not in                                 
+                      the American English spelling                                
+                      dictionary used by Vale.                                     
+ 54:267   error       Did you really mean             Vale.Spelling                
+                      'deregistered'?                                              
+ 56:27    suggestion  'are sent' is passive voice.    RedHat.PassiveVoice          
+                      In general, use active voice.                                
+                      Consult the style guide for                                  
+                      acceptable use of passive                                    
+                      voice.                                                       
+ 56:132   warning     Do not use smart quotation      RedHat.SmartQuotes           
+                      marks. Use ''' rather than ’.                                
+ 56:246   suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'after',                                      
+                      'later', or 'following' rather                               
+                      than 'below'.                                                
+ 77:23    suggestion  'be sent' is passive voice.     RedHat.PassiveVoice          
+                      In general, use active voice.                                
+                      Consult the style guide for                                  
+                      acceptable use of passive                                    
+                      voice.                                                       
+ 80:4     suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Filtering                                 
+                      Notifications'.                                              
+ 82:25    suggestion  Do not use transitive verb      RedHat.ProductCentricWriting 
+                      constructions like 'allows                                   
+                      you' to grant abilities to                                   
+                      inanimate objects. Whenever                                  
+                      possible, use direct,                                        
+                      user-focused sentences where                                 
+                      the subject of the sentence                                  
+                      performs the action.                                         
+ 82:90    warning     Use either 'or' or 'and' in     RedHat.Slash                 
+                      'add/remove'                                                 
+ 84:65    suggestion  Consider wrapping this Pascal   RedHat.PascalCamelCase       
+                      or Camel case term ('RESTful')                               
+                      in backticks.                                                
+ 89:159   suggestion  'be set' is passive voice.      RedHat.PassiveVoice          
+                      In general, use active voice.                                
+                      Consult the style guide for                                  
+                      acceptable use of passive                                    
+                      voice.                                                       
+ 93:5     warning     Consider using 'might' or       RedHat.TermsWarnings         
+                      'can' rather than 'may' unless                               
+                      updating existing content that                               
+                      uses the term.                                               
+ 93:63    suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'through',                                    
+                      'by', 'from', 'on', or 'by                                   
+                      using' rather than 'via'.                                    
+ 93:101   suggestion  Define acronyms and             RedHat.Definitions           
+                      abbreviations (such as 'SBA')                                
+                      on first occurrence if they're                               
+                      likely to be unfamiliar.                                     
+ 93:139   suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'after',                                      
+                      'later', or 'following' rather                               
+                      than 'below'.                                                
+ 97:40    error       Use 'for example' rather than   RedHat.TermsErrors           
+                      'for instance'.                                              
+ 97:64    warning     Do not use smart quotation      RedHat.SmartQuotes           
+                      marks. Use ''' rather than ’.                                
+ 97:197   suggestion  Depending on the context,       RedHat.TermsSuggestions      
+                      consider using 'through',                                    
+                      'by', 'from', 'on', or 'by                                   
+                      using' rather than 'via'.                                    
+ 136:67   suggestion  Do not use transitive verb      RedHat.ProductCentricWriting 
+                      constructions like 'allows                                   
+                      you' to grant abilities to                                   
+                      inanimate objects. Whenever                                  
+                      possible, use direct,                                        
+                      user-focused sentences where                                 
+                      the subject of the sentence                                  
+                      performs the action.                                         
+ 136:134  warning     Do not use smart quotation      RedHat.SmartQuotes           
+                      marks. Use ''' rather than ’.                                
+ 140:4    suggestion  Use sentence-style              RedHat.Headings              
+                      capitalization in 'Shipped                                   
+                      Notifiers'.                                                  
+
+✖ 2 errors, 7 warnings and 21 suggestions in 1 file.
