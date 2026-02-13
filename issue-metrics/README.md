@@ -1,13 +1,24 @@
-# GitHub Issue Metrics Extractor
+# GitHub Metrics Extractors
 
-A Python script to extract and analyze GitHub issue metrics between specified dates.
+Python scripts to extract and analyze GitHub issue and pull request metrics between specified dates.
 
 ## Features
 
+### Issue Metrics (`extract_issue_metrics.py`)
 - Fetches issues from a GitHub repository within a date range
 - Calculates time to first response and time to close
 - Generates statistical summaries (average, median, 90th percentile)
 - Outputs formatted Markdown reports
+- Excludes issues closed as "not planned"
+
+### Pull Request Metrics (`extract_pr_metrics.py`)
+- Fetches pull requests from a GitHub repository within a date range
+- Calculates time to first review and time to merge
+- Tracks review comment counts
+- Generates statistical summaries (average, median, 90th percentile)
+- Outputs formatted Markdown reports
+- Excludes draft PRs by default
+- Filters out bot PRs (renovate, dependabot, etc.) by default
 
 ## Requirements
 
@@ -31,22 +42,40 @@ Create a GitHub Personal Access Token:
 
 ## Usage
 
+### Issue Metrics
+
 ```bash
 ./extract_issue_metrics.py --repo OWNER/REPO --start-date YYYY-MM-DD --end-date YYYY-MM-DD [--output FILE]
 ```
 
-### Required Arguments
-
+**Required Arguments:**
 - `--repo`: Repository in format `owner/repo` (e.g., `codecentric/spring-boot-admin`)
 - `--start-date`: Start date in `YYYY-MM-DD` format
 - `--end-date`: End date in `YYYY-MM-DD` format
 
-### Optional Arguments
-
+**Optional Arguments:**
 - `--output`: Output file path (default: `issue_metrics.md`)
 - `--token`: GitHub token (overrides `GITHUB_TOKEN` environment variable)
 
-## Example
+### Pull Request Metrics
+
+```bash
+./extract_pr_metrics.py --repo OWNER/REPO --start-date YYYY-MM-DD --end-date YYYY-MM-DD [--output FILE]
+```
+
+**Required Arguments:**
+- `--repo`: Repository in format `owner/repo` (e.g., `codecentric/spring-boot-admin`)
+- `--start-date`: Start date in `YYYY-MM-DD` format
+- `--end-date`: End date in `YYYY-MM-DD` format
+
+**Optional Arguments:**
+- `--output`: Output file path (default: `pr_metrics.md`)
+- `--token`: GitHub token (overrides `GITHUB_TOKEN` environment variable)
+- `--include-bots`: Include PRs from bots (by default they are excluded)
+
+## Examples
+
+### Extract Issue Metrics
 
 ```bash
 ./extract_issue_metrics.py \
@@ -56,14 +85,36 @@ Create a GitHub Personal Access Token:
   --output issue_metrics.2024.md
 ```
 
+### Extract Pull Request Metrics
+
+```bash
+./extract_pr_metrics.py \
+  --repo codecentric/spring-boot-admin \
+  --start-date 2024-01-01 \
+  --end-date 2024-12-31 \
+  --output pr_metrics.2024.md
+```
+
+### Include Bot PRs
+
+```bash
+./extract_pr_metrics.py \
+  --repo codecentric/spring-boot-admin \
+  --start-date 2024-01-01 \
+  --end-date 2024-12-31 \
+  --include-bots
+```
+
 ## Output
+
+### Issue Metrics Output
 
 The script generates a Markdown file containing:
 - Summary statistics for time to first response and time to close
 - Count of open vs closed issues
 - Detailed table with all issues and their metrics
 
-### Sample Output
+**Sample Output:**
 
 ```markdown
 # Issue Metrics
@@ -80,8 +131,44 @@ The script generates a Markdown file containing:
 | Total number of items created | 100 |
 ```
 
+### Pull Request Metrics Output
+
+The script generates a Markdown file containing:
+- Summary statistics for time to first review and time to merge
+- Count of open, merged, and closed (not merged) PRs
+- Detailed table with all PRs and their metrics
+- Note about bot filtering (when enabled)
+
+**Sample Output:**
+
+```markdown
+# Pull Request Metrics
+
+| Metric | Average | Median | 90th percentile |
+| --- | --- | --- | ---: |
+| Time to first review | 2:30:00 | 1:15:00 | 5:45:00 |
+| Time to merge | 2 days, 4:20:00 | 1 day, 12:00:00 | 5 days, 8:30:00 |
+
+| Metric | Count |
+| --- | ---: |
+| Number of PRs that remain open | 5 |
+| Number of PRs merged | 120 |
+| Number of PRs closed (not merged) | 10 |
+| Total number of PRs created | 135 |
+```
+
 ## Notes
 
-- The script excludes issues closed as "not planned"
+### Issue Metrics
+- Excludes issues closed as "not planned"
+- GitHub Search API returns a maximum of 1000 results
+- Rate limits apply based on your GitHub token's permissions
+
+### Pull Request Metrics
+- Excludes draft PRs
+- By default, filters out PRs from common bots (renovate, dependabot, github-actions, greenkeeper, snyk-bot, mergify, codecov)
+- Use `--include-bots` flag to include bot PRs in the analysis
+- Considers reviews, review comments, and issue comments when calculating time to first review
+- Only merged PRs are counted in "time to merge" statistics
 - GitHub Search API returns a maximum of 1000 results
 - Rate limits apply based on your GitHub token's permissions
