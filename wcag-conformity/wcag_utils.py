@@ -56,7 +56,33 @@ WCAG_CRITERIA = {
 }
 
 
-def run_accessibility_scan(url: str, page, axe) -> Dict[str, Any]:
+def get_wcag_tags_for_level(level: str) -> List[str]:
+    """
+    Get axe-core tags for specified WCAG conformance level.
+
+    Args:
+        level: WCAG level ('A', 'AA', or 'AAA')
+
+    Returns:
+        List of axe-core tags to test
+    """
+    # Level A includes only A criteria
+    if level == 'A':
+        return ["wcag2a", "wcag21a"]
+
+    # Level AA includes A + AA criteria
+    elif level == 'AA':
+        return ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]
+
+    # Level AAA includes A + AA + AAA criteria
+    elif level == 'AAA':
+        return ["wcag2a", "wcag2aa", "wcag2aaa", "wcag21a", "wcag21aa", "wcag21aaa"]
+
+    # Default to AA
+    return ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]
+
+
+def run_accessibility_scan(url: str, page, axe, level: str = 'AA') -> Dict[str, Any]:
     """
     Run WCAG accessibility scan on a URL.
 
@@ -64,6 +90,7 @@ def run_accessibility_scan(url: str, page, axe) -> Dict[str, Any]:
         url: The URL to scan
         page: Playwright page object
         axe: Axe instance for scanning
+        level: WCAG conformance level to check ('A', 'AA', or 'AAA')
 
     Returns:
         Dictionary containing violations, passes, incomplete, and inapplicable results
@@ -75,11 +102,11 @@ def run_accessibility_scan(url: str, page, axe) -> Dict[str, Any]:
         # Wait 5 seconds for dynamic content to load
         page.wait_for_timeout(2000)
 
-        # Run axe scan with WCAG 2.1 Level AA tags
+        # Run axe scan with specified WCAG level tags
         axe_results = axe.run(page, options={
             "runOnly": {
                 "type": "tag",
-                "values": ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]
+                "values": get_wcag_tags_for_level(level)
             }
         })
 
@@ -240,26 +267,27 @@ def get_conformance_status(violations: List[Dict]) -> str:
     return "PASS"
 
 
-def interpret_conformance_status(violations: List[Dict]) -> str:
+def interpret_conformance_status(violations: List[Dict], level: str = 'AA') -> str:
     """
     Get detailed interpretation of conformance status.
 
     Args:
         violations: List of violation dictionaries from axe-core
+        level: WCAG conformance level ('A', 'AA', or 'AAA')
 
     Returns:
         Human-readable conformance interpretation
     """
     if len(violations) == 0:
-        return "The analyzed website(s) CONFORM to WCAG 2.1 Level AA standards based on automated testing."
+        return f"The analyzed website(s) CONFORM to WCAG 2.1 Level {level} standards based on automated testing."
 
     severity_counts = categorize_by_severity(violations)
     critical_count = count_violation_instances(severity_counts.get('critical', []))
     serious_count = count_violation_instances(severity_counts.get('serious', []))
 
     if critical_count > 0:
-        return f"The analyzed website(s) do NOT conform to WCAG 2.1 Level AA standards. {critical_count} critical issue(s) must be addressed immediately."
+        return f"The analyzed website(s) do NOT conform to WCAG 2.1 Level {level} standards. {critical_count} critical issue(s) must be addressed immediately."
     elif serious_count > 0:
-        return f"The analyzed website(s) do NOT conform to WCAG 2.1 Level AA standards. {serious_count} serious issue(s) should be addressed."
+        return f"The analyzed website(s) do NOT conform to WCAG 2.1 Level {level} standards. {serious_count} serious issue(s) should be addressed."
     else:
-        return "The analyzed website(s) do NOT conform to WCAG 2.1 Level AA standards. Moderate and minor issues should be addressed."
+        return f"The analyzed website(s) do NOT conform to WCAG 2.1 Level {level} standards. Moderate and minor issues should be addressed."

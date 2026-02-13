@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""WCAG Level AA conformity checker for websites."""
+"""WCAG conformity checker for websites."""
 
 import argparse
 import sys
@@ -271,12 +271,19 @@ def print_top_issues(all_violations: List[Dict]):
 def main():
     """Main function to run WCAG conformity checks."""
     parser = argparse.ArgumentParser(
-        description='Check WCAG 2.1 Level AA conformity for websites.'
+        description='Check WCAG 2.1 conformity for websites (A, AA, or AAA).'
     )
     parser.add_argument(
         'urls',
         nargs='+',
         help='One or more URLs to check'
+    )
+    parser.add_argument(
+        '--level',
+        type=str,
+        choices=['A', 'AA', 'AAA'],
+        default='AA',
+        help='WCAG conformance level to check (default: AA)'
     )
     parser.add_argument(
         '--output',
@@ -293,7 +300,7 @@ def main():
             print(f"Error: Invalid URL '{url}'. URLs must start with http:// or https://")
             sys.exit(1)
 
-    print("# WCAG LEVEL AA CONFORMITY ANALYSIS")
+    print(f"# WCAG LEVEL {args.level} CONFORMITY ANALYSIS")
     print()
     print(f"Analyzing {len(urls)} URL(s)...")
     print()
@@ -314,7 +321,7 @@ def main():
             for url in urls:
                 print(f"Scanning: {url}")
                 try:
-                    results = run_accessibility_scan(url, page, axe)
+                    results = run_accessibility_scan(url, page, axe, level=args.level)
                     all_results.append({
                         'url': url,
                         'violations': results.get('violations', []),
@@ -365,9 +372,9 @@ def main():
     print("## CONFORMANCE SUMMARY")
     print()
     status = get_conformance_status(all_violations)
-    print(f"**WCAG 2.1 Level AA Conformance:** {status}")
+    print(f"**WCAG 2.1 Level {args.level} Conformance:** {status}")
     print()
-    print(interpret_conformance_status(all_violations))
+    print(interpret_conformance_status(all_violations, level=args.level))
     print()
     print("**Note:** Automated testing can only detect approximately 50% of accessibility issues.")
     print("Manual testing and user testing with assistive technologies is strongly recommended.")

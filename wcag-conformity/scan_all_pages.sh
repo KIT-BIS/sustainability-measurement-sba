@@ -1,10 +1,49 @@
 #!/usr/bin/env bash
 # Script to scan all pages from pages_to_scan.txt and generate individual WCAG reports
+#
+# Usage: ./scan_all_pages.sh [-l LEVEL]
+# Options:
+#   -l, --level LEVEL    WCAG conformance level (A, AA, or AAA). Default: AA
 
 set -e  # Exit on error
 
 PAGES_FILE="pages_to_scan.txt"
-OUTPUT_DIR="reports"
+BASE_OUTPUT_DIR="reports"
+LEVEL="AA"  # Default to AA
+
+# Parse command line arguments
+while getopts "l:-:" opt; do
+  case $opt in
+    l)
+      LEVEL="$OPTARG"
+      ;;
+    -)
+      case "$OPTARG" in
+        level=*)
+          LEVEL="${OPTARG#level=}"
+          ;;
+        *)
+          echo "Invalid option: --$OPTARG" >&2
+          exit 1
+          ;;
+      esac
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
+  esac
+done
+shift $((OPTIND-1))
+
+# Validate level
+if [[ ! "$LEVEL" =~ ^(A|AA|AAA)$ ]]; then
+    echo "Error: Level must be A, AA, or AAA (got: $LEVEL)"
+    exit 1
+fi
+
+# Set output directory based on WCAG level
+OUTPUT_DIR="$BASE_OUTPUT_DIR/$LEVEL"
 
 # Check if pages file exists
 if [ ! -f "$PAGES_FILE" ]; then
@@ -14,6 +53,10 @@ fi
 
 # Create output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"
+
+echo "Using WCAG Level $LEVEL"
+echo "Reports will be saved to: $OUTPUT_DIR/"
+echo ""
 
 # Read each line from the pages file
 line_number=0
@@ -34,7 +77,7 @@ while IFS= read -r url || [ -n "$url" ]; do
     echo "    Output: $output_file"
 
     # Run the WCAG checker and save output to markdown file
-    if python3 check_wcag.py "$url" > "$output_file" 2>&1; then
+    if python3 check_wcag.py --level "$LEVEL" "$url" > "$output_file" 2>&1; then
         echo "    ✓ Complete"
     else
         echo "    ✗ Failed (see $output_file for details)"

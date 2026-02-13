@@ -73,6 +73,30 @@ Check a single website:
 ./check_wcag.py https://example.com
 ```
 
+### Specify WCAG Conformance Level
+
+Check against different WCAG conformance levels:
+
+```bash
+# Check Level A (minimum - basic accessibility)
+./check_wcag.py --level A https://example.com
+
+# Check Level AA (default - recommended standard)
+./check_wcag.py --level AA https://example.com
+# or simply:
+./check_wcag.py https://example.com
+
+# Check Level AAA (maximum - most comprehensive)
+./check_wcag.py --level AAA https://example.com
+```
+
+**WCAG Conformance Levels:**
+- **Level A**: Minimum accessibility features (e.g., alt text, keyboard access)
+- **Level AA**: Industry standard, includes all Level A + additional criteria (e.g., color contrast 4.5:1)
+- **Level AAA**: Highest level, includes all Level A + AA + strictest criteria (e.g., enhanced contrast 7:1)
+
+Most organizations target Level AA compliance.
+
 ### Check Multiple URLs
 
 Analyze multiple pages from a website:
@@ -99,14 +123,26 @@ Check multiple pages from a file using the batch scanning script:
 
 # Run batch checks (creates individual reports for each URL)
 ./scan_all_pages.sh
+
+# Scan with specific conformance level
+./scan_all_pages.sh -l AAA
+./scan_all_pages.sh --level A
 ```
 
 The batch script will:
 - Read URLs from `pages_to_scan.txt`
 - Process each URL individually
-- Save separate reports in the `reports/` directory
+- Save separate reports in `reports/{LEVEL}/` directory (e.g., `reports/AA/`, `reports/AAA/`)
 - Generate reports named `wcag-report-{last-path-segment}.md`
 - Provide progress feedback and error handling
+
+Reports are organized by WCAG level:
+```
+reports/
+├── A/          # Level A reports
+├── AA/         # Level AA reports (default)
+└── AAA/        # Level AAA reports
+```
 
 URL list file format (see `pages_to_scan.txt`):
 ```
