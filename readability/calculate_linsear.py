@@ -6,8 +6,13 @@ from tabulate import tabulate
 
 from markdown_utils import clean_text, find_documentation_files
 
-def calculate_flesch_score(text):
-    """Calculate Flesch Reading Ease score using textstat package."""
+
+def calculate_linear_score(text):
+    """Calculate Linsear Write Formula score using textstat package.
+
+    The Linsear Write Formula is specifically designed for technical writing.
+    The result represents the grade level needed to understand the text.
+    """
     # Clean the text
     cleaned_text = clean_text(text)
 
@@ -16,7 +21,7 @@ def calculate_flesch_score(text):
         return None, 0, 0, 0
 
     # Use textstat to calculate various metrics
-    flesch_score = textstat.flesch_reading_ease(cleaned_text)
+    linsear_score = textstat.linsear_write_formula(cleaned_text)
     word_count = textstat.lexicon_count(cleaned_text)
     sentence_count = textstat.sentence_count(cleaned_text)
     syllable_count = textstat.syllable_count(cleaned_text)
@@ -25,29 +30,49 @@ def calculate_flesch_score(text):
     if word_count == 0 or sentence_count == 0:
         return None, 0, 0, 0
 
-    return flesch_score, word_count, sentence_count, syllable_count
+    return linsear_score, word_count, sentence_count, syllable_count
 
-def interpret_flesch_score(score):
-    """Interpret the Flesch Reading Ease score."""
-    if score >= 90:
-        return "Very Easy (5th grade)"
-    elif score >= 80:
-        return "Easy (6th grade)"
-    elif score >= 70:
-        return "Fairly Easy (7th grade)"
-    elif score >= 60:
-        return "Standard (8th-9th grade)"
-    elif score >= 50:
-        return "Fairly Difficult (10th-12th grade)"
-    elif score >= 30:
-        return "Difficult (College)"
+
+def interpret_linsear_score(score):
+    """Interpret the Linsear Write score as grade level."""
+    if score < 0:
+        return "Below 1st Grade"
+    elif score < 1:
+        return "Kindergarten"
+    elif score < 2:
+        return "1st Grade"
+    elif score < 3:
+        return "2nd Grade"
+    elif score < 4:
+        return "3rd Grade"
+    elif score < 5:
+        return "4th Grade"
+    elif score < 6:
+        return "5th Grade"
+    elif score < 7:
+        return "6th Grade"
+    elif score < 8:
+        return "7th Grade"
+    elif score < 9:
+        return "8th Grade"
+    elif score < 10:
+        return "9th Grade"
+    elif score < 11:
+        return "10th Grade"
+    elif score < 12:
+        return "11th Grade"
+    elif score < 13:
+        return "12th Grade"
+    elif score < 14:
+        return "College Student"
     else:
-        return "Very Difficult (College graduate)"
+        return "College Graduate"
+
 
 def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(
-        description='Calculate Flesch Reading Ease scores for markdown documentation files.'
+        description='Calculate Linsear Write Formula scores for markdown documentation files.'
     )
     parser.add_argument(
         'docs_dir',
@@ -79,7 +104,7 @@ def main():
         print(f"No documentation files found in {docs_dir}")
         return
 
-    print("# FLESCH READING EASE ANALYSIS - SPRING BOOT ADMIN DOCUMENTATION")
+    print("# LINSEAR WRITE FORMULA ANALYSIS - SPRING BOOT ADMIN DOCUMENTATION")
     print(f"Analyzing files in: {docs_dir}  ")
     print(f"Minimum words threshold: {min_words}  ")
     print()
@@ -95,12 +120,10 @@ def main():
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
 
-            score, words, sentences, syllables = calculate_flesch_score(content)
+            score, words, sentences, syllables = calculate_linear_score(content)
 
             if score is not None and words >= min_words:
                 relative_path = file_path.relative_to(docs_dir)
-                # Use cleaned content for preview to show what's actually being analyzed
-                cleaned_content = clean_text(content)
                 results.append({
                     'path': str(relative_path),
                     'score': score,
@@ -116,8 +139,8 @@ def main():
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
 
-    # Sort by score (lowest to highest - most difficult first)
-    results.sort(key=lambda x: x['score'])
+    # Sort by score (highest to lowest - most difficult first)
+    results.sort(key=lambda x: x['score'], reverse=True)
 
     # Print individual file results as table
     print("## ALL FILES")
@@ -127,18 +150,18 @@ def main():
         all_results_table.append([
             result['path'],
             f"{result['score']:.2f}",
-            interpret_flesch_score(result['score']),
+            interpret_linsear_score(result['score']),
             result['words'],
             result['sentences'],
             result['syllables']
         ])
-    print(tabulate(all_results_table, headers=['File', 'Score', 'Level', 'Words', 'Sentences', 'Syllables'], tablefmt='github'))
+    print(tabulate(all_results_table, headers=['File', 'Score', 'Grade Level', 'Words', 'Sentences', 'Syllables'], tablefmt='github'))
 
     print()
     print("## OVERALL STATISTICS")
 
     if total_words > 0 and total_sentences > 0:
-        # Calculate overall Flesch Reading Ease score using textstat
+        # Calculate overall Linsear Write score using textstat
         # We need to calculate it from all the text combined
         all_text = []
         for file_path in files:
@@ -150,17 +173,17 @@ def main():
                 pass
 
         combined_text = '\n'.join(all_text)
-        overall_score = textstat.flesch_reading_ease(combined_text)
+        overall_score = textstat.linsear_write_formula(combined_text)
 
         stats_table = [
             ["Total files analyzed", len(results)],
             ["Total words", f"{total_words:,}"],
             ["Total sentences", f"{total_sentences:,}"],
             ["Total syllables", f"{total_syllables:,}"],
-            ["Average words per sentence", f"{total_words/total_sentences:.2f}"],
-            ["Average syllables per word", f"{total_syllables/total_words:.2f}"],
-            ["Overall Flesch Reading Ease Score", f"{overall_score:.2f}"],
-            ["Overall Interpretation", interpret_flesch_score(overall_score)]
+            ["Average words per sentence", f"{total_words / total_sentences:.2f}"],
+            ["Average syllables per word", f"{total_syllables / total_words:.2f}"],
+            ["Overall Linsear Write Score", f"{overall_score:.2f}"],
+            ["Overall Grade Level", interpret_linsear_score(overall_score)]
         ]
 
         if skipped_files > 0:
@@ -170,26 +193,24 @@ def main():
         print()
 
         # Score distribution
-        print("## SCORE DISTRIBUTION:")
+        print("## GRADE LEVEL DISTRIBUTION:")
         print()
-        very_easy = sum(1 for r in results if r['score'] >= 90)
-        easy = sum(1 for r in results if 80 <= r['score'] < 90)
-        fairly_easy = sum(1 for r in results if 70 <= r['score'] < 80)
-        standard = sum(1 for r in results if 60 <= r['score'] < 70)
-        fairly_difficult = sum(1 for r in results if 50 <= r['score'] < 60)
-        difficult = sum(1 for r in results if 30 <= r['score'] < 50)
-        very_difficult = sum(1 for r in results if r['score'] < 30)
+        kindergarten = sum(1 for r in results if r['score'] < 1)
+        elementary = sum(1 for r in results if 1 <= r['score'] < 6)
+        middle_school = sum(1 for r in results if 6 <= r['score'] < 9)
+        high_school = sum(1 for r in results if 9 <= r['score'] < 13)
+        college = sum(1 for r in results if 13 <= r['score'] < 14)
+        graduate = sum(1 for r in results if r['score'] >= 14)
 
         distribution_table = [
-            ["Very Easy", "90+", very_easy],
-            ["Easy", "80-89", easy],
-            ["Fairly Easy", "70-79", fairly_easy],
-            ["Standard", "60-69", standard],
-            ["Fairly Difficult", "50-59", fairly_difficult],
-            ["Difficult", "30-49", difficult],
-            ["Very Difficult", "<30", very_difficult]
+            ["Kindergarten", "< 1", kindergarten],
+            ["Elementary", "1-5", elementary],
+            ["Middle School", "6-8", middle_school],
+            ["High School", "9-12", high_school],
+            ["College", "13-13.9", college],
+            ["Graduate", "14+", graduate]
         ]
-        print(tabulate(distribution_table, headers=['Level', 'Score Range', 'Files'], tablefmt='github'))
+        print(tabulate(distribution_table, headers=['Grade Level', 'Score Range', 'Files'], tablefmt='github'))
         print()
 
         # Top most difficult and easiest
@@ -201,9 +222,9 @@ def main():
                 i,
                 result['path'],
                 f"{result['score']:.2f}",
-                interpret_flesch_score(result['score'])
+                interpret_linsear_score(result['score'])
             ])
-        print(tabulate(difficult_table, headers=['Rank', 'File', 'Score', 'Level'], tablefmt='github'))
+        print(tabulate(difficult_table, headers=['Rank', 'File', 'Score', 'Grade Level'], tablefmt='github'))
 
         print()
         print("TOP 10 EASIEST FILES:")
@@ -214,9 +235,10 @@ def main():
                 i,
                 result['path'],
                 f"{result['score']:.2f}",
-                interpret_flesch_score(result['score'])
+                interpret_linsear_score(result['score'])
             ])
-        print(tabulate(easiest_table, headers=['Rank', 'File', 'Score', 'Level'], tablefmt='github'))
+        print(tabulate(easiest_table, headers=['Rank', 'File', 'Score', 'Grade Level'], tablefmt='github'))
+
 
 if __name__ == '__main__':
     main()

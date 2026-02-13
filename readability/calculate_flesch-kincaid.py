@@ -6,13 +6,8 @@ from tabulate import tabulate
 
 from markdown_utils import clean_text, find_documentation_files
 
-
-def calculate_linear_score(text):
-    """Calculate Linsear Write Formula score using textstat package.
-
-    The Linsear Write Formula is specifically designed for technical writing.
-    The result represents the grade level needed to understand the text.
-    """
+def calculate_flesch_kincaid_score(text):
+    """Calculate Flesch-Kincaid Grade Level score using textstat package."""
     # Clean the text
     cleaned_text = clean_text(text)
 
@@ -21,7 +16,7 @@ def calculate_linear_score(text):
         return None, 0, 0, 0
 
     # Use textstat to calculate various metrics
-    linsear_score = textstat.linsear_write_formula(cleaned_text)
+    flesch_kincaid_score = textstat.flesch_kincaid_grade(cleaned_text)
     word_count = textstat.lexicon_count(cleaned_text)
     sentence_count = textstat.sentence_count(cleaned_text)
     syllable_count = textstat.syllable_count(cleaned_text)
@@ -30,11 +25,10 @@ def calculate_linear_score(text):
     if word_count == 0 or sentence_count == 0:
         return None, 0, 0, 0
 
-    return linsear_score, word_count, sentence_count, syllable_count
+    return flesch_kincaid_score, word_count, sentence_count, syllable_count
 
-
-def interpret_linsear_score(score):
-    """Interpret the Linsear Write score as grade level."""
+def interpret_flesch_kincaid_score(score):
+    """Interpret the Flesch-Kincaid Grade Level score."""
     if score < 0:
         return "Below 1st Grade"
     elif score < 1:
@@ -68,11 +62,10 @@ def interpret_linsear_score(score):
     else:
         return "College Graduate"
 
-
 def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(
-        description='Calculate Linsear Write Formula scores for markdown documentation files.'
+        description='Calculate Flesch-Kincaid Grade Level scores for markdown documentation files.'
     )
     parser.add_argument(
         'docs_dir',
@@ -104,7 +97,7 @@ def main():
         print(f"No documentation files found in {docs_dir}")
         return
 
-    print("# LINSEAR WRITE FORMULA ANALYSIS - SPRING BOOT ADMIN DOCUMENTATION")
+    print("# FLESCH-KINCAID GRADE LEVEL ANALYSIS - SPRING BOOT ADMIN DOCUMENTATION")
     print(f"Analyzing files in: {docs_dir}  ")
     print(f"Minimum words threshold: {min_words}  ")
     print()
@@ -120,10 +113,12 @@ def main():
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
 
-            score, words, sentences, syllables = calculate_linear_score(content)
+            score, words, sentences, syllables = calculate_flesch_kincaid_score(content)
 
             if score is not None and words >= min_words:
                 relative_path = file_path.relative_to(docs_dir)
+                # Use cleaned content for preview to show what's actually being analyzed
+                cleaned_content = clean_text(content)
                 results.append({
                     'path': str(relative_path),
                     'score': score,
@@ -150,16 +145,18 @@ def main():
         all_results_table.append([
             result['path'],
             f"{result['score']:.2f}",
-            interpret_linsear_score(result['score']),
-            result['words']
+            interpret_flesch_kincaid_score(result['score']),
+            result['words'],
+            result['sentences'],
+            result['syllables']
         ])
-    print(tabulate(all_results_table, headers=['File', 'Score', 'Grade Level', 'Words'], tablefmt='github'))
+    print(tabulate(all_results_table, headers=['File', 'Score', 'Grade Level', 'Words', 'Sentences', 'Syllables'], tablefmt='github'))
 
     print()
     print("## OVERALL STATISTICS")
 
     if total_words > 0 and total_sentences > 0:
-        # Calculate overall Linsear Write score using textstat
+        # Calculate overall Flesch Reading Ease score using textstat
         # We need to calculate it from all the text combined
         all_text = []
         for file_path in files:
@@ -171,17 +168,17 @@ def main():
                 pass
 
         combined_text = '\n'.join(all_text)
-        overall_score = textstat.linsear_write_formula(combined_text)
+        overall_score = textstat.flesch_kincaid_grade(combined_text)
 
         stats_table = [
             ["Total files analyzed", len(results)],
             ["Total words", f"{total_words:,}"],
             ["Total sentences", f"{total_sentences:,}"],
             ["Total syllables", f"{total_syllables:,}"],
-            ["Average words per sentence", f"{total_words / total_sentences:.2f}"],
-            ["Average syllables per word", f"{total_syllables / total_words:.2f}"],
-            ["Overall Linsear Write Score", f"{overall_score:.2f}"],
-            ["Overall Grade Level", interpret_linsear_score(overall_score)]
+            ["Average words per sentence", f"{total_words/total_sentences:.2f}"],
+            ["Average syllables per word", f"{total_syllables/total_words:.2f}"],
+            ["Overall Flesch-Kincaid Grade Level", f"{overall_score:.2f}"],
+            ["Overall Grade Level", interpret_flesch_kincaid_score(overall_score)]
         ]
 
         if skipped_files > 0:
@@ -220,7 +217,7 @@ def main():
                 i,
                 result['path'],
                 f"{result['score']:.2f}",
-                interpret_linsear_score(result['score'])
+                interpret_flesch_kincaid_score(result['score'])
             ])
         print(tabulate(difficult_table, headers=['Rank', 'File', 'Score', 'Grade Level'], tablefmt='github'))
 
@@ -233,10 +230,9 @@ def main():
                 i,
                 result['path'],
                 f"{result['score']:.2f}",
-                interpret_linsear_score(result['score'])
+                interpret_flesch_kincaid_score(result['score'])
             ])
         print(tabulate(easiest_table, headers=['Rank', 'File', 'Score', 'Grade Level'], tablefmt='github'))
-
 
 if __name__ == '__main__':
     main()
