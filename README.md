@@ -15,5 +15,5 @@ Contains readability analysis tools and reports for documentation, measuring tex
 Configuration and results for Vale documentation linting, checking documentation quality, style consistency, and technical writing best practices.
 
 ### wcag-conformity/
-Web Content Accessibility Guidelines (WCAG) conformity analysis for documentation, ensuring accessibility standards compliance.
+Web Content Accessibility Guidelines (WCAG) conformity analysis for web pages using automated testing. Includes Python scripts for WCAG 2.1 Level AA compliance checking, batch scanning utilities, and generated accessibility reports.
 

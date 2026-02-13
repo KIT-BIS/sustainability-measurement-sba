@@ -91,31 +91,25 @@ Save the report to a markdown file:
 
 ### Batch Processing
 
-Check multiple websites from a file using the batch script:
+Check multiple pages from a file using the batch scanning script:
 
 ```bash
 # Create a file with URLs (one per line)
-# See urls-example.txt for format
+# See pages_to_scan.txt for format
 
 # Run batch checks (creates individual reports for each URL)
-./batch_check_wcag.sh urls.txt
-
-# Specify custom output directory
-./batch_check_wcag.sh -o /path/to/reports urls.txt
-
-# Generate both individual reports AND a combined report
-./batch_check_wcag.sh -c urls.txt
+./scan_all_pages.sh
 ```
 
 The batch script will:
+- Read URLs from `pages_to_scan.txt`
 - Process each URL individually
-- Save separate reports for each website
-- Provide a summary of successes and failures
-- Optionally generate a combined report for all URLs
+- Save separate reports in the `reports/` directory
+- Generate reports named `wcag-report-{last-path-segment}.md`
+- Provide progress feedback and error handling
 
-URL list file format (see `urls-example.txt`):
+URL list file format (see `pages_to_scan.txt`):
 ```
-# Lines starting with # are comments
 https://example.com
 https://example.com/about
 https://example.com/contact
