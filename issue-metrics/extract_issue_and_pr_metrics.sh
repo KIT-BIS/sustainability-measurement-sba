@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-YEAR=2019
+YEAR=2026
 
 python3 extract_issue_metrics.py \
   --repo codecentric/spring-boot-admin \
