@@ -1,0 +1,14 @@
+https://sustainability.spring-boot-admin.com/applications
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/details
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/metrics
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/env
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/beans
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/configprops
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/conditions
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/scheduledtasks
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/depenedencies
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/sbom
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/logfile
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/loggers
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/threaddump
+https://sustainability.spring-boot-admin.com/instances/7f4c1d70a144/mappings

@@ -358,6 +358,29 @@ def write_markdown_report(prs_data: list, repo: str, start_date: str, end_date: 
             f.write(f"\nNote: PRs from bots (renovate, dependabot, github-actions, etc.) are excluded from this report.\n")
 
 
+def get_pr_metrics(repo, start_date, end_date, token):
+    pull_requests = fetch_pull_requests(repo, start_date, end_date, token)
+    pull_requests_data = []
+    for i, pull_request in enumerate(pull_requests, 1):
+        pull_request_data = extract_pr_data(pull_request, token)
+        pull_requests_data.append(pull_request_data)
+
+    time_to_first_review_list = [i["time_to_first_review"] for i in pull_requests_data]
+    time_to_merge_list = [i["time_to_merge"] for i in pull_requests_data]
+
+    stats_first_review = calculate_statistics(time_to_first_review_list)
+    stats_merge = calculate_statistics(time_to_merge_list)
+
+    return {
+        "average_first_review": stats_first_review["average"],
+        "median_first_review": stats_first_review["median"],
+        "percentile_90_first_review": stats_first_review["percentile_90"],
+        "average_merge": stats_merge["average"],
+        "median_merge": stats_merge["median"],
+        "percentile_90_merge": stats_merge["percentile_90"],
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Extract GitHub pull request metrics to Markdown format"

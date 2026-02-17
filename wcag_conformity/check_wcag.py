@@ -2,6 +2,7 @@
 """WCAG conformity checker for websites."""
 
 import argparse
+import os
 import sys
 from typing import List, Dict, Any
 from collections import defaultdict
@@ -9,7 +10,7 @@ from tabulate import tabulate
 from playwright.sync_api import sync_playwright
 from axe_playwright_python.sync_playwright import Axe
 
-from wcag_utils import (
+from wcag_conformity.wcag_utils import (
     run_accessibility_scan,
     categorize_by_severity,
     categorize_by_wcag_criterion,
@@ -268,6 +269,99 @@ def print_top_issues(all_violations: List[Dict]):
     print()
 
 
+
+
+def check_wcag_conformity():
+    working_dir = os.getcwd()
+
+    file_path = os.path.join(working_dir, "wcag_conformity\\pages_to_scan.txt")
+
+    urls = []
+    with open(file_path, 'r') as file:
+        urls = file.read().splitlines()
+
+    all_results = run_scans(urls)
+    return compute_conformity_score(all_results)
+
+
+
+
+
+def compute_conformity_score(all_results: List[Dict]):
+
+    weights = {
+        "critical": 10,
+        "serious": 7,
+        "moderate": 3,
+        "minor": 1,
+    }
+
+    score = 0
+    total_score = 0
+
+    for result in all_results:
+
+        for violation in result.get("violations", []):
+            impact = violation.get("impact")
+            total_score += weights.get(impact, 0)
+
+        for passed in result.get("passes", []):
+            impact = passed.get("impact")
+            w = weights.get(impact, 0)
+            total_score += w
+            score += w
+
+
+    if total_score > 0:
+        return score / total_score
+    else:
+        return 0
+
+
+
+def run_scans(urls: List[str]):
+    all_results = []
+    try:
+        with sync_playwright() as p:
+            # Launch browser
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context()
+            page = context.new_page()
+
+            # Create Axe instance
+            axe = Axe()
+
+            # Scan each URL
+            for url in urls:
+                #print(f"Scanning: {url}")
+                try:
+                    results = run_accessibility_scan(url, page, axe)
+                    all_results.append({
+                        'url': url,
+                        'violations': results.get('violations', []),
+                        'passes': results.get('passes', []),
+                        'incomplete': results.get('incomplete', []),
+                        'inapplicable': results.get('inapplicable', [])
+                    })
+                except Exception as e:
+                    print(f"Error scanning {url}: {str(e)}")
+                    print()
+
+            # Close browser
+            browser.close()
+
+    except Exception as e:
+        print(f"Error initializing browser: {str(e)}")
+        print("Make sure you have run: playwright install chromium")
+        sys.exit(1)
+
+    if not all_results:
+        print("No results to display.")
+        sys.exit(1)
+
+    return all_results
+
+
 def main():
     """Main function to run WCAG conformity checks."""
     parser = argparse.ArgumentParser(
@@ -305,45 +399,7 @@ def main():
     print(f"Analyzing {len(urls)} URL(s)...")
     print()
 
-    all_results = []
-
-    try:
-        with sync_playwright() as p:
-            # Launch browser
-            browser = p.chromium.launch(headless=True)
-            context = browser.new_context()
-            page = context.new_page()
-
-            # Create Axe instance
-            axe = Axe()
-
-            # Scan each URL
-            for url in urls:
-                print(f"Scanning: {url}")
-                try:
-                    results = run_accessibility_scan(url, page, axe, level=args.level)
-                    all_results.append({
-                        'url': url,
-                        'violations': results.get('violations', []),
-                        'passes': results.get('passes', []),
-                        'incomplete': results.get('incomplete', []),
-                        'inapplicable': results.get('inapplicable', [])
-                    })
-                except Exception as e:
-                    print(f"Error scanning {url}: {str(e)}")
-                    print()
-
-            # Close browser
-            browser.close()
-
-    except Exception as e:
-        print(f"Error initializing browser: {str(e)}")
-        print("Make sure you have run: playwright install chromium")
-        sys.exit(1)
-
-    if not all_results:
-        print("No results to display.")
-        sys.exit(1)
+    all_results = run_scans(urls)
 
     # Aggregate violations
     all_violations = aggregate_violations(all_results)

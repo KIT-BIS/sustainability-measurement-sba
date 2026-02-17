@@ -258,6 +258,28 @@ def write_markdown_report(issues_data: list, repo: str, start_date: str, end_dat
         f.write(f"Search query used: `repo:{repo} is:issue created:{start_date}..{end_date} -reason:\"not planned\"`\n")
 
 
+def get_issue_metrics(repo, start_date, end_date, token):
+    issues = fetch_issues(repo, start_date, end_date, token)
+    issues_data = []
+    for i, issue in enumerate(issues, 1):
+        issue_data = extract_issue_data(issue, token)
+        issues_data.append(issue_data)
+
+    time_to_first_response_list = [i["time_to_first_response"] for i in issues_data]
+    time_to_close_list = [i["time_to_close"] for i in issues_data]
+
+    stats_first_response = calculate_statistics(time_to_first_response_list)
+    stats_close = calculate_statistics(time_to_close_list)
+
+    return {
+        "average_first_response": stats_first_response["average"],
+        "median_first_response": stats_first_response["median"],
+        "percentile_90_first_response": stats_first_response["percentile_90"],
+        "average_close": stats_close["average"],
+        "median_close": stats_close["median"],
+        "percentile_90_close": stats_close["percentile_90"],
+    }
+
 def main():
     parser = argparse.ArgumentParser(
         description="Extract GitHub issue metrics to Markdown format"

@@ -3,8 +3,9 @@ import argparse
 import textstat
 from pathlib import Path
 from tabulate import tabulate
+import os
 
-from markdown_utils import clean_text, find_documentation_files
+from readability.markdown_utils import clean_text, find_documentation_files
 
 def calculate_flesch_score(text):
     """Calculate Flesch Reading Ease score using textstat package."""
@@ -43,6 +44,14 @@ def interpret_flesch_score(score):
         return "Difficult (College)"
     else:
         return "Very Difficult (College graduate)"
+
+
+def get_flesch_readability_score(tempdir):
+    docs_dir = os.path.join(tempdir, "spring-boot-admin-docs\\src\\site\\docs")
+    files = find_documentation_files(docs_dir)
+    return compute_overall_flesch_score(files)
+
+
 
 def main():
     # Parse command line arguments
@@ -140,17 +149,7 @@ def main():
     if total_words > 0 and total_sentences > 0:
         # Calculate overall Flesch Reading Ease score using textstat
         # We need to calculate it from all the text combined
-        all_text = []
-        for file_path in files:
-            try:
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    all_text.append(clean_text(content))
-            except Exception:
-                pass
-
-        combined_text = '\n'.join(all_text)
-        overall_score = textstat.flesch_reading_ease(combined_text)
+        overall_score = compute_overall_flesch_score(files)
 
         stats_table = [
             ["Total files analyzed", len(results)],
@@ -217,6 +216,22 @@ def main():
                 interpret_flesch_score(result['score'])
             ])
         print(tabulate(easiest_table, headers=['Rank', 'File', 'Score', 'Level'], tablefmt='github'))
+
+
+def compute_overall_flesch_score(files):
+    all_text = []
+    for file_path in files:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                all_text.append(clean_text(content))
+        except Exception:
+            pass
+
+    combined_text = '\n'.join(all_text)
+    overall_score = textstat.flesch_reading_ease(combined_text)
+    return overall_score
+
 
 if __name__ == '__main__':
     main()
