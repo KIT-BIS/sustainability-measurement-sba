@@ -2,14 +2,14 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 15 days, 18:21:26 | 2 days, 11:19:58 | 51 days, 0:33:06 |
-| Time to close | 21 days, 1:20:54 | 5 days, 15:53:00 | 93 days, 11:00:01 |
+| Time to first response | 17 days, 3:51:23 | 2 days, 11:19:58 | 63 days, 1:22:32 |
+| Time to close | 30 days, 10:09:48 | 7 days, 3:53:44 | 104 days, 14:12:49 |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 21 |
-| Number of items closed | 80 |
-| Total number of items created | 101 |
+| Number of items that remain open | 15 |
+| Number of items closed | 85 |
+| Total number of items created | 100 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close |
 | --- | --- | --- | --- | --- | --- |
@@ -59,7 +59,7 @@
 | Attributes cannot be displayed under the JMX menu. | https://github.com/codecentric/spring-boot-admin/issues/4333 | None | [Caratacus](https://github.com/Caratacus) | 12 days, 6:51:24 | 13 days, 14:27:40 |
 | Feature: Allow to disable the service URL on a client-basis | https://github.com/codecentric/spring-boot-admin/issues/4338 | None | [cdprete](https://github.com/cdprete) | 92 days, 20:44:48 | 93 days, 11:00:01 |
 | Feature: Improve the UX with the Journal view | https://github.com/codecentric/spring-boot-admin/issues/4340 | None | [cdprete](https://github.com/cdprete) | 104 days, 1:18:28 | 104 days, 14:12:49 |
-| Bug: Thread dump view out of bounds and broken sorting | https://github.com/codecentric/spring-boot-admin/issues/4341 | SteKoe | [cdprete](https://github.com/cdprete) | 142 days, 1:13:19 | None |
+| Bug: Thread dump view out of bounds and broken sorting | https://github.com/codecentric/spring-boot-admin/issues/4341 | SteKoe | [cdprete](https://github.com/cdprete) | 142 days, 1:13:19 | 250 days, 10:57:27 |
 | Can't view the entire log file | https://github.com/codecentric/spring-boot-admin/issues/4342 | None | [cdprete](https://github.com/cdprete) | None | None |
 | Bug: Metrics are collected even when they're not needed | https://github.com/codecentric/spring-boot-admin/issues/4343 | None | [cdprete](https://github.com/cdprete) | 11 days, 3:47:23 | 11 days, 22:24:40 |
 | Bug: Loggers view - inconsistent behaviour | https://github.com/codecentric/spring-boot-admin/issues/4344 | None | [cdprete](https://github.com/cdprete) | 32 days, 23:06:07 | 33 days, 20:21:27 |
@@ -74,13 +74,13 @@
 | Bug: Metaspace memory usage is not shown for the heap space | https://github.com/codecentric/spring-boot-admin/issues/4438 | None | [cdprete](https://github.com/cdprete) | 1:44:34 | 3:17:47 |
 | Bug: Broken rendering of process info with Spring Boot 3.5.x | https://github.com/codecentric/spring-boot-admin/issues/4440 | None | [cdprete](https://github.com/cdprete) | 21:34:57 | 2 days, 22:20:53 |
 | chore(maven): [WARNING] spring-boot-admin-docs | https://github.com/codecentric/spring-boot-admin/issues/4452 | None | [mirogaudi](https://github.com/mirogaudi) | None | 19 days, 20:40:35 |
-| When i create a new spring boot project with admin and client & new Object mapper it fails. | https://github.com/codecentric/spring-boot-admin/issues/4454 | None | [ganeshbabugb](https://github.com/ganeshbabugb) | 12:31:05 | None |
+| When i create a new spring boot project with admin and client & new Object mapper it fails. | https://github.com/codecentric/spring-boot-admin/issues/4454 | None | [ganeshbabugb](https://github.com/ganeshbabugb) | 12:31:05 | 216 days, 13:27:19 |
 | chore(tests): clean up tests, use Awaitility instead of Thread.sleep() | https://github.com/codecentric/spring-boot-admin/issues/4456 | None | [mirogaudi](https://github.com/mirogaudi) | None | 8 days, 20:27:59 |
 | Feature: Allow to customize the service-path, service-base-path and service-url | https://github.com/codecentric/spring-boot-admin/issues/4468 | None | [cdprete](https://github.com/cdprete) | None | 40 days, 19:11:08 |
 | Bug: The journal view displays the old application names | https://github.com/codecentric/spring-boot-admin/issues/4476 | Copilot | [cdprete](https://github.com/cdprete) | None | 29 days, 0:18:25 |
 | chore(tests): clean up JUnit tests to comply JUnit Jupiter | https://github.com/codecentric/spring-boot-admin/issues/4477 | None | [mirogaudi](https://github.com/mirogaudi) | None | 22:04:06 |
 | Bug: HTTP Exchanges view doesn't respect the user locale | https://github.com/codecentric/spring-boot-admin/issues/4493 | SteKoe | [cdprete](https://github.com/cdprete) | None | 7 days, 1:32:03 |
-| Bug: Trying to zoom-in the HTTP exchanges view fails | https://github.com/codecentric/spring-boot-admin/issues/4494 | None | [cdprete](https://github.com/cdprete) | 11 days, 23:47:16 | None |
+| Bug: Trying to zoom-in the HTTP exchanges view fails | https://github.com/codecentric/spring-boot-admin/issues/4494 | None | [cdprete](https://github.com/cdprete) | 11 days, 23:47:16 | 205 days, 20:16:25 |
 | Bug: Switching instance from the overview page of one instance shows the information of the previous instance | https://github.com/codecentric/spring-boot-admin/issues/4511 | None | [cdprete](https://github.com/cdprete) | 10 days, 22:08:52 | 48 days, 23:05:20 |
 | Help needed: Random TimeoutException | https://github.com/codecentric/spring-boot-admin/issues/4516 | None | [cdprete](https://github.com/cdprete) | 3 days, 1:56:06 | None |
 | i18n: clean up and update RU locale | https://github.com/codecentric/spring-boot-admin/issues/4547 | None | [mirogaudi](https://github.com/mirogaudi) | None | 29 days, 15:51:37 |
@@ -89,10 +89,9 @@
 | Long Class Names Overflowing In Scheduled Tasks Page | https://github.com/codecentric/spring-boot-admin/issues/4572 | None | [EmirBoyaci](https://github.com/EmirBoyaci) | None | 5 days, 7:48:08 |
 | Enhancement: Unappealing error message when log level cannot be set | https://github.com/codecentric/spring-boot-admin/issues/4579 | None | [SteKoe](https://github.com/SteKoe) | None | 2 days, 8:03:52 |
 | Spring Boot 4.0 support | https://github.com/codecentric/spring-boot-admin/issues/4580 | None | [benjaminoweprintix](https://github.com/benjaminoweprintix) | 6:14:36 | 1 day, 5:27:35 |
-| Feature: Allow to disable/enable events | https://github.com/codecentric/spring-boot-admin/issues/4598 | None | [cdprete](https://github.com/cdprete) | 9 days, 12:33:07 | None |
 | Bug: Instance reported as down even if it's up | https://github.com/codecentric/spring-boot-admin/issues/4599 | None | [cdprete](https://github.com/cdprete) | None | None |
 | UI won't load after upgrading SBA server to 3.5.3 | https://github.com/codecentric/spring-boot-admin/issues/4646 | None | [SteKoe](https://github.com/SteKoe) | 20:26:50 | 1 day, 9:45:05 |
-| Bug: UI broken from version 3.5.3 | https://github.com/codecentric/spring-boot-admin/issues/4649 | None | [cdprete](https://github.com/cdprete) | 1 day, 1:25:12 | None |
+| Bug: UI broken from version 3.5.3 | https://github.com/codecentric/spring-boot-admin/issues/4649 | None | [cdprete](https://github.com/cdprete) | 1 day, 1:25:12 | 146 days, 11:53:05 |
 | unable to see my custom view | https://github.com/codecentric/spring-boot-admin/issues/4650 | None | [neoludo](https://github.com/neoludo) | 0:38:38 | 7:09:46 |
 | Bug / Feature: Improve status reporting | https://github.com/codecentric/spring-boot-admin/issues/4664 | None | [cdprete](https://github.com/cdprete) | None | None |
 | Improve docs around supported Actuator features | https://github.com/codecentric/spring-boot-admin/issues/4683 | None | [cdprete](https://github.com/cdprete) | None | 2 days, 14:06:18 |
@@ -100,14 +99,14 @@
 | Feature: Record UI state per client | https://github.com/codecentric/spring-boot-admin/issues/4699 | None | [cdprete](https://github.com/cdprete) | 9:09:29 | 2 days, 2:31:39 |
 | Feature: Allow links per instance/application  | https://github.com/codecentric/spring-boot-admin/issues/4700 | None | [cdprete](https://github.com/cdprete) | 8:54:37 | 13 days, 22:36:15 |
 | Enhancement: HTTP Exchanges inconsistent header fonts | https://github.com/codecentric/spring-boot-admin/issues/4726 | None | [cdprete](https://github.com/cdprete) | 4 days, 3:00:24 | 4 days, 3:02:25 |
-| Selective Hazelcast support | https://github.com/codecentric/spring-boot-admin/issues/4773 | None | [cdprete](https://github.com/cdprete) | None | None |
+| Selective Hazelcast support | https://github.com/codecentric/spring-boot-admin/issues/4773 | None | [cdprete](https://github.com/cdprete) | 112 days, 19:29:07 | None |
 | Improve application dependencies view | https://github.com/codecentric/spring-boot-admin/issues/4797 | SteKoe | [cdprete](https://github.com/cdprete) | 22:37:59 | 19 days, 6:35:08 |
 | Support for Spring Boot 4 | https://github.com/codecentric/spring-boot-admin/issues/4804 | None | [TKorhonen](https://github.com/TKorhonen) | 0:02:08 | None |
 | Enhancement: Improve links visibility | https://github.com/codecentric/spring-boot-admin/issues/4808 | SteKoe | [cdprete](https://github.com/cdprete) | 11 days, 19:48:45 | 11 days, 19:48:45 |
 | Add Mattermost Notifier | https://github.com/codecentric/spring-boot-admin/issues/4820 | EmirBoyaci | [EmirBoyaci](https://github.com/EmirBoyaci) | 3 days, 23:37:32 | 5 days, 4:13:05 |
 | Bug: Version recognised as link | https://github.com/codecentric/spring-boot-admin/issues/4830 | SteKoe | [cdprete](https://github.com/cdprete) | 4 days, 3:08:49 | 4 days, 4:11:41 |
 | Broken sidebar after update from 3.5.5 to 3.5.6 | https://github.com/codecentric/spring-boot-admin/issues/4831 | SteKoe | [MahatmaFatalError](https://github.com/MahatmaFatalError) | None | 4 days, 5:22:32 |
-| Bug: Duplicated journal events | https://github.com/codecentric/spring-boot-admin/issues/4858 | None | [cdprete](https://github.com/cdprete) | 4 days, 12:29:10 | None |
+| Bug: Duplicated journal events | https://github.com/codecentric/spring-boot-admin/issues/4858 | None | [cdprete](https://github.com/cdprete) | 4 days, 12:29:10 | 82 days, 3:27:00 |
 | Render memory values in a human-readable format | https://github.com/codecentric/spring-boot-admin/issues/4863 | None | [cdprete](https://github.com/cdprete) | None | None |
 | Bug: Filtering and sorting in the journal view working only partially | https://github.com/codecentric/spring-boot-admin/issues/4880 | None | [cdprete](https://github.com/cdprete) | None | None |
 | SBA inside Istio Service Mesh 503 Service Unavilable | https://github.com/codecentric/spring-boot-admin/issues/4895 | None | [swapneshran](https://github.com/swapneshran) | 63 days, 1:22:32 | None |

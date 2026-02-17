@@ -7,9 +7,9 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 3 |
+| Number of items that remain open | 5 |
 | Number of items closed | 4 |
-| Total number of items created | 7 |
+| Total number of items created | 9 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close |
 | --- | --- | --- | --- | --- | --- |
@@ -20,5 +20,7 @@
 | Feature Request: Add configuration to limit endpoint access based on HAL discovery results | https://github.com/codecentric/spring-boot-admin/issues/5062 | None | [carrotFromCali](https://github.com/carrotFromCali) | 1:36:55 | None |
 | Bug: Loggers view buttons placement | https://github.com/codecentric/spring-boot-admin/issues/5063 | None | [cdprete](https://github.com/cdprete) | 2:05:59 | 2:05:59 |
 | Bug: Missing checkbox to hide Actuator entries in HTTP Exchanges view | https://github.com/codecentric/spring-boot-admin/issues/5065 | None | [cdprete](https://github.com/cdprete) | 2:02:31 | None |
+| Bug: Json serialization fails with jackson-module-afterburner | https://github.com/codecentric/spring-boot-admin/issues/5078 | None | [michael-wirth](https://github.com/michael-wirth) | None | None |
+| Bug: SBA server build breaks with version 4.0.0 | https://github.com/codecentric/spring-boot-admin/issues/5079 | None | [cdprete](https://github.com/cdprete) | None | None |
 
 Search query used: `repo:codecentric/spring-boot-admin is:issue created:2026-01-01..2026-12-31 -reason:"not planned"`
