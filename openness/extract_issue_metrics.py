@@ -215,7 +215,7 @@ def calculate_statistics(durations: list) -> dict:
 
 
 def write_markdown_report(issues_data: list, repo: str, start_date: str, end_date: str, output_file: str):
-    """Write issues data to markdown file in the same format as issue_metrics.md."""
+    """Write issues data to markdown file in the same format as openness.md."""
     with open(output_file, "w") as f:
         f.write("# Issue Metrics\n\n")
 
@@ -301,8 +301,8 @@ def main():
     )
     parser.add_argument(
         "--output",
-        default="issue_metrics.md",
-        help="Output file path (default: issue_metrics.md)"
+        default="openness.md",
+        help="Output file path (default: openness.md)"
     )
     parser.add_argument(
         "--token",

@@ -10,7 +10,7 @@ from tabulate import tabulate
 from playwright.sync_api import sync_playwright
 from axe_playwright_python.sync_playwright import Axe
 
-from wcag_conformity.wcag_utils import (
+from accessibility.wcag_utils import (
     run_accessibility_scan,
     categorize_by_severity,
     categorize_by_wcag_criterion,
@@ -274,7 +274,7 @@ def print_top_issues(all_violations: List[Dict]):
 def check_wcag_conformity():
     working_dir = os.getcwd()
 
-    file_path = os.path.join(working_dir, "wcag_conformity\\pages_to_scan.txt")
+    file_path = os.path.join(working_dir, "accessibility\\pages_to_scan.txt")
 
     urls = []
     with open(file_path, 'r') as file:

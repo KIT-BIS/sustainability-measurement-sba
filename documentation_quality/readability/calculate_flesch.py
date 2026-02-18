@@ -5,7 +5,7 @@ from pathlib import Path
 from tabulate import tabulate
 import os
 
-from readability.markdown_utils import clean_text, find_documentation_files
+from documentation_quality.readability.markdown_utils import clean_text, find_documentation_files
 
 def calculate_flesch_score(text):
     """Calculate Flesch Reading Ease score using textstat package."""

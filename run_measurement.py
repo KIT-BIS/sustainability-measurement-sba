@@ -9,11 +9,12 @@ import requests
 import zipfile
 import io
 
-import readability.calculate_flesch
-from consistency import check_consistency
-from wcag_conformity import check_wcag
-from issue_metrics import extract_issue_metrics
-from issue_metrics import extract_pr_metrics
+import documentation_quality.readability.calculate_flesch
+from documentation_quality.consistency import check_consistency
+from accessibility import check_wcag
+from openness import extract_issue_metrics
+from openness import extract_pr_metrics
+from energy_consumption import measure_energy_consumption
 
 def parse_duration(text: str):
     text = text.strip().lower()
@@ -41,7 +42,7 @@ def get_wcag_conformity_score():
     return check_wcag.check_wcag_conformity()*100
 
 def get_documentation_readability_score(temp_dir):
-    flesch_score = readability.calculate_flesch.get_flesch_readability_score(temp_dir)
+    flesch_score = documentation_quality.readability.calculate_flesch.get_flesch_readability_score(temp_dir)
     ideal_flesch_score = 50
     if flesch_score >= ideal_flesch_score:
         return 100
@@ -76,18 +77,41 @@ def get_maintainer_score():
 
     return (issue_score + pr_score)/2
 
+def get_energy_consumption_and_network_traffic(url, time):
+    return measure_energy_consumption.measure_energy_and_network_traffic(url, time)
+
+
 def main():
     temp_dir = prepare()
 
+    # Energy consumption
+    print("--- ENERGY CONSUMPTION ---")
+    url_wallboard = "https://sustainability.spring-boot-admin.com/wallboard"
+    data = get_energy_consumption_and_network_traffic(url_wallboard, 60000)
+    print(f"Wallboard Client Energy Rate (mWh): {data["cpu_energy_mwh"]:.2f}")
+    print(f"Wallboard Network Energy Rate (mWh): {data["network_energy_mwh"]:.2f}")
+
+    url_detail_page = "https://sustainability.spring-boot-admin.com/instances/83de351fb815/details"
+    data = get_energy_consumption_and_network_traffic(url_detail_page, 60000)
+    print(f"Detail Page Client Energy Rate (mWh): {data["cpu_energy_mwh"]:.2f}")
+    print(f"Detail Page Network Energy Rate (mWh): {data["network_energy_mwh"]:.2f}")
+    print()
+
     # Documentation quality
+    print("--- DOCUMENTATION QUALITY ---")
     print(f"Documentation Readability Score: {get_documentation_readability_score(temp_dir):.2f}")
     print(f"Documentation Consistency Score: {get_documentation_consistency_score(temp_dir):.2f}")
+    print()
 
     # Accessibility
+    print("--- ACCESSIBILITY---")
     print(f"WCAG Conformity Score: {get_wcag_conformity_score():.2f}")
+    print()
 
     # Openness
+    print("--- OPENNESS ---")
     print(f"Maintainer Score: { get_maintainer_score():.2f}")
+    print()
 
 
     clean(temp_dir)

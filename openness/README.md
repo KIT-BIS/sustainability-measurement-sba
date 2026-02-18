@@ -82,7 +82,7 @@ Create a GitHub Personal Access Token:
   --repo codecentric/spring-boot-admin \
   --start-date 2024-01-01 \
   --end-date 2024-12-31 \
-  --output issue_metrics.2024.md
+  --output openness.2024.md
 ```
 
 ### Extract Pull Request Metrics
