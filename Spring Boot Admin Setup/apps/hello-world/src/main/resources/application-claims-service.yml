@@ -1,0 +1,7 @@
+app:
+  feature:
+    auto_reject: true
+
+info:
+  build:
+    version: 18.0.0

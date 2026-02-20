@@ -1,0 +1,5 @@
+management: # Actuator Configuration
+  endpoints:
+    web:
+      exposure:
+        include: health

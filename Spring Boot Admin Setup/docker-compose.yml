@@ -1,0 +1,41 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./apps/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    restart: always
+    command: "/bin/sh -c 'while :; do sleep 3h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+    depends_on:
+      spring-boot-admin:
+        condition: service_healthy
+
+  spring-boot-admin:
+    container_name: spring-boot-admin-nginx
+    image: spring-boot-admin-nginx
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/actuator/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  claims-service:
+    image: hello-world-nginx
+    environment:
+      SPRING_PROFILES_ACTIVE: claims-service
+      SPRING_APPLICATION_NAME: claims-service
+      APP_FEATURE_AUTO_ACCEPT_CLAIMS: true
+
+  policy-service:
+    image: hello-world-nginx
+    environment:
+      SPRING_PROFILES_ACTIVE: policy-service
+      SPRING_APPLICATION_NAME: policy-service
+
+  customer-service:
+    image: hello-world-nginx
+    environment:
+      SPRING_PROFILES_ACTIVE: customer-service
+      SPRING_APPLICATION_NAME: customer-service
