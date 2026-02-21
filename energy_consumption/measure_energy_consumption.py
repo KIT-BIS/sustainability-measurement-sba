@@ -1,12 +1,15 @@
 import json
 import os
-from playwright.sync_api import sync_playwright
 import shutil
+import argparse
+from datetime import datetime
+from playwright.sync_api import sync_playwright
+
 
 def measure_energy_and_network_traffic(url, time):
-    data_path = os.path.join(os.getcwd(), "energy_consumption\\data")
+    data_path = os.path.join(os.getcwd(), "data")
     if os.path.exists(data_path):
-       shutil.rmtree(data_path)
+        shutil.rmtree(data_path)
     os.mkdir(data_path)
 
     profile_path = os.path.join(data_path, "web_profile.json")
@@ -16,7 +19,7 @@ def measure_energy_and_network_traffic(url, time):
     env["MOZ_PROFILER_STARTUP"] = "1"
     env["MOZ_PROFILER_SHUTDOWN"] = profile_path
     env["MOZ_PROFILER_STARTUP_ENTRIES"] = "10000000"
-    env["MOZ_PROFILER_STARTUP_FEATURES"] = "js,stackwalk,cpu,power"
+    env["MOZ_PROFILER_STARTUP_FEATURES"] = "js,stackwalk,cpu,power,gpu"
 
     with sync_playwright() as p:
         browser = p.firefox.launch(
@@ -41,15 +44,17 @@ def measure_energy_and_network_traffic(url, time):
         page.goto(url)
         page.wait_for_timeout(time)
 
-
         context.close()
         browser.close()
         network_data = extract_network_data(har_path)
         energy_data = extract_energy_data(profile_path)
 
-    return {"network_energy_mwh": network_data,
-            "cpu_energy_mwh": energy_data["Power: CPU package"]}
-
+    return {
+        "network_energy_mwh": network_data,
+        "cpu_energy_mwh": energy_data["Power: CPU package"],
+        "dram_energy_mwh": energy_data["Power: DRAM"],
+        "all": energy_data
+    }
 
 
 def extract_network_data(har_path):
@@ -72,14 +77,13 @@ def extract_network_data(har_path):
             total_bytes += header_size
 
     # Energy factor 0.059
-    result = round((total_bytes / 1000000000) * 0.059 * 1000000,2)
+    result = round((total_bytes / 1000000000) * 0.059 * 1000000, 2)
     return result
-
 
 
 def extract_energy_data(json_path):
     energy_data = {}
-    with open(json_path) as a:
+    with open(json_path, encoding="utf-8") as a:
         my_json = json.load(a)
         for node in my_json['counters']:
             if node.get('category') == 'power' or 'power' in node.get('name', '').lower():
@@ -101,7 +105,54 @@ def extract_energy_data(json_path):
 
 
 def main():
-    print(measure_energy_and_network_traffic("https://sustainability.spring-boot-admin.com/wallboard", 8000))
+    parser = argparse.ArgumentParser(description="Measure energy consumption and network traffic of a web page")
+    parser.add_argument("--url", type=str, default="http://localhost:8888/wallboard",
+                        help="URL to measure (default: http://localhost:8888/wallboard)")
+    parser.add_argument("--time", type=int, default=5,
+                        help="Time to wait in seconds (default: 5)")
+    parser.add_argument("--iterations", type=int, default=1,
+                        help="Number of measurement iterations to perform (default: 1)")
+
+    args = parser.parse_args()
+
+    all_results = []
+
+    for i in range(1, args.iterations + 1):
+        print(f"\n=== Iteration {i}/{args.iterations} ===")
+
+        result = measure_energy_and_network_traffic(args.url, args.time * 1000)
+        result["iteration"] = i
+        result["timestamp"] = datetime.now().isoformat()
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"result_{timestamp}.json"
+
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(result, f, indent=2)
+
+        print(f"Result written to {filename}")
+        print(result)
+
+        all_results.append(result)
+
+    if args.iterations > 1:
+        summary_filename = f"summary_{args.iterations}iterations_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+
+        with open(summary_filename, "w", encoding="utf-8") as f:
+            json.dump({
+                "url": args.url,
+                "measurement_time_seconds": args.time,
+                "total_iterations": args.iterations,
+                "results": all_results
+            }, f, indent=2)
+
+        print(f"\n=== Summary ===")
+        print(f"Summary written to {summary_filename}")
+
+        avg_network = sum(r["network_energy_mwh"] for r in all_results) / len(all_results)
+        avg_cpu = sum(r["cpu_energy_mwh"] for r in all_results) / len(all_results)
+        print(f"Average network energy: {avg_network:.2f} mWh")
+        print(f"Average CPU energy: {avg_cpu:.2f} mWh")
 
 
 if __name__ == '__main__':
