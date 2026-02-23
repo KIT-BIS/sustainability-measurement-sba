@@ -1,0 +1,5 @@
+=== Summary Details Page ===
+Summary written to summary_5iterations_20260222_143950.json
+Average network energy: 1056.44 mWh
+Average CPU energy: 1212.93 mWh
+Average DRAM energy: 58.17 mWh

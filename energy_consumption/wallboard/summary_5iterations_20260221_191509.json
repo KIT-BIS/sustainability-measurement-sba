@@ -1,0 +1,72 @@
+{
+  "url": "http://localhost:8888/wallboard",
+  "measurement_time_seconds": 3600,
+  "total_iterations": 5,
+  "results": [
+    {
+      "network_energy_mwh": 225.25,
+      "cpu_energy_mwh": 2941.12,
+      "dram_energy_mwh": 144.68,
+      "all": {
+        "Power: iGPU": 0.0,
+        "Power: CPU cores": 1353.48,
+        "Power: CPU package": 2941.12,
+        "Power: DRAM": 144.68
+      },
+      "iteration": 1,
+      "timestamp": "2026-02-21T15:14:16.288141"
+    },
+    {
+      "network_energy_mwh": 225.25,
+      "cpu_energy_mwh": 2907.02,
+      "dram_energy_mwh": 142.68,
+      "all": {
+        "Power: CPU cores": 1326.42,
+        "Power: CPU package": 2907.02,
+        "Power: iGPU": 0.0,
+        "Power: DRAM": 142.68
+      },
+      "iteration": 2,
+      "timestamp": "2026-02-21T16:14:34.847951"
+    },
+    {
+      "network_energy_mwh": 225.25,
+      "cpu_energy_mwh": 2890.25,
+      "dram_energy_mwh": 141.53,
+      "all": {
+        "Power: DRAM": 141.53,
+        "Power: iGPU": 0.0,
+        "Power: CPU cores": 1324.61,
+        "Power: CPU package": 2890.25
+      },
+      "iteration": 3,
+      "timestamp": "2026-02-21T17:14:47.217165"
+    },
+    {
+      "network_energy_mwh": 225.25,
+      "cpu_energy_mwh": 2888.99,
+      "dram_energy_mwh": 141.56,
+      "all": {
+        "Power: CPU cores": 1324.18,
+        "Power: DRAM": 141.56,
+        "Power: iGPU": 0.0,
+        "Power: CPU package": 2888.99
+      },
+      "iteration": 4,
+      "timestamp": "2026-02-21T18:14:57.109490"
+    },
+    {
+      "network_energy_mwh": 225.25,
+      "cpu_energy_mwh": 2907.02,
+      "dram_energy_mwh": 142.66,
+      "all": {
+        "Power: iGPU": 0.0,
+        "Power: CPU cores": 1325.79,
+        "Power: CPU package": 2907.02,
+        "Power: DRAM": 142.66
+      },
+      "iteration": 5,
+      "timestamp": "2026-02-21T19:15:09.533415"
+    }
+  ]
+}

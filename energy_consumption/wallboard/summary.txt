@@ -1,0 +1,10 @@
+=== Summary Wallboard ===
+Summary written to summary_5iterations_20260221_191509.json
+Average network energy: 225.25 mWh
+Average CPU energy: 2906.88 mWh (1)
+Average DRAM energy: 142.62 mWh
+
+(1) I have restarted the measurement twice with the very same result in high CPU energy consumption.
+Firstly I thought it is a mistake, but having let run 10 iterations in two batches (one in the morning,
+one in the evening), the results were the same (2180.79 mWh, 2909.84 mWh). Interestingly, the network
+energy was _exactly_ the same in both times while DRAM energy was slightly different (142.62 mWh, 143.01 mWh).
