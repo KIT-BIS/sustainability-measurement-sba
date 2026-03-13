@@ -1,0 +1,2 @@
+# Python client for OpenSearch (imported as `opensearchpy`)
+opensearch-py>=2.0.0

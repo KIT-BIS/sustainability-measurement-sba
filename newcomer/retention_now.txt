@@ -1,0 +1,21 @@
+Previous period: 2025-09-14 to 2025-12-13
+Current period: 2025-12-13 to 2026-03-13
+
+Fetching user first contributions...
+Fetching activities since 2025-09-14...
+
+============================================================
+RETENTION OF NEWCOMERS
+============================================================
+Total newcomers: 7
+Retained: 1
+Retention rate: 14.3%
+
+Newcomers:
+  neoludo              | First: 2025-09-16 | Latest: 2026-03-02 | Current activities:  1 | ✅ RETAINED
+  TKorhonen            | First: 2025-11-03 | Latest: 2025-11-03 | Current activities:  0 | ❌ Not retained
+  cybervuln2077        | First: 2025-12-09 | Latest: 2025-12-09 | Current activities:  0 | ❌ Not retained
+  mnk                  | First: 2025-09-21 | Latest: 2025-09-21 | Current activities:  0 | ❌ Not retained
+  squalou              | First: 2025-12-10 | Latest: 2025-12-10 | Current activities:  0 | ❌ Not retained
+  swapneshran          | First: 2025-12-05 | Latest: 2025-12-05 | Current activities:  0 | ❌ Not retained
+  teja2                | First: 2025-11-24 | Latest: 2025-11-24 | Current activities:  0 | ❌ Not retained
