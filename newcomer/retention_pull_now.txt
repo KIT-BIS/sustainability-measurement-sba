@@ -1,0 +1,16 @@
+Previous period: 2025-09-14 to 2025-12-13
+Current period: 2025-12-13 to 2026-03-13
+
+Fetching user first contributions...
+Fetching activities since 2025-09-14...
+
+============================================================
+RETENTION OF NEWCOMERS
+============================================================
+Total newcomers: 2
+Retained: 0
+Retention rate: 0.0%
+
+Newcomers:
+  mnk                  | First: 2025-09-21 | Latest: 2025-09-21 | Current activities:  0 | ❌ Not retained
+  teja2                | First: 2025-11-24 | Latest: 2025-11-24 | Current activities:  0 | ❌ Not retained

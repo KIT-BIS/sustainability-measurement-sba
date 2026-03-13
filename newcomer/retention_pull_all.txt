@@ -1,0 +1,156 @@
+Previous period: 2014-03-16 to 2020-03-14
+Current period: 2020-03-14 to 2026-03-13
+
+Fetching user first contributions...
+Fetching activities since 2014-03-16...
+
+============================================================
+RETENTION OF NEWCOMERS
+============================================================
+Total newcomers: 142
+Retained: 9
+Retention rate: 6.3%
+
+Newcomers:
+  SteKoe               | First: 2019-04-18 | Latest: 2026-03-13 | Current activities: 175 | ✅ RETAINED
+  joshiste             | First: 2014-09-15 | Latest: 2019-03-18 | Current activities:  0 | ❌ Not retained
+  dependabot[bot]      | First: 2020-01-31 | Latest: 2021-03-30 | Current activities: 12 | ✅ RETAINED
+  izeye                | First: 2015-01-22 | Latest: 2019-07-24 | Current activities:  0 | ❌ Not retained
+  LaSylv               | First: 2018-09-23 | Latest: 2020-05-05 | Current activities:  5 | ✅ RETAINED
+  asibross             | First: 2018-08-01 | Latest: 2020-06-04 | Current activities:  1 | ✅ RETAINED
+  dickerpulli          | First: 2014-11-16 | Latest: 2018-11-09 | Current activities:  0 | ❌ Not retained
+  semeiser             | First: 2016-03-24 | Latest: 2018-09-07 | Current activities:  0 | ❌ Not retained
+  mmoayyed             | First: 2018-10-20 | Latest: 2020-06-12 | Current activities:  1 | ✅ RETAINED
+  shakuzen             | First: 2014-11-08 | Latest: 2018-06-11 | Current activities:  0 | ❌ Not retained
+  steve-oakey          | First: 2015-05-01 | Latest: 2016-06-03 | Current activities:  0 | ❌ Not retained
+  ReuDa                | First: 2019-10-08 | Latest: 2019-11-15 | Current activities:  0 | ❌ Not retained
+  Riggs333             | First: 2018-01-19 | Latest: 2021-01-15 | Current activities:  2 | ✅ RETAINED
+  RobWin               | First: 2014-11-12 | Latest: 2016-02-12 | Current activities:  0 | ❌ Not retained
+  ozkanpakdil          | First: 2019-01-20 | Latest: 2019-07-06 | Current activities:  0 | ❌ Not retained
+  tetsushiawano        | First: 2018-02-11 | Latest: 2018-02-28 | Current activities:  0 | ❌ Not retained
+  JefersonOC           | First: 2016-12-08 | Latest: 2017-05-02 | Current activities:  0 | ❌ Not retained
+  ZuevKirill95         | First: 2019-12-14 | Latest: 2020-02-23 | Current activities:  0 | ❌ Not retained
+  anderius             | First: 2016-11-07 | Latest: 2017-08-08 | Current activities:  0 | ❌ Not retained
+  arunkpatra           | First: 2015-11-20 | Latest: 2020-05-20 | Current activities:  1 | ✅ RETAINED
+  aweigold             | First: 2018-11-12 | Latest: 2019-01-06 | Current activities:  0 | ❌ Not retained
+  based2               | First: 2018-04-30 | Latest: 2018-05-11 | Current activities:  0 | ❌ Not retained
+  brunolellis          | First: 2018-07-10 | Latest: 2018-07-10 | Current activities:  0 | ❌ Not retained
+  ddebree              | First: 2019-07-19 | Latest: 2023-01-18 | Current activities:  1 | ✅ RETAINED
+  dgomesbr             | First: 2015-02-26 | Latest: 2015-02-26 | Current activities:  0 | ❌ Not retained
+  ezraroi              | First: 2017-01-08 | Latest: 2019-06-04 | Current activities:  0 | ❌ Not retained
+  htynkn               | First: 2016-07-16 | Latest: 2017-10-15 | Current activities:  0 | ❌ Not retained
+  jochenwierum         | First: 2017-05-07 | Latest: 2017-05-07 | Current activities:  0 | ❌ Not retained
+  kevin-peters         | First: 2018-03-29 | Latest: 2018-04-05 | Current activities:  0 | ❌ Not retained
+  klu2                 | First: 2015-06-28 | Latest: 2015-06-28 | Current activities:  0 | ❌ Not retained
+  kurly09              | First: 2019-07-14 | Latest: 2019-07-15 | Current activities:  0 | ❌ Not retained
+  librucha             | First: 2015-09-11 | Latest: 2015-09-22 | Current activities:  0 | ❌ Not retained
+  mbaris               | First: 2018-04-06 | Latest: 2018-04-06 | Current activities:  0 | ❌ Not retained
+  mersal-svds          | First: 2015-09-25 | Latest: 2015-09-26 | Current activities:  0 | ❌ Not retained
+  mikexliu             | First: 2016-07-14 | Latest: 2017-02-09 | Current activities:  0 | ❌ Not retained
+  ouaibsky             | First: 2015-04-16 | Latest: 2021-11-23 | Current activities:  1 | ✅ RETAINED
+  shnlb2006            | First: 2019-09-06 | Latest: 2019-09-06 | Current activities:  0 | ❌ Not retained
+  skosijer             | First: 2019-09-06 | Latest: 2019-11-22 | Current activities:  0 | ❌ Not retained
+  teggr                | First: 2015-04-01 | Latest: 2015-04-16 | Current activities:  0 | ❌ Not retained
+  thokuest             | First: 2018-11-12 | Latest: 2018-11-12 | Current activities:  0 | ❌ Not retained
+  weeniearms           | First: 2016-10-11 | Latest: 2016-10-11 | Current activities:  0 | ❌ Not retained
+  BenoitCharret        | First: 2016-03-02 | Latest: 2016-03-02 | Current activities:  0 | ❌ Not retained
+  David-A-Phillips     | First: 2017-01-11 | Latest: 2017-01-11 | Current activities:  0 | ❌ Not retained
+  GertVil              | First: 2018-05-14 | Latest: 2018-05-14 | Current activities:  0 | ❌ Not retained
+  JWThewes             | First: 2017-08-23 | Latest: 2017-08-23 | Current activities:  0 | ❌ Not retained
+  Jnosh                | First: 2018-06-07 | Latest: 2018-06-07 | Current activities:  0 | ❌ Not retained
+  MALPI                | First: 2018-09-12 | Latest: 2018-09-12 | Current activities:  0 | ❌ Not retained
+  Sarvesh-D            | First: 2018-08-01 | Latest: 2018-08-01 | Current activities:  0 | ❌ Not retained
+  Satangelsx           | First: 2017-03-18 | Latest: 2017-03-18 | Current activities:  0 | ❌ Not retained
+  SonSeungWoo          | First: 2019-05-15 | Latest: 2019-05-15 | Current activities:  0 | ❌ Not retained
+  Stephan202           | First: 2018-06-18 | Latest: 2018-06-18 | Current activities:  0 | ❌ Not retained
+  agraphilippe         | First: 2017-06-06 | Latest: 2017-06-06 | Current activities:  0 | ❌ Not retained
+  ajausti1             | First: 2015-01-09 | Latest: 2015-01-09 | Current activities:  0 | ❌ Not retained
+  anandvarkeyphilips   | First: 2018-09-01 | Latest: 2018-09-01 | Current activities:  0 | ❌ Not retained
+  arturdobo            | First: 2016-04-12 | Latest: 2016-04-12 | Current activities:  0 | ❌ Not retained
+  bas-jan              | First: 2018-02-01 | Latest: 2018-02-01 | Current activities:  0 | ❌ Not retained
+  britter              | First: 2015-02-27 | Latest: 2015-02-27 | Current activities:  0 | ❌ Not retained
+  calaveraInfo         | First: 2019-09-16 | Latest: 2019-09-16 | Current activities:  0 | ❌ Not retained
+  cash1981             | First: 2019-12-13 | Latest: 2019-12-13 | Current activities:  0 | ❌ Not retained
+  chrisschauer         | First: 2016-03-02 | Latest: 2016-03-02 | Current activities:  0 | ❌ Not retained
+  ctoestreich          | First: 2017-05-05 | Latest: 2017-05-05 | Current activities:  0 | ❌ Not retained
+  darrellsnow          | First: 2020-01-17 | Latest: 2020-01-17 | Current activities:  0 | ❌ Not retained
+  dilbertside          | First: 2016-11-14 | Latest: 2016-11-14 | Current activities:  0 | ❌ Not retained
+  dotpanic             | First: 2019-08-23 | Latest: 2019-08-23 | Current activities:  0 | ❌ Not retained
+  dvtoever             | First: 2017-05-12 | Latest: 2017-05-12 | Current activities:  0 | ❌ Not retained
+  edeandrea            | First: 2018-08-30 | Latest: 2018-08-30 | Current activities:  0 | ❌ Not retained
+  elijah-pl            | First: 2019-09-18 | Latest: 2019-09-18 | Current activities:  0 | ❌ Not retained
+  fastnsilver          | First: 2017-11-17 | Latest: 2017-11-17 | Current activities:  0 | ❌ Not retained
+  fernandosure         | First: 2017-05-16 | Latest: 2017-05-16 | Current activities:  0 | ❌ Not retained
+  fethiozdol           | First: 2018-07-29 | Latest: 2018-07-29 | Current activities:  0 | ❌ Not retained
+  fillert              | First: 2019-09-13 | Latest: 2019-09-13 | Current activities:  0 | ❌ Not retained
+  gbotka               | First: 2016-07-28 | Latest: 2016-07-28 | Current activities:  0 | ❌ Not retained
+  gitter-badger        | First: 2014-11-29 | Latest: 2014-11-29 | Current activities:  0 | ❌ Not retained
+  gronono              | First: 2015-06-05 | Latest: 2015-06-05 | Current activities:  0 | ❌ Not retained
+  gtukmachev           | First: 2018-10-13 | Latest: 2018-10-13 | Current activities:  0 | ❌ Not retained
+  herder               | First: 2016-06-10 | Latest: 2016-06-10 | Current activities:  0 | ❌ Not retained
+  humb1t               | First: 2017-10-24 | Latest: 2017-10-24 | Current activities:  0 | ❌ Not retained
+  imod                 | First: 2019-10-08 | Latest: 2019-10-08 | Current activities:  0 | ❌ Not retained
+  itERRatOR            | First: 2017-02-15 | Latest: 2017-02-15 | Current activities:  0 | ❌ Not retained
+  jacks808             | First: 2016-11-18 | Latest: 2016-11-18 | Current activities:  0 | ❌ Not retained
+  jlisam               | First: 2016-09-30 | Latest: 2016-09-30 | Current activities:  0 | ❌ Not retained
+  jmirc                | First: 2017-05-13 | Latest: 2017-05-13 | Current activities:  0 | ❌ Not retained
+  joshlong             | First: 2018-01-11 | Latest: 2018-01-11 | Current activities:  0 | ❌ Not retained
+  jvmlet               | First: 2016-02-16 | Latest: 2016-02-16 | Current activities:  0 | ❌ Not retained
+  klopfdreh            | First: 2019-03-06 | Latest: 2019-03-06 | Current activities:  0 | ❌ Not retained
+  kryger               | First: 2017-11-24 | Latest: 2017-11-24 | Current activities:  0 | ❌ Not retained
+  lightoze             | First: 2019-06-04 | Latest: 2019-06-04 | Current activities:  0 | ❌ Not retained
+  lucash               | First: 2019-02-24 | Latest: 2019-02-24 | Current activities:  0 | ❌ Not retained
+  making               | First: 2014-09-29 | Latest: 2014-09-29 | Current activities:  0 | ❌ Not retained
+  malike               | First: 2015-01-13 | Latest: 2015-01-13 | Current activities:  0 | ❌ Not retained
+  marcosvidolin        | First: 2020-02-13 | Latest: 2020-02-13 | Current activities:  0 | ❌ Not retained
+  mariuszluciow        | First: 2015-01-19 | Latest: 2015-01-19 | Current activities:  0 | ❌ Not retained
+  michaelmcfadyensky   | First: 2019-07-14 | Latest: 2019-07-14 | Current activities:  0 | ❌ Not retained
+  michalwojciechowski  | First: 2017-06-29 | Latest: 2017-06-29 | Current activities:  0 | ❌ Not retained
+  micheljung           | First: 2017-05-26 | Latest: 2017-05-26 | Current activities:  0 | ❌ Not retained
+  michl-b              | First: 2017-08-05 | Latest: 2017-08-05 | Current activities:  0 | ❌ Not retained
+  movitz-s             | First: 2018-12-27 | Latest: 2018-12-27 | Current activities:  0 | ❌ Not retained
+  mrmercc              | First: 2020-02-28 | Latest: 2020-02-28 | Current activities:  0 | ❌ Not retained
+  mzorba               | First: 2018-12-08 | Latest: 2018-12-08 | Current activities:  0 | ❌ Not retained
+  n0mer                | First: 2017-03-20 | Latest: 2017-03-20 | Current activities:  0 | ❌ Not retained
+  ogennadi             | First: 2019-08-02 | Latest: 2019-08-02 | Current activities:  0 | ❌ Not retained
+  panchenko            | First: 2019-06-18 | Latest: 2019-06-18 | Current activities:  0 | ❌ Not retained
+  phiber               | First: 2018-08-16 | Latest: 2018-08-16 | Current activities:  0 | ❌ Not retained
+  pierrickrouxel       | First: 2019-08-07 | Latest: 2019-08-07 | Current activities:  0 | ❌ Not retained
+  reckter              | First: 2016-08-10 | Latest: 2016-08-10 | Current activities:  0 | ❌ Not retained
+  retbrown             | First: 2015-10-20 | Latest: 2015-10-20 | Current activities:  0 | ❌ Not retained
+  rfelgent             | First: 2016-11-16 | Latest: 2016-11-16 | Current activities:  0 | ❌ Not retained
+  ricardolonga         | First: 2014-11-07 | Latest: 2014-11-07 | Current activities:  0 | ❌ Not retained
+  rimaxime             | First: 2017-03-14 | Latest: 2017-03-14 | Current activities:  0 | ❌ Not retained
+  rpahli               | First: 2017-02-25 | Latest: 2017-02-25 | Current activities:  0 | ❌ Not retained
+  sbert                | First: 2015-03-27 | Latest: 2015-03-27 | Current activities:  0 | ❌ Not retained
+  selimok              | First: 2018-11-08 | Latest: 2018-11-08 | Current activities:  0 | ❌ Not retained
+  shashidarp           | First: 2017-11-03 | Latest: 2017-11-03 | Current activities:  0 | ❌ Not retained
+  shershen08           | First: 2019-01-18 | Latest: 2019-01-18 | Current activities:  0 | ❌ Not retained
+  simo385              | First: 2018-10-31 | Latest: 2018-10-31 | Current activities:  0 | ❌ Not retained
+  src-r-r              | First: 2018-06-18 | Latest: 2018-06-18 | Current activities:  0 | ❌ Not retained
+  sverhagen            | First: 2019-07-20 | Latest: 2019-07-20 | Current activities:  0 | ❌ Not retained
+  t-beckmann           | First: 2019-01-29 | Latest: 2019-01-29 | Current activities:  0 | ❌ Not retained
+  tapbooth             | First: 2020-03-13 | Latest: 2020-03-13 | Current activities:  0 | ❌ Not retained
+  tehcyx               | First: 2015-08-19 | Latest: 2015-08-19 | Current activities:  0 | ❌ Not retained
+  the-james-burton     | First: 2015-08-13 | Latest: 2015-08-13 | Current activities:  0 | ❌ Not retained
+  thomasNDS            | First: 2019-07-12 | Latest: 2019-07-12 | Current activities:  0 | ❌ Not retained
+  thorntonrp           | First: 2018-08-03 | Latest: 2018-08-03 | Current activities:  0 | ❌ Not retained
+  tokuhirom            | First: 2020-02-27 | Latest: 2020-02-27 | Current activities:  0 | ❌ Not retained
+  tomdantuit           | First: 2017-11-17 | Latest: 2017-11-17 | Current activities:  0 | ❌ Not retained
+  tookar               | First: 2018-09-27 | Latest: 2018-09-27 | Current activities:  0 | ❌ Not retained
+  tscrypter            | First: 2019-10-02 | Latest: 2019-10-02 | Current activities:  0 | ❌ Not retained
+  ukjbrown             | First: 2016-03-14 | Latest: 2016-03-14 | Current activities:  0 | ❌ Not retained
+  vgaddavcg            | First: 2020-03-02 | Latest: 2020-03-02 | Current activities:  0 | ❌ Not retained
+  vonrosen             | First: 2019-10-26 | Latest: 2019-10-26 | Current activities:  0 | ❌ Not retained
+  w3blogfr             | First: 2017-07-23 | Latest: 2017-07-23 | Current activities:  0 | ❌ Not retained
+  wanghongenpin        | First: 2018-11-28 | Latest: 2018-11-28 | Current activities:  0 | ❌ Not retained
+  weichun-wang         | First: 2019-08-01 | Latest: 2019-08-01 | Current activities:  0 | ❌ Not retained
+  wlami                | First: 2017-05-30 | Latest: 2017-05-30 | Current activities:  0 | ❌ Not retained
+  wonwoo               | First: 2017-12-27 | Latest: 2017-12-27 | Current activities:  0 | ❌ Not retained
+  yevtsy               | First: 2018-10-22 | Latest: 2018-10-22 | Current activities:  0 | ❌ Not retained
+  yleguern             | First: 2018-11-16 | Latest: 2018-11-16 | Current activities:  0 | ❌ Not retained
+  zhanglei-1987        | First: 2019-07-19 | Latest: 2019-07-19 | Current activities:  0 | ❌ Not retained
+  zhangwei5095         | First: 2017-03-03 | Latest: 2017-03-03 | Current activities:  0 | ❌ Not retained
+  zhaolin81            | First: 2018-12-28 | Latest: 2018-12-28 | Current activities:  0 | ❌ Not retained
+  ziebapawel           | First: 2019-04-30 | Latest: 2019-04-30 | Current activities:  0 | ❌ Not retained
+  zilm13               | First: 2016-10-11 | Latest: 2016-10-11 | Current activities:  0 | ❌ Not retained

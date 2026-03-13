@@ -1,0 +1,21 @@
+Previous period: 2024-03-13 to 2025-03-13
+Current period: 2025-03-13 to 2026-03-13
+
+Fetching user first contributions...
+Fetching activities since 2024-03-13...
+
+============================================================
+RETENTION OF NEWCOMERS
+============================================================
+Total newcomers: 7
+Retained: 1
+Retention rate: 14.3%
+
+Newcomers:
+  sukhminderarora      | First: 2025-02-17 | Latest: 2025-02-26 | Current activities:  0 | ❌ Not retained
+  EmirBoyaci           | First: 2025-02-26 | Latest: 2025-11-10 | Current activities:  2 | ✅ RETAINED
+  michael-wirth        | First: 2025-02-24 | Latest: 2025-02-24 | Current activities:  0 | ❌ Not retained
+  NaccOll              | First: 2024-11-21 | Latest: 2024-11-21 | Current activities:  0 | ❌ Not retained
+  StefanHufschmidt     | First: 2024-05-02 | Latest: 2024-05-02 | Current activities:  0 | ❌ Not retained
+  davidfevre-gouv-nc   | First: 2024-11-06 | Latest: 2024-11-06 | Current activities:  0 | ❌ Not retained
+  jacekbilski          | First: 2024-12-19 | Latest: 2024-12-19 | Current activities:  0 | ❌ Not retained

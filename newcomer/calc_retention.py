@@ -175,7 +175,7 @@ def calculate_retention(index='sba-issue_raw', period_days=90, now=None):
 
 if __name__ == '__main__':
     try:
-        result = calculate_retention('sba-issue_raw', period_days=365*2)
+        result = calculate_retention('sba-issue_raw', period_days=90)
     except BrokenPipeError:
         # Allow piping to tools like `head` without stack traces.
         pass

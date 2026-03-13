@@ -1,0 +1,171 @@
+Previous period: 2022-03-14 to 2024-03-13
+Current period: 2024-03-13 to 2026-03-13
+
+Fetching user first contributions...
+Fetching activities since 2022-03-14...
+
+============================================================
+RETENTION OF NEWCOMERS
+============================================================
+Total newcomers: 157
+Retained: 5
+Retention rate: 3.2%
+
+Newcomers:
+  hzpz                 | First: 2023-06-02 | Latest: 2025-08-11 | Current activities:  5 | ✅ RETAINED
+  Kieun                | First: 2022-05-04 | Latest: 2025-02-13 | Current activities:  1 | ✅ RETAINED
+  sullis               | First: 2022-06-18 | Latest: 2024-03-03 | Current activities:  0 | ❌ Not retained
+  JavaLionLi           | First: 2023-01-11 | Latest: 2024-11-12 | Current activities:  3 | ✅ RETAINED
+  MahatmaFatalError    | First: 2023-05-05 | Latest: 2025-11-12 | Current activities:  2 | ✅ RETAINED
+  ViliusS              | First: 2022-05-28 | Latest: 2022-09-09 | Current activities:  0 | ❌ Not retained
+  genuss               | First: 2022-10-08 | Latest: 2023-11-16 | Current activities:  0 | ❌ Not retained
+  iuliiasobolevska     | First: 2022-12-09 | Latest: 2023-07-05 | Current activities:  0 | ❌ Not retained
+  oespino              | First: 2022-03-18 | Latest: 2022-03-24 | Current activities:  0 | ❌ Not retained
+  qqhai007             | First: 2022-04-06 | Latest: 2023-01-03 | Current activities:  0 | ❌ Not retained
+  thomaszub            | First: 2022-04-05 | Latest: 2022-10-27 | Current activities:  0 | ❌ Not retained
+  JohanNordlinder      | First: 2024-02-23 | Latest: 2025-03-21 | Current activities:  2 | ✅ RETAINED
+  aohanhongzhi         | First: 2023-11-13 | Latest: 2024-01-10 | Current activities:  0 | ❌ Not retained
+  lagudomeze           | First: 2022-08-16 | Latest: 2022-09-18 | Current activities:  0 | ❌ Not retained
+  pepevalbe            | First: 2022-03-27 | Latest: 2022-04-13 | Current activities:  0 | ❌ Not retained
+  rainerfrey-inxmail   | First: 2022-11-29 | Latest: 2023-05-04 | Current activities:  0 | ❌ Not retained
+  EyedPeas             | First: 2022-11-22 | Latest: 2022-12-12 | Current activities:  0 | ❌ Not retained
+  Hildebrand-Ritense   | First: 2023-12-14 | Latest: 2024-01-19 | Current activities:  0 | ❌ Not retained
+  Jolymmiles           | First: 2024-02-07 | Latest: 2024-02-13 | Current activities:  0 | ❌ Not retained
+  Naebl1s              | First: 2023-02-28 | Latest: 2023-03-20 | Current activities:  0 | ❌ Not retained
+  andrew2184           | First: 2023-03-14 | Latest: 2023-11-22 | Current activities:  0 | ❌ Not retained
+  briansjavablog       | First: 2023-08-04 | Latest: 2023-08-10 | Current activities:  0 | ❌ Not retained
+  chenzl123            | First: 2023-05-04 | Latest: 2023-05-12 | Current activities:  0 | ❌ Not retained
+  denyskonakhevych     | First: 2023-09-14 | Latest: 2023-10-24 | Current activities:  0 | ❌ Not retained
+  dzahbarov            | First: 2023-06-05 | Latest: 2023-11-04 | Current activities:  0 | ❌ Not retained
+  georgerocha          | First: 2023-01-12 | Latest: 2023-01-27 | Current activities:  0 | ❌ Not retained
+  karl-chanel          | First: 2023-05-05 | Latest: 2023-05-12 | Current activities:  0 | ❌ Not retained
+  liran2000            | First: 2022-08-02 | Latest: 2022-08-02 | Current activities:  0 | ❌ Not retained
+  livk-cloud           | First: 2022-11-18 | Latest: 2023-07-20 | Current activities:  0 | ❌ Not retained
+  misselvexu           | First: 2022-06-27 | Latest: 2022-06-28 | Current activities:  0 | ❌ Not retained
+  placaze              | First: 2022-08-16 | Latest: 2022-08-18 | Current activities:  0 | ❌ Not retained
+  prashant-dahiya26    | First: 2024-02-27 | Latest: 2024-02-29 | Current activities:  0 | ❌ Not retained
+  sitamadhavi          | First: 2023-02-16 | Latest: 2023-08-08 | Current activities:  0 | ❌ Not retained
+  vanwobe              | First: 2022-09-26 | Latest: 2022-09-26 | Current activities:  0 | ❌ Not retained
+  ydubrouka            | First: 2023-07-20 | Latest: 2023-08-08 | Current activities:  0 | ❌ Not retained
+  1198735966           | First: 2024-01-15 | Latest: 2024-01-15 | Current activities:  0 | ❌ Not retained
+  1Ghub                | First: 2022-12-24 | Latest: 2022-12-24 | Current activities:  0 | ❌ Not retained
+  929541303            | First: 2023-02-08 | Latest: 2023-02-08 | Current activities:  0 | ❌ Not retained
+  AYiXi                | First: 2022-07-04 | Latest: 2022-07-04 | Current activities:  0 | ❌ Not retained
+  AtahAhmed            | First: 2022-07-15 | Latest: 2022-07-15 | Current activities:  0 | ❌ Not retained
+  ChristophEbbers      | First: 2023-01-03 | Latest: 2023-01-03 | Current activities:  0 | ❌ Not retained
+  Cimballi             | First: 2022-10-14 | Latest: 2022-10-14 | Current activities:  0 | ❌ Not retained
+  Dam14n               | First: 2022-11-15 | Latest: 2022-11-15 | Current activities:  0 | ❌ Not retained
+  Ephenodrom           | First: 2023-08-16 | Latest: 2023-08-16 | Current activities:  0 | ❌ Not retained
+  FabioAng71           | First: 2023-05-31 | Latest: 2023-05-31 | Current activities:  0 | ❌ Not retained
+  HaalandCR            | First: 2022-11-30 | Latest: 2022-11-30 | Current activities:  0 | ❌ Not retained
+  HappyWHoo            | First: 2022-07-27 | Latest: 2022-07-27 | Current activities:  0 | ❌ Not retained
+  HuMan008             | First: 2023-05-05 | Latest: 2023-05-05 | Current activities:  0 | ❌ Not retained
+  Josep-Lancharro-Indra | First: 2023-11-10 | Latest: 2023-11-10 | Current activities:  0 | ❌ Not retained
+  LukasSmrcka          | First: 2023-04-03 | Latest: 2023-04-03 | Current activities:  0 | ❌ Not retained
+  MichaelZett          | First: 2022-11-18 | Latest: 2022-11-18 | Current activities:  0 | ❌ Not retained
+  MonkeyYeah           | First: 2022-05-17 | Latest: 2022-05-17 | Current activities:  0 | ❌ Not retained
+  NF10                 | First: 2024-01-31 | Latest: 2024-01-31 | Current activities:  0 | ❌ Not retained
+  OnlyEatCairoubao     | First: 2022-09-28 | Latest: 2022-09-28 | Current activities:  0 | ❌ Not retained
+  Peksa                | First: 2023-08-07 | Latest: 2023-08-07 | Current activities:  0 | ❌ Not retained
+  Sainir1              | First: 2023-03-28 | Latest: 2023-03-28 | Current activities:  0 | ❌ Not retained
+  Saljack              | First: 2023-04-16 | Latest: 2023-04-16 | Current activities:  0 | ❌ Not retained
+  SavvasPistikos       | First: 2023-10-27 | Latest: 2023-10-27 | Current activities:  0 | ❌ Not retained
+  SeongEon-Jo          | First: 2022-12-01 | Latest: 2022-12-01 | Current activities:  0 | ❌ Not retained
+  Shanice731           | First: 2023-10-25 | Latest: 2023-10-25 | Current activities:  0 | ❌ Not retained
+  Shubzz-02            | First: 2024-02-26 | Latest: 2024-02-26 | Current activities:  0 | ❌ Not retained
+  Tancen               | First: 2023-05-06 | Latest: 2023-05-06 | Current activities:  0 | ❌ Not retained
+  TinyZzh              | First: 2022-10-26 | Latest: 2022-10-26 | Current activities:  0 | ❌ Not retained
+  ValentineMWAY        | First: 2023-08-03 | Latest: 2023-08-03 | Current activities:  0 | ❌ Not retained
+  VenkateshSrini       | First: 2022-09-29 | Latest: 2022-09-29 | Current activities:  0 | ❌ Not retained
+  adsinghnet           | First: 2023-03-18 | Latest: 2023-03-18 | Current activities:  0 | ❌ Not retained
+  andmer               | First: 2023-03-02 | Latest: 2023-03-02 | Current activities:  0 | ❌ Not retained
+  ankur-sharma-maersk  | First: 2024-01-03 | Latest: 2024-01-03 | Current activities:  0 | ❌ Not retained
+  aro-franklin         | First: 2023-08-04 | Latest: 2023-08-04 | Current activities:  0 | ❌ Not retained
+  asasas234            | First: 2023-07-24 | Latest: 2023-07-24 | Current activities:  0 | ❌ Not retained
+  azemliankin          | First: 2022-12-16 | Latest: 2022-12-16 | Current activities:  0 | ❌ Not retained
+  billyshen26          | First: 2023-07-20 | Latest: 2023-07-20 | Current activities:  0 | ❌ Not retained
+  bjab                 | First: 2023-01-11 | Latest: 2023-01-11 | Current activities:  0 | ❌ Not retained
+  blankplace           | First: 2023-11-17 | Latest: 2023-11-17 | Current activities:  0 | ❌ Not retained
+  braunsonm            | First: 2022-10-12 | Latest: 2022-10-12 | Current activities:  0 | ❌ Not retained
+  chazhiguo            | First: 2023-04-20 | Latest: 2023-04-20 | Current activities:  0 | ❌ Not retained
+  claitonp             | First: 2023-10-15 | Latest: 2023-10-15 | Current activities:  0 | ❌ Not retained
+  clockrun             | First: 2022-08-26 | Latest: 2022-08-26 | Current activities:  0 | ❌ Not retained
+  cn-src               | First: 2023-07-07 | Latest: 2023-07-07 | Current activities:  0 | ❌ Not retained
+  cwienands1           | First: 2023-03-09 | Latest: 2023-03-09 | Current activities:  0 | ❌ Not retained
+  dbarnhoorn           | First: 2022-12-23 | Latest: 2022-12-23 | Current activities:  0 | ❌ Not retained
+  dbnex14              | First: 2022-08-23 | Latest: 2022-08-23 | Current activities:  0 | ❌ Not retained
+  dengchufeng          | First: 2023-09-14 | Latest: 2023-09-14 | Current activities:  0 | ❌ Not retained
+  deveshprobus         | First: 2022-09-29 | Latest: 2022-09-29 | Current activities:  0 | ❌ Not retained
+  dkirrane             | First: 2023-06-08 | Latest: 2023-06-08 | Current activities:  0 | ❌ Not retained
+  dominik42            | First: 2023-09-09 | Latest: 2023-09-09 | Current activities:  0 | ❌ Not retained
+  dongyinuo            | First: 2022-06-26 | Latest: 2022-06-26 | Current activities:  0 | ❌ Not retained
+  doubleDimple         | First: 2023-05-31 | Latest: 2023-05-31 | Current activities:  0 | ❌ Not retained
+  doveylovey           | First: 2023-11-25 | Latest: 2023-11-25 | Current activities:  0 | ❌ Not retained
+  dpavanelli           | First: 2022-06-08 | Latest: 2022-06-08 | Current activities:  0 | ❌ Not retained
+  dragosnutu           | First: 2022-12-20 | Latest: 2022-12-20 | Current activities:  0 | ❌ Not retained
+  edgaryeghiazarian    | First: 2022-11-15 | Latest: 2022-11-15 | Current activities:  0 | ❌ Not retained
+  erbrecht             | First: 2023-07-21 | Latest: 2023-07-21 | Current activities:  0 | ❌ Not retained
+  ericmaino            | First: 2023-11-26 | Latest: 2023-11-26 | Current activities:  0 | ❌ Not retained
+  eugene-sadovsky      | First: 2023-11-14 | Latest: 2023-11-14 | Current activities:  0 | ❌ Not retained
+  fan9704              | First: 2022-08-01 | Latest: 2022-08-01 | Current activities:  0 | ❌ Not retained
+  fobgochod            | First: 2023-06-05 | Latest: 2023-06-05 | Current activities:  0 | ❌ Not retained
+  guai                 | First: 2023-06-09 | Latest: 2023-06-09 | Current activities:  0 | ❌ Not retained
+  hamid646m            | First: 2023-06-09 | Latest: 2023-06-09 | Current activities:  0 | ❌ Not retained
+  hdeadman             | First: 2023-10-15 | Latest: 2023-10-15 | Current activities:  0 | ❌ Not retained
+  hellozhangjian       | First: 2022-10-25 | Latest: 2022-10-25 | Current activities:  0 | ❌ Not retained
+  https429             | First: 2023-12-06 | Latest: 2023-12-06 | Current activities:  0 | ❌ Not retained
+  huangguangshan       | First: 2023-10-10 | Latest: 2023-10-10 | Current activities:  0 | ❌ Not retained
+  huyu6                | First: 2022-11-22 | Latest: 2022-11-22 | Current activities:  0 | ❌ Not retained
+  hwy425               | First: 2022-05-03 | Latest: 2022-05-03 | Current activities:  0 | ❌ Not retained
+  iliyan-velichkov     | First: 2023-11-21 | Latest: 2023-11-21 | Current activities:  0 | ❌ Not retained
+  jaschenk             | First: 2022-05-12 | Latest: 2022-05-12 | Current activities:  0 | ❌ Not retained
+  jgraglia             | First: 2023-12-20 | Latest: 2023-12-20 | Current activities:  0 | ❌ Not retained
+  jianfengqs           | First: 2023-10-09 | Latest: 2023-10-09 | Current activities:  0 | ❌ Not retained
+  kana-cr              | First: 2023-03-15 | Latest: 2023-03-15 | Current activities:  0 | ❌ Not retained
+  konstantinMinkov     | First: 2023-07-04 | Latest: 2023-07-04 | Current activities:  0 | ❌ Not retained
+  kuengroc             | First: 2022-06-28 | Latest: 2022-06-28 | Current activities:  0 | ❌ Not retained
+  lhy507613824         | First: 2023-01-10 | Latest: 2023-01-10 | Current activities:  0 | ❌ Not retained
+  linvaux              | First: 2023-06-03 | Latest: 2023-06-03 | Current activities:  0 | ❌ Not retained
+  linzhu-isoftstone    | First: 2023-08-01 | Latest: 2023-08-01 | Current activities:  0 | ❌ Not retained
+  lleder               | First: 2022-04-22 | Latest: 2022-04-22 | Current activities:  0 | ❌ Not retained
+  lyguoguo             | First: 2022-07-27 | Latest: 2022-07-27 | Current activities:  0 | ❌ Not retained
+  matejbludsky         | First: 2024-02-14 | Latest: 2024-02-14 | Current activities:  0 | ❌ Not retained
+  mdddj                | First: 2022-04-15 | Latest: 2022-04-15 | Current activities:  0 | ❌ Not retained
+  michelmeeuwissen     | First: 2022-07-15 | Latest: 2022-07-15 | Current activities:  0 | ❌ Not retained
+  mirza-ali-ctct       | First: 2023-01-17 | Latest: 2023-01-17 | Current activities:  0 | ❌ Not retained
+  nbadenne             | First: 2023-01-23 | Latest: 2023-01-23 | Current activities:  0 | ❌ Not retained
+  ngc4579              | First: 2023-06-05 | Latest: 2023-06-05 | Current activities:  0 | ❌ Not retained
+  niceyou99            | First: 2022-10-31 | Latest: 2022-10-31 | Current activities:  0 | ❌ Not retained
+  p1n93r               | First: 2023-07-08 | Latest: 2023-07-08 | Current activities:  0 | ❌ Not retained
+  parzival-space       | First: 2024-01-10 | Latest: 2024-01-10 | Current activities:  0 | ❌ Not retained
+  peraiahkarnam        | First: 2024-02-13 | Latest: 2024-02-13 | Current activities:  0 | ❌ Not retained
+  pierrepinon          | First: 2023-01-31 | Latest: 2023-01-31 | Current activities:  0 | ❌ Not retained
+  pihug12              | First: 2022-08-18 | Latest: 2022-08-18 | Current activities:  0 | ❌ Not retained
+  pnewhook             | First: 2023-04-21 | Latest: 2023-04-21 | Current activities:  0 | ❌ Not retained
+  proton5000           | First: 2023-07-20 | Latest: 2023-07-20 | Current activities:  0 | ❌ Not retained
+  psemeniuk            | First: 2024-01-26 | Latest: 2024-01-26 | Current activities:  0 | ❌ Not retained
+  qq253498229          | First: 2022-04-15 | Latest: 2022-04-15 | Current activities:  0 | ❌ Not retained
+  raford-ice           | First: 2024-01-22 | Latest: 2024-01-22 | Current activities:  0 | ❌ Not retained
+  rahulgautam034       | First: 2022-05-25 | Latest: 2022-05-25 | Current activities:  0 | ❌ Not retained
+  robtha               | First: 2022-12-02 | Latest: 2022-12-02 | Current activities:  0 | ❌ Not retained
+  royallkk             | First: 2023-07-12 | Latest: 2023-07-12 | Current activities:  0 | ❌ Not retained
+  sageOfGitPaths       | First: 2022-06-04 | Latest: 2022-06-04 | Current activities:  0 | ❌ Not retained
+  saikrishnasaski      | First: 2022-09-06 | Latest: 2022-09-06 | Current activities:  0 | ❌ Not retained
+  scipionyx            | First: 2023-04-15 | Latest: 2023-04-15 | Current activities:  0 | ❌ Not retained
+  sehmusaydogdu        | First: 2022-04-11 | Latest: 2022-04-11 | Current activities:  0 | ❌ Not retained
+  soelvar              | First: 2023-10-04 | Latest: 2023-10-04 | Current activities:  0 | ❌ Not retained
+  solagappan           | First: 2023-06-29 | Latest: 2023-06-29 | Current activities:  0 | ❌ Not retained
+  spekdrum             | First: 2022-06-14 | Latest: 2022-06-14 | Current activities:  0 | ❌ Not retained
+  sweeterBox           | First: 2022-10-20 | Latest: 2022-10-20 | Current activities:  0 | ❌ Not retained
+  thomasdac            | First: 2022-04-28 | Latest: 2022-04-28 | Current activities:  0 | ❌ Not retained
+  tonycody             | First: 2022-11-01 | Latest: 2022-11-01 | Current activities:  0 | ❌ Not retained
+  tspoeri              | First: 2023-11-02 | Latest: 2023-11-02 | Current activities:  0 | ❌ Not retained
+  vellingirim          | First: 2022-06-06 | Latest: 2022-06-06 | Current activities:  0 | ❌ Not retained
+  vpodoprigo           | First: 2022-04-04 | Latest: 2022-04-04 | Current activities:  0 | ❌ Not retained
+  wangpeicong1998      | First: 2022-08-01 | Latest: 2022-08-01 | Current activities:  0 | ❌ Not retained
+  wojciechGaudnik      | First: 2022-10-26 | Latest: 2022-10-26 | Current activities:  0 | ❌ Not retained
+  woodstockain         | First: 2023-10-09 | Latest: 2023-10-09 | Current activities:  0 | ❌ Not retained
+  yashasvi2622         | First: 2024-01-25 | Latest: 2024-01-25 | Current activities:  0 | ❌ Not retained
+  yellowms             | First: 2022-12-25 | Latest: 2022-12-25 | Current activities:  0 | ❌ Not retained
+  zgqq                 | First: 2022-11-11 | Latest: 2022-11-11 | Current activities:  0 | ❌ Not retained
+  zhanghengdashuaibi   | First: 2022-07-15 | Latest: 2022-07-15 | Current activities:  0 | ❌ Not retained
