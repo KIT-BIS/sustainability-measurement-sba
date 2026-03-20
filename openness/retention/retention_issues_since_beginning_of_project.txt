@@ -1,88 +1,78 @@
-Since            : 2014-01-01 (users with last contribution before this date are dropped)
-Leaving threshold: last contribution before 2025-12-20 (90 days ago)
-
 ============================================================
 NEWCOMER CLASSIFICATION
 ============================================================
-Total newcomers : 1276
-Active          : 12 (1%)
-Leaving         : 1264 (99%)
+Description      : Classification of newcomers who made their first
+                   issue contribution between 2014-01-01 and 2026-03-20.
+                   A newcomer is considered LEAVING when their last
+                   contribution was more than 90 days ago
+                   (i.e. before 2025-12-20), ACTIVE otherwise.
+Contribution type: issue
+Threshold        : 90 days (leaving cutoff: 2025-12-20)
+============================================================
+Total newcomers  : 1139
+Active           : 8 (1%)
+Leaving          : 1131 (99%)
+============================================================
 
 Newcomers:
-  cdprete                        | First: 2025-01-27 | Last: 2026-03-13 | ACTIVE
+  cdprete                        | First: 2025-01-27 | Last: 2026-03-17 | ACTIVE
   lthasle                        | First: 2026-03-12 | Last: 2026-03-12 | ACTIVE
   neoludo                        | First: 2025-09-16 | Last: 2026-03-02 | ACTIVE
-  amacharla15                    | First: 2026-03-01 | Last: 2026-03-01 | ACTIVE
-  obourgain                      | First: 2025-03-31 | Last: 2026-02-26 | ACTIVE
   michael-wirth                  | First: 2021-05-02 | Last: 2026-02-17 | ACTIVE
   carrotFromCali                 | First: 2026-01-14 | Last: 2026-02-12 | ACTIVE
   bart-vmware                    | First: 2026-01-20 | Last: 2026-02-04 | ACTIVE
-  tan9                           | First: 2026-02-03 | Last: 2026-02-03 | ACTIVE
   dennisvang                     | First: 2026-01-27 | Last: 2026-01-27 | ACTIVE
-  csbiy                          | First: 2026-01-25 | Last: 2026-01-25 | ACTIVE
   cbot59                         | First: 2025-12-28 | Last: 2025-12-28 | ACTIVE
   squalou                        | First: 2025-12-10 | Last: 2025-12-10 | LEAVING
   cybervuln2077                  | First: 2025-12-09 | Last: 2025-12-09 | LEAVING
   swapneshran                    | First: 2025-12-05 | Last: 2025-12-05 | LEAVING
-  teja2                          | First: 2025-11-24 | Last: 2025-11-24 | LEAVING
   MahatmaFatalError              | First: 2023-05-05 | Last: 2025-11-12 | LEAVING
   EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | LEAVING
   TKorhonen                      | First: 2025-11-03 | Last: 2025-11-03 | LEAVING
-  mnk                            | First: 2025-09-21 | Last: 2025-09-21 | LEAVING
-  myProjectsRavi                 | First: 2025-08-24 | Last: 2025-08-27 | LEAVING
   benjaminoweprintix             | First: 2025-08-20 | Last: 2025-08-20 | LEAVING
-  AE-RobertMcDonnell             | First: 2025-08-07 | Last: 2025-08-11 | LEAVING
-  98001yash                      | First: 2025-08-10 | Last: 2025-08-10 | LEAVING
-  ahoehma                        | First: 2020-01-06 | Last: 2025-08-09 | LEAVING
-  reachvangala                   | First: 2025-07-30 | Last: 2025-07-30 | LEAVING
-  callmeATHUL                    | First: 2025-07-10 | Last: 2025-07-10 | LEAVING
+  AE-RobertMcDonnell             | First: 2025-08-07 | Last: 2025-08-07 | LEAVING
   ganeshbabugb                   | First: 2025-07-08 | Last: 2025-07-08 | LEAVING
   BCS-ChaitaliS                  | First: 2025-07-01 | Last: 2025-07-01 | LEAVING
   Raj002                         | First: 2025-06-24 | Last: 2025-06-24 | LEAVING
-  jamescatto                     | First: 2025-06-20 | Last: 2025-06-20 | LEAVING
   Caratacus                      | First: 2025-06-03 | Last: 2025-06-03 | LEAVING
-  varunnmiglani                  | First: 2025-06-02 | Last: 2025-06-02 | LEAVING
-  PzaThief                       | First: 2025-05-28 | Last: 2025-05-28 | LEAVING
   bigluds                        | First: 2025-05-23 | Last: 2025-05-23 | LEAVING
   MichiBaum                      | First: 2025-05-21 | Last: 2025-05-21 | LEAVING
   luguohaole                     | First: 2025-05-15 | Last: 2025-05-15 | LEAVING
   hanpov                         | First: 2025-05-08 | Last: 2025-05-08 | LEAVING
   Anvice                         | First: 2025-04-24 | Last: 2025-04-28 | LEAVING
   carolmorneau                   | First: 2025-04-25 | Last: 2025-04-25 | LEAVING
-  riky2124                       | First: 2025-04-21 | Last: 2025-04-21 | LEAVING
   rcrafael                       | First: 2025-04-19 | Last: 2025-04-19 | LEAVING
   mrdaios                        | First: 2025-04-06 | Last: 2025-04-06 | LEAVING
   alicetongtong8                 | First: 2025-04-05 | Last: 2025-04-05 | LEAVING
   xxcka                          | First: 2025-04-03 | Last: 2025-04-03 | LEAVING
-  v3rm0n                         | First: 2024-05-09 | Last: 2025-03-31 | LEAVING
+  obourgain                      | First: 2025-03-31 | Last: 2025-03-31 | LEAVING
+  v3rm0n                         | First: 2024-05-09 | Last: 2025-03-25 | LEAVING
   JohanNordlinder                | First: 2024-02-23 | Last: 2025-03-21 | LEAVING
   moxbo                          | First: 2024-11-25 | Last: 2025-03-07 | LEAVING
-  sukhminderarora                | First: 2025-02-17 | Last: 2025-02-26 | LEAVING
   marbon87                       | First: 2018-09-17 | Last: 2025-02-24 | LEAVING
   mcanti                         | First: 2025-02-14 | Last: 2025-02-14 | LEAVING
   Kieun                          | First: 2022-05-04 | Last: 2025-02-13 | LEAVING
   TimHess                        | First: 2024-11-13 | Last: 2025-01-30 | LEAVING
-  jacekbilski                    | First: 2024-12-06 | Last: 2024-12-19 | LEAVING
   nandorholozsnyak               | First: 2024-12-11 | Last: 2024-12-11 | LEAVING
   HelloDhero                     | First: 2024-12-09 | Last: 2024-12-09 | LEAVING
-  NaccOll                        | First: 2024-11-21 | Last: 2024-11-21 | LEAVING
+  jacekbilski                    | First: 2024-12-06 | Last: 2024-12-06 | LEAVING
+  ahoehma                        | First: 2020-01-06 | Last: 2024-11-24 | LEAVING
   niuone-cloud                   | First: 2024-11-20 | Last: 2024-11-20 | LEAVING
   konushefci-jehona              | First: 2024-11-14 | Last: 2024-11-14 | LEAVING
   JavaLionLi                     | First: 2023-01-11 | Last: 2024-11-12 | LEAVING
   DmitryTen                      | First: 2024-11-12 | Last: 2024-11-12 | LEAVING
   TomDoesb                       | First: 2024-11-12 | Last: 2024-11-12 | LEAVING
-  davidfevre-gouv-nc             | First: 2024-11-06 | Last: 2024-11-06 | LEAVING
   mranile-dev                    | First: 2024-10-08 | Last: 2024-10-08 | LEAVING
   THENNARASU                     | First: 2024-09-26 | Last: 2024-09-26 | LEAVING
   rohit-jangir-codes             | First: 2024-09-12 | Last: 2024-09-12 | LEAVING
   kevin-agysoft                  | First: 2024-09-10 | Last: 2024-09-10 | LEAVING
   michaelisvy                    | First: 2024-09-07 | Last: 2024-09-07 | LEAVING
   stoneLee81                     | First: 2024-09-04 | Last: 2024-09-04 | LEAVING
-  ParkerM                        | First: 2021-01-31 | Last: 2024-08-30 | LEAVING
+  ParkerM                        | First: 2024-08-30 | Last: 2024-08-30 | LEAVING
   amirkhanmoglix                 | First: 2024-08-28 | Last: 2024-08-28 | LEAVING
   zhangys529                     | First: 2024-08-23 | Last: 2024-08-23 | LEAVING
   breckenenneking                | First: 2024-08-02 | Last: 2024-08-02 | LEAVING
-  andreasfritz                   | First: 2021-11-26 | Last: 2024-06-21 | LEAVING
+  andreasfritz                   | First: 2022-09-16 | Last: 2024-06-21 | LEAVING
   Susuper2019                    | First: 2024-06-13 | Last: 2024-06-13 | LEAVING
   frgaume                        | First: 2024-06-04 | Last: 2024-06-04 | LEAVING
   HeXiaoShu                      | First: 2024-06-02 | Last: 2024-06-02 | LEAVING
@@ -91,8 +81,8 @@ Newcomers:
   arikab                         | First: 2024-05-17 | Last: 2024-05-17 | LEAVING
   luanvelasco                    | First: 2024-05-08 | Last: 2024-05-08 | LEAVING
   Muyangmin                      | First: 2024-05-06 | Last: 2024-05-06 | LEAVING
-  StefanHufschmidt               | First: 2024-04-30 | Last: 2024-05-02 | LEAVING
   Na3blis                        | First: 2018-09-28 | Last: 2024-04-30 | LEAVING
+  StefanHufschmidt               | First: 2024-04-30 | Last: 2024-04-30 | LEAVING
   ffroliva                       | First: 2024-04-17 | Last: 2024-04-17 | LEAVING
   p4pramod                       | First: 2024-04-16 | Last: 2024-04-16 | LEAVING
   Subrhamanya                    | First: 2024-04-15 | Last: 2024-04-15 | LEAVING
@@ -101,15 +91,12 @@ Newcomers:
   VladislavBakshanskij           | First: 2024-03-25 | Last: 2024-03-25 | LEAVING
   Iam0x                          | First: 2024-03-21 | Last: 2024-03-21 | LEAVING
   pSinghDelaplex                 | First: 2024-03-20 | Last: 2024-03-20 | LEAVING
-  sullis                         | First: 2022-06-18 | Last: 2024-03-03 | LEAVING
   prashant-dahiya26              | First: 2024-02-27 | Last: 2024-02-29 | LEAVING
-  Shubzz-02                      | First: 2024-02-26 | Last: 2024-02-26 | LEAVING
   kormosp                        | First: 2020-09-17 | Last: 2024-02-19 | LEAVING
   matejbludsky                   | First: 2024-02-14 | Last: 2024-02-14 | LEAVING
   Jolymmiles                     | First: 2024-02-07 | Last: 2024-02-13 | LEAVING
   peraiahkarnam                  | First: 2024-02-13 | Last: 2024-02-13 | LEAVING
   NF10                           | First: 2024-01-31 | Last: 2024-01-31 | LEAVING
-  psemeniuk                      | First: 2024-01-26 | Last: 2024-01-26 | LEAVING
   yashasvi2622                   | First: 2024-01-25 | Last: 2024-01-25 | LEAVING
   raford-ice                     | First: 2024-01-22 | Last: 2024-01-22 | LEAVING
   Hildebrand-Ritense             | First: 2023-12-14 | Last: 2024-01-19 | LEAVING
@@ -119,52 +106,44 @@ Newcomers:
   ankur-sharma-maersk            | First: 2024-01-03 | Last: 2024-01-03 | LEAVING
   jgraglia                       | First: 2023-12-20 | Last: 2023-12-20 | LEAVING
   https429                       | First: 2023-12-06 | Last: 2023-12-06 | LEAVING
-  ericmaino                      | First: 2023-11-26 | Last: 2023-11-26 | LEAVING
   doveylovey                     | First: 2023-11-25 | Last: 2023-11-25 | LEAVING
   guerricmerleHUG                | First: 2019-03-01 | Last: 2023-11-24 | LEAVING
   andrew2184                     | First: 2023-03-14 | Last: 2023-11-22 | LEAVING
   iliyan-velichkov               | First: 2023-11-21 | Last: 2023-11-21 | LEAVING
   blankplace                     | First: 2023-11-17 | Last: 2023-11-17 | LEAVING
-  genuss                         | First: 2022-10-08 | Last: 2023-11-16 | LEAVING
   eugene-sadovsky                | First: 2023-11-14 | Last: 2023-11-14 | LEAVING
-  Josep-Lancharro-Indra          | First: 2023-11-10 | Last: 2023-11-10 | LEAVING
-  dzahbarov                      | First: 2023-06-05 | Last: 2023-11-04 | LEAVING
   tspoeri                        | First: 2023-11-02 | Last: 2023-11-02 | LEAVING
   SavvasPistikos                 | First: 2023-10-27 | Last: 2023-10-27 | LEAVING
   Shanice731                     | First: 2023-10-25 | Last: 2023-10-25 | LEAVING
-  denyskonakhevych               | First: 2023-09-14 | Last: 2023-10-24 | LEAVING
-  qxo                            | First: 2021-12-04 | Last: 2023-10-21 | LEAVING
   claitonp                       | First: 2023-10-15 | Last: 2023-10-15 | LEAVING
-  hdeadman                       | First: 2023-10-15 | Last: 2023-10-15 | LEAVING
-  huangguangshan                 | First: 2023-10-10 | Last: 2023-10-10 | LEAVING
-  jianfengqs                     | First: 2023-10-09 | Last: 2023-10-09 | LEAVING
   woodstockain                   | First: 2023-10-09 | Last: 2023-10-09 | LEAVING
   soelvar                        | First: 2023-10-04 | Last: 2023-10-04 | LEAVING
   dengchufeng                    | First: 2023-09-14 | Last: 2023-09-14 | LEAVING
+  denyskonakhevych               | First: 2023-09-14 | Last: 2023-09-14 | LEAVING
   dominik42                      | First: 2023-09-09 | Last: 2023-09-09 | LEAVING
   Ephenodrom                     | First: 2023-08-16 | Last: 2023-08-16 | LEAVING
   briansjavablog                 | First: 2023-08-04 | Last: 2023-08-10 | LEAVING
   sitamadhavi                    | First: 2023-02-16 | Last: 2023-08-08 | LEAVING
-  ydubrouka                      | First: 2023-07-20 | Last: 2023-08-08 | LEAVING
+  ydubrouka                      | First: 2023-08-08 | Last: 2023-08-08 | LEAVING
   Peksa                          | First: 2023-08-07 | Last: 2023-08-07 | LEAVING
   aro-franklin                   | First: 2023-08-04 | Last: 2023-08-04 | LEAVING
   ValentineMWAY                  | First: 2023-08-03 | Last: 2023-08-03 | LEAVING
   linzhu-isoftstone              | First: 2023-08-01 | Last: 2023-08-01 | LEAVING
   asasas234                      | First: 2023-07-24 | Last: 2023-07-24 | LEAVING
   erbrecht                       | First: 2023-07-21 | Last: 2023-07-21 | LEAVING
-  livk-cloud                     | First: 2022-11-18 | Last: 2023-07-20 | LEAVING
   billyshen26                    | First: 2023-07-20 | Last: 2023-07-20 | LEAVING
   proton5000                     | First: 2023-07-20 | Last: 2023-07-20 | LEAVING
   royallkk                       | First: 2023-07-12 | Last: 2023-07-12 | LEAVING
   p1n93r                         | First: 2023-07-08 | Last: 2023-07-08 | LEAVING
   cn-src                         | First: 2023-07-07 | Last: 2023-07-07 | LEAVING
   iuliiasobolevska               | First: 2022-12-10 | Last: 2023-07-05 | LEAVING
-  LaSylv                         | First: 2018-09-23 | Last: 2023-07-04 | LEAVING
+  LaSylv                         | First: 2018-10-24 | Last: 2023-07-04 | LEAVING
   konstantinMinkov               | First: 2023-07-04 | Last: 2023-07-04 | LEAVING
   solagappan                     | First: 2023-06-29 | Last: 2023-06-29 | LEAVING
   guai                           | First: 2023-06-09 | Last: 2023-06-09 | LEAVING
   hamid646m                      | First: 2023-06-09 | Last: 2023-06-09 | LEAVING
   dkirrane                       | First: 2023-06-08 | Last: 2023-06-08 | LEAVING
+  dzahbarov                      | First: 2023-06-05 | Last: 2023-06-05 | LEAVING
   fobgochod                      | First: 2023-06-05 | Last: 2023-06-05 | LEAVING
   ngc4579                        | First: 2023-06-05 | Last: 2023-06-05 | LEAVING
   linvaux                        | First: 2023-06-03 | Last: 2023-06-03 | LEAVING
@@ -175,7 +154,7 @@ Newcomers:
   Tancen                         | First: 2023-05-06 | Last: 2023-05-06 | LEAVING
   HuMan008                       | First: 2023-05-05 | Last: 2023-05-05 | LEAVING
   rainerfrey-inxmail             | First: 2022-11-29 | Last: 2023-05-04 | LEAVING
-  pnewhook                       | First: 2023-04-21 | Last: 2023-04-21 | LEAVING
+  genuss                         | First: 2022-10-08 | Last: 2023-04-30 | LEAVING
   chazhiguo                      | First: 2023-04-20 | Last: 2023-04-20 | LEAVING
   Saljack                        | First: 2023-04-16 | Last: 2023-04-16 | LEAVING
   scipionyx                      | First: 2023-04-15 | Last: 2023-04-15 | LEAVING
@@ -190,13 +169,11 @@ Newcomers:
   cwienands1                     | First: 2023-03-09 | Last: 2023-03-09 | LEAVING
   andmer                         | First: 2023-03-02 | Last: 2023-03-02 | LEAVING
   Tobisaninfo                    | First: 2021-04-24 | Last: 2023-02-26 | LEAVING
-  joshiste                       | First: 2014-09-15 | Last: 2023-02-23 | LEAVING
+  joshiste                       | First: 2015-10-02 | Last: 2023-02-23 | LEAVING
   929541303                      | First: 2023-02-08 | Last: 2023-02-08 | LEAVING
   pierrepinon                    | First: 2023-01-31 | Last: 2023-01-31 | LEAVING
   georgerocha                    | First: 2023-01-12 | Last: 2023-01-27 | LEAVING
-  nbadenne                       | First: 2023-01-23 | Last: 2023-01-23 | LEAVING
   ghost                          | First: 2015-05-13 | Last: 2023-01-21 | LEAVING
-  ddebree                        | First: 2019-07-19 | Last: 2023-01-18 | LEAVING
   mirza-ali-ctct                 | First: 2023-01-17 | Last: 2023-01-17 | LEAVING
   bjab                           | First: 2023-01-11 | Last: 2023-01-11 | LEAVING
   lhy507613824                   | First: 2023-01-10 | Last: 2023-01-10 | LEAVING
@@ -207,24 +184,23 @@ Newcomers:
   dbarnhoorn                     | First: 2022-12-23 | Last: 2022-12-23 | LEAVING
   dragosnutu                     | First: 2022-12-20 | Last: 2022-12-20 | LEAVING
   azemliankin                    | First: 2022-12-16 | Last: 2022-12-16 | LEAVING
-  EyedPeas                       | First: 2022-11-22 | Last: 2022-12-12 | LEAVING
-  Fuud                           | First: 2022-03-10 | Last: 2022-12-10 | LEAVING
   ztomic                         | First: 2022-01-18 | Last: 2022-12-05 | LEAVING
   robtha                         | First: 2022-12-02 | Last: 2022-12-02 | LEAVING
   SeongEon-Jo                    | First: 2022-12-01 | Last: 2022-12-01 | LEAVING
   HaalandCR                      | First: 2022-11-30 | Last: 2022-11-30 | LEAVING
+  EyedPeas                       | First: 2022-11-22 | Last: 2022-11-22 | LEAVING
   huyu6                          | First: 2022-11-22 | Last: 2022-11-22 | LEAVING
   MichaelZett                    | First: 2022-11-18 | Last: 2022-11-18 | LEAVING
+  livk-cloud                     | First: 2022-11-18 | Last: 2022-11-18 | LEAVING
   Dam14n                         | First: 2022-11-15 | Last: 2022-11-15 | LEAVING
   edgaryeghiazarian              | First: 2022-11-15 | Last: 2022-11-15 | LEAVING
   zgqq                           | First: 2022-11-11 | Last: 2022-11-11 | LEAVING
   tonycody                       | First: 2022-11-01 | Last: 2022-11-01 | LEAVING
   niceyou99                      | First: 2022-10-31 | Last: 2022-10-31 | LEAVING
-  thomaszub                      | First: 2022-04-05 | Last: 2022-10-27 | LEAVING
   TinyZzh                        | First: 2022-10-26 | Last: 2022-10-26 | LEAVING
+  thomaszub                      | First: 2022-10-26 | Last: 2022-10-26 | LEAVING
   wojciechGaudnik                | First: 2022-10-26 | Last: 2022-10-26 | LEAVING
   hellozhangjian                 | First: 2022-10-25 | Last: 2022-10-25 | LEAVING
-  sweeterBox                     | First: 2022-10-20 | Last: 2022-10-20 | LEAVING
   ChinaJeckXu                    | First: 2020-11-23 | Last: 2022-10-14 | LEAVING
   Cimballi                       | First: 2022-10-14 | Last: 2022-10-14 | LEAVING
   braunsonm                      | First: 2022-10-12 | Last: 2022-10-12 | LEAVING
@@ -238,8 +214,6 @@ Newcomers:
   rowi1de                        | First: 2018-10-23 | Last: 2022-08-31 | LEAVING
   clockrun                       | First: 2022-08-26 | Last: 2022-08-26 | LEAVING
   dbnex14                        | First: 2022-08-23 | Last: 2022-08-23 | LEAVING
-  placaze                        | First: 2022-08-17 | Last: 2022-08-18 | LEAVING
-  pihug12                        | First: 2022-08-18 | Last: 2022-08-18 | LEAVING
   liran2000                      | First: 2022-08-02 | Last: 2022-08-02 | LEAVING
   fan9704                        | First: 2022-08-01 | Last: 2022-08-01 | LEAVING
   wangpeicong1998                | First: 2022-08-01 | Last: 2022-08-01 | LEAVING
@@ -251,14 +225,13 @@ Newcomers:
   zhanghengdashuaibi             | First: 2022-07-15 | Last: 2022-07-15 | LEAVING
   AYiXi                          | First: 2022-07-04 | Last: 2022-07-04 | LEAVING
   pgouri017                      | First: 2020-09-15 | Last: 2022-06-28 | LEAVING
-  misselvexu                     | First: 2022-06-27 | Last: 2022-06-28 | LEAVING
   kuengroc                       | First: 2022-06-28 | Last: 2022-06-28 | LEAVING
+  misselvexu                     | First: 2022-06-27 | Last: 2022-06-27 | LEAVING
   dongyinuo                      | First: 2022-06-26 | Last: 2022-06-26 | LEAVING
   spekdrum                       | First: 2022-06-14 | Last: 2022-06-14 | LEAVING
   dpavanelli                     | First: 2022-06-08 | Last: 2022-06-08 | LEAVING
   vellingirim                    | First: 2022-06-06 | Last: 2022-06-06 | LEAVING
   sageOfGitPaths                 | First: 2022-06-04 | Last: 2022-06-04 | LEAVING
-  antechrestos                   | First: 2021-02-25 | Last: 2022-05-29 | LEAVING
   rahulgautam034                 | First: 2022-05-25 | Last: 2022-05-25 | LEAVING
   MonkeyYeah                     | First: 2022-05-17 | Last: 2022-05-17 | LEAVING
   jaschenk                       | First: 2022-05-12 | Last: 2022-05-12 | LEAVING
@@ -267,10 +240,10 @@ Newcomers:
   lleder                         | First: 2022-04-22 | Last: 2022-04-22 | LEAVING
   mdddj                          | First: 2022-04-15 | Last: 2022-04-15 | LEAVING
   qq253498229                    | First: 2022-04-15 | Last: 2022-04-15 | LEAVING
-  pepevalbe                      | First: 2022-03-27 | Last: 2022-04-13 | LEAVING
   sehmusaydogdu                  | First: 2022-04-11 | Last: 2022-04-11 | LEAVING
   vpodoprigo                     | First: 2022-04-04 | Last: 2022-04-04 | LEAVING
-  oespino                        | First: 2022-03-18 | Last: 2022-03-24 | LEAVING
+  pepevalbe                      | First: 2022-03-27 | Last: 2022-03-27 | LEAVING
+  oespino                        | First: 2022-03-24 | Last: 2022-03-24 | LEAVING
   azi03                          | First: 2022-03-06 | Last: 2022-03-06 | LEAVING
   patpatpat123                   | First: 2019-09-01 | Last: 2022-03-03 | LEAVING
   li-xiao-shuang                 | First: 2022-03-03 | Last: 2022-03-03 | LEAVING
@@ -280,14 +253,13 @@ Newcomers:
   Halayem                        | First: 2022-02-03 | Last: 2022-02-03 | LEAVING
   rHilkner                       | First: 2022-01-31 | Last: 2022-01-31 | LEAVING
   pasolid                        | First: 2022-01-30 | Last: 2022-01-30 | LEAVING
-  mateofacu                      | First: 2022-01-07 | Last: 2022-01-28 | LEAVING
   350078238                      | First: 2022-01-23 | Last: 2022-01-23 | LEAVING
   AnAloneJaver                   | First: 2022-01-14 | Last: 2022-01-14 | LEAVING
   charlesb-yesmail               | First: 2022-01-14 | Last: 2022-01-14 | LEAVING
   vgropp                         | First: 2022-01-12 | Last: 2022-01-12 | LEAVING
   zackfei                        | First: 2021-11-30 | Last: 2022-01-11 | LEAVING
+  mateofacu                      | First: 2022-01-07 | Last: 2022-01-07 | LEAVING
   JyotiMittal1993                | First: 2022-01-03 | Last: 2022-01-03 | LEAVING
-  VincentBostoen                 | First: 2022-01-03 | Last: 2022-01-03 | LEAVING
   herodotus-ecosystem            | First: 2021-12-25 | Last: 2021-12-25 | LEAVING
   RoyalMoon                      | First: 2021-12-21 | Last: 2021-12-21 | LEAVING
   zondacker                      | First: 2021-12-20 | Last: 2021-12-20 | LEAVING
@@ -295,7 +267,6 @@ Newcomers:
   zundaren                       | First: 2021-12-16 | Last: 2021-12-16 | LEAVING
   akshmendhe                     | First: 2021-12-15 | Last: 2021-12-15 | LEAVING
   JamesTaylor04                  | First: 2021-12-13 | Last: 2021-12-13 | LEAVING
-  ettingshausen                  | First: 2021-12-10 | Last: 2021-12-10 | LEAVING
   kevinspelt                     | First: 2021-12-10 | Last: 2021-12-10 | LEAVING
   mh-ckantzer                    | First: 2021-12-02 | Last: 2021-12-02 | LEAVING
   XieRW                          | First: 2021-12-01 | Last: 2021-12-01 | LEAVING
@@ -303,7 +274,6 @@ Newcomers:
   wangxufire                     | First: 2021-05-25 | Last: 2021-11-28 | LEAVING
   ITGcx                          | First: 2021-11-26 | Last: 2021-11-26 | LEAVING
   jzcccc                         | First: 2021-11-25 | Last: 2021-11-25 | LEAVING
-  ouaibsky                       | First: 2015-02-11 | Last: 2021-11-23 | LEAVING
   bootstrap2025                  | First: 2021-04-22 | Last: 2021-11-22 | LEAVING
   immanishbainsla                | First: 2021-11-17 | Last: 2021-11-22 | LEAVING
   nickcaballero                  | First: 2021-11-19 | Last: 2021-11-19 | LEAVING
@@ -317,18 +287,14 @@ Newcomers:
   deadpassive                    | First: 2021-09-17 | Last: 2021-09-17 | LEAVING
   logicg8                        | First: 2021-09-17 | Last: 2021-09-17 | LEAVING
   eanton86                       | First: 2021-09-10 | Last: 2021-09-10 | LEAVING
-  nathankooij                    | First: 2021-08-18 | Last: 2021-08-30 | LEAVING
-  kerwin612                      | First: 2021-08-27 | Last: 2021-08-27 | LEAVING
   Arpanparikh                    | First: 2021-08-19 | Last: 2021-08-19 | LEAVING
   charbus                        | First: 2021-08-17 | Last: 2021-08-17 | LEAVING
-  fiveOO                         | First: 2021-07-13 | Last: 2021-08-16 | LEAVING
   davidkarlsen                   | First: 2021-08-05 | Last: 2021-08-05 | LEAVING
+  fiveOO                         | First: 2021-07-13 | Last: 2021-08-02 | LEAVING
   hendisantika                   | First: 2016-11-23 | Last: 2021-08-01 | LEAVING
   thanks-git                     | First: 2021-07-28 | Last: 2021-07-28 | LEAVING
   kapilsoni2013                  | First: 2021-07-25 | Last: 2021-07-25 | LEAVING
   drmaciej                       | First: 2021-07-16 | Last: 2021-07-16 | LEAVING
-  huan415                        | First: 2021-07-13 | Last: 2021-07-13 | LEAVING
-  srempfer                       | First: 2018-03-27 | Last: 2021-07-06 | LEAVING
   AndrewGotz                     | First: 2021-07-06 | Last: 2021-07-06 | LEAVING
   julienbaleizaoWorldline        | First: 2021-07-06 | Last: 2021-07-06 | LEAVING
   xiaqinghh                      | First: 2021-06-25 | Last: 2021-06-25 | LEAVING
@@ -348,45 +314,37 @@ Newcomers:
   hakuseki                       | First: 2021-05-04 | Last: 2021-05-04 | LEAVING
   olithissen                     | First: 2021-05-03 | Last: 2021-05-03 | LEAVING
   lswlsw                         | First: 2021-04-30 | Last: 2021-04-30 | LEAVING
-  Farden                         | First: 2021-04-22 | Last: 2021-04-22 | LEAVING
   rasi-tn                        | First: 2021-04-13 | Last: 2021-04-13 | LEAVING
   hogger0                        | First: 2021-01-12 | Last: 2021-04-11 | LEAVING
   odexue                         | First: 2021-04-07 | Last: 2021-04-07 | LEAVING
   stevengibbszions               | First: 2020-07-03 | Last: 2021-04-05 | LEAVING
   rahulkas123                    | First: 2021-04-05 | Last: 2021-04-05 | LEAVING
-  ccoltx                         | First: 2020-12-11 | Last: 2021-03-31 | LEAVING
+  ccoltx                         | First: 2020-12-18 | Last: 2021-03-31 | LEAVING
   Kyrie-yx-Irving                | First: 2021-03-29 | Last: 2021-03-29 | LEAVING
-  eas5                           | First: 2021-03-24 | Last: 2021-03-24 | LEAVING
-  zeljko-mirovic                 | First: 2020-08-26 | Last: 2021-03-22 | LEAVING
-  hammadirshad                   | First: 2021-03-20 | Last: 2021-03-21 | LEAVING
-  zhaoyifan0528                  | First: 2021-03-20 | Last: 2021-03-20 | LEAVING
   daanishsarguru                 | First: 2021-03-17 | Last: 2021-03-17 | LEAVING
   timpamungkas                   | First: 2021-03-17 | Last: 2021-03-17 | LEAVING
   cjmarling                      | First: 2021-03-13 | Last: 2021-03-13 | LEAVING
   Hccake                         | First: 2021-03-09 | Last: 2021-03-09 | LEAVING
-  mask616                        | First: 2021-03-05 | Last: 2021-03-05 | LEAVING
   laskdjlaskdj12                 | First: 2021-03-04 | Last: 2021-03-04 | LEAVING
   Bad-Pop                        | First: 2021-03-01 | Last: 2021-03-01 | LEAVING
   dx1ngy                         | First: 2020-06-17 | Last: 2021-02-26 | LEAVING
   winterpa                       | First: 2021-02-26 | Last: 2021-02-26 | LEAVING
+  antechrestos                   | First: 2021-02-25 | Last: 2021-02-25 | LEAVING
   morrica                        | First: 2021-02-23 | Last: 2021-02-23 | LEAVING
   breun                          | First: 2021-02-22 | Last: 2021-02-22 | LEAVING
-  torrespro                      | First: 2021-02-22 | Last: 2021-02-22 | LEAVING
   feliixx                        | First: 2021-02-21 | Last: 2021-02-21 | LEAVING
+  zeljko-mirovic                 | First: 2020-08-26 | Last: 2021-02-19 | LEAVING
   djeanprost                     | First: 2021-02-12 | Last: 2021-02-12 | LEAVING
   coryroloff                     | First: 2021-02-12 | Last: 2021-02-12 | LEAVING
   sta-szek                       | First: 2021-02-12 | Last: 2021-02-12 | LEAVING
   zxdposter                      | First: 2021-01-28 | Last: 2021-02-10 | LEAVING
   jonashackt                     | First: 2020-12-22 | Last: 2021-02-07 | LEAVING
-  Riggs333                       | First: 2018-01-19 | Last: 2021-02-05 | LEAVING
-  soe78                          | First: 2020-11-16 | Last: 2021-01-30 | LEAVING
-  mle-enso                       | First: 2020-07-17 | Last: 2021-01-26 | LEAVING
+  Riggs333                       | First: 2020-12-11 | Last: 2021-02-05 | LEAVING
   joeshadbolt                    | First: 2021-01-26 | Last: 2021-01-26 | LEAVING
   batousik                       | First: 2021-01-21 | Last: 2021-01-21 | LEAVING
-  persapiens                     | First: 2021-01-12 | Last: 2021-01-14 | LEAVING
   gongshw                        | First: 2021-01-14 | Last: 2021-01-14 | LEAVING
-  manusa                         | First: 2021-01-13 | Last: 2021-01-13 | LEAVING
   membersound                    | First: 2017-07-04 | Last: 2021-01-12 | LEAVING
+  persapiens                     | First: 2021-01-12 | Last: 2021-01-12 | LEAVING
   jcjgithub                      | First: 2021-01-09 | Last: 2021-01-09 | LEAVING
   uqix                           | First: 2021-01-08 | Last: 2021-01-08 | LEAVING
   zorlac                         | First: 2021-01-03 | Last: 2021-01-03 | LEAVING
@@ -408,15 +366,12 @@ Newcomers:
   kaplan441                      | First: 2020-11-19 | Last: 2020-11-19 | LEAVING
   lingting                       | First: 2020-11-17 | Last: 2020-11-17 | LEAVING
   KarthikLearn                   | First: 2020-11-10 | Last: 2020-11-10 | LEAVING
-  njoysubho                      | First: 2020-11-10 | Last: 2020-11-10 | LEAVING
   chao-huang                     | First: 2020-11-09 | Last: 2020-11-09 | LEAVING
-  karsunke                       | First: 2020-07-27 | Last: 2020-11-05 | LEAVING
-  binary-park                    | First: 2020-11-05 | Last: 2020-11-05 | LEAVING
   kdvolder                       | First: 2020-11-02 | Last: 2020-11-02 | LEAVING
   AnthonyNTK                     | First: 2020-10-24 | Last: 2020-10-24 | LEAVING
+  karsunke                       | First: 2020-07-27 | Last: 2020-10-21 | LEAVING
   Ayden-Franklin                 | First: 2019-12-10 | Last: 2020-10-20 | LEAVING
   developers-youcong             | First: 2020-10-19 | Last: 2020-10-19 | LEAVING
-  binarywang                     | First: 2020-05-22 | Last: 2020-10-15 | LEAVING
   arbing                         | First: 2020-10-10 | Last: 2020-10-10 | LEAVING
   silenyc                        | First: 2020-09-25 | Last: 2020-09-25 | LEAVING
   magicsgxie                     | First: 2018-06-22 | Last: 2020-09-21 | LEAVING
@@ -425,10 +380,8 @@ Newcomers:
   Docjones                       | First: 2020-09-10 | Last: 2020-09-10 | LEAVING
   gigermocas                     | First: 2020-06-30 | Last: 2020-09-08 | LEAVING
   DrSequence                     | First: 2020-09-08 | Last: 2020-09-08 | LEAVING
-  zhhaojie                       | First: 2020-09-02 | Last: 2020-09-02 | LEAVING
   messiGao                       | First: 2020-09-02 | Last: 2020-09-02 | LEAVING
   akuma8                         | First: 2020-08-30 | Last: 2020-08-30 | LEAVING
-  bitbrain                       | First: 2020-08-22 | Last: 2020-08-22 | LEAVING
   IcyLemon                       | First: 2020-08-20 | Last: 2020-08-20 | LEAVING
   rkettelerij                    | First: 2020-08-20 | Last: 2020-08-20 | LEAVING
   wanghwtaiji                    | First: 2020-08-19 | Last: 2020-08-19 | LEAVING
@@ -437,7 +390,6 @@ Newcomers:
   dassebi                        | First: 2020-08-13 | Last: 2020-08-13 | LEAVING
   ETUFO                          | First: 2020-08-07 | Last: 2020-08-07 | LEAVING
   somera                         | First: 2020-08-04 | Last: 2020-08-04 | LEAVING
-  timogruetter1981               | First: 2020-08-03 | Last: 2020-08-03 | LEAVING
   lshz0088                       | First: 2020-07-31 | Last: 2020-07-31 | LEAVING
   missfmaster                    | First: 2020-07-21 | Last: 2020-07-21 | LEAVING
   jhartotr                       | First: 2019-11-25 | Last: 2020-07-20 | LEAVING
@@ -445,35 +397,29 @@ Newcomers:
   GianniGiglio                   | First: 2020-07-06 | Last: 2020-07-06 | LEAVING
   ddcruver                       | First: 2019-04-25 | Last: 2020-06-30 | LEAVING
   fvclaus                        | First: 2020-06-29 | Last: 2020-06-29 | LEAVING
-  dersvenhesse                   | First: 2020-06-05 | Last: 2020-06-27 | LEAVING
-  laffuste                       | First: 2020-06-25 | Last: 2020-06-25 | LEAVING
   ShenLiangwei                   | First: 2020-06-23 | Last: 2020-06-23 | LEAVING
-  MatanRubin                     | First: 2020-06-17 | Last: 2020-06-22 | LEAVING
   rvp-cpu                        | First: 2020-06-18 | Last: 2020-06-18 | LEAVING
   vanniktech                     | First: 2020-06-18 | Last: 2020-06-18 | LEAVING
-  jintaocai                      | First: 2020-06-14 | Last: 2020-06-16 | LEAVING
-  mmoayyed                       | First: 2018-10-20 | Last: 2020-06-12 | LEAVING
+  MatanRubin                     | First: 2020-06-17 | Last: 2020-06-17 | LEAVING
   tooms4444                      | First: 2020-06-12 | Last: 2020-06-12 | LEAVING
   tuxknight                      | First: 2020-06-10 | Last: 2020-06-10 | LEAVING
-  asibross                       | First: 2018-07-31 | Last: 2020-06-05 | LEAVING
+  dersvenhesse                   | First: 2020-06-05 | Last: 2020-06-05 | LEAVING
   halatas                        | First: 2020-06-05 | Last: 2020-06-05 | LEAVING
   sepgh                          | First: 2020-06-04 | Last: 2020-06-04 | LEAVING
-  mason276752                    | First: 2020-05-31 | Last: 2020-05-31 | LEAVING
   Mr-LiuDC                       | First: 2020-05-30 | Last: 2020-05-30 | LEAVING
   romge                          | First: 2020-05-27 | Last: 2020-05-27 | LEAVING
   arunkpatra                     | First: 2015-11-10 | Last: 2020-05-20 | LEAVING
   SingularityZed                 | First: 2020-05-19 | Last: 2020-05-19 | LEAVING
   derekzhan                      | First: 2020-05-19 | Last: 2020-05-19 | LEAVING
-  CJY0208                        | First: 2020-05-18 | Last: 2020-05-18 | LEAVING
-  bratwurzt                      | First: 2020-04-30 | Last: 2020-05-15 | LEAVING
+  bratwurzt                      | First: 2020-05-04 | Last: 2020-05-14 | LEAVING
   lukasz-kaminski                | First: 2016-11-14 | Last: 2020-05-14 | LEAVING
   mciumac                        | First: 2020-04-16 | Last: 2020-05-14 | LEAVING
   csloter                        | First: 2020-05-14 | Last: 2020-05-14 | LEAVING
   codingDriver                   | First: 2019-04-24 | Last: 2020-05-13 | LEAVING
   brianrodecap                   | First: 2020-05-12 | Last: 2020-05-12 | LEAVING
-  mehiel                         | First: 2020-05-07 | Last: 2020-05-11 | LEAVING
   FutaoSmile                     | First: 2020-05-09 | Last: 2020-05-09 | LEAVING
   aeron1sh                       | First: 2020-05-07 | Last: 2020-05-07 | LEAVING
+  mehiel                         | First: 2020-05-07 | Last: 2020-05-07 | LEAVING
   wang-chengchao                 | First: 2020-04-30 | Last: 2020-04-30 | LEAVING
   jotsinghdhillon                | First: 2020-04-28 | Last: 2020-04-28 | LEAVING
   tb8367085                      | First: 2020-04-28 | Last: 2020-04-28 | LEAVING
@@ -481,7 +427,6 @@ Newcomers:
   Birthright50                   | First: 2020-04-25 | Last: 2020-04-25 | LEAVING
   Angahran                       | First: 2020-04-21 | Last: 2020-04-21 | LEAVING
   lambliesdown                   | First: 2020-01-25 | Last: 2020-04-20 | LEAVING
-  rebornkrunner                  | First: 2020-04-18 | Last: 2020-04-18 | LEAVING
   feiquan666                     | First: 2020-04-09 | Last: 2020-04-16 | LEAVING
   FrogDevelopper                 | First: 2020-04-15 | Last: 2020-04-15 | LEAVING
   benmlahzied                    | First: 2020-04-13 | Last: 2020-04-13 | LEAVING
@@ -496,24 +441,19 @@ Newcomers:
   xiaoxipangren                  | First: 2020-03-19 | Last: 2020-03-19 | LEAVING
   john1337                       | First: 2020-03-17 | Last: 2020-03-17 | LEAVING
   sky266                         | First: 2020-03-13 | Last: 2020-03-13 | LEAVING
-  tapbooth                       | First: 2020-03-13 | Last: 2020-03-13 | LEAVING
   bwcx-jzy                       | First: 2020-03-12 | Last: 2020-03-12 | LEAVING
   robert2411                     | First: 2020-03-12 | Last: 2020-03-12 | LEAVING
   LoveMyPyj                      | First: 2020-03-10 | Last: 2020-03-10 | LEAVING
   fionera                        | First: 2018-09-23 | Last: 2020-03-05 | LEAVING
   aeasylife                      | First: 2020-03-05 | Last: 2020-03-05 | LEAVING
   mariobruck                     | First: 2020-03-05 | Last: 2020-03-05 | LEAVING
-  vgaddavcg                      | First: 2020-03-02 | Last: 2020-03-02 | LEAVING
-  mrmercc                        | First: 2020-02-28 | Last: 2020-02-28 | LEAVING
-  tokuhirom                      | First: 2020-02-25 | Last: 2020-02-27 | LEAVING
   agorges                        | First: 2020-02-27 | Last: 2020-02-27 | LEAVING
   cgew85                         | First: 2020-02-26 | Last: 2020-02-26 | LEAVING
   Ask149                         | First: 2019-10-07 | Last: 2020-02-25 | LEAVING
-  ZuevKirill95                   | First: 2019-12-14 | Last: 2020-02-23 | LEAVING
+  tokuhirom                      | First: 2020-02-25 | Last: 2020-02-25 | LEAVING
   zzlxf                          | First: 2020-02-20 | Last: 2020-02-20 | LEAVING
   jmpuyo                         | First: 2020-02-19 | Last: 2020-02-19 | LEAVING
   mehdikhelif                    | First: 2020-02-19 | Last: 2020-02-19 | LEAVING
-  marcosvidolin                  | First: 2020-02-13 | Last: 2020-02-13 | LEAVING
   r-brown                        | First: 2020-02-07 | Last: 2020-02-07 | LEAVING
   YinHaoDev                      | First: 2020-02-04 | Last: 2020-02-04 | LEAVING
   andyd2002                      | First: 2018-02-16 | Last: 2020-02-01 | LEAVING
@@ -521,7 +461,6 @@ Newcomers:
   GiTweeker                      | First: 2020-01-26 | Last: 2020-01-26 | LEAVING
   rowsheet                       | First: 2020-01-20 | Last: 2020-01-20 | LEAVING
   ChunMengLu                     | First: 2020-01-19 | Last: 2020-01-19 | LEAVING
-  darrellsnow                    | First: 2020-01-17 | Last: 2020-01-17 | LEAVING
   retevastum                     | First: 2020-01-15 | Last: 2020-01-15 | LEAVING
   agamgupta6                     | First: 2020-01-08 | Last: 2020-01-08 | LEAVING
   DhavalShewale                  | First: 2020-01-06 | Last: 2020-01-06 | LEAVING
@@ -531,7 +470,7 @@ Newcomers:
   andyzhaozhao                   | First: 2019-12-24 | Last: 2019-12-26 | LEAVING
   ChenZheOnePiece                | First: 2019-12-24 | Last: 2019-12-24 | LEAVING
   yachi666                       | First: 2019-12-20 | Last: 2019-12-20 | LEAVING
-  cash1981                       | First: 2019-12-13 | Last: 2019-12-13 | LEAVING
+  ZuevKirill95                   | First: 2019-12-14 | Last: 2019-12-14 | LEAVING
   davgia                         | First: 2019-12-11 | Last: 2019-12-11 | LEAVING
   zjy5755202                     | First: 2019-12-11 | Last: 2019-12-11 | LEAVING
   michformanek                   | First: 2019-03-11 | Last: 2019-12-09 | LEAVING
@@ -547,17 +486,14 @@ Newcomers:
   pixtim                         | First: 2019-11-27 | Last: 2019-11-27 | LEAVING
   nikitsenka                     | First: 2019-11-26 | Last: 2019-11-26 | LEAVING
   ioxiaowei                      | First: 2019-11-23 | Last: 2019-11-24 | LEAVING
-  skosijer                       | First: 2019-09-06 | Last: 2019-11-22 | LEAVING
   salavessa                      | First: 2019-11-22 | Last: 2019-11-22 | LEAVING
   heka-pulsen                    | First: 2019-11-21 | Last: 2019-11-21 | LEAVING
   salexandrs                     | First: 2019-11-18 | Last: 2019-11-18 | LEAVING
   hehaipeng                      | First: 2019-11-16 | Last: 2019-11-16 | LEAVING
-  ReuDa                          | First: 2019-10-08 | Last: 2019-11-15 | LEAVING
   Adhders                        | First: 2019-11-01 | Last: 2019-11-04 | LEAVING
   ygsama                         | First: 2019-11-04 | Last: 2019-11-04 | LEAVING
   taasjord                       | First: 2016-10-03 | Last: 2019-11-03 | LEAVING
   springboot-plus                | First: 2019-10-23 | Last: 2019-11-02 | LEAVING
-  vonrosen                       | First: 2019-10-26 | Last: 2019-10-26 | LEAVING
   yaoyuncn                       | First: 2019-10-24 | Last: 2019-10-24 | LEAVING
   thanhphi0401                   | First: 2019-10-22 | Last: 2019-10-22 | LEAVING
   umeshupawar                    | First: 2019-10-20 | Last: 2019-10-21 | LEAVING
@@ -567,49 +503,39 @@ Newcomers:
   lyn1985                        | First: 2019-10-17 | Last: 2019-10-17 | LEAVING
   yuankeyan                      | First: 2019-10-15 | Last: 2019-10-15 | LEAVING
   FJiayang                       | First: 2019-10-13 | Last: 2019-10-13 | LEAVING
-  imod                           | First: 2016-04-27 | Last: 2019-10-08 | LEAVING
-  tscrypter                      | First: 2019-10-02 | Last: 2019-10-02 | LEAVING
+  imod                           | First: 2016-04-27 | Last: 2019-10-01 | LEAVING
+  mmoayyed                       | First: 2019-09-27 | Last: 2019-09-27 | LEAVING
   zznnqq210                      | First: 2019-09-27 | Last: 2019-09-27 | LEAVING
   zjf2671                        | First: 2019-09-26 | Last: 2019-09-26 | LEAVING
   ffeiko                         | First: 2019-09-23 | Last: 2019-09-23 | LEAVING
   jrobison153                    | First: 2019-09-23 | Last: 2019-09-23 | LEAVING
   simonbasle                     | First: 2019-09-19 | Last: 2019-09-19 | LEAVING
-  elijah-pl                      | First: 2019-09-18 | Last: 2019-09-18 | LEAVING
   duffy356                       | First: 2019-09-17 | Last: 2019-09-17 | LEAVING
-  calaveraInfo                   | First: 2019-09-16 | Last: 2019-09-16 | LEAVING
-  fillert                        | First: 2019-09-13 | Last: 2019-09-13 | LEAVING
   archine                        | First: 2019-09-12 | Last: 2019-09-12 | LEAVING
   luodongseu                     | First: 2019-09-12 | Last: 2019-09-12 | LEAVING
   wildhai                        | First: 2019-09-11 | Last: 2019-09-11 | LEAVING
   dtitov                         | First: 2019-09-06 | Last: 2019-09-09 | LEAVING
-  shnlb2006                      | First: 2019-09-06 | Last: 2019-09-06 | LEAVING
   Shawn-Yang-AWX                 | First: 2019-09-06 | Last: 2019-09-06 | LEAVING
   swamuser                       | First: 2019-09-06 | Last: 2019-09-06 | LEAVING
   fenghualiusha                  | First: 2019-09-03 | Last: 2019-09-03 | LEAVING
   kabasakalis                    | First: 2019-08-25 | Last: 2019-08-25 | LEAVING
-  dotpanic                       | First: 2019-08-23 | Last: 2019-08-23 | LEAVING
   sjlmsj                         | First: 2019-08-21 | Last: 2019-08-21 | LEAVING
   AnsonCong                      | First: 2019-08-14 | Last: 2019-08-14 | LEAVING
   raulvillalbamedina             | First: 2018-12-21 | Last: 2019-08-13 | LEAVING
   Nyamkhuub                      | First: 2019-07-26 | Last: 2019-08-07 | LEAVING
-  pierrickrouxel                 | First: 2019-08-07 | Last: 2019-08-07 | LEAVING
   rockysingh                     | First: 2019-08-07 | Last: 2019-08-07 | LEAVING
   zqr95518                       | First: 2018-12-03 | Last: 2019-08-06 | LEAVING
   hlg212                         | First: 2019-08-06 | Last: 2019-08-06 | LEAVING
   zhujiebing                     | First: 2019-07-25 | Last: 2019-08-04 | LEAVING
-  ogennadi                       | First: 2019-08-03 | Last: 2019-08-03 | LEAVING
-  weichun-wang                   | First: 2019-08-01 | Last: 2019-08-01 | LEAVING
   Mickey84562                    | First: 2019-07-30 | Last: 2019-07-30 | LEAVING
   Pashulity                      | First: 2019-07-22 | Last: 2019-07-22 | LEAVING
   sgautrin                       | First: 2019-07-22 | Last: 2019-07-22 | LEAVING
-  sverhagen                      | First: 2019-07-19 | Last: 2019-07-20 | LEAVING
   ashishroy077                   | First: 2019-07-19 | Last: 2019-07-19 | LEAVING
+  ddebree                        | First: 2019-07-19 | Last: 2019-07-19 | LEAVING
   enesify                        | First: 2019-07-19 | Last: 2019-07-19 | LEAVING
-  kurly09                        | First: 2019-07-14 | Last: 2019-07-15 | LEAVING
-  michaelmcfadyensky             | First: 2019-07-11 | Last: 2019-07-14 | LEAVING
+  sverhagen                      | First: 2019-07-19 | Last: 2019-07-19 | LEAVING
   king-john                      | First: 2019-07-13 | Last: 2019-07-13 | LEAVING
-  thomasNDS                      | First: 2019-07-12 | Last: 2019-07-12 | LEAVING
-  ozkanpakdil                    | First: 2019-01-20 | Last: 2019-07-06 | LEAVING
+  michaelmcfadyensky             | First: 2019-07-11 | Last: 2019-07-11 | LEAVING
   bjoernb94                      | First: 2018-10-09 | Last: 2019-07-04 | LEAVING
   beijixing1745                  | First: 2019-07-01 | Last: 2019-07-01 | LEAVING
   ernakulgoyal                   | First: 2018-04-18 | Last: 2019-06-28 | LEAVING
@@ -619,12 +545,10 @@ Newcomers:
   ditdajou                       | First: 2019-06-25 | Last: 2019-06-25 | LEAVING
   athishsreeram                  | First: 2019-06-19 | Last: 2019-06-19 | LEAVING
   jonnauday                      | First: 2019-06-18 | Last: 2019-06-18 | LEAVING
-  panchenko                      | First: 2019-06-18 | Last: 2019-06-18 | LEAVING
   shaileshpratapsingh            | First: 2019-06-12 | Last: 2019-06-12 | LEAVING
-  lightoze                       | First: 2015-11-16 | Last: 2019-06-04 | LEAVING
-  ezraroi                        | First: 2017-01-05 | Last: 2019-06-04 | LEAVING
   davidnewcomb                   | First: 2019-05-31 | Last: 2019-05-31 | LEAVING
   dadangeuy                      | First: 2019-05-29 | Last: 2019-05-29 | LEAVING
+  ezraroi                        | First: 2017-01-05 | Last: 2019-05-28 | LEAVING
   biq12                          | First: 2019-05-26 | Last: 2019-05-26 | LEAVING
   coffman21                      | First: 2019-05-25 | Last: 2019-05-25 | LEAVING
   Sarvesh-D                      | First: 2018-06-14 | Last: 2019-05-22 | LEAVING
@@ -633,17 +557,16 @@ Newcomers:
   sureshpw                       | First: 2019-05-18 | Last: 2019-05-18 | LEAVING
   1sangram                       | First: 2019-05-18 | Last: 2019-05-18 | LEAVING
   zurhan                         | First: 2018-07-18 | Last: 2019-05-16 | LEAVING
-  steve-oakey                    | First: 2015-05-01 | Last: 2019-05-15 | LEAVING
-  SonSeungWoo                    | First: 2019-05-15 | Last: 2019-05-15 | LEAVING
+  steve-oakey                    | First: 2015-06-29 | Last: 2019-05-15 | LEAVING
   rjsuzuki                       | First: 2019-05-15 | Last: 2019-05-15 | LEAVING
   zwdgit                         | First: 2019-05-13 | Last: 2019-05-13 | LEAVING
   swiftech                       | First: 2019-05-10 | Last: 2019-05-10 | LEAVING
   remmeier                       | First: 2019-05-08 | Last: 2019-05-08 | LEAVING
   Sesshoumarusama                | First: 2019-04-30 | Last: 2019-04-30 | LEAVING
-  ziebapawel                     | First: 2019-04-30 | Last: 2019-04-30 | LEAVING
   guohaijian                     | First: 2019-04-28 | Last: 2019-04-28 | LEAVING
   jingshenbusi6530               | First: 2019-04-26 | Last: 2019-04-26 | LEAVING
   BeerNapTime                    | First: 2019-04-17 | Last: 2019-04-17 | LEAVING
+  asibross                       | First: 2018-07-31 | Last: 2019-04-11 | LEAVING
   tejas-rane                     | First: 2019-04-11 | Last: 2019-04-11 | LEAVING
   aantono                        | First: 2016-06-10 | Last: 2019-04-05 | LEAVING
   cristian-balan                 | First: 2019-04-05 | Last: 2019-04-05 | LEAVING
@@ -657,19 +580,18 @@ Newcomers:
   y-luis-rojo                    | First: 2017-12-28 | Last: 2019-03-16 | LEAVING
   mrtinkz                        | First: 2019-03-12 | Last: 2019-03-12 | LEAVING
   bosiam                         | First: 2019-03-11 | Last: 2019-03-11 | LEAVING
-  klopfdreh                      | First: 2019-03-06 | Last: 2019-03-08 | LEAVING
   cuiyingnan                     | First: 2019-03-08 | Last: 2019-03-08 | LEAVING
+  klopfdreh                      | First: 2019-03-08 | Last: 2019-03-08 | LEAVING
   paulvi                         | First: 2019-01-15 | Last: 2019-03-07 | LEAVING
   xiongyayun428                  | First: 2019-03-06 | Last: 2019-03-06 | LEAVING
   LEESEUNGIK                     | First: 2019-03-04 | Last: 2019-03-04 | LEAVING
   naturalyui                     | First: 2019-03-04 | Last: 2019-03-04 | LEAVING
   dakotamaker                    | First: 2019-03-01 | Last: 2019-03-01 | LEAVING
-  tomdantuit                     | First: 2017-11-17 | Last: 2019-02-28 | LEAVING
+  tomdantuit                     | First: 2019-02-28 | Last: 2019-02-28 | LEAVING
   Vincent-ZHENG-008              | First: 2019-02-27 | Last: 2019-02-27 | LEAVING
   xuande                         | First: 2019-02-25 | Last: 2019-02-26 | LEAVING
   tutuerhao                      | First: 2019-02-25 | Last: 2019-02-25 | LEAVING
   SoftwareKing                   | First: 2019-01-29 | Last: 2019-02-24 | LEAVING
-  lucash                         | First: 2019-02-24 | Last: 2019-02-24 | LEAVING
   gxl191911                      | First: 2019-02-13 | Last: 2019-02-22 | LEAVING
   alexanderehi                   | First: 2019-02-21 | Last: 2019-02-21 | LEAVING
   itsPoo                         | First: 2019-02-20 | Last: 2019-02-20 | LEAVING
@@ -682,20 +604,17 @@ Newcomers:
   breneb                         | First: 2019-02-04 | Last: 2019-02-04 | LEAVING
   RanjithMohandasss              | First: 2019-02-01 | Last: 2019-02-01 | LEAVING
   Kishn0211                      | First: 2019-01-11 | Last: 2019-01-29 | LEAVING
-  t-beckmann                     | First: 2019-01-29 | Last: 2019-01-29 | LEAVING
   andrejleitner                  | First: 2019-01-28 | Last: 2019-01-28 | LEAVING
   jbedalov                       | First: 2019-01-25 | Last: 2019-01-25 | LEAVING
   lohcve                         | First: 2019-01-25 | Last: 2019-01-25 | LEAVING
   Thabizolo                      | First: 2019-01-23 | Last: 2019-01-23 | LEAVING
   lgd-java                       | First: 2019-01-23 | Last: 2019-01-23 | LEAVING
   rhosman                        | First: 2016-08-22 | Last: 2019-01-22 | LEAVING
-  shershen08                     | First: 2019-01-18 | Last: 2019-01-18 | LEAVING
   AshwinNikam                    | First: 2019-01-17 | Last: 2019-01-17 | LEAVING
   TruthBean                      | First: 2019-01-15 | Last: 2019-01-15 | LEAVING
   godpit                         | First: 2019-01-09 | Last: 2019-01-09 | LEAVING
   zzialml                        | First: 2018-12-18 | Last: 2019-01-09 | LEAVING
   matzegebbe                     | First: 2018-07-04 | Last: 2019-01-08 | LEAVING
-  aweigold                       | First: 2018-11-12 | Last: 2019-01-06 | LEAVING
   xiangtianyu                    | First: 2019-01-04 | Last: 2019-01-04 | LEAVING
   gokeep-projects                | First: 2018-12-18 | Last: 2019-01-03 | LEAVING
   crazyman2010                   | First: 2019-01-03 | Last: 2019-01-03 | LEAVING
@@ -703,8 +622,6 @@ Newcomers:
   youzipi                        | First: 2019-01-03 | Last: 2019-01-03 | LEAVING
   riba2101                       | First: 2019-01-01 | Last: 2019-01-01 | LEAVING
   my8090                         | First: 2018-12-29 | Last: 2018-12-29 | LEAVING
-  movitz-s                       | First: 2018-12-28 | Last: 2018-12-28 | LEAVING
-  zhaolin81                      | First: 2018-12-28 | Last: 2018-12-28 | LEAVING
   wzlee                          | First: 2018-09-25 | Last: 2018-12-25 | LEAVING
   yevtsy                         | First: 2018-10-11 | Last: 2018-12-20 | LEAVING
   TarunBhateja                   | First: 2018-12-19 | Last: 2018-12-19 | LEAVING
@@ -717,12 +634,10 @@ Newcomers:
   mayureshharsha                 | First: 2018-12-09 | Last: 2018-12-12 | LEAVING
   Nalha                          | First: 2018-12-11 | Last: 2018-12-11 | LEAVING
   lian88jian                     | First: 2018-12-10 | Last: 2018-12-10 | LEAVING
-  mzorba                         | First: 2018-12-08 | Last: 2018-12-08 | LEAVING
   rahul34167                     | First: 2018-12-05 | Last: 2018-12-05 | LEAVING
   Nihulrawat                     | First: 2018-12-04 | Last: 2018-12-04 | LEAVING
   deamon999                      | First: 2018-12-03 | Last: 2018-12-03 | LEAVING
   wzslw                          | First: 2018-12-03 | Last: 2018-12-03 | LEAVING
-  wanghongenpin                  | First: 2018-11-28 | Last: 2018-11-28 | LEAVING
   dzonekl                        | First: 2018-11-27 | Last: 2018-11-27 | LEAVING
   masbaehr                       | First: 2018-11-25 | Last: 2018-11-25 | LEAVING
   phil-schneider                 | First: 2018-11-23 | Last: 2018-11-23 | LEAVING
@@ -732,26 +647,24 @@ Newcomers:
   liyj144                        | First: 2018-11-17 | Last: 2018-11-17 | LEAVING
   zhaoshenhao                    | First: 2018-11-12 | Last: 2018-11-14 | LEAVING
   mattwmj                        | First: 2018-11-14 | Last: 2018-11-14 | LEAVING
-  thokuest                       | First: 2018-11-12 | Last: 2018-11-12 | LEAVING
   nwhessel                       | First: 2018-11-10 | Last: 2018-11-10 | LEAVING
-  dickerpulli                    | First: 2014-11-16 | Last: 2018-11-09 | LEAVING
   kna0085                        | First: 2018-11-09 | Last: 2018-11-09 | LEAVING
   yiyuzhou                       | First: 2018-11-08 | Last: 2018-11-08 | LEAVING
   HaAlex                         | First: 2018-11-07 | Last: 2018-11-07 | LEAVING
   ckoutsouridis                  | First: 2018-11-06 | Last: 2018-11-06 | LEAVING
   wtatum                         | First: 2018-11-06 | Last: 2018-11-06 | LEAVING
+  dickerpulli                    | First: 2018-11-05 | Last: 2018-11-05 | LEAVING
   jameycai                       | First: 2018-11-02 | Last: 2018-11-02 | LEAVING
-  simo385                        | First: 2018-10-19 | Last: 2018-10-31 | LEAVING
   jyothirmai999                  | First: 2018-10-31 | Last: 2018-10-31 | LEAVING
   slindenberg                    | First: 2018-10-27 | Last: 2018-10-27 | LEAVING
   nishantgpt                     | First: 2018-10-26 | Last: 2018-10-26 | LEAVING
   Gompangs                       | First: 2018-10-24 | Last: 2018-10-24 | LEAVING
   ptlive1001                     | First: 2018-10-23 | Last: 2018-10-23 | LEAVING
+  simo385                        | First: 2018-10-19 | Last: 2018-10-19 | LEAVING
   wuntervision                   | First: 2018-10-19 | Last: 2018-10-19 | LEAVING
   Jiao-Di                        | First: 2018-10-18 | Last: 2018-10-18 | LEAVING
   apoorvGupta1492                | First: 2018-10-15 | Last: 2018-10-15 | LEAVING
   xiaoyu10714024                 | First: 2018-10-15 | Last: 2018-10-15 | LEAVING
-  gtukmachev                     | First: 2018-10-13 | Last: 2018-10-13 | LEAVING
   prafsoni                       | First: 2018-06-19 | Last: 2018-10-08 | LEAVING
   jochenchrist                   | First: 2018-10-08 | Last: 2018-10-08 | LEAVING
   rafgitdz                       | First: 2018-10-08 | Last: 2018-10-08 | LEAVING
@@ -761,7 +674,6 @@ Newcomers:
   lomboz                         | First: 2018-10-01 | Last: 2018-10-01 | LEAVING
   re-imagined                    | First: 2018-09-29 | Last: 2018-09-29 | LEAVING
   biwugang                       | First: 2018-04-21 | Last: 2018-09-27 | LEAVING
-  tookar                         | First: 2018-09-27 | Last: 2018-09-27 | LEAVING
   qwwfxl                         | First: 2018-09-26 | Last: 2018-09-26 | LEAVING
   lilaizhencn                    | First: 2018-07-24 | Last: 2018-09-25 | LEAVING
   znevrly                        | First: 2018-09-24 | Last: 2018-09-24 | LEAVING
@@ -772,18 +684,17 @@ Newcomers:
   readazusa                      | First: 2018-09-17 | Last: 2018-09-17 | LEAVING
   zzd0058                        | First: 2018-09-17 | Last: 2018-09-17 | LEAVING
   mfrehe                         | First: 2018-09-14 | Last: 2018-09-14 | LEAVING
-  MALPI                          | First: 2018-09-11 | Last: 2018-09-12 | LEAVING
+  MALPI                          | First: 2018-09-11 | Last: 2018-09-11 | LEAVING
   eduardocintra                  | First: 2018-09-05 | Last: 2018-09-10 | LEAVING
   huang054                       | First: 2018-09-10 | Last: 2018-09-10 | LEAVING
-  semeiser                       | First: 2016-03-24 | Last: 2018-09-07 | LEAVING
   ArloL                          | First: 2018-09-06 | Last: 2018-09-06 | LEAVING
   fabadoo                        | First: 2018-09-06 | Last: 2018-09-06 | LEAVING
   datasmurfen                    | First: 2018-09-05 | Last: 2018-09-05 | LEAVING
   kivens                         | First: 2018-09-04 | Last: 2018-09-04 | LEAVING
   anandvarkeyphilips             | First: 2018-08-29 | Last: 2018-09-01 | LEAVING
-  edeandrea                      | First: 2018-08-29 | Last: 2018-08-30 | LEAVING
   alexwais                       | First: 2018-08-30 | Last: 2018-08-30 | LEAVING
   shakuzen                       | First: 2014-11-06 | Last: 2018-08-29 | LEAVING
+  edeandrea                      | First: 2018-08-29 | Last: 2018-08-29 | LEAVING
   bhagyaperera123                | First: 2018-08-07 | Last: 2018-08-28 | LEAVING
   liushirong                     | First: 2018-08-28 | Last: 2018-08-28 | LEAVING
   snicoll                        | First: 2018-08-28 | Last: 2018-08-28 | LEAVING
@@ -804,8 +715,8 @@ Newcomers:
   wvanvlaenderen                 | First: 2018-08-06 | Last: 2018-08-06 | LEAVING
   bumbarashka                    | First: 2018-08-05 | Last: 2018-08-05 | LEAVING
   Nepxion                        | First: 2018-08-03 | Last: 2018-08-03 | LEAVING
-  thorntonrp                     | First: 2018-08-03 | Last: 2018-08-03 | LEAVING
   VishalPrajapti7036             | First: 2018-08-03 | Last: 2018-08-03 | LEAVING
+  thorntonrp                     | First: 2018-08-03 | Last: 2018-08-03 | LEAVING
   RemiBou                        | First: 2018-08-02 | Last: 2018-08-02 | LEAVING
   hirohe                         | First: 2018-08-02 | Last: 2018-08-02 | LEAVING
   jochenhebbrecht                | First: 2018-08-01 | Last: 2018-08-01 | LEAVING
@@ -829,7 +740,6 @@ Newcomers:
   anandsunderraman               | First: 2018-07-16 | Last: 2018-07-16 | LEAVING
   Mike-the-one                   | First: 2018-07-05 | Last: 2018-07-11 | LEAVING
   VosAmoWho                      | First: 2018-07-11 | Last: 2018-07-11 | LEAVING
-  brunolellis                    | First: 2018-07-10 | Last: 2018-07-10 | LEAVING
   cherrishccl                    | First: 2018-07-10 | Last: 2018-07-10 | LEAVING
   monsif                         | First: 2018-06-05 | Last: 2018-07-09 | LEAVING
   bclozel                        | First: 2018-07-05 | Last: 2018-07-05 | LEAVING
@@ -845,18 +755,15 @@ Newcomers:
   ADeane6                        | First: 2018-06-25 | Last: 2018-06-25 | LEAVING
   wenjiech                       | First: 2018-06-21 | Last: 2018-06-21 | LEAVING
   murphp15                       | First: 2018-06-20 | Last: 2018-06-20 | LEAVING
-  Stephan202                     | First: 2018-06-18 | Last: 2018-06-18 | LEAVING
   chhorz                         | First: 2018-06-18 | Last: 2018-06-18 | LEAVING
-  src-r-r                        | First: 2018-06-18 | Last: 2018-06-18 | LEAVING
   indraneelb1903                 | First: 2018-05-15 | Last: 2018-06-17 | LEAVING
   vxavictor513                   | First: 2018-06-17 | Last: 2018-06-17 | LEAVING
-  GertVil                        | First: 2018-05-14 | Last: 2018-06-15 | LEAVING
+  GertVil                        | First: 2018-06-11 | Last: 2018-06-15 | LEAVING
   anandreddyakidi                | First: 2018-06-12 | Last: 2018-06-12 | LEAVING
   noahlann                       | First: 2018-06-12 | Last: 2018-06-12 | LEAVING
   nWidart                        | First: 2018-06-09 | Last: 2018-06-09 | LEAVING
   iBryan99                       | First: 2018-06-08 | Last: 2018-06-08 | LEAVING
   vladimirvilinski               | First: 2018-06-08 | Last: 2018-06-08 | LEAVING
-  Jnosh                          | First: 2018-06-07 | Last: 2018-06-07 | LEAVING
   holger82                       | First: 2018-06-06 | Last: 2018-06-06 | LEAVING
   nperry0                        | First: 2018-06-06 | Last: 2018-06-06 | LEAVING
   pc-cchandragiri                | First: 2018-06-06 | Last: 2018-06-06 | LEAVING
@@ -882,7 +789,6 @@ Newcomers:
   he-jialin2                     | First: 2018-05-17 | Last: 2018-05-17 | LEAVING
   cameno94                       | First: 2018-05-14 | Last: 2018-05-14 | LEAVING
   gauravjavadeveloper            | First: 2018-05-09 | Last: 2018-05-13 | LEAVING
-  based2                         | First: 2018-05-01 | Last: 2018-05-11 | LEAVING
   Chhotesh                       | First: 2018-05-09 | Last: 2018-05-09 | LEAVING
   gmcouto                        | First: 2018-05-04 | Last: 2018-05-04 | LEAVING
   stdupanda                      | First: 2018-05-04 | Last: 2018-05-04 | LEAVING
@@ -908,14 +814,13 @@ Newcomers:
   n0mer                          | First: 2014-11-20 | Last: 2018-04-11 | LEAVING
   Himly1                         | First: 2018-04-11 | Last: 2018-04-11 | LEAVING
   srep2512                       | First: 2018-04-11 | Last: 2018-04-11 | LEAVING
-  mbaris                         | First: 2018-04-06 | Last: 2018-04-06 | LEAVING
-  kevin-peters                   | First: 2018-03-30 | Last: 2018-04-05 | LEAVING
   Erlix322                       | First: 2018-04-03 | Last: 2018-04-03 | LEAVING
   bensonHe                       | First: 2018-03-30 | Last: 2018-04-02 | LEAVING
   marioconforti                  | First: 2018-03-30 | Last: 2018-03-30 | LEAVING
   crusi                          | First: 2018-03-29 | Last: 2018-03-29 | LEAVING
   tjuchniewicz                   | First: 2016-05-17 | Last: 2018-03-28 | LEAVING
   yazhishu                       | First: 2018-03-28 | Last: 2018-03-28 | LEAVING
+  srempfer                       | First: 2018-03-27 | Last: 2018-03-27 | LEAVING
   ajits5                         | First: 2018-03-26 | Last: 2018-03-26 | LEAVING
   piaohao                        | First: 2018-03-26 | Last: 2018-03-26 | LEAVING
   iGitHubJ                       | First: 2018-03-22 | Last: 2018-03-22 | LEAVING
@@ -943,7 +848,6 @@ Newcomers:
   charlbrink                     | First: 2018-02-08 | Last: 2018-02-08 | LEAVING
   anxpp                          | First: 2018-02-05 | Last: 2018-02-05 | LEAVING
   harishkadamudi                 | First: 2018-02-02 | Last: 2018-02-02 | LEAVING
-  bas-jan                        | First: 2018-02-01 | Last: 2018-02-01 | LEAVING
   martinblaustein                | First: 2018-02-01 | Last: 2018-02-01 | LEAVING
   lishengsam                     | First: 2018-01-30 | Last: 2018-01-30 | LEAVING
   salomon1184                    | First: 2018-01-30 | Last: 2018-01-30 | LEAVING
@@ -960,7 +864,6 @@ Newcomers:
   iris-8                         | First: 2017-12-28 | Last: 2017-12-28 | LEAVING
   yuniorb                        | First: 2017-12-28 | Last: 2017-12-28 | LEAVING
   dsushil2000                    | First: 2017-12-27 | Last: 2017-12-27 | LEAVING
-  wonwoo                         | First: 2017-12-27 | Last: 2017-12-27 | LEAVING
   wylovejzj                      | First: 2017-12-26 | Last: 2017-12-26 | LEAVING
   masoudsoha                     | First: 2017-12-24 | Last: 2017-12-24 | LEAVING
   jmichelgarcia                  | First: 2017-12-16 | Last: 2017-12-16 | LEAVING
@@ -974,10 +877,8 @@ Newcomers:
   armdev                         | First: 2017-11-27 | Last: 2017-11-27 | LEAVING
   sdhery                         | First: 2017-11-27 | Last: 2017-11-27 | LEAVING
   yarinzimmerman                 | First: 2017-11-27 | Last: 2017-11-27 | LEAVING
-  kryger                         | First: 2017-11-24 | Last: 2017-11-24 | LEAVING
   perdonare                      | First: 2017-11-23 | Last: 2017-11-23 | LEAVING
   archenroot                     | First: 2017-11-18 | Last: 2017-11-18 | LEAVING
-  fastnsilver                    | First: 2015-11-25 | Last: 2017-11-17 | LEAVING
   shpetimshala                   | First: 2017-11-16 | Last: 2017-11-16 | LEAVING
   matthiaswessel                 | First: 2017-11-14 | Last: 2017-11-14 | LEAVING
   ctoestreich                    | First: 2017-04-27 | Last: 2017-11-10 | LEAVING
@@ -985,9 +886,7 @@ Newcomers:
   shashidarp                     | First: 2017-11-03 | Last: 2017-11-03 | LEAVING
   shruti1735                     | First: 2017-11-02 | Last: 2017-11-02 | LEAVING
   mohita123                      | First: 2017-10-23 | Last: 2017-10-26 | LEAVING
-  humb1t                         | First: 2017-10-24 | Last: 2017-10-24 | LEAVING
   lemonprogis                    | First: 2017-10-18 | Last: 2017-10-18 | LEAVING
-  htynkn                         | First: 2016-07-16 | Last: 2017-10-15 | LEAVING
   995270418L                     | First: 2017-10-14 | Last: 2017-10-14 | LEAVING
   zhangjianbinJAVA               | First: 2017-07-07 | Last: 2017-10-12 | LEAVING
   hamsaparam                     | First: 2017-10-10 | Last: 2017-10-10 | LEAVING
@@ -1014,8 +913,8 @@ Newcomers:
   anarwal27                      | First: 2017-08-30 | Last: 2017-08-30 | LEAVING
   hotstepper13                   | First: 2017-08-25 | Last: 2017-08-28 | LEAVING
   lijie121210                    | First: 2017-08-17 | Last: 2017-08-24 | LEAVING
-  JWThewes                       | First: 2017-02-16 | Last: 2017-08-23 | LEAVING
   frkautz                        | First: 2017-08-23 | Last: 2017-08-23 | LEAVING
+  JWThewes                       | First: 2017-02-16 | Last: 2017-08-22 | LEAVING
   amitshukla30                   | First: 2017-08-21 | Last: 2017-08-21 | LEAVING
   astrayon                       | First: 2017-08-18 | Last: 2017-08-18 | LEAVING
   venkattarigopula               | First: 2017-08-18 | Last: 2017-08-18 | LEAVING
@@ -1027,13 +926,11 @@ Newcomers:
   anderius                       | First: 2016-10-31 | Last: 2017-08-08 | LEAVING
   abhaylangoti                   | First: 2017-07-29 | Last: 2017-08-08 | LEAVING
   melbichon                      | First: 2017-08-07 | Last: 2017-08-07 | LEAVING
-  michl-b                        | First: 2017-08-05 | Last: 2017-08-05 | LEAVING
   cj-egidijus-vaisnora           | First: 2017-08-01 | Last: 2017-08-01 | LEAVING
   noxtr                          | First: 2017-07-31 | Last: 2017-07-31 | LEAVING
   manjunadh                      | First: 2017-07-04 | Last: 2017-07-27 | LEAVING
   malijagadish                   | First: 2017-07-26 | Last: 2017-07-26 | LEAVING
   jeff-leo                       | First: 2017-07-24 | Last: 2017-07-24 | LEAVING
-  w3blogfr                       | First: 2017-07-23 | Last: 2017-07-23 | LEAVING
   ktlim86                        | First: 2017-07-20 | Last: 2017-07-20 | LEAVING
   ulysses-you                    | First: 2017-07-20 | Last: 2017-07-20 | LEAVING
   enayet-repo                    | First: 2017-07-18 | Last: 2017-07-18 | LEAVING
@@ -1047,7 +944,6 @@ Newcomers:
   hsoftxl                        | First: 2017-01-12 | Last: 2017-07-03 | LEAVING
   dsu                            | First: 2017-06-30 | Last: 2017-06-30 | LEAVING
   yxtwang                        | First: 2017-06-30 | Last: 2017-06-30 | LEAVING
-  michalwojciechowski            | First: 2017-06-29 | Last: 2017-06-29 | LEAVING
   rahul-kaup                     | First: 2017-06-29 | Last: 2017-06-29 | LEAVING
   szisti                         | First: 2017-06-28 | Last: 2017-06-28 | LEAVING
   damianfanaro                   | First: 2017-06-27 | Last: 2017-06-27 | LEAVING
@@ -1055,26 +951,20 @@ Newcomers:
   urswiss                        | First: 2017-06-21 | Last: 2017-06-21 | LEAVING
   buddymilford                   | First: 2017-06-16 | Last: 2017-06-16 | LEAVING
   mstommes                       | First: 2017-01-06 | Last: 2017-06-09 | LEAVING
-  agraphilippe                   | First: 2017-06-06 | Last: 2017-06-06 | LEAVING
   jguidoux                       | First: 2017-06-02 | Last: 2017-06-02 | LEAVING
   radutoev                       | First: 2017-06-01 | Last: 2017-06-01 | LEAVING
   wo8335224                      | First: 2017-06-01 | Last: 2017-06-01 | LEAVING
-  wlami                          | First: 2017-05-30 | Last: 2017-05-30 | LEAVING
   micheljung                     | First: 2017-05-26 | Last: 2017-05-26 | LEAVING
   surajrrao                      | First: 2016-12-05 | Last: 2017-05-23 | LEAVING
   wangjishan                     | First: 2017-05-18 | Last: 2017-05-18 | LEAVING
   serhiikartashov                | First: 2017-05-18 | Last: 2017-05-18 | LEAVING
   sba-123                        | First: 2017-05-17 | Last: 2017-05-17 | LEAVING
   acherla                        | First: 2017-05-16 | Last: 2017-05-16 | LEAVING
-  fernandosure                   | First: 2017-05-16 | Last: 2017-05-16 | LEAVING
   wyzssw                         | First: 2017-05-14 | Last: 2017-05-14 | LEAVING
-  jmirc                          | First: 2017-05-13 | Last: 2017-05-13 | LEAVING
-  dvtoever                       | First: 2017-05-12 | Last: 2017-05-12 | LEAVING
   zhangxd1989                    | First: 2017-05-10 | Last: 2017-05-10 | LEAVING
-  jochenwierum                   | First: 2017-05-07 | Last: 2017-05-07 | LEAVING
   mrmarbles                      | First: 2017-05-05 | Last: 2017-05-05 | LEAVING
-  JefersonOC                     | First: 2016-12-08 | Last: 2017-05-02 | LEAVING
   benson0217                     | First: 2017-04-25 | Last: 2017-04-25 | LEAVING
+  lightoze                       | First: 2015-11-16 | Last: 2017-04-20 | LEAVING
   PBondugula                     | First: 2017-03-23 | Last: 2017-04-19 | LEAVING
   sunilgovindankutty             | First: 2017-04-19 | Last: 2017-04-19 | LEAVING
   vixmemon                       | First: 2017-04-19 | Last: 2017-04-19 | LEAVING
@@ -1082,25 +972,20 @@ Newcomers:
   Fransferdy                     | First: 2017-04-05 | Last: 2017-04-05 | LEAVING
   ashishpratapsingh14            | First: 2017-03-28 | Last: 2017-03-28 | LEAVING
   chinahappyking                 | First: 2016-12-26 | Last: 2017-03-23 | LEAVING
-  Satangelsx                     | First: 2017-03-18 | Last: 2017-03-18 | LEAVING
   sambernet                      | First: 2017-03-15 | Last: 2017-03-15 | LEAVING
   bokc                           | First: 2017-03-14 | Last: 2017-03-14 | LEAVING
-  rimaxime                       | First: 2017-03-14 | Last: 2017-03-14 | LEAVING
   runesr                         | First: 2017-03-13 | Last: 2017-03-13 | LEAVING
   daniel-alonso-sanchez          | First: 2017-03-09 | Last: 2017-03-09 | LEAVING
   coder-han                      | First: 2017-03-07 | Last: 2017-03-07 | LEAVING
-  zhangwei5095                   | First: 2017-03-03 | Last: 2017-03-03 | LEAVING
   aaron-haskins                  | First: 2017-03-02 | Last: 2017-03-02 | LEAVING
   kordes                         | First: 2017-03-02 | Last: 2017-03-02 | LEAVING
-  rpahli                         | First: 2017-02-25 | Last: 2017-02-25 | LEAVING
   radut                          | First: 2017-02-24 | Last: 2017-02-24 | LEAVING
   ashwgupt                       | First: 2017-01-31 | Last: 2017-02-21 | LEAVING
   robertYang1024                 | First: 2017-02-17 | Last: 2017-02-17 | LEAVING
   DidierLoiseau                  | First: 2017-02-16 | Last: 2017-02-16 | LEAVING
-  itERRatOR                      | First: 2017-02-15 | Last: 2017-02-15 | LEAVING
   HRPatel2000                    | First: 2017-02-14 | Last: 2017-02-14 | LEAVING
   mjablecnik                     | First: 2017-02-10 | Last: 2017-02-10 | LEAVING
-  mikexliu                       | First: 2016-07-15 | Last: 2017-02-09 | LEAVING
+  mikexliu                       | First: 2017-02-09 | Last: 2017-02-09 | LEAVING
   JMesens                        | First: 2017-02-08 | Last: 2017-02-08 | LEAVING
   rfelgent                       | First: 2016-09-13 | Last: 2017-02-07 | LEAVING
   beanball                       | First: 2016-12-05 | Last: 2017-02-06 | LEAVING
@@ -1131,8 +1016,8 @@ Newcomers:
   yuliangjin1985                 | First: 2016-11-03 | Last: 2016-11-28 | LEAVING
   Creedzy                        | First: 2016-11-23 | Last: 2016-11-23 | LEAVING
   marvindaviddiaz                | First: 2016-11-22 | Last: 2016-11-22 | LEAVING
-  jacks808                       | First: 2016-11-18 | Last: 2016-11-18 | LEAVING
   eivinhb                        | First: 2016-11-18 | Last: 2016-11-18 | LEAVING
+  jacks808                       | First: 2016-11-18 | Last: 2016-11-18 | LEAVING
   maxjiang153                    | First: 2016-10-10 | Last: 2016-11-17 | LEAVING
   jarmoni                        | First: 2016-06-17 | Last: 2016-11-16 | LEAVING
   triberraar                     | First: 2016-11-12 | Last: 2016-11-12 | LEAVING
@@ -1153,10 +1038,8 @@ Newcomers:
   StasKolodyuk                   | First: 2016-10-13 | Last: 2016-10-13 | LEAVING
   andreasevers                   | First: 2015-09-14 | Last: 2016-10-12 | LEAVING
   weeniearms                     | First: 2016-10-11 | Last: 2016-10-11 | LEAVING
-  zilm13                         | First: 2016-10-11 | Last: 2016-10-11 | LEAVING
   Daerthox                       | First: 2016-10-02 | Last: 2016-10-02 | LEAVING
   berinle                        | First: 2016-08-03 | Last: 2016-09-30 | LEAVING
-  jlisam                         | First: 2016-09-30 | Last: 2016-09-30 | LEAVING
   mar1ged                        | First: 2016-09-29 | Last: 2016-09-29 | LEAVING
   ribrewguy                      | First: 2016-09-29 | Last: 2016-09-29 | LEAVING
   gunnarvelle                    | First: 2016-09-27 | Last: 2016-09-27 | LEAVING
@@ -1181,10 +1064,8 @@ Newcomers:
   lduparc                        | First: 2016-08-17 | Last: 2016-08-17 | LEAVING
   dan-s-github                   | First: 2016-08-11 | Last: 2016-08-11 | LEAVING
   treeleafj                      | First: 2016-07-27 | Last: 2016-08-10 | LEAVING
-  reckter                        | First: 2016-08-10 | Last: 2016-08-10 | LEAVING
   iwanzarembo                    | First: 2016-08-05 | Last: 2016-08-05 | LEAVING
   urgelacko                      | First: 2016-08-04 | Last: 2016-08-04 | LEAVING
-  gbotka                         | First: 2016-07-28 | Last: 2016-07-28 | LEAVING
   Antauri                        | First: 2016-07-05 | Last: 2016-07-27 | LEAVING
   winkumar                       | First: 2016-01-29 | Last: 2016-07-26 | LEAVING
   cbelleza                       | First: 2016-07-10 | Last: 2016-07-15 | LEAVING
@@ -1192,9 +1073,10 @@ Newcomers:
   nickman                        | First: 2016-07-07 | Last: 2016-07-07 | LEAVING
   Controlix                      | First: 2016-05-19 | Last: 2016-07-04 | LEAVING
   dragontree101                  | First: 2016-06-17 | Last: 2016-06-22 | LEAVING
+  ouaibsky                       | First: 2015-02-11 | Last: 2016-06-22 | LEAVING
   cforce                         | First: 2015-12-19 | Last: 2016-06-14 | LEAVING
-  herder                         | First: 2016-06-08 | Last: 2016-06-10 | LEAVING
   KramKroc                       | First: 2016-06-09 | Last: 2016-06-09 | LEAVING
+  herder                         | First: 2016-06-08 | Last: 2016-06-08 | LEAVING
   magaton                        | First: 2015-05-05 | Last: 2016-06-01 | LEAVING
   mirwais27                      | First: 2016-05-30 | Last: 2016-05-30 | LEAVING
   VineetJT                       | First: 2016-05-27 | Last: 2016-05-27 | LEAVING
@@ -1207,20 +1089,17 @@ Newcomers:
   dmarley                        | First: 2016-05-05 | Last: 2016-05-05 | LEAVING
   aroradeepak001                 | First: 2016-05-03 | Last: 2016-05-03 | LEAVING
   harestupramadharma             | First: 2016-04-06 | Last: 2016-04-21 | LEAVING
-  gronono                        | First: 2015-06-05 | Last: 2016-04-21 | LEAVING
+  gronono                        | First: 2016-04-21 | Last: 2016-04-21 | LEAVING
   ssumathy                       | First: 2016-04-15 | Last: 2016-04-15 | LEAVING
-  arturdobo                      | First: 2016-04-12 | Last: 2016-04-12 | LEAVING
   RobWin                         | First: 2014-11-05 | Last: 2016-04-07 | LEAVING
-  chrisschauer                   | First: 2016-03-02 | Last: 2016-03-31 | LEAVING
   oxygensar                      | First: 2016-02-15 | Last: 2016-03-31 | LEAVING
   AlGreed                        | First: 2016-03-31 | Last: 2016-03-31 | LEAVING
+  chrisschauer                   | First: 2016-03-31 | Last: 2016-03-31 | LEAVING
   eastseven                      | First: 2016-03-16 | Last: 2016-03-16 | LEAVING
   elsa-arroyo                    | First: 2016-03-14 | Last: 2016-03-14 | LEAVING
-  ukjbrown                       | First: 2016-03-14 | Last: 2016-03-14 | LEAVING
   Koizumi85                      | First: 2016-03-10 | Last: 2016-03-10 | LEAVING
   jvmlet                         | First: 2016-02-04 | Last: 2016-03-08 | LEAVING
   tobiasflohre                   | First: 2014-12-19 | Last: 2016-03-04 | LEAVING
-  BenoitCharret                  | First: 2016-03-02 | Last: 2016-03-02 | LEAVING
   alansfa                        | First: 2015-12-29 | Last: 2016-02-25 | LEAVING
   Zasch                          | First: 2016-02-10 | Last: 2016-02-10 | LEAVING
   mfarid                         | First: 2016-01-17 | Last: 2016-01-17 | LEAVING
@@ -1231,6 +1110,7 @@ Newcomers:
   jenslofgren                    | First: 2015-12-14 | Last: 2015-12-14 | LEAVING
   timwebster9                    | First: 2015-12-10 | Last: 2015-12-10 | LEAVING
   kreyssel                       | First: 2015-12-07 | Last: 2015-12-07 | LEAVING
+  fastnsilver                    | First: 2015-11-25 | Last: 2015-11-25 | LEAVING
   marco79cgn                     | First: 2015-11-20 | Last: 2015-11-20 | LEAVING
   M3lkior                        | First: 2015-11-19 | Last: 2015-11-19 | LEAVING
   pasviegas                      | First: 2015-11-18 | Last: 2015-11-18 | LEAVING
@@ -1239,12 +1119,10 @@ Newcomers:
   Hodkinson                      | First: 2015-10-29 | Last: 2015-10-29 | LEAVING
   grantlittle                    | First: 2015-10-26 | Last: 2015-10-26 | LEAVING
   josetesan                      | First: 2015-10-23 | Last: 2015-10-23 | LEAVING
-  retbrown                       | First: 2015-10-20 | Last: 2015-10-20 | LEAVING
   stepan-romankov                | First: 2015-10-15 | Last: 2015-10-15 | LEAVING
   librucha                       | First: 2015-09-09 | Last: 2015-10-06 | LEAVING
   sfat                           | First: 2015-09-29 | Last: 2015-09-29 | LEAVING
   xylangyan                      | First: 2015-09-28 | Last: 2015-09-28 | LEAVING
-  mersal-svds                    | First: 2015-09-25 | Last: 2015-09-26 | LEAVING
   dacofr                         | First: 2015-09-22 | Last: 2015-09-22 | LEAVING
   nicolasFauren                  | First: 2015-09-08 | Last: 2015-09-08 | LEAVING
   zergxyz                        | First: 2015-09-03 | Last: 2015-09-03 | LEAVING
@@ -1253,35 +1131,26 @@ Newcomers:
   remylesiak                     | First: 2015-08-27 | Last: 2015-08-27 | LEAVING
   alfredzhang                    | First: 2015-08-19 | Last: 2015-08-19 | LEAVING
   jocax                          | First: 2015-08-19 | Last: 2015-08-19 | LEAVING
-  tehcyx                         | First: 2015-08-19 | Last: 2015-08-19 | LEAVING
-  the-james-burton               | First: 2015-08-13 | Last: 2015-08-13 | LEAVING
   rubesMN                        | First: 2015-07-23 | Last: 2015-07-23 | LEAVING
-  klu2                           | First: 2015-06-28 | Last: 2015-07-02 | LEAVING
+  klu2                           | First: 2015-07-02 | Last: 2015-07-02 | LEAVING
   theindra                       | First: 2015-06-13 | Last: 2015-06-13 | LEAVING
   arnosthavelka                  | First: 2015-06-05 | Last: 2015-06-05 | LEAVING
   MichaelF25                     | First: 2015-05-11 | Last: 2015-05-18 | LEAVING
   diegosep                       | First: 2015-05-09 | Last: 2015-05-09 | LEAVING
   ccit-spence                    | First: 2015-03-14 | Last: 2015-05-07 | LEAVING
   maxwellt                       | First: 2015-04-25 | Last: 2015-04-25 | LEAVING
-  teggr                          | First: 2015-04-01 | Last: 2015-04-16 | LEAVING
   afillatre                      | First: 2015-04-06 | Last: 2015-04-06 | LEAVING
-  sbert                          | First: 2015-03-27 | Last: 2015-03-27 | LEAVING
   RaphC                          | First: 2015-03-17 | Last: 2015-03-17 | LEAVING
   BERA                           | First: 2015-03-13 | Last: 2015-03-13 | LEAVING
   riy                            | First: 2015-03-12 | Last: 2015-03-12 | LEAVING
   jar349                         | First: 2015-03-05 | Last: 2015-03-05 | LEAVING
-  britter                        | First: 2015-02-26 | Last: 2015-02-27 | LEAVING
   dgomesbr                       | First: 2015-02-26 | Last: 2015-02-26 | LEAVING
+  britter                        | First: 2015-02-26 | Last: 2015-02-26 | LEAVING
   Vad1mo                         | First: 2015-02-17 | Last: 2015-02-17 | LEAVING
   bsideup                        | First: 2015-02-11 | Last: 2015-02-11 | LEAVING
   jenswl                         | First: 2015-01-30 | Last: 2015-01-30 | LEAVING
   mariuszluciow                  | First: 2015-01-19 | Last: 2015-01-19 | LEAVING
   baudo2048                      | First: 2015-01-17 | Last: 2015-01-17 | LEAVING
-  malike                         | First: 2015-01-13 | Last: 2015-01-13 | LEAVING
-  ajausti1                       | First: 2015-01-09 | Last: 2015-01-09 | LEAVING
-  gitter-badger                  | First: 2014-11-29 | Last: 2014-11-29 | LEAVING
   adispennette                   | First: 2014-11-15 | Last: 2014-11-15 | LEAVING
-  ricardolonga                   | First: 2014-11-07 | Last: 2014-11-07 | LEAVING
   aliaksei-lithium               | First: 2014-10-27 | Last: 2014-10-27 | LEAVING
   hbenlulu                       | First: 2014-10-02 | Last: 2014-10-02 | LEAVING
-  making                         | First: 2014-09-29 | Last: 2014-09-29 | LEAVING

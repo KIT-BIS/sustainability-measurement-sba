@@ -1,17 +1,23 @@
-Since            : 2025-03-20 (users with last contribution before this date are dropped)
-Leaving threshold: last contribution before 2025-12-20 (90 days ago)
-
 ============================================================
 NEWCOMER CLASSIFICATION
 ============================================================
-Total newcomers : 20
-Active          : 5 (25%)
-Leaving         : 15 (75%)
+Description      : Classification of newcomers who made their first
+                   pull contribution between 2025-03-20 and 2026-03-20.
+                   A newcomer is considered LEAVING when their last
+                   contribution was more than 90 days ago
+                   (i.e. before 2025-12-20), ACTIVE otherwise.
+Contribution type: pull
+Threshold        : 90 days (leaving cutoff: 2025-12-20)
+============================================================
+Total newcomers  : 20
+Active           : 5 (25%)
+Leaving          : 15 (75%)
+============================================================
 
 Newcomers:
+  cdprete                        | First: 2026-02-18 | Last: 2026-03-18 | ACTIVE
   amacharla15                    | First: 2026-03-01 | Last: 2026-03-01 | ACTIVE
   obourgain                      | First: 2026-02-26 | Last: 2026-02-26 | ACTIVE
-  cdprete                        | First: 2026-02-18 | Last: 2026-02-18 | ACTIVE
   tan9                           | First: 2026-02-03 | Last: 2026-02-03 | ACTIVE
   csbiy                          | First: 2026-01-25 | Last: 2026-01-25 | ACTIVE
   teja2                          | First: 2025-11-24 | Last: 2025-11-24 | LEAVING

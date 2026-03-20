@@ -1,58 +1,50 @@
-Since            : 2025-03-20 (users with last contribution before this date are dropped)
-Leaving threshold: last contribution before 2025-12-20 (90 days ago)
-
 ============================================================
 NEWCOMER CLASSIFICATION
 ============================================================
-Total newcomers : 47
-Active          : 12 (26%)
-Leaving         : 35 (74%)
+Description      : Classification of newcomers who made their first
+                   issue contribution between 2025-03-20 and 2026-03-20.
+                   A newcomer is considered LEAVING when their last
+                   contribution was more than 90 days ago
+                   (i.e. before 2025-12-20), ACTIVE otherwise.
+Contribution type: issue
+Threshold        : 90 days (leaving cutoff: 2025-12-20)
+============================================================
+Total newcomers  : 33
+Active           : 8 (24%)
+Leaving          : 25 (76%)
+============================================================
 
 Newcomers:
-  cdprete                        | First: 2025-01-27 | Last: 2026-03-13 | ACTIVE
+  cdprete                        | First: 2025-01-27 | Last: 2026-03-17 | ACTIVE
   lthasle                        | First: 2026-03-12 | Last: 2026-03-12 | ACTIVE
   neoludo                        | First: 2025-09-16 | Last: 2026-03-02 | ACTIVE
-  amacharla15                    | First: 2026-03-01 | Last: 2026-03-01 | ACTIVE
-  obourgain                      | First: 2025-03-31 | Last: 2026-02-26 | ACTIVE
   michael-wirth                  | First: 2021-05-02 | Last: 2026-02-17 | ACTIVE
   carrotFromCali                 | First: 2026-01-14 | Last: 2026-02-12 | ACTIVE
   bart-vmware                    | First: 2026-01-20 | Last: 2026-02-04 | ACTIVE
-  tan9                           | First: 2026-02-03 | Last: 2026-02-03 | ACTIVE
   dennisvang                     | First: 2026-01-27 | Last: 2026-01-27 | ACTIVE
-  csbiy                          | First: 2026-01-25 | Last: 2026-01-25 | ACTIVE
   cbot59                         | First: 2025-12-28 | Last: 2025-12-28 | ACTIVE
   squalou                        | First: 2025-12-10 | Last: 2025-12-10 | LEAVING
   cybervuln2077                  | First: 2025-12-09 | Last: 2025-12-09 | LEAVING
   swapneshran                    | First: 2025-12-05 | Last: 2025-12-05 | LEAVING
-  teja2                          | First: 2025-11-24 | Last: 2025-11-24 | LEAVING
   MahatmaFatalError              | First: 2023-05-05 | Last: 2025-11-12 | LEAVING
   EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | LEAVING
   TKorhonen                      | First: 2025-11-03 | Last: 2025-11-03 | LEAVING
-  mnk                            | First: 2025-09-21 | Last: 2025-09-21 | LEAVING
-  myProjectsRavi                 | First: 2025-08-24 | Last: 2025-08-27 | LEAVING
   benjaminoweprintix             | First: 2025-08-20 | Last: 2025-08-20 | LEAVING
-  AE-RobertMcDonnell             | First: 2025-08-07 | Last: 2025-08-11 | LEAVING
-  98001yash                      | First: 2025-08-10 | Last: 2025-08-10 | LEAVING
-  ahoehma                        | First: 2020-01-06 | Last: 2025-08-09 | LEAVING
-  reachvangala                   | First: 2025-07-30 | Last: 2025-07-30 | LEAVING
-  callmeATHUL                    | First: 2025-07-10 | Last: 2025-07-10 | LEAVING
+  AE-RobertMcDonnell             | First: 2025-08-07 | Last: 2025-08-07 | LEAVING
   ganeshbabugb                   | First: 2025-07-08 | Last: 2025-07-08 | LEAVING
   BCS-ChaitaliS                  | First: 2025-07-01 | Last: 2025-07-01 | LEAVING
   Raj002                         | First: 2025-06-24 | Last: 2025-06-24 | LEAVING
-  jamescatto                     | First: 2025-06-20 | Last: 2025-06-20 | LEAVING
   Caratacus                      | First: 2025-06-03 | Last: 2025-06-03 | LEAVING
-  varunnmiglani                  | First: 2025-06-02 | Last: 2025-06-02 | LEAVING
-  PzaThief                       | First: 2025-05-28 | Last: 2025-05-28 | LEAVING
   bigluds                        | First: 2025-05-23 | Last: 2025-05-23 | LEAVING
   MichiBaum                      | First: 2025-05-21 | Last: 2025-05-21 | LEAVING
   luguohaole                     | First: 2025-05-15 | Last: 2025-05-15 | LEAVING
   hanpov                         | First: 2025-05-08 | Last: 2025-05-08 | LEAVING
   Anvice                         | First: 2025-04-24 | Last: 2025-04-28 | LEAVING
   carolmorneau                   | First: 2025-04-25 | Last: 2025-04-25 | LEAVING
-  riky2124                       | First: 2025-04-21 | Last: 2025-04-21 | LEAVING
   rcrafael                       | First: 2025-04-19 | Last: 2025-04-19 | LEAVING
   mrdaios                        | First: 2025-04-06 | Last: 2025-04-06 | LEAVING
   alicetongtong8                 | First: 2025-04-05 | Last: 2025-04-05 | LEAVING
   xxcka                          | First: 2025-04-03 | Last: 2025-04-03 | LEAVING
-  v3rm0n                         | First: 2024-05-09 | Last: 2025-03-31 | LEAVING
+  obourgain                      | First: 2025-03-31 | Last: 2025-03-31 | LEAVING
+  v3rm0n                         | First: 2024-05-09 | Last: 2025-03-25 | LEAVING
   JohanNordlinder                | First: 2024-02-23 | Last: 2025-03-21 | LEAVING

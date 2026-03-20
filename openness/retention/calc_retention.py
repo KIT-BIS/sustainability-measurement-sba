@@ -25,18 +25,21 @@ client = OpenSearch(
 )
 
 
-def get_user_first_and_last_contribution(index="sba-issue_raw"):
+INDEX = "sba-issue_raw"
+
+
+def get_user_first_and_last_contribution(type="issue"):
     """
     For every user in the index, return their first and last contribution date.
-    """
-
-    """
-    FIlter out all Bot user as well as codecentric maintainer
+    Filter out Bot users, codecentric maintainers, and entries not matching the given type.
     """
     query = {
         "size": 0,
         "query": {
             "bool": {
+                "must": [
+                    {"wildcard": {"data.html_url": f"*{type}*"}},
+                ],
                 "must_not": [
                     {"term": {"data.user.type": "Bot"}},
                     {
@@ -50,7 +53,7 @@ def get_user_first_and_last_contribution(index="sba-issue_raw"):
                             ]
                         }
                     },
-                ]
+                ],
             }
         },
         "aggs": {
@@ -64,7 +67,7 @@ def get_user_first_and_last_contribution(index="sba-issue_raw"):
         },
     }
 
-    result = client.search(index=index, body=query)
+    result = client.search(index=INDEX, body=query)
 
     user_data = {}
     for bucket in result["aggregations"]["users"]["buckets"]:
@@ -79,14 +82,12 @@ def get_user_first_and_last_contribution(index="sba-issue_raw"):
     return user_data
 
 
-def classify_newcomers(index="sba-issue_raw", threshold_days=90, since=None, now=None):
+def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
     """
     Classify newcomers as Active or Leaving.
 
     Parameters
     ----------
-    index : str
-        OpenSearch index to query.
     threshold_days : int
         A newcomer is considered *leaving* when their last contribution was
         more than this many days ago.  Default: 90.
@@ -95,6 +96,8 @@ def classify_newcomers(index="sba-issue_raw", threshold_days=90, since=None, now
         Defaults to 2014-01-01.
     now : date, optional
         Reference point for "today".  Defaults to today's date.
+    type : str
+        Filter contributions by URL type: "issue" or "pull".  Default: "issue".
     """
 
     # Resolve "now"
@@ -107,15 +110,8 @@ def classify_newcomers(index="sba-issue_raw", threshold_days=90, since=None, now
 
     leaving_threshold = now - timedelta(days=threshold_days)
 
-    print(
-        f"Since            : {since} (users with last contribution before this date are dropped)"
-    )
-    print(
-        f"Leaving threshold: last contribution before {leaving_threshold} ({threshold_days} days ago)"
-    )
-
     # Fetch data
-    user_data = get_user_first_and_last_contribution(index)
+    user_data = get_user_first_and_last_contribution(type=type)
 
     # Classify
     active = []
@@ -139,15 +135,26 @@ def classify_newcomers(index="sba-issue_raw", threshold_days=90, since=None, now
     leaving_count = len(leaving)
 
     # Output
-    print(f"\n{'=' * 60}")
+    print(f"{'=' * 60}")
     print(f"NEWCOMER CLASSIFICATION")
+    print(f"{'=' * 60}")
+    print(f"Description      : Classification of newcomers who made their first")
+    print(f"                   {type} contribution between {since} and {now}.")
+    print(f"                   A newcomer is considered LEAVING when their last")
+    print(f"                   contribution was more than {threshold_days} days ago")
+    print(f"                   (i.e. before {leaving_threshold}), ACTIVE otherwise.")
+    print(f"Contribution type: {type}")
+    print(
+        f"Threshold        : {threshold_days} days (leaving cutoff: {leaving_threshold})"
+    )
     print(f"{'=' * 60}")
     active_pct = round(active_count / total * 100) if total > 0 else 0
     leaving_pct = round(leaving_count / total * 100) if total > 0 else 0
 
-    print(f"Total newcomers : {total}")
-    print(f"Active          : {active_count} ({active_pct}%)")
-    print(f"Leaving         : {leaving_count} ({leaving_pct}%)")
+    print(f"Total newcomers  : {total}")
+    print(f"Active           : {active_count} ({active_pct}%)")
+    print(f"Leaving          : {leaving_count} ({leaving_pct}%)")
+    print(f"{'=' * 60}")
 
     print(f"\nNewcomers:")
     active_set = set(active)
@@ -176,11 +183,6 @@ if __name__ == "__main__":
         description="Classify newcomers as Active or Leaving."
     )
     parser.add_argument(
-        "--index",
-        default="sba-pull_raw",
-        help="OpenSearch index to query (default: sba-pull_raw)",
-    )
-    parser.add_argument(
         "--since-months",
         type=int,
         default=None,
@@ -199,6 +201,12 @@ if __name__ == "__main__":
         default=90,
         help="Days before which a newcomer is considered leaving (default: 90)",
     )
+    parser.add_argument(
+        "--type",
+        choices=["issue", "pull"],
+        default="issue",
+        help="Filter by contribution type: issue or pull (default: issue)",
+    )
     args = parser.parse_args()
 
     if args.since_months is not None:
@@ -209,7 +217,9 @@ if __name__ == "__main__":
         since = None
 
     try:
-        classify_newcomers(args.index, threshold_days=args.threshold_days, since=since)
+        classify_newcomers(
+            threshold_days=args.threshold_days, since=since, type=args.type
+        )
     except BrokenPipeError:
         # Allow piping to tools like `head` without stack traces.
         pass
