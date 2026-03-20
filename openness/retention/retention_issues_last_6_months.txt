@@ -1,0 +1,31 @@
+Since            : 2025-09-20 (users with last contribution before this date are dropped)
+Leaving threshold: last contribution before 2025-12-20 (90 days ago)
+
+============================================================
+NEWCOMER CLASSIFICATION
+============================================================
+Total newcomers : 20
+Active          : 12 (60%)
+Leaving         : 8 (40%)
+
+Newcomers:
+  cdprete                        | First: 2025-01-27 | Last: 2026-03-13 | ACTIVE
+  lthasle                        | First: 2026-03-12 | Last: 2026-03-12 | ACTIVE
+  neoludo                        | First: 2025-09-16 | Last: 2026-03-02 | ACTIVE
+  amacharla15                    | First: 2026-03-01 | Last: 2026-03-01 | ACTIVE
+  obourgain                      | First: 2025-03-31 | Last: 2026-02-26 | ACTIVE
+  michael-wirth                  | First: 2021-05-02 | Last: 2026-02-17 | ACTIVE
+  carrotFromCali                 | First: 2026-01-14 | Last: 2026-02-12 | ACTIVE
+  bart-vmware                    | First: 2026-01-20 | Last: 2026-02-04 | ACTIVE
+  tan9                           | First: 2026-02-03 | Last: 2026-02-03 | ACTIVE
+  dennisvang                     | First: 2026-01-27 | Last: 2026-01-27 | ACTIVE
+  csbiy                          | First: 2026-01-25 | Last: 2026-01-25 | ACTIVE
+  cbot59                         | First: 2025-12-28 | Last: 2025-12-28 | ACTIVE
+  squalou                        | First: 2025-12-10 | Last: 2025-12-10 | LEAVING
+  cybervuln2077                  | First: 2025-12-09 | Last: 2025-12-09 | LEAVING
+  swapneshran                    | First: 2025-12-05 | Last: 2025-12-05 | LEAVING
+  teja2                          | First: 2025-11-24 | Last: 2025-11-24 | LEAVING
+  MahatmaFatalError              | First: 2023-05-05 | Last: 2025-11-12 | LEAVING
+  EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | LEAVING
+  TKorhonen                      | First: 2025-11-03 | Last: 2025-11-03 | LEAVING
+  mnk                            | First: 2025-09-21 | Last: 2025-09-21 | LEAVING

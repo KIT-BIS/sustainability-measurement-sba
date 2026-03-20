@@ -1,0 +1,19 @@
+Since            : 2025-09-20 (users with last contribution before this date are dropped)
+Leaving threshold: last contribution before 2025-12-20 (90 days ago)
+
+============================================================
+NEWCOMER CLASSIFICATION
+============================================================
+Total newcomers : 8
+Active          : 5 (62%)
+Leaving         : 3 (38%)
+
+Newcomers:
+  amacharla15                    | First: 2026-03-01 | Last: 2026-03-01 | ACTIVE
+  obourgain                      | First: 2026-02-26 | Last: 2026-02-26 | ACTIVE
+  cdprete                        | First: 2026-02-18 | Last: 2026-02-18 | ACTIVE
+  tan9                           | First: 2026-02-03 | Last: 2026-02-03 | ACTIVE
+  csbiy                          | First: 2026-01-25 | Last: 2026-01-25 | ACTIVE
+  teja2                          | First: 2025-11-24 | Last: 2025-11-24 | LEAVING
+  EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | LEAVING
+  mnk                            | First: 2025-09-21 | Last: 2025-09-21 | LEAVING

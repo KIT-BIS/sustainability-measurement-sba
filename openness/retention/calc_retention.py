@@ -1,181 +1,215 @@
 #!/usr/bin/env python3
 """
-GitHub Retention Metric using OpenSearch enriched data
+Newcomer Active/Leaving Classification using OpenSearch enriched data
+
+Definition:
+  - Newcomer: any user whose first patchset was made between a configured
+    start date and now.
+  - Active newcomer: last contribution was within the last `threshold_days`.
+  - Leaving newcomer: last contribution was more than `threshold_days` ago.
 """
 
+from datetime import date, timedelta
+from dateutil.relativedelta import relativedelta
 from opensearchpy import OpenSearch
-from datetime import datetime, timedelta, timezone
-from collections import defaultdict
+
 # OpenSearch Connection
 client = OpenSearch(
-    hosts=[{'host': 'localhost', 'port': 9200}],
-    http_auth=('admin', 'GrimoireLab.1'),
+    hosts=[{"host": "mini-pc", "port": 9200}],
+    http_auth=("admin", "GrimoireLab.1"),
     # Port 9200 on this cluster is HTTPS/TLS (plain HTTP will yield "empty reply")
     use_ssl=True,
     verify_certs=False,
     ssl_assert_hostname=False,
-    ssl_show_warn=False
+    ssl_show_warn=False,
 )
 
-def get_user_first_contribution(index='sba-issue_raw'):
-    """Get first contribution date for each user"""
 
+def get_user_first_and_last_contribution(index="sba-issue_raw"):
+    """
+    For every user in the index, return their first and last contribution date.
+    """
+
+    """
+    FIlter out all Bot user as well as codecentric maintainer
+    """
     query = {
         "size": 0,
+        "query": {
+            "bool": {
+                "must_not": [
+                    {"term": {"data.user.type": "Bot"}},
+                    {
+                        "terms": {
+                            "data.user.login": [
+                                "SteKoe",
+                                "ulischulte",
+                                "erikpetzold",
+                                "mirogaudi",
+                                "hzpz",
+                            ]
+                        }
+                    },
+                ]
+            }
+        },
         "aggs": {
             "users": {
-                "terms": {
-                    "field": "data.user.login",
-                    "size": 10000
-                },
+                "terms": {"field": "data.user.login", "size": 10000},
                 "aggs": {
-                    "first_contribution": {
-                        "min": {
-                            "field": "data.created_at"
-                        }
-                    }
-                }
+                    "first_contribution": {"min": {"field": "data.created_at"}},
+                    "last_contribution": {"max": {"field": "data.created_at"}},
+                },
             }
-        }
+        },
     }
 
     result = client.search(index=index, body=query)
 
-    user_first_contrib = {}
-    for bucket in result['aggregations']['users']['buckets']:
-        user = bucket['key']
-        first_date = bucket['first_contribution']['value']
-        user_first_contrib[user] = datetime.fromtimestamp(first_date / 1000, tz=timezone.utc)
+    user_data = {}
+    for bucket in result["aggregations"]["users"]["buckets"]:
+        user = bucket["key"]
+        first_ts = bucket["first_contribution"]["value"]
+        last_ts = bucket["last_contribution"]["value"]
+        user_data[user] = {
+            "first": date.fromtimestamp(first_ts / 1000),
+            "last": date.fromtimestamp(last_ts / 1000),
+        }
 
-    return user_first_contrib
+    return user_data
 
-def get_user_activities(index='sba-issue_raw', since_date=None):
-    """Get all user activities since a date"""
 
-    created_at_field = "data.created_at"
+def classify_newcomers(index="sba-issue_raw", threshold_days=90, since=None, now=None):
+    """
+    Classify newcomers as Active or Leaving.
 
-    query = {
-        "size": 10000,
-        "_source": ["data.user.login", "data.created_at", "data.state", "data.merged"],
-        "query": {
-            "range": {
-                created_at_field: {
-                    "gte": since_date.isoformat() if since_date else "now-180d"
-                }
-            }
-        },
-        "sort": [{created_at_field: "asc"}]
-    }
+    Parameters
+    ----------
+    index : str
+        OpenSearch index to query.
+    threshold_days : int
+        A newcomer is considered *leaving* when their last contribution was
+        more than this many days ago.  Default: 90.
+    since : date, optional
+        Drop any user whose last contribution is older than this date.
+        Defaults to 2014-01-01.
+    now : date, optional
+        Reference point for "today".  Defaults to today's date.
+    """
 
-    activities = []
-    result = client.search(index=index, body=query, scroll='2m')
-    scroll_id = result['_scroll_id']
-
-    while len(result['hits']['hits']) > 0:
-        for hit in result['hits']['hits']:
-            source = hit['_source']
-            data = source.get('data') or {}
-            user_obj = data.get('user') or {}
-            user_login = user_obj.get('login')
-            created_at = data.get('created_at')
-            if not user_login or not created_at:
-                continue
-
-            activities.append({
-                'user': user_login,
-                'date': datetime.fromisoformat(created_at.replace('Z', '+00:00')),
-                'type': 'pr_created',
-                'merged': data.get('merged', False)
-            })
-
-        result = client.scroll(scroll_id=scroll_id, scroll='2m')
-        scroll_id = result.get('_scroll_id', scroll_id)
-
-    client.clear_scroll(scroll_id=scroll_id)
-    return activities
-
-def calculate_retention(index='sba-issue_raw', period_days=90, now=None):
-    """Calculate retention metric"""
-
-    # Define periods
-    # Allow callers to inject a fixed "now" for reproducible runs.
-    # If a naive datetime is provided, assume it's UTC.
+    # Resolve "now"
     if now is None:
-        # Default "now" is rounded down to midnight UTC for stable day-to-day runs.
-        now = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+        now = date.today()
 
-    if now.tzinfo is None:
-        now = now.replace(tzinfo=timezone.utc)
+    # Resolve "since"
+    if since is None:
+        since = date(2014, 1, 1)
 
-    current_period_start = now - timedelta(days=period_days)
-    previous_period_start = now - timedelta(days=period_days * 2)
+    leaving_threshold = now - timedelta(days=threshold_days)
 
-    print(f"Previous period: {previous_period_start.date()} to {current_period_start.date()}")
-    print(f"Current period: {current_period_start.date()} to {now.date()}")
+    print(
+        f"Since            : {since} (users with last contribution before this date are dropped)"
+    )
+    print(
+        f"Leaving threshold: last contribution before {leaving_threshold} ({threshold_days} days ago)"
+    )
 
-    # Get data
-    print("\nFetching user first contributions...")
-    user_first_contrib = get_user_first_contribution(index)
+    # Fetch data
+    user_data = get_user_first_and_last_contribution(index)
 
-    print(f"Fetching activities since {previous_period_start.date()}...")
-    activities = get_user_activities(index, since_date=previous_period_start)
+    # Classify
+    active = []
+    leaving = []
 
-    # Categorize activities by period
-    user_activities = defaultdict(lambda: {'previous': [], 'current': []})
+    for user, dates in user_data.items():
+        last = dates["last"]
 
-    for activity in activities:
-        user = activity['user']
-        date = activity['date']
+        # Drop users whose last contribution is older than the since window
+        if last < since:
+            continue
 
-        if date >= current_period_start:
-            user_activities[user]['current'].append(activity)
-        elif date >= previous_period_start:
-            user_activities[user]['previous'].append(activity)
+        if last >= leaving_threshold:
+            active.append(user)
+        else:
+            leaving.append(user)
 
-    # Identify newcomers
-    newcomers = []
-    for user, first_date in user_first_contrib.items():
-        if previous_period_start <= first_date < current_period_start:
-            newcomers.append(user)
+    newcomers = active + leaving
+    total = len(newcomers)
+    active_count = len(active)
+    leaving_count = len(leaving)
 
-    # Check retention
-    retained = []
-    for user in newcomers:
-        if len(user_activities[user]['current']) > 0:
-            retained.append(user)
+    # Output
+    print(f"\n{'=' * 60}")
+    print(f"NEWCOMER CLASSIFICATION")
+    print(f"{'=' * 60}")
+    active_pct = round(active_count / total * 100) if total > 0 else 0
+    leaving_pct = round(leaving_count / total * 100) if total > 0 else 0
 
-    # Results
-    total_newcomers = len(newcomers)
-    retained_count = len(retained)
-    retention_rate = (retained_count / total_newcomers * 100) if total_newcomers > 0 else 0
+    print(f"Total newcomers : {total}")
+    print(f"Active          : {active_count} ({active_pct}%)")
+    print(f"Leaving         : {leaving_count} ({leaving_pct}%)")
 
-    print(f"\n{'='*60}")
-    print(f"RETENTION OF NEWCOMERS")
-    print(f"{'='*60}")
-    print(f"Total newcomers: {total_newcomers}")
-    print(f"Retained: {retained_count}")
-    print(f"Retention rate: {retention_rate:.1f}%")
     print(f"\nNewcomers:")
-    for user in newcomers:
-        first = user_first_contrib[user].date()
-        current_acts = len(user_activities[user]['current'])
-        all_acts = user_activities[user]['previous'] + user_activities[user]['current']
-        latest = max((a['date'] for a in all_acts), default=None)
-        latest_str = latest.date().isoformat() if latest else "-"
-        status = "✅ RETAINED" if user in retained else "❌ Not retained"
-        print(f"  {user:20} | First: {first} | Latest: {latest_str} | Current activities: {current_acts:2} | {status}")
+    active_set = set(active)
+    for user in sorted(
+        newcomers,
+        key=lambda u: (u not in active_set, -user_data[u]["last"].toordinal()),
+    ):
+        first = user_data[user]["first"]
+        last = user_data[user]["last"]
+        status = "ACTIVE" if user in active_set else "LEAVING"
+        print(f"  {user:30} | First: {first} | Last: {last} | {status}")
 
     return {
-        'total_newcomers': total_newcomers,
-        'retained': retained_count,
-        'retention_rate': retention_rate,
-        'newcomers': newcomers,
-        'retained_users': retained
+        "total_newcomers": total,
+        "active": active_count,
+        "leaving": leaving_count,
+        "active_users": active,
+        "leaving_users": leaving,
     }
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Classify newcomers as Active or Leaving."
+    )
+    parser.add_argument(
+        "--index",
+        default="sba-pull_raw",
+        help="OpenSearch index to query (default: sba-pull_raw)",
+    )
+    parser.add_argument(
+        "--since-months",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Calculate 'since' as N months before today (overrides --since)",
+    )
+    parser.add_argument(
+        "--since",
+        default=None,
+        metavar="YYYY-MM-DD",
+        help="Drop users whose last contribution is before this date (default: 2014-01-01)",
+    )
+    parser.add_argument(
+        "--threshold-days",
+        type=int,
+        default=90,
+        help="Days before which a newcomer is considered leaving (default: 90)",
+    )
+    args = parser.parse_args()
+
+    if args.since_months is not None:
+        since = date.today() - relativedelta(months=args.since_months)
+    elif args.since:
+        since = date.fromisoformat(args.since)
+    else:
+        since = None
+
     try:
-        result = calculate_retention('sba-issue_raw', period_days=90)
+        classify_newcomers(args.index, threshold_days=args.threshold_days, since=since)
     except BrokenPipeError:
         # Allow piping to tools like `head` without stack traces.
         pass

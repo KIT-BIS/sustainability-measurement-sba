@@ -1,0 +1,31 @@
+Since            : 2025-03-20 (users with last contribution before this date are dropped)
+Leaving threshold: last contribution before 2025-12-20 (90 days ago)
+
+============================================================
+NEWCOMER CLASSIFICATION
+============================================================
+Total newcomers : 20
+Active          : 5 (25%)
+Leaving         : 15 (75%)
+
+Newcomers:
+  amacharla15                    | First: 2026-03-01 | Last: 2026-03-01 | ACTIVE
+  obourgain                      | First: 2026-02-26 | Last: 2026-02-26 | ACTIVE
+  cdprete                        | First: 2026-02-18 | Last: 2026-02-18 | ACTIVE
+  tan9                           | First: 2026-02-03 | Last: 2026-02-03 | ACTIVE
+  csbiy                          | First: 2026-01-25 | Last: 2026-01-25 | ACTIVE
+  teja2                          | First: 2025-11-24 | Last: 2025-11-24 | LEAVING
+  EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | LEAVING
+  mnk                            | First: 2025-09-21 | Last: 2025-09-21 | LEAVING
+  myProjectsRavi                 | First: 2025-08-24 | Last: 2025-08-27 | LEAVING
+  AE-RobertMcDonnell             | First: 2025-08-08 | Last: 2025-08-11 | LEAVING
+  98001yash                      | First: 2025-08-10 | Last: 2025-08-10 | LEAVING
+  ahoehma                        | First: 2025-08-09 | Last: 2025-08-09 | LEAVING
+  reachvangala                   | First: 2025-07-30 | Last: 2025-07-30 | LEAVING
+  callmeATHUL                    | First: 2025-07-10 | Last: 2025-07-10 | LEAVING
+  jamescatto                     | First: 2025-06-20 | Last: 2025-06-20 | LEAVING
+  varunnmiglani                  | First: 2025-06-02 | Last: 2025-06-02 | LEAVING
+  PzaThief                       | First: 2025-05-28 | Last: 2025-05-28 | LEAVING
+  riky2124                       | First: 2025-04-21 | Last: 2025-04-21 | LEAVING
+  v3rm0n                         | First: 2025-03-31 | Last: 2025-03-31 | LEAVING
+  JohanNordlinder                | First: 2025-03-21 | Last: 2025-03-21 | LEAVING
