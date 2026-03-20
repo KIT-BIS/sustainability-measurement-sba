@@ -41,18 +41,7 @@ def get_user_first_and_last_contribution(type="issue"):
                     {"wildcard": {"data.html_url": f"*{type}*"}},
                 ],
                 "must_not": [
-                    {"term": {"data.user.type": "Bot"}},
-                    {
-                        "terms": {
-                            "data.user.login": [
-                                "SteKoe",
-                                "ulischulte",
-                                "erikpetzold",
-                                "mirogaudi",
-                                "hzpz",
-                            ]
-                        }
-                    },
+                    {"term": {"data.user.type": "Bot"}}
                 ],
             }
         },
@@ -178,7 +167,8 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
 
     print(f"\nNewcomers with repeat contributions:")
     for user in sorted(
-        repeat_contributors, key=lambda u: -user_data[u]["last"].toordinal()
+        repeat_contributors,
+        key=lambda u: (-user_data[u]["count"], -user_data[u]["last"].toordinal()),
     ):
         first = user_data[user]["first"]
         last = user_data[user]["last"]

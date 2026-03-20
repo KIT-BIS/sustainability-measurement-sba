@@ -9,10 +9,10 @@ Description      : Classification of newcomers who made their first
 Contribution type: pull
 Threshold        : 90 days (leaving cutoff: 2025-12-20)
 ============================================================
-Total newcomers  : 19
-Active           : 5 (26%)
-Leaving          : 14 (74%)
-Repeat contribs  : 4 (21%)
+Total newcomers  : 20
+Active           : 5 (25%)
+Leaving          : 15 (75%)
+Repeat contribs  : 5 (25%)
 ============================================================
 
 Newcomers:
@@ -27,6 +27,7 @@ Newcomers:
   AE-RobertMcDonnell             | First: 2025-08-08 | Last: 2025-08-11 | LEAVING
   98001yash                      | First: 2025-08-10 | Last: 2025-08-10 | LEAVING
   ahoehma                        | First: 2025-08-09 | Last: 2025-08-09 | LEAVING
+  mirogaudi                      | First: 2025-07-04 | Last: 2025-07-31 | LEAVING
   reachvangala                   | First: 2025-07-30 | Last: 2025-07-30 | LEAVING
   callmeATHUL                    | First: 2025-07-10 | Last: 2025-07-10 | LEAVING
   jamescatto                     | First: 2025-06-20 | Last: 2025-06-20 | LEAVING
@@ -37,6 +38,7 @@ Newcomers:
   JohanNordlinder                | First: 2025-03-21 | Last: 2025-03-21 | LEAVING
 
 Newcomers with repeat contributions:
+  mirogaudi                      | First: 2025-07-04 | Last: 2025-07-31 | Contributions: 23
   cdprete                        | First: 2026-02-18 | Last: 2026-03-18 | Contributions: 2
   myProjectsRavi                 | First: 2025-08-24 | Last: 2025-08-27 | Contributions: 2
   AE-RobertMcDonnell             | First: 2025-08-08 | Last: 2025-08-11 | Contributions: 2
