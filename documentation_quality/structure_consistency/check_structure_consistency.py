@@ -2,6 +2,7 @@
 
 import re
 import subprocess
+import os
 import sys
 from collections import Counter
 from pathlib import Path
@@ -44,14 +45,52 @@ def load_rule_meta(markdownlint_path: Path) -> dict[str, dict[str, str]]:
     return meta
 
 
+def check_structure_consistency(temp_dir):
+    doc_dir = os.path.join(temp_dir, "spring-boot-admin-docs\src\site\docs\*")
+    cmd = ["mdl", doc_dir]
+    proc = subprocess.run(cmd, text=True, capture_output=True, shell=True, encoding="utf-8")
+    output = (proc.stdout or "") + (proc.stderr or "")
+
+    lines = output.splitlines()
+
+    clean_lines = []
+    for line in lines:
+        if line.startswith("Further documentation") or line == '':
+            break
+        clean_lines.append(line)
+
+    total_errors = len(clean_lines)
+
+    total_words = 0
+    doc_dir = Path(os.path.join(temp_dir, "spring-boot-admin-docs\src\site\docs"))
+
+    re_codeblock = re.compile(r"```.*?```", re.DOTALL)
+    re_fm = re.compile(r"^---.*?---\s*", re.DOTALL)  # YAML Frontmatter
+    re_html = re.compile(r"<[^>]+>")  # HTML Tags
+    re_link = re.compile(r"\[([^\]]+)\]\([^)]+\)")  # Markdown links
+    re_word = re.compile(r"\b[\w’'-]+\b", re.UNICODE)  # Vale-like word tokenizer
+
+    for md in doc_dir.rglob("*.md"):
+        text = md.read_text(encoding="utf-8")
+        text = re_fm.sub("", text)
+        text = re_codeblock.sub("", text)
+        text = re_html.sub("", text)
+        text = re_link.sub(r"\1", text)
+        words = re_word.findall(text)
+        total_words += len(words)
+
+    return total_errors / total_words
+
+
+
 def main() -> int:
     cmd = ["mdl", "docs"] if len(sys.argv) == 1 else ["mdl", *sys.argv[1:]]
 
-    site_dir = Path(__file__).resolve().parent.parent
+    site_dir = Path(__file__).resolve().parent
     rule_meta = load_rule_meta(site_dir / "MARKDOWNLINT.md")
 
     try:
-        proc = subprocess.run(cmd, text=True, capture_output=True)
+       proc = subprocess.run(cmd, text=True, capture_output=True, shell=True, encoding="utf-8")
     except FileNotFoundError:
         print("mdl not found on PATH", file=sys.stderr)
         return 127
@@ -60,7 +99,8 @@ def main() -> int:
 
     # Typical output line:
     # ./path/file.md:12: MD040 Fenced code blocks should have a language specified
-    line_re = re.compile(r"^([^:]+):(\d+):\s+(MD\d+)\s+(.*)$")
+    # line_re = re.compile(r"^([^:]+):(\d+):\s+(MD\d+)\s+(.*)$")
+    line_re = re.compile(r"^'?(.*):(\d+):\s+(MD\d+)\s+(.*)'?$")
 
     violations: dict[str, list[tuple[int, str, str]]] = {}
     tail: list[str] = []

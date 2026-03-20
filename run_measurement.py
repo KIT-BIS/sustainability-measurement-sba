@@ -10,11 +10,13 @@ import zipfile
 import io
 
 import documentation_quality.readability.calculate_flesch
-from documentation_quality.consistency import check_consistency
+from documentation_quality.structure_consistency import check_structure_consistency
+from documentation_quality.style_consistency import check_style_consistency
 from accessibility import check_wcag
-from openness import extract_issue_metrics
-from openness import extract_pr_metrics
+from openness.maintainer import extract_pr_metrics, extract_issue_metrics
 from energy_consumption import measure_energy_consumption
+from openness.retention.calc_retention import calculate_retention
+
 
 def parse_duration(text: str):
     text = text.strip().lower()
@@ -49,8 +51,11 @@ def get_documentation_readability_score(temp_dir):
 
     return 100-((abs(flesch_score-ideal_flesch_score)/ideal_flesch_score)*100)
 
-def get_documentation_consistency_score(temp_dir):
-    return (1 - check_consistency.check_consistency(temp_dir)) * 100
+def get_documentation_style_consistency_score(temp_dir):
+    return (1 - check_style_consistency.check_consistency(temp_dir)) * 100
+
+def get_documentation_structure_consistency_score(temp_dir):
+    return (1 - check_structure_consistency.check_structure_consistency(temp_dir)) * 100
 
 def get_maintainer_score():
     token = os.environ.get("GITHUB_TOKEN")
@@ -80,9 +85,20 @@ def get_maintainer_score():
 def get_energy_consumption_and_network_traffic(url, time):
     return measure_energy_consumption.measure_energy_and_network_traffic(url, time)
 
+def get_retention_rate():
+    retention = calculate_retention()
+    return retention["retention_rate"]
+
 
 def main():
     temp_dir = prepare()
+
+    # Documentation quality
+    print("--- DOCUMENTATION QUALITY ---")
+    print(f"Documentation Readability Score: {get_documentation_readability_score(temp_dir):.2f}")
+    print(f"Documentation Style Consistency Score: {get_documentation_style_consistency_score(temp_dir):.2f}")
+    print(f"Documentation Structure Consistency Score: {get_documentation_structure_consistency_score(temp_dir):.2f}")
+    print()
 
     # Energy consumption
     print("--- ENERGY CONSUMPTION ---")
@@ -97,11 +113,7 @@ def main():
     print(f"Detail Page Network Energy Rate (mWh): {data["network_energy_mwh"]:.2f}")
     print()
 
-    # Documentation quality
-    print("--- DOCUMENTATION QUALITY ---")
-    print(f"Documentation Readability Score: {get_documentation_readability_score(temp_dir):.2f}")
-    print(f"Documentation Consistency Score: {get_documentation_consistency_score(temp_dir):.2f}")
-    print()
+
 
     # Accessibility
     print("--- ACCESSIBILITY---")
@@ -111,6 +123,7 @@ def main():
     # Openness
     print("--- OPENNESS ---")
     print(f"Maintainer Score: { get_maintainer_score():.2f}")
+    print(f"Retention Rate: { get_retention_rate():.2f}")
     print()
 
 

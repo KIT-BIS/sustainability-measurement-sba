@@ -30,7 +30,7 @@ def aggregate_results(json_dic):
 def print_results(json_dic):
     working_dir = os.getcwd()
 
-    file_path = os.path.join(working_dir, "consistency\\results.md")
+    file_path = os.path.join(working_dir, "style_consistency\\results.md")
 
     if os.path.exists(file_path):
         os.remove(file_path)
