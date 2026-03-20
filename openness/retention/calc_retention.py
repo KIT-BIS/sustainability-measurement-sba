@@ -40,9 +40,7 @@ def get_user_first_and_last_contribution(type="issue"):
                 "must": [
                     {"wildcard": {"data.html_url": f"*{type}*"}},
                 ],
-                "must_not": [
-                    {"term": {"data.user.type": "Bot"}}
-                ],
+                "must_not": [{"term": {"data.user.type": "Bot"}}],
             }
         },
         "aggs": {
@@ -72,7 +70,9 @@ def get_user_first_and_last_contribution(type="issue"):
     return user_data
 
 
-def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
+def classify_newcomers(
+    threshold_days=90, since=None, now=None, type="issue", verbose=True
+):
     """
     Classify newcomers as Active or Leaving.
 
@@ -130,50 +130,57 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
     leaving_count = len(leaving)
     repeat_count = len(repeat_contributors)
 
-    # Output
-    print(f"{'=' * 60}")
-    print(f"NEWCOMER CLASSIFICATION")
-    print(f"{'=' * 60}")
-    print(f"Description      : Classification of newcomers who made their first")
-    print(f"                   {type} contribution between {since} and {now}.")
-    print(f"                   A newcomer is considered LEAVING when their last")
-    print(f"                   contribution was more than {threshold_days} days ago")
-    print(f"                   (i.e. before {leaving_threshold}), ACTIVE otherwise.")
-    print(f"Contribution type: {type}")
-    print(
-        f"Threshold        : {threshold_days} days (leaving cutoff: {leaving_threshold})"
-    )
-    print(f"{'=' * 60}")
     active_pct = round(active_count / total * 100) if total > 0 else 0
     leaving_pct = round(leaving_count / total * 100) if total > 0 else 0
     repeat_pct = round(repeat_count / total * 100) if total > 0 else 0
 
-    print(f"Total newcomers  : {total}")
-    print(f"Active           : {active_count} ({active_pct}%)")
-    print(f"Leaving          : {leaving_count} ({leaving_pct}%)")
-    print(f"Repeat contribs  : {repeat_count} ({repeat_pct}%)")
-    print(f"{'=' * 60}")
+    if verbose:
+        print(f"{'=' * 60}")
+        print(f"NEWCOMER CLASSIFICATION")
+        print(f"{'=' * 60}")
+        print(f"Description      : Classification of newcomers who made their first")
+        print(f"                   {type} contribution between {since} and {now}.")
+        print(f"                   A newcomer is considered LEAVING when their last")
+        print(
+            f"                   contribution was more than {threshold_days} days ago"
+        )
+        print(
+            f"                   (i.e. before {leaving_threshold}), ACTIVE otherwise."
+        )
+        print(f"Contribution type: {type}")
+        print(
+            f"Threshold        : {threshold_days} days (leaving cutoff: {leaving_threshold})"
+        )
+        print(f"{'=' * 60}")
 
-    print(f"\nNewcomers:")
-    active_set = set(active)
-    for user in sorted(
-        newcomers,
-        key=lambda u: (u not in active_set, -user_data[u]["last"].toordinal()),
-    ):
-        first = user_data[user]["first"]
-        last = user_data[user]["last"]
-        status = "ACTIVE" if user in active_set else "LEAVING"
-        print(f"  {user:30} | First: {first} | Last: {last} | {status}")
+        print(f"Total newcomers  : {total}")
+        print(f"Active           : {active_count} ({active_pct}%)")
+        print(f"Leaving          : {leaving_count} ({leaving_pct}%)")
+        print(f"Repeat contribs  : {repeat_count} ({repeat_pct}%)")
+        print(f"{'=' * 60}")
 
-    print(f"\nNewcomers with repeat contributions:")
-    for user in sorted(
-        repeat_contributors,
-        key=lambda u: (-user_data[u]["count"], -user_data[u]["last"].toordinal()),
-    ):
-        first = user_data[user]["first"]
-        last = user_data[user]["last"]
-        count = user_data[user]["count"]
-        print(f"  {user:30} | First: {first} | Last: {last} | Contributions: {count}")
+        print(f"\nNewcomers:")
+        active_set = set(active)
+        for user in sorted(
+            newcomers,
+            key=lambda u: (u not in active_set, -user_data[u]["last"].toordinal()),
+        ):
+            first = user_data[user]["first"]
+            last = user_data[user]["last"]
+            status = "ACTIVE" if user in active_set else "LEAVING"
+            print(f"  {user:30} | First: {first} | Last: {last} | {status}")
+
+        print(f"\nNewcomers with repeat contributions:")
+        for user in sorted(
+            repeat_contributors,
+            key=lambda u: (-user_data[u]["count"], -user_data[u]["last"].toordinal()),
+        ):
+            first = user_data[user]["first"]
+            last = user_data[user]["last"]
+            count = user_data[user]["count"]
+            print(
+                f"  {user:30} | First: {first} | Last: {last} | Contributions: {count}"
+            )
 
     return {
         "total_newcomers": total,
@@ -184,6 +191,26 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
         "leaving_users": leaving,
         "repeat_contributor_users": repeat_contributors,
     }
+
+
+def print_summary_line(result, since, now):
+    active_pct = (
+        result["active"] / result["total_newcomers"]
+        if result["total_newcomers"] > 0
+        else 0
+    )
+    leaving_pct = (
+        result["leaving"] / result["total_newcomers"]
+        if result["total_newcomers"] > 0
+        else 0
+    )
+    active_pct_str = f"{active_pct:.2f}".replace(".", ",")
+    leaving_pct_str = f"{leaving_pct:.2f}".replace(".", ",")
+    print(
+        f"{since};{now};{result['total_newcomers']};"
+        f"{result['active']};{active_pct_str};{result['leaving']};{leaving_pct_str};"
+        f"{result['repeat_contributors']}"
+    )
 
 
 if __name__ == "__main__":
@@ -206,6 +233,12 @@ if __name__ == "__main__":
         help="Include only users whose first contribution is on or after this date (default: 2014-01-01)",
     )
     parser.add_argument(
+        "--now",
+        default=None,
+        metavar="YYYY-MM-DD",
+        help="Use this date as the upper bound for first contributions and active/leaving classification (default: today)",
+    )
+    parser.add_argument(
         "--threshold-days",
         type=int,
         default=90,
@@ -217,6 +250,11 @@ if __name__ == "__main__":
         default="issue",
         help="Filter by contribution type: issue or pull (default: issue)",
     )
+    parser.add_argument(
+        "--summary-line",
+        action="store_true",
+        help="Print a single summary line instead of the full report",
+    )
     args = parser.parse_args()
 
     if args.since_months is not None:
@@ -226,10 +264,23 @@ if __name__ == "__main__":
     else:
         since = None
 
+    if args.now:
+        now = date.fromisoformat(args.now)
+    else:
+        now = None
+
     try:
-        classify_newcomers(
-            threshold_days=args.threshold_days, since=since, type=args.type
+        result = classify_newcomers(
+            threshold_days=args.threshold_days,
+            since=since,
+            now=now,
+            type=args.type,
+            verbose=not args.summary_line,
         )
+        if args.summary_line:
+            effective_since = since if since is not None else date(2014, 1, 1)
+            effective_now = now if now is not None else date.today()
+            print_summary_line(result, effective_since, effective_now)
     except BrokenPipeError:
         # Allow piping to tools like `head` without stack traces.
         pass
