@@ -77,6 +77,7 @@ def get_user_first_and_last_contribution(type="issue"):
         user_data[user] = {
             "first": date.fromtimestamp(first_ts / 1000),
             "last": date.fromtimestamp(last_ts / 1000),
+            "count": bucket["doc_count"],
         }
 
     return user_data
@@ -92,7 +93,7 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
         A newcomer is considered *leaving* when their last contribution was
         more than this many days ago.  Default: 90.
     since : date, optional
-        Drop any user whose last contribution is older than this date.
+        Include only users whose first contribution is on or after this date.
         Defaults to 2014-01-01.
     now : date, optional
         Reference point for "today".  Defaults to today's date.
@@ -116,12 +117,14 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
     # Classify
     active = []
     leaving = []
+    repeat_contributors = []
 
     for user, dates in user_data.items():
+        first = dates["first"]
         last = dates["last"]
 
-        # Drop users whose last contribution is older than the since window
-        if last < since:
+        # Keep only users whose first contribution falls within the newcomer window
+        if first < since or first > now:
             continue
 
         if last >= leaving_threshold:
@@ -129,10 +132,14 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
         else:
             leaving.append(user)
 
+        if dates["count"] > 1:
+            repeat_contributors.append(user)
+
     newcomers = active + leaving
     total = len(newcomers)
     active_count = len(active)
     leaving_count = len(leaving)
+    repeat_count = len(repeat_contributors)
 
     # Output
     print(f"{'=' * 60}")
@@ -150,10 +157,12 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
     print(f"{'=' * 60}")
     active_pct = round(active_count / total * 100) if total > 0 else 0
     leaving_pct = round(leaving_count / total * 100) if total > 0 else 0
+    repeat_pct = round(repeat_count / total * 100) if total > 0 else 0
 
     print(f"Total newcomers  : {total}")
     print(f"Active           : {active_count} ({active_pct}%)")
     print(f"Leaving          : {leaving_count} ({leaving_pct}%)")
+    print(f"Repeat contribs  : {repeat_count} ({repeat_pct}%)")
     print(f"{'=' * 60}")
 
     print(f"\nNewcomers:")
@@ -167,12 +176,23 @@ def classify_newcomers(threshold_days=90, since=None, now=None, type="issue"):
         status = "ACTIVE" if user in active_set else "LEAVING"
         print(f"  {user:30} | First: {first} | Last: {last} | {status}")
 
+    print(f"\nNewcomers with repeat contributions:")
+    for user in sorted(
+        repeat_contributors, key=lambda u: -user_data[u]["last"].toordinal()
+    ):
+        first = user_data[user]["first"]
+        last = user_data[user]["last"]
+        count = user_data[user]["count"]
+        print(f"  {user:30} | First: {first} | Last: {last} | Contributions: {count}")
+
     return {
         "total_newcomers": total,
         "active": active_count,
         "leaving": leaving_count,
+        "repeat_contributors": repeat_count,
         "active_users": active,
         "leaving_users": leaving,
+        "repeat_contributor_users": repeat_contributors,
     }
 
 
@@ -193,7 +213,7 @@ if __name__ == "__main__":
         "--since",
         default=None,
         metavar="YYYY-MM-DD",
-        help="Drop users whose last contribution is before this date (default: 2014-01-01)",
+        help="Include only users whose first contribution is on or after this date (default: 2014-01-01)",
     )
     parser.add_argument(
         "--threshold-days",

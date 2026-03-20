@@ -9,16 +9,14 @@ Description      : Classification of newcomers who made their first
 Contribution type: issue
 Threshold        : 90 days (leaving cutoff: 2025-12-20)
 ============================================================
-Total newcomers  : 14
-Active           : 8 (57%)
-Leaving          : 6 (43%)
+Total newcomers  : 9
+Active           : 5 (56%)
+Leaving          : 4 (44%)
+Repeat contribs  : 2 (22%)
 ============================================================
 
 Newcomers:
-  cdprete                        | First: 2025-01-27 | Last: 2026-03-17 | ACTIVE
   lthasle                        | First: 2026-03-12 | Last: 2026-03-12 | ACTIVE
-  neoludo                        | First: 2025-09-16 | Last: 2026-03-02 | ACTIVE
-  michael-wirth                  | First: 2021-05-02 | Last: 2026-02-17 | ACTIVE
   carrotFromCali                 | First: 2026-01-14 | Last: 2026-02-12 | ACTIVE
   bart-vmware                    | First: 2026-01-20 | Last: 2026-02-04 | ACTIVE
   dennisvang                     | First: 2026-01-27 | Last: 2026-01-27 | ACTIVE
@@ -26,6 +24,8 @@ Newcomers:
   squalou                        | First: 2025-12-10 | Last: 2025-12-10 | LEAVING
   cybervuln2077                  | First: 2025-12-09 | Last: 2025-12-09 | LEAVING
   swapneshran                    | First: 2025-12-05 | Last: 2025-12-05 | LEAVING
-  MahatmaFatalError              | First: 2023-05-05 | Last: 2025-11-12 | LEAVING
-  EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | LEAVING
   TKorhonen                      | First: 2025-11-03 | Last: 2025-11-03 | LEAVING
+
+Newcomers with repeat contributions:
+  carrotFromCali                 | First: 2026-01-14 | Last: 2026-02-12 | Contributions: 2
+  bart-vmware                    | First: 2026-01-20 | Last: 2026-02-04 | Contributions: 2

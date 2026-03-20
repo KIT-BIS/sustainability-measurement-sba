@@ -12,6 +12,7 @@ Threshold        : 90 days (leaving cutoff: 2025-12-20)
 Total newcomers  : 244
 Active           : 5 (2%)
 Leaving          : 239 (98%)
+Repeat contribs  : 73 (30%)
 ============================================================
 
 Newcomers:
@@ -259,3 +260,78 @@ Newcomers:
   gitter-badger                  | First: 2014-11-29 | Last: 2014-11-29 | LEAVING
   ricardolonga                   | First: 2014-11-07 | Last: 2014-11-07 | LEAVING
   making                         | First: 2014-09-29 | Last: 2014-09-29 | LEAVING
+
+Newcomers with repeat contributions:
+  cdprete                        | First: 2026-02-18 | Last: 2026-03-18 | Contributions: 2
+  EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | Contributions: 3
+  myProjectsRavi                 | First: 2025-08-24 | Last: 2025-08-27 | Contributions: 2
+  AE-RobertMcDonnell             | First: 2025-08-08 | Last: 2025-08-11 | Contributions: 2
+  callmeATHUL                    | First: 2025-07-10 | Last: 2025-07-10 | Contributions: 2
+  sukhminderarora                | First: 2025-02-17 | Last: 2025-02-26 | Contributions: 4
+  michael-wirth                  | First: 2025-02-24 | Last: 2025-02-24 | Contributions: 2
+  MahatmaFatalError              | First: 2023-11-08 | Last: 2025-02-14 | Contributions: 2
+  andreasfritz                   | First: 2021-11-26 | Last: 2024-06-07 | Contributions: 5
+  sullis                         | First: 2022-06-18 | Last: 2024-03-03 | Contributions: 6
+  genuss                         | First: 2022-10-09 | Last: 2023-11-16 | Contributions: 2
+  qxo                            | First: 2021-12-04 | Last: 2023-10-21 | Contributions: 5
+  ddebree                        | First: 2019-07-19 | Last: 2023-01-18 | Contributions: 2
+  Fuud                           | First: 2022-03-10 | Last: 2022-12-10 | Contributions: 5
+  thomaszub                      | First: 2022-04-05 | Last: 2022-10-27 | Contributions: 3
+  placaze                        | First: 2022-08-17 | Last: 2022-08-18 | Contributions: 2
+  ViliusS                        | First: 2022-05-28 | Last: 2022-07-03 | Contributions: 2
+  antechrestos                   | First: 2021-02-25 | Last: 2022-05-29 | Contributions: 4
+  pepevalbe                      | First: 2022-04-13 | Last: 2022-04-13 | Contributions: 2
+  oespino                        | First: 2022-03-18 | Last: 2022-03-18 | Contributions: 2
+  ouaibsky                       | First: 2015-04-16 | Last: 2021-11-23 | Contributions: 2
+  nathankooij                    | First: 2021-08-18 | Last: 2021-08-30 | Contributions: 2
+  srempfer                       | First: 2020-04-25 | Last: 2021-07-06 | Contributions: 5
+  Farden                         | First: 2021-04-22 | Last: 2021-04-22 | Contributions: 2
+  ccoltx                         | First: 2020-12-11 | Last: 2021-03-31 | Contributions: 16
+  hammadirshad                   | First: 2021-03-20 | Last: 2021-03-21 | Contributions: 2
+  mask616                        | First: 2021-03-05 | Last: 2021-03-05 | Contributions: 2
+  stevengibbszions               | First: 2020-08-06 | Last: 2021-02-21 | Contributions: 2
+  jonashackt                     | First: 2020-12-23 | Last: 2021-02-07 | Contributions: 3
+  soe78                          | First: 2020-11-16 | Last: 2021-01-30 | Contributions: 2
+  mle-enso                       | First: 2020-07-17 | Last: 2021-01-26 | Contributions: 2
+  Riggs333                       | First: 2018-01-19 | Last: 2021-01-15 | Contributions: 3
+  karsunke                       | First: 2020-07-28 | Last: 2020-11-05 | Contributions: 2
+  binarywang                     | First: 2020-05-22 | Last: 2020-10-15 | Contributions: 3
+  zhhaojie                       | First: 2020-09-02 | Last: 2020-09-02 | Contributions: 2
+  jintaocai                      | First: 2020-06-14 | Last: 2020-06-16 | Contributions: 2
+  mmoayyed                       | First: 2018-10-20 | Last: 2020-06-12 | Contributions: 4
+  asibross                       | First: 2018-08-02 | Last: 2020-06-05 | Contributions: 8
+  arunkpatra                     | First: 2015-11-20 | Last: 2020-05-20 | Contributions: 2
+  bratwurzt                      | First: 2020-04-30 | Last: 2020-05-15 | Contributions: 3
+  LaSylv                         | First: 2018-09-23 | Last: 2020-05-05 | Contributions: 9
+  ZuevKirill95                   | First: 2019-12-14 | Last: 2020-02-23 | Contributions: 2
+  skosijer                       | First: 2019-09-06 | Last: 2019-11-22 | Contributions: 2
+  ReuDa                          | First: 2019-10-08 | Last: 2019-11-15 | Contributions: 3
+  shnlb2006                      | First: 2019-09-06 | Last: 2019-09-06 | Contributions: 2
+  izeye                          | First: 2015-01-22 | Last: 2019-07-24 | Contributions: 11
+  kurly09                        | First: 2019-07-14 | Last: 2019-07-15 | Contributions: 2
+  ozkanpakdil                    | First: 2019-01-20 | Last: 2019-07-06 | Contributions: 3
+  ezraroi                        | First: 2017-01-08 | Last: 2019-06-04 | Contributions: 2
+  joshiste                       | First: 2014-09-15 | Last: 2019-03-18 | Contributions: 20
+  aweigold                       | First: 2018-11-12 | Last: 2019-01-06 | Contributions: 2
+  thokuest                       | First: 2018-11-12 | Last: 2018-11-12 | Contributions: 2
+  dickerpulli                    | First: 2014-11-16 | Last: 2018-11-09 | Contributions: 7
+  semeiser                       | First: 2016-03-24 | Last: 2018-09-07 | Contributions: 5
+  brunolellis                    | First: 2018-07-10 | Last: 2018-07-10 | Contributions: 2
+  shakuzen                       | First: 2014-11-08 | Last: 2018-06-11 | Contributions: 4
+  based2                         | First: 2018-05-01 | Last: 2018-05-11 | Contributions: 2
+  mbaris                         | First: 2018-04-06 | Last: 2018-04-06 | Contributions: 2
+  kevin-peters                   | First: 2018-03-30 | Last: 2018-04-05 | Contributions: 2
+  tetsushiawano                  | First: 2018-02-11 | Last: 2018-02-28 | Contributions: 3
+  htynkn                         | First: 2016-07-16 | Last: 2017-10-15 | Contributions: 2
+  anderius                       | First: 2016-11-07 | Last: 2017-08-08 | Contributions: 2
+  jochenwierum                   | First: 2017-05-07 | Last: 2017-05-07 | Contributions: 2
+  JefersonOC                     | First: 2016-12-08 | Last: 2017-05-02 | Contributions: 2
+  mikexliu                       | First: 2016-07-15 | Last: 2017-02-09 | Contributions: 2
+  weeniearms                     | First: 2016-10-11 | Last: 2016-10-11 | Contributions: 2
+  steve-oakey                    | First: 2015-05-01 | Last: 2016-06-03 | Contributions: 4
+  RobWin                         | First: 2014-11-12 | Last: 2016-02-12 | Contributions: 3
+  mersal-svds                    | First: 2015-09-25 | Last: 2015-09-26 | Contributions: 2
+  librucha                       | First: 2015-09-11 | Last: 2015-09-22 | Contributions: 2
+  klu2                           | First: 2015-06-28 | Last: 2015-06-28 | Contributions: 2
+  teggr                          | First: 2015-04-01 | Last: 2015-04-16 | Contributions: 2
+  dgomesbr                       | First: 2015-02-26 | Last: 2015-02-26 | Contributions: 2

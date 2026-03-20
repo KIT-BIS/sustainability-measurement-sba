@@ -9,9 +9,10 @@ Description      : Classification of newcomers who made their first
 Contribution type: pull
 Threshold        : 90 days (leaving cutoff: 2025-12-20)
 ============================================================
-Total newcomers  : 8
-Active           : 5 (62%)
-Leaving          : 3 (38%)
+Total newcomers  : 7
+Active           : 5 (71%)
+Leaving          : 2 (29%)
+Repeat contribs  : 1 (14%)
 ============================================================
 
 Newcomers:
@@ -21,5 +22,7 @@ Newcomers:
   tan9                           | First: 2026-02-03 | Last: 2026-02-03 | ACTIVE
   csbiy                          | First: 2026-01-25 | Last: 2026-01-25 | ACTIVE
   teja2                          | First: 2025-11-24 | Last: 2025-11-24 | LEAVING
-  EmirBoyaci                     | First: 2025-02-26 | Last: 2025-11-10 | LEAVING
   mnk                            | First: 2025-09-21 | Last: 2025-09-21 | LEAVING
+
+Newcomers with repeat contributions:
+  cdprete                        | First: 2026-02-18 | Last: 2026-03-18 | Contributions: 2
